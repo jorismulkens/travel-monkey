@@ -13,7 +13,7 @@ website kan afwijken van het origineel.
 | `nusa-aerial.jpg` | Thilak Mohan | [Unsplash](https://unsplash.com/photos/suzs_A5pCJY) |
 | `nusa-diamond.jpg` | Justyna Kaźmierczak | [Unsplash](https://unsplash.com/photos/JhYZEoTdZfw) |
 | `nusa-cliff.jpg` | vov vov | [Unsplash](https://unsplash.com/photos/ll0n83F-xWc) |
-| `ubud-aerial.jpg` | Antonio Araujo | [Unsplash](https://unsplash.com/photos/oJUDFyGoiyU) |
+| `ubud-aerial.jpg` | Antonio Araujo | [Unsplash](https://unsplash.com/photos/S-gMomINE2o) |
 | `ubud-green.jpg` | Radoslav Bali | [Unsplash](https://unsplash.com/photos/ca3d4FYDf84) |
 | `ubud-rice.jpg` | Radoslav Bali | [Unsplash](https://unsplash.com/photos/umfRZ2Hb1OM) |
 | `uluwatu-coast.jpg` | SR | [Unsplash](https://unsplash.com/photos/ht60XVGJfRM) |

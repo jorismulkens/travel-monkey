@@ -439,76 +439,76 @@ export default function RouteDetailPage({ params }: RoutePageProps) {
                   </span>
 
                   <div className="overflow-hidden rounded-[1.8rem] border border-jungle-900/10 bg-sand-50 shadow-[0_20px_50px_-40px_rgba(27,42,35,0.5)]">
-                    <div className="grid md:grid-cols-[0.82fr_1.18fr]">
-                      <div className="relative aspect-[4/3] overflow-hidden bg-sand-200 md:aspect-auto md:min-h-[24rem]">
-                        <Image
-                          src={stop.image}
-                          alt={stop.imageAlt}
-                          fill
-                          sizes="(min-width: 768px) 32vw, 100vw"
-                          className="object-cover"
-                        />
-                        <div
-                          className="absolute inset-0 bg-gradient-to-t from-jungle-950/55 via-transparent to-transparent"
-                          aria-hidden="true"
-                        />
-                        <div className="absolute inset-x-4 bottom-4 flex items-center justify-between gap-2">
-                          <span className="rounded-full bg-sand-50/95 px-3 py-1.5 text-[0.6rem] font-bold uppercase tracking-[0.13em] text-jungle-900 backdrop-blur">
-                            {stop.dayLabel}
-                          </span>
-                          <span className="rounded-full bg-jungle-950/70 px-3 py-1.5 text-[0.6rem] font-semibold uppercase tracking-[0.13em] text-sand-100 backdrop-blur">
-                            {stop.nights}{" "}
-                            {stop.nights === 1 ? "nacht" : "nachten"}
-                          </span>
-                        </div>
+                    <div className="relative aspect-[4/3] overflow-hidden bg-sand-200 sm:aspect-[16/9] lg:aspect-[16/7]">
+                      <Image
+                        src={stop.image}
+                        alt={stop.imageAlt}
+                        fill
+                        sizes="(min-width: 1024px) 900px, 100vw"
+                        className="object-cover"
+                      />
+                      <div
+                        className="absolute inset-0 bg-gradient-to-t from-jungle-950/55 via-transparent to-transparent"
+                        aria-hidden="true"
+                      />
+                      <div className="absolute inset-x-4 bottom-4 flex items-center justify-between gap-2 sm:inset-x-5 sm:bottom-5">
+                        <span className="rounded-full bg-sand-50/95 px-3 py-1.5 text-[0.6rem] font-bold uppercase tracking-[0.13em] text-jungle-900 backdrop-blur">
+                          {stop.dayLabel}
+                        </span>
+                        <span className="rounded-full bg-jungle-950/70 px-3 py-1.5 text-[0.6rem] font-semibold uppercase tracking-[0.13em] text-sand-100 backdrop-blur">
+                          {stop.nights}{" "}
+                          {stop.nights === 1 ? "nacht" : "nachten"}
+                        </span>
                       </div>
+                    </div>
 
-                      <div className="p-6 sm:p-8">
+                    <div className="p-6 sm:p-8 lg:p-10">
+                      <div className="max-w-3xl">
                         <p className="inline-flex items-center gap-1.5 text-[0.6rem] font-semibold uppercase tracking-[0.16em] text-sunset-700">
                           <MapPin className="h-3 w-3" />
                           {stop.area}
                         </p>
-                        <h3 className="mt-2 font-display text-[1.85rem] font-semibold leading-[1.08] tracking-[-0.03em] text-jungle-950 sm:text-[2.15rem]">
+                        <h3 className="mt-2 font-display text-[1.85rem] font-semibold leading-[1.08] tracking-[-0.03em] text-jungle-950 sm:text-[2.35rem]">
                           {stop.name}
                         </h3>
-                        <p className="mt-3 text-sm leading-7 text-jungle-700/80">
+                        <p className="mt-4 text-sm leading-7 text-jungle-700/80 sm:text-[0.95rem] sm:leading-8">
                           {stop.description}
                         </p>
+                      </div>
 
-                        <div className="mt-6">
-                          <p className="text-[0.6rem] font-semibold uppercase tracking-[0.16em] text-jungle-500">
-                            Dingen om te doen
-                          </p>
-                          <div className="mt-3 space-y-2.5">
-                            {stop.activities.map((activity) => (
-                              <div
-                                key={activity.title}
-                                className="rounded-2xl border border-jungle-900/10 bg-sand-100/60 p-4"
-                              >
-                                <div className="flex flex-wrap items-start justify-between gap-x-3 gap-y-1">
-                                  <h4 className="text-sm font-semibold text-jungle-950">
-                                    {activity.title}
-                                  </h4>
-                                  <span className="shrink-0 rounded-full bg-sand-50 px-2.5 py-1 text-[0.6rem] font-semibold text-sunset-700 ring-1 ring-jungle-900/10">
-                                    {activity.price}
-                                  </span>
-                                </div>
-                                <p className="mt-1.5 text-xs leading-5 text-jungle-700/75">
-                                  {activity.description}
-                                </p>
+                      <div className="mt-7">
+                        <p className="text-[0.6rem] font-semibold uppercase tracking-[0.16em] text-jungle-500">
+                          Dingen om te doen
+                        </p>
+                        <div className="mt-3 grid gap-2.5 md:grid-cols-2">
+                          {stop.activities.map((activity) => (
+                            <div
+                              key={activity.title}
+                              className="rounded-2xl border border-jungle-900/10 bg-sand-100/60 p-4"
+                            >
+                              <div className="flex flex-wrap items-start justify-between gap-x-3 gap-y-1">
+                                <h4 className="text-sm font-semibold text-jungle-950">
+                                  {activity.title}
+                                </h4>
+                                <span className="shrink-0 rounded-full bg-sand-50 px-2.5 py-1 text-[0.6rem] font-semibold text-sunset-700 ring-1 ring-jungle-900/10">
+                                  {activity.price}
+                                </span>
                               </div>
-                            ))}
-                          </div>
-                        </div>
+                              <p className="mt-1.5 text-xs leading-5 text-jungle-700/75">
+                                {activity.description}
+                              </p>
+                            </div>
+                          ))}
 
-                        <div className="mt-5 flex gap-3 rounded-2xl border border-sunset-200/70 bg-sunset-50 px-4 py-3.5">
-                          <Leaf className="mt-0.5 h-4 w-4 shrink-0 text-sunset-600" />
-                          <p className="text-xs leading-5 text-jungle-800">
-                            <span className="font-semibold text-jungle-950">
-                              Mijn tip:{" "}
-                            </span>
-                            {stop.tip}
-                          </p>
+                          <div className="flex gap-3 rounded-2xl border border-sunset-200/70 bg-sunset-50 p-4">
+                            <Leaf className="mt-0.5 h-4 w-4 shrink-0 text-sunset-600" />
+                            <p className="text-xs leading-5 text-jungle-800">
+                              <span className="font-semibold text-jungle-950">
+                                Mijn tip:{" "}
+                              </span>
+                              {stop.tip}
+                            </p>
+                          </div>
                         </div>
                       </div>
                     </div>
