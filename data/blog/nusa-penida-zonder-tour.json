@@ -1,0 +1,84 @@
+{
+  "slug": "nusa-penida-zonder-tour",
+  "title": "Nusa Penida zonder tour: wat ik opnieuw zou doen",
+  "subtitle": "Twee nachten, één chauffeur en geen haast",
+  "excerpt": "Geen georganiseerde dagtrip, maar twee nachten en een lokale chauffeur. Soms was dat briljant, soms een beetje chaotisch. Dit is wat ik leerde.",
+  "date": "2025-05-02",
+  "displayDate": "2 mei 2025",
+  "readingTime": "8 minuten",
+  "category": "Praktisch",
+  "coverImage": "/images/nusa-diamond.jpg",
+  "coverAlt": "Diamond Beach met witte rotsen en helderblauw water op Nusa Penida",
+  "location": {
+    "name": "Nusa Penida",
+    "country": "Indonesië",
+    "coords": [-8.7278, 115.5444]
+  },
+  "intro": [
+    "Bijna iedereen bezoekt Nusa Penida als dagtour: 's ochtends met de boot uit Sanur, drie fotoplekken, 's middags weer terug. Ik wilde dat niet, omdat ik precies op het moment dat de dagtoeristen aankwamen al wilde vertrekken.",
+    "Dus bleef ik twee nachten. Dat betekende wel zelf vervoer regelen, een accommodatie uitzoeken en accepteren dat het eiland niet altijd meewerkt. Achteraf zou ik het weer doen, met drie aanpassingen."
+  ],
+  "sections": [
+    {
+      "heading": "Waarom ik de dagtour oversloeg",
+      "paragraphs": [
+        "De dagtour is niet slecht. Hij is efficiënt, je ziet de bekendste plekken en je hoeft niets te plannen. Maar de eerste boot uit Sanur komt rond 08.30 aan, en dan rijd je met een busje achter twintig andere busjes aan.",
+        "Ik wilde Kelingking Beach zien zonder rijen en Diamond Beach zonder dat de trap vol stond. Dat lukt alleen als je op het eiland slaapt en vroeg vertrekt. Mijn eerste ochtend stond ik om 07.00 bij de klif met zes andere mensen. Om 10.30, toen ik wegging, stonden er vier touringcars."
+      ],
+      "image": {
+        "src": "/images/nusa-cliff.jpg",
+        "alt": "Klif bij Nusa Penida met uitzicht over zee",
+        "caption": "De kliffen zijn indrukwekkend, maar de wegen ernaartoe vragen om een chauffeur."
+      }
+    },
+    {
+      "heading": "Wat het kostte",
+      "paragraphs": [
+        "Ik was alleen en gaf in twee dagen ongeveer €205 uit. Dat is meer dan een dagtour van €45, maar daar zit dan ook een overnachting, eten en een eigen chauffeur bij. De grootste kostenpost was vervoer, omdat de wegen te steil zijn om als onervaren scooterrijder te doen.",
+        "Dit is mijn breakdown, afgerond en in euro's:"
+      ],
+      "list": [
+        "Fast boat retour vanaf Sanur: €38",
+        "Twee nachten in een eenvoudige homestay: €58",
+        "Privéchauffeur voor één volle dag: €45",
+        "Snorkeltrip met kleine boot: €25",
+        "Eten en drinken: €24",
+        "Entreegelden en parkeren: €12",
+        "Totaal: ongeveer €202"
+      ]
+    },
+    {
+      "heading": "De route die werkte",
+      "paragraphs": [
+        "Ik splitste het eiland in twee dagen. Op dag één deed ik de westkant, op dag twee de oostkant. Dat klinkt logisch, maar veel mensen proberen alles op één dag te doen en zitten dan vier uur in een auto.",
+        "Mijn chauffeur heette Wayan. Hij stond om 06.40 klaar bij de homestay en had altijd water en een sarong in de auto. Ik boekte hem via mijn accommodatie, wat duurder was dan via een app, maar wel betrouwbaar."
+      ],
+      "list": [
+        "06.45 — vertrek naar Kelingking Beach.",
+        "07.10 — uitzichtpunt, bijna leeg. De afdaling liet ik schieten vanwege de gladde grond.",
+        "09.30 — koffie bij een warung met uitzicht op de baai.",
+        "10.30 — Diamond Beach, voor de tours uit de haven aankomen.",
+        "13.00 — lunch en terug naar de homestay.",
+        "16.00 — zwemmen bij Crystal Bay en zonsondergang."
+      ]
+    },
+    {
+      "heading": "Wat ik anders zou doen",
+      "paragraphs": [
+        "Ten eerste: ik zou mijn snorkeltrip eerder boeken en niet op de ochtend zelf. Ik had geluk dat er nog een plekje was, maar in het hoogseizoen is dat niet vanzelfsprekend.",
+        "Ten tweede: ik zou een lichte regenjas meenemen. De buien komen snel en de wegen worden glad. Ten derde: ik zou niet proberen alle uitzichtpunten te doen. Na drie kliffen begon ik ze bijna als hetzelfde te zien, en dat is zonde."
+      ],
+      "quote": "De beste beslissing was niet de tour, maar twee nachten blijven. Daardoor zag ik het eiland wakker worden voordat de boten aankwamen."
+    },
+    {
+      "heading": "Zou ik het opnieuw doen?",
+      "paragraphs": [
+        "Ja. Maar ik zou het nu combineren met één extra nacht en geen strak schema. Nusa Penida is geen plek om af te vinken. Het is een eiland met slechte wegen, veel mooie kliffen en een tempo dat je pas accepteert als je stopt met haasten.",
+        "Als je maar één dag hebt: neem de dagtour. Die is prima. Als je twee nachten kunt missen: slaap op het eiland en huur een chauffeur. Je krijgt dezelfde plekken, maar met minder ellebogen en meer ruimte om te kijken."
+      ]
+    }
+  ],
+  "tip": "Boek je accommodatie niet te ver van de haven als je met een koffer reist. De wegen zijn smal en niet elke homestay heeft vervoer. Vraag vooraf of ze je bij de pier kunnen ophalen en wat dat kost.",
+  "relatedLocationIds": ["bali-3-weken", "ubud-blog"],
+  "relatedRouteSlug": "bali-3-weken"
+}

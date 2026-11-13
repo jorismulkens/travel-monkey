@@ -1,0 +1,32 @@
+[
+  {
+    "id": "bali-3-weken",
+    "name": "Bali",
+    "country": "Indonesië",
+    "coords": [-8.4095, 115.1889],
+    "slug": "bali-3-weken",
+    "type": "route",
+    "thumbnail": "/images/nusa-aerial.jpg",
+    "excerpt": "Drie weken van rijstvelden bij Ubud naar de kliffen van Uluwatu, met een omweg naar Gili Trawangan."
+  },
+  {
+    "id": "ubud-blog",
+    "name": "Ubud",
+    "country": "Indonesië",
+    "coords": [-8.5069, 115.2625],
+    "slug": "een-ochtend-in-ubud",
+    "type": "blog",
+    "thumbnail": "/images/ubud-green.jpg",
+    "excerpt": "Rijstvelden, koffie en één verkeerde afslag. De ochtend die ik iedereen gun."
+  },
+  {
+    "id": "nusa-penida-blog",
+    "name": "Nusa Penida",
+    "country": "Indonesië",
+    "coords": [-8.7278, 115.5444],
+    "slug": "nusa-penida-zonder-tour",
+    "type": "blog",
+    "thumbnail": "/images/nusa-diamond.jpg",
+    "excerpt": "Twee nachten in plaats van één dagtour. Wat wel werkte, wat niet, en wat het kostte."
+  }
+]

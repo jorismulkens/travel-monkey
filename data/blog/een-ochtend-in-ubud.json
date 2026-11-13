@@ -1,0 +1,79 @@
+{
+  "slug": "een-ochtend-in-ubud",
+  "title": "Een ochtend in Ubud: rijstvelden, koffie en één verkeerde afslag",
+  "subtitle": "Wat ik doe als ik maar één ochtend heb",
+  "excerpt": "Om 05.45 ging mijn wekker. Om 06.20 stond ik tussen de rijstvelden, met koffie in mijn hand en nog geen toerist te bekennen. Dit is de ochtend die ik iedereen zou aanraden.",
+  "date": "2025-04-18",
+  "displayDate": "18 april 2025",
+  "readingTime": "6 minuten",
+  "category": "Bali",
+  "coverImage": "/images/ubud-green.jpg",
+  "coverAlt": "Groene rijstterrassen bij Ubud in de vroege ochtend",
+  "location": {
+    "name": "Ubud",
+    "country": "Indonesië",
+    "coords": [-8.5069, 115.2625]
+  },
+  "intro": [
+    "Ik ben geen ochtendmens. Toch zette ik in Ubud drie keer achter elkaar om 05.45 een wekker, omdat de rijstvelden voor zonsopkomst iets doen wat ze om elf uur niet meer doen: ze zijn van niemand.",
+    "Deze ochtend is geen tour en geen checklist. Het is een rondje van ongeveer vier uur, met koffie, een verkeerde afslag en een ontbijt dat ik nog steeds kan proeven."
+  ],
+  "sections": [
+    {
+      "heading": "05.45 — De wekker die het waard was",
+      "paragraphs": [
+        "Mijn homestay lag aan Jalan Sriwedari, net buiten de drukte. Om 05.45 hoorde ik alleen een haan en een scooter in de verte. Ik kleedde me aan, pakte mijn camera en liep naar de warung op de hoek die als enige al open was.",
+        "De vrouw achter de balie zag me aankomen en stak twee vingers op. Twee koppen? Nee, twee stuks fruit. Ik kreeg een bord met papaja, banaan en een klein bakje zwarte rijst. Samen met een kop koffie kostte het €2,10. Ik at het rustig op, zonder telefoon."
+      ],
+      "image": {
+        "src": "/images/bali-coffee.jpg",
+        "alt": "Koffiebonen in kommen op een markt in Bali",
+        "caption": "De koffie in Ubud is sterk, zoet en precies wat je nodig hebt om 06.00."
+      }
+    },
+    {
+      "heading": "06.20 — Tussen de rijstvelden",
+      "paragraphs": [
+        "Vanaf de warung liep ik noordwaarts, weg van het centrum. Na tien minuten hielden de winkels op en begonnen de eerste terrassen. Het pad was nat, mijn schoenen werden vies en dat bleek achteraf precies goed.",
+        "Ik had geen kaart openstaan. Dat klinkt avontuurlijker dan het is: de meeste paden rond Ubud lopen dood of brengen je terug naar dezelfde weg. Maar juist daardoor vond ik een smal dijkje tussen twee velden waar niemand liep."
+      ],
+      "list": [
+        "Vertrek richting het noorden via Jalan Sriwedari.",
+        "Sla na ongeveer 15 minuten linksaf bij het eerste pad tussen de velden.",
+        "Neem contant geld mee; de kleine warungs openen vroeg maar hebben geen pin.",
+        "Draag schoenen die vies mogen worden. Het pad is 's ochtends vochtig."
+      ]
+    },
+    {
+      "heading": "07.10 — De verkeerde afslag",
+      "paragraphs": [
+        "Ik wilde naar een bekend uitzichtpunt, maar koos op een splitsing de verkeerde kant. Na twintig minuten kwam ik uit bij een klein erf waar een vrouw rijst aan het drogen was. Ze lachte, wees naar mijn camera en vervolgens naar de bergen.",
+        "Ik dacht dat ze wilde dat ik een foto maakte. Ze wilde me duidelijk maken dat ik om moest draaien. Met handen en voeten kwamen we eruit. Ze schonk nog een glas thee in en wees de weg terug. Dat was het beste deel van de ochtend."
+      ],
+      "quote": "De beste momenten in Ubud waren niet de plekken die ik zocht, maar de momenten waarop ik verdwaalde en iemand me weer op weg hielp."
+    },
+    {
+      "heading": "08.30 — Ontbijt met uitzicht",
+      "paragraphs": [
+        "Terug bij de rand van het dorp at ik een tweede ontbijt, omdat dat op vakantie mag. Nasi campur met een spiegelei, een glas ijsthee en uitzicht op de velden. Ik zat er een uur en deed helemaal niets.",
+        "Om 09.30 begon het druk te worden. De eerste touringcars stopten bij de ingang van Tegalalang en de paden vulden zich met group tours. Mijn timing was precies goed: vier uur rust, en daarna kon ik met een goed gevoel terug naar de drukte."
+      ]
+    },
+    {
+      "heading": "Wat ik de volgende keer anders doe",
+      "paragraphs": [
+        "Ik zou geen tweede ontbijt nemen (sorry, nasi campur). En ik zou een klein handdoekje meenemen, want het gras was nat en ik zat de rest van de ochtend met een vochtige broek.",
+        "Verder zou ik hetzelfde doen. Geen gids, geen tour, geen strak plan. Gewoon vroeg opstaan en de eerste twee uur van de dag aan Ubud geven."
+      ],
+      "list": [
+        "Neem een fles water mee; de warungs onderweg zijn niet altijd open.",
+        "Laat je telefoon in je tas tot je terug bent in het dorp.",
+        "Plan niets voor 10.00, zodat je kunt blijven zitten als het ergens fijn is.",
+        "Ga niet in het regenseizoen als je zeker wilt zijn van een droge ochtend. Ik had geluk."
+      ]
+    }
+  ],
+  "tip": "Praktisch: de wandeling is gratis, de koffie kostte €1,20 en het ontbijt €2,10. Wil je een gids? Verwacht €20–€30 voor twee uur. Ik deed het zonder en vond dat prima, zolang je op de paden blijft en niets van de oogst aanraakt.",
+  "relatedLocationIds": ["bali-3-weken", "nusa-penida-blog"],
+  "relatedRouteSlug": "bali-3-weken"
+}

@@ -1,0 +1,351 @@
+{
+  "slug": "bali-3-weken",
+  "title": "3 weken Bali: van rijstvelden tot eilandhoppen",
+  "kicker": "De route die ik zelf reed",
+  "country": "Indonesië",
+  "region": "Bali + Gili Trawangan",
+  "durationDays": 21,
+  "durationLabel": "21 dagen",
+  "travelStyle": "Rustig tempo, veel natuur",
+  "budget": "€1.280 p.p.",
+  "budgetNote": "Exclusief internationale vlucht, inclusief accommodatie, eten, vervoer en activiteiten.",
+  "bestTime": "April t/m juni of september",
+  "startPoint": "Ubud",
+  "endPoint": "Uluwatu",
+  "coverImage": "/images/nusa-aerial.jpg",
+  "coverAlt": "Turquoise baai met groene kliffen bij Nusa Penida",
+  "excerpt": "Drie weken lang van de rijstvelden bij Ubud naar de kliffen van Uluwatu. Met een omweg naar Gili Trawangan, twee nachten Nusa Penida en genoeg ruimte om te blijven hangen.",
+  "intro": [
+    "Ik begon deze reis met een lijstje en gooide het na vier dagen weg. Niet omdat er niets op stond, maar omdat Bali pas leuk wordt als je af en toe een dag niets plant. Deze route is de versie die ik achteraf opnieuw zou boeken: acht plekken, geen haast en één keer een flinke bootreis.",
+    "De volgorde is bewust: eerst het groene binnenland, dan de rustige noordkust, daarna de watervallen en het oosten, om via Gili Trawangan af te sluiten aan de zuidkust. Zo bouw je van koel en groen naar zout en zonsondergang."
+  ],
+  "highlights": [
+    "Zonsopkomst bij Mount Agung vanuit Amed",
+    "Koffie proeven in de mist van Munduk",
+    "Met de fiets over Gili Trawangan",
+    "Kelingking Beach net voor de tourbussen",
+    "Surfles in Canggu voor €25",
+    "Kecak-dans bij Uluwatu in de schemering"
+  ],
+  "stops": [
+    {
+      "id": "ubud",
+      "number": 1,
+      "name": "Ubud",
+      "area": "Midden-Bali",
+      "coords": [-8.5069, 115.2625],
+      "dayLabel": "Dag 1–3",
+      "nights": 3,
+      "image": "/images/ubud-aerial.jpg",
+      "imageAlt": "Luchtfoto van rijstvelden rond Ubud",
+      "description": "Ubud is de plek waar ik landde, letterlijk en figuurlijk. De eerste dag deed ik niets anders dan slenteren, koffie drinken en verdwalen tussen de rijstvelden. Daarna werd het alsnog vol: kookles, apen en heel veel groen. Blijf hier minimaal drie nachten, anders ren je alleen maar langs de highlights.",
+      "activities": [
+        {
+          "title": "Tegalalang-rijstvelden bij zonsopkomst",
+          "description": "Ga om 06.30, dan zijn de paden nog nat van de dauw en is er bijna niemand. Ik nam de noordelijke ingang en liep een uur rond zonder gids.",
+          "price": "€2 entree"
+        },
+        {
+          "title": "Kookles in een familiehuis",
+          "description": "Bij Wayan maakten we eerst sambal en daarna vijf gerechten. Geen kookstudio met airco, maar een keuken waar ook de kinderen aten. Dat maakte het juist goed.",
+          "price": "€28 p.p."
+        },
+        {
+          "title": "Monkey Forest vroeg in de ochtend",
+          "description": "Ja, het is toeristisch. Nee, dat maakt het niet minder grappig. Ga direct bij opening, houd je tas dicht en blijf op het pad.",
+          "price": "€6 entree"
+        }
+      ],
+      "tip": "Slaap niet op Jalan Hanoman als je vroeg wilt slapen. De scooters hoor je tot laat. Ik zat iets noordelijker, bij Jalan Sriwedari, en sliep heerlijk."
+    },
+    {
+      "id": "lovina",
+      "number": 2,
+      "name": "Lovina",
+      "area": "Noord-Bali",
+      "coords": [-8.1617, 115.025],
+      "dayLabel": "Dag 4–5",
+      "nights": 2,
+      "image": "/images/lovina-sunset.jpg",
+      "imageAlt": "Vissersbootje op het kalme water bij Lovina",
+      "description": "Na de drukte van Ubud was Lovina bijna een meditatie. Zwart zand, vissersbootjes en nergens haast. Ik kwam hier voor de dolfijnen en bleef voor de viskotters die 's avonds terugkwamen.",
+      "activities": [
+        {
+          "title": "Dolfijnen bij zonsopkomst",
+          "description": "We vertrokken om 05.30. Kies een bootman die afstand houdt en niet tussen de dieren door vaart. Ik vroeg daar vooraf naar en dat werd gerespecteerd.",
+          "price": "€9 p.p."
+        },
+        {
+          "title": "Banjar hot springs",
+          "description": "Lauw water, stenen baden en veel lokale gezinnen. Trek je badkleding aan voordat je aankomt; de kleedhokjes zijn basic.",
+          "price": "€2 entree"
+        },
+        {
+          "title": "Wandelen door de rijstvelden achter het dorp",
+          "description": "Geen vaste route, gewoon een pad volgen tot het ophoudt. Ik liep een uur en kwam alleen koeien en boeren tegen.",
+          "price": "Gratis"
+        }
+      ],
+      "tip": "Dolfijnen zijn geen attractie die gegarandeerd komt opdagen. Vertrek met de instelling dat je een boottocht maakt, niet dat je een show koopt."
+    },
+    {
+      "id": "munduk",
+      "number": 3,
+      "name": "Munduk",
+      "area": "Bergen van Buleleng",
+      "coords": [-8.2667, 115.0833],
+      "dayLabel": "Dag 6–7",
+      "nights": 1,
+      "image": "/images/munduk-waterfall.jpg",
+      "imageAlt": "Waterval in het groene binnenland bij Munduk",
+      "description": "Munduk ligt hoog en dat voel je meteen: ineens was het 19 graden en hing er mist tussen de koffieplanten. Eén nacht is genoeg voor de watervallen, maar ik had graag een tweede dag gehad om gewoon te lezen.",
+      "activities": [
+        {
+          "title": "Watervallen van Munduk",
+          "description": "De wandeling naar Melanting en Golden Valley duurde bij mij drie uur. Het pad is op sommige stukken glad; goede schoenen zijn geen overdreven advies.",
+          "price": "€2 entree"
+        },
+        {
+          "title": "Koffieproeverij op een plantage",
+          "description": "Ik proefde robusta en arabica naast elkaar en kocht een zak bonen voor thuis. De eigenaar vertelde rustig over het oogsten, zonder verkooppraatje.",
+          "price": "€5"
+        },
+        {
+          "title": "Zonsondergang boven de vallei",
+          "description": "De weg van Munduk naar het noorden heeft een paar haarspeldbochten met uitzicht. Ik stopte bij een warung, bestelde thee en bleef zitten tot het donker werd.",
+          "price": "Thee €1"
+        }
+      ],
+      "tip": "Neem een trui mee. Serieus. Iedereen denkt bij Bali aan hitte, maar in Munduk koelde het 's avonds af tot 16 graden."
+    },
+    {
+      "id": "amed",
+      "number": 4,
+      "name": "Amed",
+      "area": "Oost-Bali",
+      "coords": [-8.3364, 115.656],
+      "dayLabel": "Dag 8–10",
+      "nights": 3,
+      "image": "/images/amed-agung.jpg",
+      "imageAlt": "Zonsopkomst aan de kust bij Amed met Mount Agung op de achtergrond",
+      "description": "Amed is zwarte lava, helder water en 's ochtends Mount Agung die boven de zee uitkomt. Ik had geen verwachtingen en werd verliefd op de traagheid. Mijn homestay had drie kamers en een ontbijt dat bestond uit verse fruit en rijst.",
+      "activities": [
+        {
+          "title": "Zonsopkomst met Mount Agung",
+          "description": "Zet je wekker om 05.15, loop naar het strand en wacht. De vulkaan kleurde roze voordat de zon boven de horizon kwam. Dit was het mooiste moment van de reis.",
+          "price": "Gratis"
+        },
+        {
+          "title": "Snorkelen in Jemeluk Bay",
+          "description": "Ik huurde een masker en vinnen bij een warung en zwom naar de koraaltuin. Het water was rustig, ook voor iemand die niet vaak snorkelt.",
+          "price": "€5 huur"
+        },
+        {
+          "title": "Vissersdorp in de late middag",
+          "description": "Langs de kust liggen kleine boten die 's middags worden klaargemaakt. Ik kocht vers fruit en keek hoe de netten werden gerepareerd.",
+          "price": "Gratis"
+        }
+      ],
+      "tip": "Amed is geen strandbestemming met ligstoelen. Het strand is zwart grind en het water is direct diep. Dat is precies de charme."
+    },
+    {
+      "id": "gili-trawangan",
+      "number": 5,
+      "name": "Gili Trawangan",
+      "area": "Lombok",
+      "coords": [-8.35, 116.0333],
+      "dayLabel": "Dag 11–13",
+      "nights": 2,
+      "image": "/images/gili-sunset.jpg",
+      "imageAlt": "Zonsondergang boven de zee bij Gili Trawangan",
+      "description": "Vanuit Amed nam ik de boot naar Gili Trawangan. Geen auto's, geen echte haast en 's avonds alleen de geluiden van de zee en wat muziek. Ik huurde een fiets en reed in iets meer dan een uur rond het eiland.",
+      "activities": [
+        {
+          "title": "Rond het eiland fietsen",
+          "description": "De zuidkant is druk, de noordkant rustig en zanderig. Ik stopte drie keer voor een coconutsap en deed er uiteindelijk twee uur over.",
+          "price": "€4 per dag"
+        },
+        {
+          "title": "Snorkelen met schildpadden",
+          "description": "Ik ging met een kleine boot mee, niet met de grote Snorkelbus. De kapitein hield afstand van de schildpadden en legde uit waarom.",
+          "price": "€15 p.p."
+        },
+        {
+          "title": "Zonsondergang aan de westkant",
+          "description": "Neem iets te drinken mee en zoek een plekje op de rotsen. Iedereen doet hetzelfde, maar de sfeer is goed en het uitzicht naar Lombok is prachtig.",
+          "price": "Gratis"
+        }
+      ],
+      "tip": "Er zijn geen auto's op Gili Trawangan, dus je sleept je koffer over zand. Pak een tas met wielen of laat je bagage door je accommodatie ophalen."
+    },
+    {
+      "id": "nusa-penida",
+      "number": 6,
+      "name": "Nusa Penida",
+      "area": "Nusa Penida",
+      "coords": [-8.7278, 115.5444],
+      "dayLabel": "Dag 14–16",
+      "nights": 2,
+      "image": "/images/nusa-diamond.jpg",
+      "imageAlt": "Witte rotsen en turquoise water bij Diamond Beach op Nusa Penida",
+      "description": "Nusa Penida is spectaculair, maar de wegen zijn dat niet. Ik koos voor twee nachten en een privéchauffeur in plaats van een dagtour. Daardoor zag ik Kelingking Beach om 07.00, toen er nog maar zes mensen waren.",
+      "activities": [
+        {
+          "title": "Kelingking Beach voor de dagtours",
+          "description": "We vertrokken om 06.45. Het uitzichtpunt is indrukwekkend en de afdaling naar het strand duurt ongeveer 45 minuten. Ik ben niet naar beneden gegaan; het pad was die ochtend te glad.",
+          "price": "€2 entree"
+        },
+        {
+          "title": "Snorkelen bij Manta Point",
+          "description": "We zagen geen manta's, wel veel vissen en een rustige baai. De kapitein was eerlijk vooraf: het is natuur, geen belofte.",
+          "price": "€25 p.p."
+        },
+        {
+          "title": "Diamond Beach",
+          "description": "Witte krijtrotsen, trappen en veel wind. Ga hier niet in je slippers naartoe. Het strand zelf is mooier dan de foto's van de klif.",
+          "price": "€2 entree"
+        }
+      ],
+      "tip": "Huur een chauffeur in plaats van een scooter. De wegen op het eiland zijn steil en smal; ik heb onderweg twee scooters zien vallen."
+    },
+    {
+      "id": "canggu",
+      "number": 7,
+      "name": "Canggu",
+      "area": "Zuid-Bali",
+      "coords": [-8.6478, 115.1385],
+      "dayLabel": "Dag 17–19",
+      "nights": 3,
+      "image": "/images/canggu-sunset.jpg",
+      "imageAlt": "Surfer met surfboard op het strand van Canggu bij zonsondergang",
+      "description": "Canggu is druk, luid en vol café's met havermelk. Ik vond het heerlijk, maar niet voor langer dan drie dagen. De surfles was het hoogtepunt en mijn spierpijn de volgende dag ook.",
+      "activities": [
+        {
+          "title": "Surfles bij Batu Bolong",
+          "description": "Na twee uur wist ik nog steeds niet hoe ik moest staan, maar ik stond wel even. De instructeur was geduldig en de golven waren vriendelijk.",
+          "price": "€25 incl. board"
+        },
+        {
+          "title": "Koffie en werkplekken testen",
+          "description": "Ik probeerde vier café's en bleef hangen bij eentje met een schaduwrijke tuin. Een flat white kost hier al snel €4, dus reken dat mee.",
+          "price": "€4 per koffie"
+        },
+        {
+          "title": "Zonsondergang bij Echo Beach",
+          "description": "Neem je camera mee en kom een half uur voor zonsondergang. Het strand is breed genoeg om niet in de menigte te staan.",
+          "price": "Gratis"
+        }
+      ],
+      "tip": "Canggu is geen authentiek Balinees dorp meer. Verwacht verkeer, muziek en veel digitale nomaden. Ga erheen voor de energie, niet voor de stilte."
+    },
+    {
+      "id": "uluwatu",
+      "number": 8,
+      "name": "Uluwatu",
+      "area": "Zuid-Bali",
+      "coords": [-8.8291, 115.0849],
+      "dayLabel": "Dag 20–21",
+      "nights": 1,
+      "image": "/images/uluwatu-coast.jpg",
+      "imageAlt": "Kliffen aan de kust bij Uluwatu met de Indische Oceaan",
+      "description": "De laatste anderhalve dag waren voor Uluwatu. Kliffen, de tempel en een zonsondergang die alles goedmaakte. Ik had hier langer willen blijven, maar een laatste avond in de schemering was genoeg.",
+      "activities": [
+        {
+          "title": "Pura Luhur Uluwatu en de Kecak-dans",
+          "description": "De dans begint rond zonsondergang. Kom een uur van tevoren voor een plekje op de rand. Bedek je schouders en knieën; een sarong kun je bij de ingang lenen.",
+          "price": "€6 tempel + €12 dans"
+        },
+        {
+          "title": "Bingin Beach",
+          "description": "Veel trappen, klein strand en helder water. Ik ging vroeg en had een uur bijna voor mezelf. Neem contant geld mee voor de parkeerwachter.",
+          "price": "€2 parkeren"
+        },
+        {
+          "title": "Laatste drankje bij Single Fin",
+          "description": "Toeristisch, maar het uitzicht over de baai is het waard. Ga voor één drankje, niet voor het hele diner.",
+          "price": "€6"
+        }
+      ],
+      "tip": "Reserveer je laatste accommodatie niet pal naast de tempel. De weg terug is 's avonds druk en de taxi's rekenen extra."
+    }
+  ],
+  "gallery": [
+    {
+      "src": "/images/nusa-aerial.jpg",
+      "alt": "Turquoise baai met kliffen op Nusa Penida",
+      "caption": "Nusa Penida vanaf de klif — het water is echt zo blauw."
+    },
+    {
+      "src": "/images/ubud-rice.jpg",
+      "alt": "Boer met rijstmanden tussen de rijstvelden",
+      "caption": "Ochtend in Tegalalang, voordat de touringcars komen."
+    },
+    {
+      "src": "/images/bali-cooking.jpg",
+      "alt": "Kruiden en specerijen in manden op een markt",
+      "caption": "Kruiden uitzoeken voor de kookles in Ubud."
+    },
+    {
+      "src": "/images/mount-agung.jpg",
+      "alt": "Mount Agung boven de wolken",
+      "caption": "Mount Agung, de vulkaan die je vanuit Amed wakker maakt."
+    },
+    {
+      "src": "/images/gili-sunset.jpg",
+      "alt": "Zonsondergang boven zee bij Gili Trawangan",
+      "caption": "Laatste licht op Gili Trawangan."
+    },
+    {
+      "src": "/images/nusa-diamond.jpg",
+      "alt": "Diamond Beach met witte kliffen en blauw water",
+      "caption": "Diamond Beach vanaf de trap. Die trappen zijn steiler dan ze lijken."
+    },
+    {
+      "src": "/images/canggu-surf.jpg",
+      "alt": "Surfer bij zonsondergang op het strand van Canggu",
+      "caption": "Surfles in Canggu — meer water binnen dan op de plank."
+    },
+    {
+      "src": "/images/uluwatu-coast.jpg",
+      "alt": "Kliffen en zee bij Uluwatu",
+      "caption": "Uluwatu in de laatste middag van de reis."
+    }
+  ],
+  "practical": [
+    {
+      "label": "Vervoer",
+      "value": "Ik huurde geen auto. Voor de lange stukken nam ik een privéchauffeur (€35–€45 per dag) en in steden een Grab of Gojek. Dat was samen goedkoper en veiliger dan zelf scooter rijden."
+    },
+    {
+      "label": "Verblijf",
+      "value": "Ik sliep in homestays en kleine guesthouses, meestal €18–€32 per nacht voor een tweepersoonskamer. In Canggu en Uluwatu lag de prijs iets hoger."
+    },
+    {
+      "label": "Budget",
+      "value": "In 21 dagen gaf ik ongeveer €1.280 uit, exclusief de internationale vlucht. Mijn gemiddelde was €48 per dag, inclusief eten, vervoer en activiteiten."
+    },
+    {
+      "label": "Boot naar Gili",
+      "value": "Boek de fast boat minimaal twee dagen van tevoren, zeker in het hoogseizoen. Ik betaalde €35 enkele reis en vertrok vanaf Padang Bai."
+    },
+    {
+      "label": "Beste reistijd",
+      "value": "April tot en met juni is warm maar nog niet zo druk. September is ook fijn. Juli en augustus zijn drukker en duurder, december en januari het natst."
+    },
+    {
+      "label": "Geld en internet",
+      "value": "Neem een Indonesische eSIM (ongeveer €12 voor 10 GB) en genoeg contant geld mee voor warungs en parkeerwachters. Veel kleine plekken accepteren geen kaart."
+    }
+  ],
+  "packing": [
+    "Schoenen met grip voor watervallen en kliffen",
+    "Een sarong voor tempels en strand",
+    "Reef-safe zonnebrand",
+    "Een lichte regenjas",
+    "Een trui voor Munduk",
+    "Contant geld in kleine briefjes",
+    "Een powerbank voor lange reisdagen",
+    "Een herbruikbare waterfles met filter"
+  ],
+  "closingNote": "Dit is geen strak schema dat je moet afvinken. Het is een ritme: drie nachten aankomen, twee nachten bewegen, af en toe een dag niets. Als je één ding uit deze route meeneemt, laat het dan de ruimte tussen de plannen zijn."
+}
