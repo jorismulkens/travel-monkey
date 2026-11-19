@@ -117,19 +117,6 @@
     "excerpt": "Deze route brengt je in een week langs vijf uiteenlopende plekken in Spanje. Van de levendige hoofdstad Madrid naar het relaxte eilandgevoel op de Canarische Eilanden, met stops in het architectuurrijke Barcelona, het sfeervolle Baskenland en het zonnige Andalusië. Een goede mix van cultuur, natuur en ontspanning."
   },
   {
-    "id": "3-weken-langs-de-geschiedenis-en-kustlijn-van-libanon-route",
-    "name": "Beiroet",
-    "country": "Libanon",
-    "coords": [
-      33.8892265,
-      35.5025585
-    ],
-    "slug": "3-weken-langs-de-geschiedenis-en-kustlijn-van-libanon",
-    "type": "route",
-    "thumbnail": "/images/posts/3-weken-langs-de-geschiedenis-en-kustlijn-van-libanon-cover.webp",
-    "excerpt": "Een reis van de bruisende hoofdstad langs eeuwenoude ruïnes, pittoreske vissersplaatsen en groene valleien. Geniet van cultuur, natuur en de kust."
-  },
-  {
     "id": "7-dagen-zuid-afrika-van-kaapstad-tot-kruger-route",
     "name": "Kaapstad",
     "country": "Zuid-Afrika",

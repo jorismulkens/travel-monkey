@@ -1048,44 +1048,6 @@
       ]
     },
     {
-      "key": "libanon",
-      "region": "midden-oosten",
-      "country": "Libanon",
-      "name": "Libanon",
-      "places": [
-        "Beiroet",
-        "Byblos",
-        "Baalbek",
-        "Batroun",
-        "Zahle"
-      ],
-      "imageQuery": "lebanon coast",
-      "routeVariants": [
-        "1 week",
-        "2 weken",
-        "3 weken"
-      ]
-    },
-    {
-      "key": "israel",
-      "region": "midden-oosten",
-      "country": "Israël",
-      "name": "Israël",
-      "places": [
-        "Tel Aviv",
-        "Jeruzalem",
-        "Dode Zee",
-        "Eilat",
-        "Haifa"
-      ],
-      "imageQuery": "israel jerusalem",
-      "routeVariants": [
-        "1 week",
-        "2 weken",
-        "3 weken"
-      ]
-    },
-    {
       "key": "australie",
       "region": "oceanie",
       "country": "Australië",
