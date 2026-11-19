@@ -182,7 +182,8 @@
         "Phnom Penh",
         "Siem Reap",
         "Kampot",
-        "Koh Rong"
+        "Koh Rong",
+        "Battambang"
       ],
       "imageQuery": "cambodia angkor",
       "routeVariants": [
@@ -219,7 +220,8 @@
         "Seoul",
         "Busan",
         "Jeju",
-        "Gyeongju"
+        "Gyeongju",
+        "Jeonju"
       ],
       "imageQuery": "south korea seoul",
       "routeVariants": [
@@ -256,7 +258,8 @@
         "Antigua",
         "Lake Atitlán",
         "Flores",
-        "Tikal"
+        "Tikal",
+        "Semuc Champey"
       ],
       "imageQuery": "guatemala lake atitlan",
       "routeVariants": [
@@ -293,7 +296,8 @@
         "Panama-Stad",
         "Bocas del Toro",
         "Boquete",
-        "San Blas"
+        "San Blas",
+        "Santa Catalina"
       ],
       "imageQuery": "panama islands",
       "routeVariants": [
@@ -311,7 +315,8 @@
         "Belize City",
         "Caye Caulker",
         "San Ignacio",
-        "Placencia"
+        "Placencia",
+        "Hopkins"
       ],
       "imageQuery": "belize reef",
       "routeVariants": [
@@ -329,7 +334,8 @@
         "Granada",
         "León",
         "Ometepe",
-        "San Juan del Sur"
+        "San Juan del Sur",
+        "Masaya"
       ],
       "imageQuery": "nicaragua volcano",
       "routeVariants": [
@@ -347,7 +353,8 @@
         "Roatán",
         "Utila",
         "Copán",
-        "La Ceiba"
+        "La Ceiba",
+        "Gracias"
       ],
       "imageQuery": "honduras caribbean",
       "routeVariants": [
@@ -365,7 +372,8 @@
         "San Salvador",
         "Santa Ana",
         "El Tunco",
-        "Suchitoto"
+        "Suchitoto",
+        "Ruta de las Flores"
       ],
       "imageQuery": "el salvador surf",
       "routeVariants": [
@@ -516,7 +524,8 @@
         "Montevideo",
         "Punta del Este",
         "Colonia",
-        "Cabo Polonio"
+        "Cabo Polonio",
+        "Punta del Diablo"
       ],
       "imageQuery": "uruguay coast",
       "routeVariants": [
@@ -724,7 +733,8 @@
         "Praag",
         "Český Krumlov",
         "Brno",
-        "Bohemian Switzerland"
+        "Bohemian Switzerland",
+        "Karlovy Vary"
       ],
       "imageQuery": "prague old town",
       "routeVariants": [
@@ -875,7 +885,8 @@
         "Kigali",
         "Volcanoes National Park",
         "Lake Kivu",
-        "Nyungwe"
+        "Nyungwe",
+        "Musanze"
       ],
       "imageQuery": "rwanda hills",
       "routeVariants": [
@@ -893,7 +904,8 @@
         "Maputo",
         "Vilankulo",
         "Bazaruto",
-        "Tofo"
+        "Tofo",
+        "Pemba"
       ],
       "imageQuery": "mozambique beach",
       "routeVariants": [
@@ -911,7 +923,8 @@
         "Accra",
         "Cape Coast",
         "Kumasi",
-        "Volta"
+        "Volta",
+        "Mole National Park"
       ],
       "imageQuery": "ghana coast",
       "routeVariants": [
@@ -929,7 +942,8 @@
         "Sal",
         "Boa Vista",
         "Santo Antão",
-        "São Vicente"
+        "São Vicente",
+        "Mindelo"
       ],
       "imageQuery": "cape verde island",
       "routeVariants": [
@@ -985,7 +999,8 @@
         "Dubai",
         "Abu Dhabi",
         "Sharjah",
-        "Ras al-Khaimah"
+        "Ras al-Khaimah",
+        "Fujairah"
       ],
       "imageQuery": "dubai skyline",
       "routeVariants": [
@@ -1003,7 +1018,8 @@
         "Doha",
         "Souq Waqif",
         "Khor al Adaid",
-        "Al Zubarah"
+        "Al Zubarah",
+        "Al Shahaniya"
       ],
       "imageQuery": "qatar doha",
       "routeVariants": [
@@ -1021,7 +1037,8 @@
         "Riyad",
         "AlUla",
         "Jeddah",
-        "Abha"
+        "Abha",
+        "Taif"
       ],
       "imageQuery": "saudi arabia alula",
       "routeVariants": [
@@ -1039,7 +1056,8 @@
         "Beiroet",
         "Byblos",
         "Baalbek",
-        "Batroun"
+        "Batroun",
+        "Zahle"
       ],
       "imageQuery": "lebanon coast",
       "routeVariants": [
@@ -1057,7 +1075,8 @@
         "Tel Aviv",
         "Jeruzalem",
         "Dode Zee",
-        "Eilat"
+        "Eilat",
+        "Haifa"
       ],
       "imageQuery": "israel jerusalem",
       "routeVariants": [
@@ -1113,7 +1132,8 @@
         "Nadi",
         "Yasawa-eilanden",
         "Denarau",
-        "Coral Coast"
+        "Coral Coast",
+        "Suva"
       ],
       "imageQuery": "fiji island",
       "routeVariants": [
@@ -1131,7 +1151,8 @@
         "Tahiti",
         "Moorea",
         "Bora Bora",
-        "Raiatea"
+        "Raiatea",
+        "Huahine"
       ],
       "imageQuery": "french polynesia",
       "routeVariants": [
@@ -1149,7 +1170,8 @@
         "Apia",
         "Savai'i",
         "Upolu",
-        "Lalomanu"
+        "Lalomanu",
+        "Salelologa"
       ],
       "imageQuery": "samoa beach",
       "routeVariants": [
@@ -1167,7 +1189,8 @@
         "Port Vila",
         "Espiritu Santo",
         "Tanna",
-        "Efate"
+        "Efate",
+        "Malekula"
       ],
       "imageQuery": "vanuatu volcano",
       "routeVariants": [
@@ -1184,7 +1207,9 @@
       "places": [
         "Rarotonga",
         "Aitutaki",
-        "Atiu"
+        "Atiu",
+        "Ma'uke",
+        "Mangaia"
       ],
       "imageQuery": "cook islands lagoon",
       "routeVariants": [
@@ -1202,7 +1227,8 @@
         "Koror",
         "Rock Islands",
         "Peleliu",
-        "Babeldaob"
+        "Babeldaob",
+        "Angaur"
       ],
       "imageQuery": "palau rock islands",
       "routeVariants": [

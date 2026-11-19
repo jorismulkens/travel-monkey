@@ -118,7 +118,9 @@ export default function RouteDetailPage({ params }: RoutePageProps) {
             Reizen
           </Link>
           <span aria-hidden="true">/</span>
-          <span className="text-jungle-900">Bali, 21 dagen</span>
+          <span className="text-jungle-900">
+            {route.region}, {route.durationDays} dagen
+          </span>
         </nav>
       </div>
 
@@ -207,9 +209,24 @@ export default function RouteDetailPage({ params }: RoutePageProps) {
                 </div>
               </div>
 
+              {route.imageCredit ? (
+                <p className="mt-3 text-right text-[0.68rem] text-jungle-600">
+                  Foto:{" "}
+                  <a
+                    href={route.imageCredit.url}
+                    target="_blank"
+                    rel="noreferrer noopener"
+                    className="font-medium underline decoration-jungle-900/20 underline-offset-2 transition-colors hover:text-sunset-700"
+                  >
+                    {route.imageCredit.name}
+                  </a>{" "}
+                  via {route.imageCredit.source ?? "Pixabay"}
+                </p>
+              ) : null}
+
               <div className="absolute -left-2 top-8 z-10 -rotate-6 rounded-2xl bg-sand-50 px-4 py-3 text-center shadow-sticker">
                 <p className="font-display text-2xl font-semibold leading-none text-jungle-950">
-                  8
+                  {route.stops.length}
                 </p>
                 <p className="mt-1 text-[0.55rem] font-bold uppercase tracking-[0.15em] text-jungle-600">
                   stops
@@ -217,7 +234,7 @@ export default function RouteDetailPage({ params }: RoutePageProps) {
               </div>
               <div className="absolute -right-2 top-1/3 z-10 rotate-6 rounded-full bg-sunset-500 px-4 py-3 text-center shadow-sticker">
                 <p className="font-display text-2xl font-semibold leading-none text-white">
-                  21
+                  {route.durationDays}
                 </p>
                 <p className="mt-1 text-[0.55rem] font-bold uppercase tracking-[0.15em] text-sunset-100">
                   dagen
@@ -226,7 +243,7 @@ export default function RouteDetailPage({ params }: RoutePageProps) {
               <div className="absolute -bottom-6 left-4 z-10 flex items-center gap-2 rounded-full border border-jungle-900/10 bg-sand-50 px-4 py-2.5 shadow-sticker">
                 <Sparkles className="h-4 w-4 text-sunset-500" />
                 <span className="text-[0.62rem] font-semibold uppercase tracking-[0.13em] text-jungle-700">
-                  Zelf gelopen in 2025
+                  {route.generated ? "Route van de redactie" : "Zelf gelopen in 2025"}
                 </span>
               </div>
             </div>
@@ -305,7 +322,7 @@ export default function RouteDetailPage({ params }: RoutePageProps) {
                 aria-hidden="true"
               />
               <p className="text-[0.62rem] font-semibold uppercase tracking-[0.18em] text-sunset-700">
-                Zes dingen die ik zo weer zou doen
+                Wat de moeite waard is
               </p>
               <ul className="mt-5 grid gap-x-5 gap-y-3 sm:grid-cols-2">
                 {route.highlights.map((highlight) => (
@@ -341,20 +358,20 @@ export default function RouteDetailPage({ params }: RoutePageProps) {
                 De route op de kaart
               </p>
               <h2 className="mt-4 max-w-xl font-display text-[2.2rem] font-semibold leading-[1.05] tracking-[-0.035em] text-sand-50 sm:text-[3.1rem]">
-                Acht stops, één{" "}
+                {route.stops.length} stops, één{" "}
                 <span className="italic text-sunset-400">kronkelige lijn.</span>
               </h2>
               <p className="mt-4 max-w-lg text-sm leading-7 text-sand-200/70">
                 Klik op een genummerde pin voor de foto en het dagdeel. De lijn
-                laat zien hoe ik reisde, niet hoe jij het moet doen.
+                laat zien hoe de route loopt, niet hoe jij het moet doen.
               </p>
             </div>
             <div className="flex gap-2">
               <span className="rounded-full border border-sand-100/20 px-4 py-2 text-[0.62rem] font-semibold uppercase tracking-[0.13em] text-sand-200">
-                8 stops
+                {route.stops.length} stops
               </span>
               <span className="rounded-full border border-sand-100/20 px-4 py-2 text-[0.62rem] font-semibold uppercase tracking-[0.13em] text-sand-200">
-                21 dagen
+                {route.durationDays} dagen
               </span>
             </div>
           </div>
@@ -548,7 +565,7 @@ export default function RouteDetailPage({ params }: RoutePageProps) {
                 <span className="italic text-sunset-600">rugzak pakt.</span>
               </>
             }
-            description="De dingen die ik graag van tevoren had geweten. Geen uitputtende lijst, wel de punten die echt verschil maken."
+            description="De dingen die je van tevoren wilt weten. Geen uitputtende lijst, wel de punten die echt verschil maken."
           />
 
           <div className="mt-10 grid gap-6 lg:grid-cols-[1.18fr_0.82fr]">
@@ -579,7 +596,7 @@ export default function RouteDetailPage({ params }: RoutePageProps) {
               <div className="relative">
                 <p className="inline-flex items-center gap-2 text-[0.62rem] font-semibold uppercase tracking-[0.17em] text-sunset-300">
                   <Wallet className="h-3.5 w-3.5" />
-                  Wat ik uitgaf
+                  Wat je uitgeeft
                 </p>
                 <p className="mt-3 font-display text-4xl font-semibold tracking-[-0.03em] text-sand-50">
                   {route.budget}
@@ -590,7 +607,7 @@ export default function RouteDetailPage({ params }: RoutePageProps) {
 
                 <div className="mt-7 border-t border-sand-100/15 pt-6">
                   <p className="text-[0.62rem] font-semibold uppercase tracking-[0.17em] text-sand-300/70">
-                    Wat ik meenam
+                    Wat je meeneemt
                   </p>
                   <ul className="mt-4 space-y-2.5">
                     {route.packing.map((item) => (
@@ -619,8 +636,16 @@ export default function RouteDetailPage({ params }: RoutePageProps) {
               &ldquo;{route.closingNote}&rdquo;
             </p>
             <p className="mt-5 text-[0.62rem] font-semibold uppercase tracking-[0.18em] text-sunset-700">
-              Mila · Travel Monkey
+              {route.author === "Redactie"
+                ? "Travel Monkey redactie"
+                : "Mila · Travel Monkey"}
             </p>
+            {route.generated ? (
+              <p className="mx-auto mt-3 max-w-md text-xs leading-6 text-sunset-800/80">
+                Deze route is automatisch samengesteld. Controleer prijzen,
+                openingstijden en reisregels altijd bij de officiële bron.
+              </p>
+            ) : null}
           </div>
 
           <div className="mt-20">

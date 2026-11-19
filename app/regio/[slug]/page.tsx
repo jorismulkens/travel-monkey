@@ -3,9 +3,10 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 
 import { BlogCard } from "@/components/blog-card";
-import { ArrowLeft, ArrowRight, MapPin, Sparkles } from "@/components/icons";
+import { ArrowLeft, ArrowRight, ArrowUpRight, MapPin, Sparkles } from "@/components/icons";
 import { Reveal } from "@/components/reveal";
-import { getPostsByRegion } from "@/lib/content";
+import { RouteCard } from "@/components/route-card";
+import { getPostsByRegion, getRoutesByContinent } from "@/lib/content";
 import { getRegion, regions } from "@/lib/regions";
 import type { RegionSlug } from "@/lib/types";
 
@@ -43,8 +44,9 @@ export default function RegionPage({ params }: RegionPageProps) {
   }
 
   const posts = getPostsByRegion(region.slug as RegionSlug);
-  const routes = posts.filter((post) => post.kind !== "tips");
+  const routes = getRoutesByContinent(region.slug as RegionSlug);
   const tips = posts.filter((post) => post.kind === "tips");
+  const total = routes.length + posts.length;
 
   return (
     <>
@@ -79,23 +81,47 @@ export default function RegionPage({ params }: RegionPageProps) {
             <div className="mt-8 flex flex-wrap gap-2.5">
               <span className="tag">
                 <Sparkles className="h-3.5 w-3.5 text-sunset-600" />
-                {posts.length} {posts.length === 1 ? "artikel" : "artikelen"}
+                {total} {total === 1 ? "artikel" : "artikelen"}
               </span>
               <span className="tag">
                 <MapPin className="h-3.5 w-3.5 text-sunset-600" />
-                {routes.length} routes
+                {routes.length} {routes.length === 1 ? "route" : "routes"}
               </span>
-              <span className="tag">
-                {tips.length} tips
-              </span>
+              <span className="tag">{tips.length} tips</span>
             </div>
           </div>
         </div>
       </section>
 
+      {routes.length > 0 ? (
+        <section className="pb-16 sm:pb-20">
+          <div className="container-wide">
+            <div className="mb-6 flex flex-wrap items-end justify-between gap-4">
+              <h2 className="font-display text-[1.8rem] font-semibold tracking-[-0.03em] text-jungle-950 sm:text-[2.2rem]">
+                Complete routes
+              </h2>
+              <Link
+                href={`/reizen?regio=${region.slug}`}
+                className="group inline-flex items-center gap-2 text-sm font-semibold text-jungle-900 transition-colors hover:text-sunset-600"
+              >
+                Filter op duur
+                <ArrowUpRight className="h-4 w-4" />
+              </Link>
+            </div>
+            <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+              {routes.map((route, index) => (
+                <Reveal key={route.slug} delay={(index % 3) * 70} className="h-full">
+                  <RouteCard route={route} />
+                </Reveal>
+              ))}
+            </div>
+          </div>
+        </section>
+      ) : null}
+
       <section className="pb-16 sm:pb-24">
         <div className="container-wide">
-          {posts.length === 0 ? (
+          {posts.length === 0 && routes.length === 0 ? (
             <div className="rounded-[2rem] border border-dashed border-jungle-900/20 bg-sand-100/60 px-6 py-16 text-center">
               <p className="font-display text-2xl font-semibold text-jungle-950">
                 Voor {region.label} komt er nog niets.

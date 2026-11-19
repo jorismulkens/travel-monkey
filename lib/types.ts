@@ -69,6 +69,18 @@ export interface Route {
   practical: PracticalItem[];
   packing: string[];
   closingNote: string;
+  /** Werelddeel, gebruikt voor de regiopagina's en filters. */
+  continent?: RegionSlug;
+  /** Wie de route schreef: Mila of de automatische redactie. */
+  author?: "Mila" | "Redactie";
+  /** True bij automatisch samengestelde routes. */
+  generated?: boolean;
+  /** Publicatiedatum, gebruikt om de nieuwste routes bovenaan te zetten. */
+  createdAt?: string;
+  /** Interne sleutel om dubbele onderwerpen te voorkomen. */
+  topicKey?: string;
+  /** Bronvermelding van de omslagfoto (Pixabay). */
+  imageCredit?: ImageCredit;
 }
 
 export interface BlogSection {
@@ -130,7 +142,7 @@ export interface BlogPost {
   kind?: PostKind;
   /** Wie het schreef: Mila zelf of de automatische redactie. */
   author?: "Mila" | "Redactie";
-  /** Verplichte bronvermelding bij foto's van Pexels. */
+  /** Bronvermelding van de omslagfoto (Pixabay of Pexels). */
   imageCredit?: ImageCredit;
   /** True bij artikelen die de generator heeft geschreven. */
   generated?: boolean;

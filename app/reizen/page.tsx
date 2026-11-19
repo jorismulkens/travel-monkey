@@ -2,22 +2,94 @@ import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 
-import { ArrowUpRight, Clock, MapPin, Sparkles } from "@/components/icons";
+import {
+  ArrowLeft,
+  ArrowRight,
+  ArrowUpRight,
+  Clock,
+  MapPin,
+  Sparkles,
+} from "@/components/icons";
 import { Reveal } from "@/components/reveal";
-import { RouteFilters } from "@/components/route-filters";
+import { RouteCard } from "@/components/route-card";
 import { getAllRoutes } from "@/lib/content";
+import { regions } from "@/lib/regions";
+import type { RegionSlug } from "@/lib/types";
 
 export const metadata: Metadata = {
   title: "Reisroutes",
   description:
-    "Reisroutes die we zelf liepen, met dag-tot-dag plannen, echte prijzen en praktische tips. Begin met drie weken Bali.",
+    "Complete reisroutes per werelddeel: met stops, activiteiten, prijzen, praktische info en foto's. Van een week Europa tot drie weken Azië.",
   alternates: {
     canonical: "/reizen",
   },
 };
 
-export default function RoutesPage() {
-  const routes = getAllRoutes();
+const durations = [
+  { value: "alles", label: "Alle duur" },
+  { value: "kort", label: "1–7 dagen" },
+  { value: "middel", label: "8–14 dagen" },
+  { value: "lang", label: "15+ dagen" },
+];
+
+interface RoutesPageProps {
+  searchParams: {
+    regio?: string;
+    duur?: string;
+    pagina?: string;
+  };
+}
+
+function buildUrl(params: { regio?: string; duur?: string; pagina?: number }) {
+  const query = new URLSearchParams();
+
+  if (params.regio && params.regio !== "alles") query.set("regio", params.regio);
+  if (params.duur && params.duur !== "alles") query.set("duur", params.duur);
+  if (params.pagina && params.pagina > 1) query.set("pagina", String(params.pagina));
+
+  const suffix = query.toString();
+
+  return suffix ? `/reizen?${suffix}` : "/reizen";
+}
+
+export default function RoutesPage({ searchParams }: RoutesPageProps) {
+  const allRoutes = getAllRoutes();
+  const activeRegion =
+    regions.find((region) => region.slug === searchParams.regio)?.slug ?? "alles";
+  const activeDuration = durations.some((item) => item.value === searchParams.duur)
+    ? searchParams.duur!
+    : "alles";
+  const page = Number(searchParams.pagina ?? 1) || 1;
+
+  const filtered = allRoutes.filter((route) => {
+    const regionMatch = activeRegion === "alles" || route.continent === activeRegion;
+    const durationMatch =
+      activeDuration === "alles" ||
+      (activeDuration === "kort" && route.durationDays <= 7) ||
+      (activeDuration === "middel" &&
+        route.durationDays >= 8 &&
+        route.durationDays <= 14) ||
+      (activeDuration === "lang" && route.durationDays >= 15);
+
+    return regionMatch && durationMatch;
+  });
+
+  const perPage = 9;
+  const totalPages = Math.max(1, Math.ceil(filtered.length / perPage));
+  const currentPage = Math.min(Math.max(1, page), totalPages);
+  const routes = filtered.slice(
+    (currentPage - 1) * perPage,
+    currentPage * perPage,
+  );
+
+  const pageNumbers = Array.from({ length: totalPages }, (_, i) => i + 1)
+    .filter(
+      (number) =>
+        number === 1 ||
+        number === totalPages ||
+        Math.abs(number - currentPage) <= 1,
+    )
+    .slice(0, 7);
 
   return (
     <>
@@ -35,28 +107,27 @@ export default function RoutesPage() {
             <div>
               <p className="eyebrow">Reisroutes</p>
               <h1 className="mt-5 max-w-2xl font-display text-[2.8rem] font-semibold leading-[0.99] tracking-[-0.045em] text-jungle-950 sm:text-[4.1rem]">
-                Routes met{" "}
-                <span className="italic text-sunset-600">natte schoenen</span>{" "}
-                en echte prijzen.
+                Complete routes, van{" "}
+                <span className="italic text-sunset-600">week tot weken.</span>
               </h1>
               <p className="mt-6 max-w-xl text-[1.01rem] leading-8 text-jungle-800/80">
-                Geen route die we van internet plukten. Alles hier is zelf
-                gelopen, geboekt en betaald. Soms ging het mis, en dat staat er
-                dan ook bij.
+                Elke route heeft vaste stops, activiteiten met een prijs, een
+                paklijst en praktische informatie. Kies een werelddeel en de
+                duur die bij je past.
               </p>
 
               <div className="mt-8 flex flex-wrap gap-2.5">
                 <span className="tag">
                   <Clock className="h-3.5 w-3.5 text-sunset-600" />
-                  {routes.length} geteste route
+                  {allRoutes.length} routes
                 </span>
                 <span className="tag">
                   <MapPin className="h-3.5 w-3.5 text-sunset-600" />
-                  8 stops
+                  {regions.length} werelddelen
                 </span>
                 <span className="tag">
                   <Sparkles className="h-3.5 w-3.5 text-sunset-600" />
-                  Geen sponsoring
+                  Prijs per activiteit
                 </span>
               </div>
             </div>
@@ -71,21 +142,17 @@ export default function RoutesPage() {
                   sizes="(min-width: 1024px) 36vw, 80vw"
                   className="object-cover"
                 />
-                <div
-                  className="absolute inset-0 bg-gradient-to-t from-jungle-950/40 to-transparent"
-                  aria-hidden="true"
-                />
-                <span className="absolute inset-x-5 bottom-5 text-[0.6rem] font-semibold uppercase tracking-[0.18em] text-white">
-                  Nusa Penida · stop 6
+                <span className="absolute left-4 top-4 rounded-full bg-sand-50/95 px-3 py-1.5 text-[0.6rem] font-bold uppercase tracking-[0.14em] text-jungle-900 backdrop-blur">
+                  Indonesië · 21 dagen
                 </span>
               </div>
-              <div className="absolute -bottom-6 left-0 w-[45%] -rotate-6 overflow-hidden rounded-2xl border-4 border-sand-50 bg-sand-50 shadow-sticker">
-                <div className="relative aspect-square">
+              <div className="absolute -bottom-7 left-0 w-[48%] -rotate-6 overflow-hidden rounded-2xl border-4 border-sand-50 bg-sand-50 shadow-sticker">
+                <div className="relative aspect-[4/3]">
                   <Image
                     src="/images/gili-sunset.jpg"
                     alt="Zonsondergang op Gili Trawangan"
                     fill
-                    sizes="240px"
+                    sizes="260px"
                     className="object-cover"
                   />
                 </div>
@@ -93,77 +160,213 @@ export default function RoutesPage() {
                   Gili T. · stop 5
                 </p>
               </div>
-              <div className="absolute -right-2 top-5 rotate-6 rounded-full bg-sunset-500 px-4 py-3 text-center shadow-sticker">
-                <p className="font-display text-lg font-semibold leading-none text-white">
-                  21
-                </p>
-                <p className="mt-1 text-[0.52rem] font-bold uppercase tracking-[0.15em] text-sunset-100">
-                  dagen
-                </p>
-              </div>
             </div>
           </div>
         </div>
       </section>
 
-      <section className="pb-20 sm:pb-24 lg:pb-28">
+      <section className="pb-8">
         <div className="container-wide">
-          <div className="flex flex-col gap-4 border-t border-jungle-900/10 pt-10 sm:flex-row sm:items-end sm:justify-between">
-            <div>
-              <p className="eyebrow">Kies je tempo</p>
-              <h2 className="mt-3 font-display text-3xl font-semibold tracking-[-0.03em] text-jungle-950 sm:text-4xl">
-                Hoe lang heb je?
-              </h2>
+          <div className="rounded-[1.5rem] border border-jungle-900/10 bg-sand-50 p-4 sm:p-5">
+            <div className="flex flex-wrap items-center gap-2">
+              <span className="mr-1 text-[0.6rem] font-semibold uppercase tracking-[0.16em] text-jungle-500">
+                Werelddeel
+              </span>
+              <Link
+                href={buildUrl({ duur: activeDuration })}
+                aria-current={activeRegion === "alles" ? "page" : undefined}
+                className={`rounded-full px-3.5 py-1.5 text-sm font-medium transition-colors ${
+                  activeRegion === "alles"
+                    ? "bg-jungle-900 text-sand-50"
+                    : "bg-sand-100 text-jungle-800 hover:bg-sand-200"
+                }`}
+              >
+                Alles
+              </Link>
+              {regions.map((region) => (
+                <Link
+                  key={region.slug}
+                  href={buildUrl({ regio: region.slug, duur: activeDuration })}
+                  aria-current={
+                    activeRegion === region.slug ? "page" : undefined
+                  }
+                  className={`rounded-full px-3.5 py-1.5 text-sm font-medium transition-colors ${
+                    activeRegion === region.slug
+                      ? "bg-jungle-900 text-sand-50"
+                      : "bg-sand-100 text-jungle-800 hover:bg-sand-200"
+                  }`}
+                >
+                  {region.label}
+                </Link>
+              ))}
             </div>
-            <a
-              href="/over-ons"
-              className="group inline-flex w-fit items-center gap-2 text-sm font-semibold text-jungle-700 transition-colors hover:text-sunset-600"
+
+            <div className="mt-3 flex flex-wrap items-center gap-2 border-t border-jungle-900/10 pt-3">
+              <span className="mr-1 text-[0.6rem] font-semibold uppercase tracking-[0.16em] text-jungle-500">
+                Duur
+              </span>
+              {durations.map((duration) => (
+                <Link
+                  key={duration.value}
+                  href={buildUrl({
+                    regio: activeRegion,
+                    duur: duration.value,
+                  })}
+                  aria-current={
+                    activeDuration === duration.value ? "page" : undefined
+                  }
+                  className={`rounded-full px-3.5 py-1.5 text-sm font-medium transition-colors ${
+                    activeDuration === duration.value
+                      ? "bg-jungle-900 text-sand-50"
+                      : "bg-sand-100 text-jungle-800 hover:bg-sand-200"
+                  }`}
+                >
+                  {duration.label}
+                </Link>
+              ))}
+              <span className="ml-auto text-xs font-medium text-jungle-600">
+                {filtered.length} {filtered.length === 1 ? "route" : "routes"}
+              </span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="pb-16 sm:pb-20">
+        <div className="container-wide">
+          {routes.length === 0 ? (
+            <div className="rounded-[2rem] border border-dashed border-jungle-900/20 bg-sand-100/60 px-6 py-16 text-center">
+              <p className="font-display text-2xl font-semibold text-jungle-950">
+                Nog geen route met deze filters.
+              </p>
+              <p className="mx-auto mt-3 max-w-md text-sm leading-6 text-jungle-700/80">
+                Kies een ander werelddeel of een andere duur.
+              </p>
+              <Link
+                href="/reizen"
+                className="mt-6 inline-flex items-center gap-2 rounded-full bg-jungle-900 px-5 py-2.5 text-sm font-semibold text-sand-50 transition-colors hover:bg-jungle-800"
+              >
+                Toon alle routes
+                <ArrowRight className="h-4 w-4" />
+              </Link>
+            </div>
+          ) : (
+            <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+              {routes.map((route, index) => (
+                <Reveal key={route.slug} delay={(index % 3) * 70} className="h-full">
+                  <RouteCard route={route} />
+                </Reveal>
+              ))}
+            </div>
+          )}
+
+          {totalPages > 1 ? (
+            <nav
+              className="mt-12 flex flex-wrap items-center justify-center gap-2"
+              aria-label="Paginering"
             >
-              Hoe wij routes maken
-              <ArrowUpRight className="h-4 w-4" />
-            </a>
-          </div>
+              <Link
+                href={buildUrl({
+                  regio: activeRegion,
+                  duur: activeDuration,
+                  pagina: currentPage - 1,
+                })}
+                aria-disabled={currentPage === 1}
+                className={`inline-flex items-center gap-1.5 rounded-full border border-jungle-900/15 px-4 py-2 text-sm font-semibold transition-colors ${
+                  currentPage === 1
+                    ? "pointer-events-none opacity-40"
+                    : "text-jungle-900 hover:bg-sand-100"
+                }`}
+              >
+                <ArrowLeft className="h-4 w-4" />
+                Vorige
+              </Link>
 
-          <div className="mt-7">
-            <RouteFilters routes={routes} />
-          </div>
+              {pageNumbers.map((number, index) => {
+                const previous = pageNumbers[index - 1];
+                const gap = previous && number - previous > 1;
 
-          <Reveal className="mt-16">
+                return (
+                  <span key={number} className="flex items-center gap-2">
+                    {gap ? <span className="px-1 text-jungle-500">…</span> : null}
+                    <Link
+                      href={buildUrl({
+                        regio: activeRegion,
+                        duur: activeDuration,
+                        pagina: number,
+                      })}
+                      aria-current={number === currentPage ? "page" : undefined}
+                      className={`inline-flex h-10 min-w-10 items-center justify-center rounded-full px-3 text-sm font-semibold transition-colors ${
+                        number === currentPage
+                          ? "bg-jungle-900 text-sand-50"
+                          : "text-jungle-800 hover:bg-sand-100"
+                      }`}
+                    >
+                      {number}
+                    </Link>
+                  </span>
+                );
+              })}
+
+              <Link
+                href={buildUrl({
+                  regio: activeRegion,
+                  duur: activeDuration,
+                  pagina: currentPage + 1,
+                })}
+                aria-disabled={currentPage === totalPages}
+                className={`inline-flex items-center gap-1.5 rounded-full border border-jungle-900/15 px-4 py-2 text-sm font-semibold transition-colors ${
+                  currentPage === totalPages
+                    ? "pointer-events-none opacity-40"
+                    : "text-jungle-900 hover:bg-sand-100"
+                }`}
+              >
+                Volgende
+                <ArrowRight className="h-4 w-4" />
+              </Link>
+            </nav>
+          ) : null}
+        </div>
+      </section>
+
+      <section className="pb-20 sm:pb-24">
+        <div className="container-wide">
+          <Reveal>
             <div className="grid gap-5 rounded-[2rem] border border-jungle-900/10 bg-sand-100/60 p-6 sm:p-8 md:grid-cols-3">
               <div>
                 <p className="font-display text-4xl font-semibold text-jungle-950">
                   01
                 </p>
-                <h3 className="mt-2 font-display text-xl font-semibold text-jungle-950">
-                  Wij lopen hem eerst.
-                </h3>
+                <h2 className="mt-2 font-display text-xl font-semibold text-jungle-950">
+                  Vaste stops.
+                </h2>
                 <p className="mt-2 text-sm leading-6 text-jungle-700/80">
-                  Geen routes uit een brochure. Elke stop is ergens waar we zelf
-                  sliepen, aten of verdwaalden.
+                  Van start tot eindpunt, met per stop een dagindeling en het
+                  aantal nachten.
                 </p>
               </div>
               <div className="border-jungle-900/10 md:border-l md:pl-6">
                 <p className="font-display text-4xl font-semibold text-jungle-950">
                   02
                 </p>
-                <h3 className="mt-2 font-display text-xl font-semibold text-jungle-950">
-                  Wij schrijven de prijs op.
-                </h3>
+                <h2 className="mt-2 font-display text-xl font-semibold text-jungle-950">
+                  Prijs per activiteit.
+                </h2>
                 <p className="mt-2 text-sm leading-6 text-jungle-700/80">
-                  Wat we betaalden, niet wat een website zegt dat het kost.
-                  Prijzen zijn momentopnames, dus check ze altijd opnieuw.
+                  Wat een wandeling, boottocht of kookles ongeveer kost, in
+                  bandbreedtes.
                 </p>
               </div>
               <div className="border-jungle-900/10 md:border-l md:pl-6">
                 <p className="font-display text-4xl font-semibold text-jungle-950">
                   03
                 </p>
-                <h3 className="mt-2 font-display text-xl font-semibold text-jungle-950">
-                  Wij laten fouten staan.
-                </h3>
+                <h2 className="mt-2 font-display text-xl font-semibold text-jungle-950">
+                  Praktisch compleet.
+                </h2>
                 <p className="mt-2 text-sm leading-6 text-jungle-700/80">
-                  De verkeerde boot, de te dure taxi, de koffer in het zand. Dat
-                  is vaak het nuttigste deel van een route.
+                  Vervoer, verblijf, budget, beste reistijd en een paklijst die
+                  je meteen kunt gebruiken.
                 </p>
               </div>
             </div>
@@ -173,23 +376,27 @@ export default function RoutesPage() {
             <div className="flex flex-col items-start justify-between gap-6 rounded-[2rem] bg-jungle-900 p-7 text-sand-100 sm:flex-row sm:items-center sm:p-9">
               <div>
                 <p className="text-[0.64rem] font-semibold uppercase tracking-[0.19em] text-sunset-300">
-                  Liever eerst tips
+                  Per werelddeel
                 </p>
                 <h2 className="mt-3 max-w-xl font-display text-[1.7rem] font-semibold leading-[1.15] tracking-[-0.03em] text-sand-50 sm:text-[2rem]">
-                  Voordat je gaat: dit hadden we graag geweten.
+                  Liever per regio kijken?
                 </h2>
                 <p className="mt-2 max-w-lg text-sm leading-7 text-sand-200/75">
-                  Over vervoer, geld, internet en wat er echt in je tas moet.
-                  Alles wat we onderweg leerden, op één plek.
+                  Elke regio heeft een eigen overzicht met alle routes en tips.
                 </p>
               </div>
-              <Link
-                href="/tips"
-                className="group inline-flex shrink-0 items-center gap-2 rounded-full bg-sand-50 px-5 py-3.5 text-sm font-semibold text-jungle-950 transition-all duration-300 hover:-translate-y-0.5 hover:bg-sunset-500 hover:text-white"
-              >
-                Lees de tips
-                <ArrowUpRight className="h-4 w-4 transition-transform duration-300 group-hover:translate-x-0.5 group-hover:-translate-y-0.5" />
-              </Link>
+              <div className="flex flex-wrap gap-2 lg:max-w-sm lg:justify-end">
+                {regions.slice(0, 4).map((region) => (
+                  <Link
+                    key={region.slug}
+                    href={`/regio/${region.slug}`}
+                    className="inline-flex items-center gap-1.5 rounded-full border border-sand-100/25 px-3.5 py-2 text-sm font-medium text-sand-100 transition-colors hover:bg-sand-100/10"
+                  >
+                    {region.label}
+                    <ArrowUpRight className="h-3.5 w-3.5" />
+                  </Link>
+                ))}
+              </div>
             </div>
           </Reveal>
         </div>

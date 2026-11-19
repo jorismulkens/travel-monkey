@@ -30,7 +30,13 @@ export function getAllRoutes(): Route[] {
     .readdirSync(routesDirectory)
     .filter((file) => file.endsWith(".json"))
     .map((file) => readJsonFile<Route>(path.join("routes", file)))
-    .sort((a, b) => a.durationDays - b.durationDays);
+    .sort((a, b) => {
+      const byDate = String(b.createdAt ?? "").localeCompare(
+        String(a.createdAt ?? ""),
+      );
+
+      return byDate !== 0 ? byDate : a.durationDays - b.durationDays;
+    });
 }
 
 export function getRoute(slug: string): Route | undefined {
@@ -90,6 +96,16 @@ export function getRouteOptions(): { value: string; label: string }[] {
       ? [{ value: "lang", label: "15+ dagen" }]
       : []),
   ];
+}
+
+export function getRoutesByContinent(region: RegionSlug): Route[] {
+  return getAllRoutes().filter((route) => route.continent === region);
+}
+
+export function getLatestRoutes(limit = 3): Route[] {
+  return [...getAllRoutes()]
+    .sort((a, b) => String(b.createdAt ?? "").localeCompare(String(a.createdAt ?? "")))
+    .slice(0, limit);
 }
 
 export function getPostsByRegion(region: RegionSlug): BlogPost[] {

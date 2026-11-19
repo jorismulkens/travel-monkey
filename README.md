@@ -417,14 +417,15 @@ bij, zonder dat je computer aan hoeft te staan.
 **Zo werkt het**
 
 1. GitHub Actions start elke dag om 05:00 UTC (06:00 of 07:00 Nederlandse tijd).
-2. Het script `scripts/generate.mjs` schrijft drie reisroutes en twee
-   tipsartikelen, verspreid over de zeven regio's.
-3. Bij elk artikel zoekt het script een foto via Pixabay, downloadt die,
-   verkleint hem naar 1400 pixels en slaat hem op in `public/images/posts`.
-   De fotograaf komt onder het artikel te staan.
-4. De nieuwe artikelen worden als JSON in `data/blog` gezet en gecommit,
-   samen met de foto's.
-5. Vercel ziet de commit en bouwt de site automatisch opnieuw.
+2. Het script `scripts/generate.mjs` schrijft vijf complete reisroutes,
+   verspreid over de zeven werelddelen.
+3. Elke route krijgt vaste stops met een dagindeling, twee of drie
+   activiteiten met een prijs, praktische informatie en een paklijst.
+4. Bij elke route zoekt het script een omslagfoto en een foto per stop via
+   Pixabay, downloadt die, verkleint hem en slaat hem op in
+   `public/images/posts`. De fotograaf komt onder de omslagfoto te staan.
+5. De routes worden als JSON in `data/routes` gezet en gecommit, samen met de
+   foto's. Vercel bouwt de site automatisch opnieuw.
 
 Je hoeft dus niets te doen: geen laptop aan, geen knop indrukken.
 
@@ -453,8 +454,9 @@ ongeveer een paar dollar per maand. Pixabay en GitHub Actions zijn gratis.
 Twee praktische dingen over de foto's:
 
 - Pixabay staat niet toe dat je hun afbeeldingen blijft hotlinken. Daarom
-  downloadt het script elke foto en zet hem in `public/images/posts`. Reken op
-  ongeveer 70 tot 120 KB per artikel, dus zo'n 20 MB per maand.
+  downloadt het script elke foto en zet hem in `public/images/posts`. Een route
+  heeft een omslagfoto plus een foto per stop: reken op ongeveer 300 KB per
+  route, dus zo'n 45 MB per maand.
 - De Pixabay-licentie vraagt geen naamsvermelding, maar we zetten de fotograaf
   toch onder elk artikel.
 
@@ -471,7 +473,7 @@ is niet altijd betrouwbaar.
 | Wat | Waar |
 | --- | --- |
 | Aantal per dag | `POSTS_PER_DAY` in de workflow, of het invoerveld bij handmatig starten |
-| Routes versus tips | `ROUTE_RATIO` in de workflow (0.6 is drie routes en twee tips) |
+| Aantal stops | `SYSTEM_PROMPT` in `scripts/generate.mjs` |
 | Model | GitHub → Settings → Variables → `OPENAI_MODEL` |
 | Onderwerpen | `data/topics.json` — voeg bestemmingen of tips-onderwerpen toe |
 | Stoppen | GitHub → Actions → de workflow → *Disable workflow* |
