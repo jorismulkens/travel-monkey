@@ -10,7 +10,10 @@
     "typecheck": "tsc --noEmit",
     "generate": "node scripts/generate.mjs",
     "generate:dry": "node scripts/generate.mjs --dry-run",
-    "generate:mock": "node scripts/generate.mjs --mock"
+    "generate:mock": "node scripts/generate.mjs --mock",
+    "social": "node scripts/social/post.mjs",
+    "social:dry": "node scripts/social/post.mjs --dry-run",
+    "social:render": "node scripts/social/render.mjs"
   },
   "engines": {
     "node": ">=18.17.0"

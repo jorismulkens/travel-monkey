@@ -492,3 +492,53 @@ npm run generate        # echte run
 - De lijst met onderwerpen raakt een keer op. Breid `data/topics.json` dan uit.
 - De site wordt trager om te bouwen naarmate er meer artikelen bijkomen.
 - Controleer af en toe of de feiten nog kloppen, zeker bij prijzen en regels.
+
+---
+
+## 11. Automatisch op TikTok
+
+De nieuwste routes kunnen automatisch als TikTok-fotocarrousel worden
+geplaatst. Dat gebeurt via [upload-post.com](https://www.upload-post.com).
+
+**Zo werkt het**
+
+1. Elke dag om 06:30 UTC pakt de workflow de nieuwste routes die nog niet
+   gepost zijn.
+2. Per route worden zeven slides gebouwd:
+   - een kaart met genummerde stops,
+   - een slide per stop met daglabel, titel, korte tekst en prijs,
+   - een slotslide met de link naar de route.
+3. Upload-post plaatst de slides als TikTok-foto-post met caption en hashtags.
+4. In `data/social-posted.json` staat welke routes al gepost zijn, zodat niets
+   twee keer langskomt.
+
+**Eenmalig instellen**
+
+1. Maak een account op **upload-post.com**. Let op: TikTok-posten vereist een
+   betaald plan (vanaf ongeveer 24 dollar per maand).
+2. Koppel je TikTok-account in het dashboard en maak een **profiel** aan,
+   bijvoorbeeld `travelmonkey`.
+3. Maak een **API key** aan onder *API Keys*.
+4. Zet in GitHub twee dingen klaar:
+   - secret `UPLOAD_POST_API_KEY` met de API key;
+   - variable `UPLOAD_POST_PROFILE` met de profielnaam.
+5. Test het: **Actions → Social media → Run workflow**. Zet `dry_run` op
+   `true` om alleen de slides te bouwen, daarna een keer zonder.
+
+**Aanpassen**
+
+| Wat | Waar |
+| --- | --- |
+| Aantal posts per dag | `SOCIAL_POSTS_PER_DAY`, standaard 2 |
+| Eén specifieke route | invoerveld `slug` bij handmatige run |
+| Slides ontwerpen | `scripts/social/render.mjs` |
+| Caption en hashtags | `caption()` in `scripts/social/render.mjs` |
+| Stoppen | GitHub → Actions → Social media → *Disable workflow* |
+
+**Lokaal testen**
+
+```bash
+npm run social:dry                      # slides bouwen + caption tonen
+npm run social:render -- --route <slug> # alleen de slides
+```
+

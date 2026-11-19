@@ -21,3 +21,6 @@ tsconfig.tsbuildinfo
 .vscode/
 .idea/
 .preview/
+
+# Tijdelijke slides voor social media
+/social/

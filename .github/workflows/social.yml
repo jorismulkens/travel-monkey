@@ -1,0 +1,72 @@
+name: Social media
+
+# Draait na de dagelijkse contentrun. upload-post plaatst de nieuwste routes
+# als TikTok-fotocarrousel. Vereist: UPLOAD_POST_API_KEY (secret) en
+# UPLOAD_POST_PROFILE (variable).
+on:
+  schedule:
+    - cron: "30 6 * * *"
+  workflow_dispatch:
+    inputs:
+      count:
+        description: "Aantal posts voor deze run"
+        required: false
+        default: "2"
+      slug:
+        description: "Alleen deze route (slug), leeg = nieuwste"
+        required: false
+      dry_run:
+        description: "Alleen slides bouwen, niet posten"
+        type: boolean
+        required: false
+        default: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: travel-monkey-social
+  cancel-in-progress: false
+
+jobs:
+  post:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+
+    steps:
+      - name: Repository ophalen
+        uses: actions/checkout@v4
+
+      - name: Node instellen
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: "npm"
+
+      - name: Afhankelijkheden installeren
+        run: npm ci
+
+      - name: Slides bouwen en posten
+        env:
+          UPLOAD_POST_API_KEY: ${{ secrets.UPLOAD_POST_API_KEY }}
+          UPLOAD_POST_PROFILE: ${{ vars.UPLOAD_POST_PROFILE }}
+          SOCIAL_POSTS_PER_DAY: ${{ github.event.inputs.count || '2' }}
+          SOCIAL_ROUTE_SLUG: ${{ github.event.inputs.slug }}
+          DRY_RUN: ${{ github.event.inputs.dry_run || 'false' }}
+          SITE_URL: "https://travel-monkey.vercel.app"
+        run: node scripts/social/post.mjs
+
+      - name: Bijhouden wat er gepost is
+        run: |
+          git config user.name "Travel Monkey Bot"
+          git config user.email "bot@travel-monkey.nl"
+
+          if git diff --quiet -- data/social-posted.json 2>/dev/null; then
+            echo "Niets te committen."
+            exit 0
+          fi
+
+          git add data/social-posted.json
+          git commit -m "social: geposte routes bijgewerkt ($(date -u +%F))"
+          git pull -q --rebase origin main
+          git push
