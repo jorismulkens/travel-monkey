@@ -38,7 +38,7 @@ export function HomeHero({ route }: HomeHeroProps) {
           <div className="relative z-10">
             <p className="inline-flex animate-fade-up items-center gap-2 rounded-full border border-jungle-900/15 bg-sand-50/70 px-4 py-2 text-[0.67rem] font-semibold uppercase tracking-[0.17em] text-jungle-700 backdrop-blur">
               <Sparkles className="h-3.5 w-3.5 text-sunset-600" />
-              Reisblog van Mila · sinds 2022
+              Reisblog · sinds 2022
             </p>
 
             <h1
@@ -73,9 +73,9 @@ export function HomeHero({ route }: HomeHeroProps) {
               className="mt-7 max-w-xl animate-fade-up text-[1.02rem] leading-8 text-jungle-800/85 sm:text-[1.08rem]"
               style={{ animationDelay: "160ms" }}
             >
-              Ik ben Mila. Ik reis met een rugzak, een schrift en een hekel aan
-              strakke schema&apos;s. Hier vind je routes die ik zelf liep, met
-              echte prijzen, natte schoenen en de verkeerde afslagen erbij.
+              Wij schrijven over reizen: routes die we zelf liepen, tips die
+              echt werken en verhalen van onderweg. Met echte prijzen, natte
+              schoenen en de verkeerde afslagen erbij.
             </p>
 
             <div
@@ -83,10 +83,10 @@ export function HomeHero({ route }: HomeHeroProps) {
               style={{ animationDelay: "240ms" }}
             >
               <Link
-                href="/reizen/bali-3-weken"
+                href="/reizen"
                 className="group inline-flex items-center justify-center gap-2 rounded-full bg-jungle-900 px-6 py-3.5 text-sm font-semibold text-sand-50 transition-all duration-300 hover:-translate-y-0.5 hover:bg-jungle-800 hover:shadow-soft"
               >
-                Bekijk de Bali-route
+                Bekijk de routes
                 <ArrowRight className="h-4 w-4 transition-transform duration-300 group-hover:translate-x-1" />
               </Link>
               <Link

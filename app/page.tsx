@@ -8,6 +8,7 @@ import {
   ArrowUpRight,
   Calendar,
   Check,
+  Compass,
   MapPin,
   Sparkles,
   Sun,
@@ -24,6 +25,28 @@ import {
   getAllRoutes,
   getLocations,
 } from "@/lib/content";
+import { regions } from "@/lib/regions";
+
+const categories = [
+  {
+    title: "Reizen",
+    body: "Complete routes, van dag tot dag. Met echte prijzen, boottijden en de plekken waar we zelf sliepen.",
+    href: "/reizen",
+    cta: "Bekijk de routes",
+  },
+  {
+    title: "Tips",
+    body: "De kleine dingen die het verschil maken: vervoer, geld, internet en wat er echt in je tas moet.",
+    href: "/tips",
+    cta: "Lees de tips",
+  },
+  {
+    title: "Verhalen",
+    body: "Wat we onderweg meemaakten en wat we daarvan leerden. Soms mooi, soms onhandig, altijd echt.",
+    href: "/blog",
+    cta: "Lees de verhalen",
+  },
+];
 
 export default function HomePage() {
   const routes = getAllRoutes();
@@ -35,12 +58,82 @@ export default function HomePage() {
     return null;
   }
 
+  const uitgelichteTips = route.stops.slice(0, 3);
+
   return (
     <>
       <HomeHero route={route} />
       <Marquee />
 
       <section className="section-space">
+        <div className="container-wide">
+          <SectionHeading
+            eyebrow="Waar we over schrijven"
+            title={
+              <>
+                Reizen, tips en{" "}
+                <span className="italic text-sunset-600">verhalen.</span>
+              </>
+            }
+            description="Een blog over reizen met een omweg. Geen boekingen en geen commissie — gewoon wat wij zelf meemaakten, opgeschreven zodat jij er iets aan hebt."
+          />
+
+          <div className="mt-10 grid gap-4 md:grid-cols-3">
+            {categories.map((item, index) => (
+              <Reveal key={item.title} delay={index * 90} className="h-full">
+                <div className="group flex h-full flex-col rounded-[1.75rem] border border-jungle-900/10 bg-sand-50 p-6 transition-all duration-300 hover:-translate-y-0.5 hover:shadow-soft sm:p-7">
+                  <span className="flex h-11 w-11 items-center justify-center rounded-full bg-jungle-900 text-sand-50 transition-colors group-hover:bg-sunset-500">
+                    <Compass className="h-5 w-5" />
+                  </span>
+                  <h3 className="mt-5 font-display text-xl font-semibold text-jungle-950">
+                    {item.title}
+                  </h3>
+                  <p className="mt-2 text-sm leading-6 text-jungle-700/80">
+                    {item.body}
+                  </p>
+                  <Link
+                    href={item.href}
+                    className="mt-auto inline-flex items-center gap-2 pt-6 text-sm font-semibold text-jungle-900 transition-colors group-hover:text-sunset-600"
+                  >
+                    {item.cta}
+                    <ArrowUpRight className="h-4 w-4 transition-transform duration-300 group-hover:translate-x-0.5 group-hover:-translate-y-0.5" />
+                  </Link>
+                </div>
+              </Reveal>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      <section className="pb-16 sm:pb-20">
+        <div className="container-wide">
+          <div className="flex flex-col gap-4 rounded-[1.75rem] border border-jungle-900/10 bg-sand-50 p-5 sm:flex-row sm:items-center sm:p-6">
+            <p className="shrink-0 text-[0.64rem] font-semibold uppercase tracking-[0.19em] text-sunset-700">
+              Per regio
+            </p>
+            <div className="flex flex-wrap gap-2">
+              {regions.map((region) => (
+                <Link
+                  key={region.slug}
+                  href={`/regio/${region.slug}`}
+                  className="rounded-full bg-sand-100 px-3.5 py-1.5 text-sm font-medium text-jungle-800 transition-colors hover:bg-sand-200"
+                >
+                  {region.label}
+                </Link>
+              ))}
+            </div>
+            <Link
+              href="/blog"
+              className="group inline-flex items-center gap-2 text-sm font-semibold text-jungle-900 transition-colors hover:text-sunset-600 sm:ml-auto"
+            >
+              Alle verhalen
+              <ArrowRight className="h-4 w-4 transition-transform duration-300 group-hover:translate-x-1" />
+            </Link>
+          </div>
+        </div>
+      </section>
+
+      <section className="pb-20 sm:pb-24 lg:pb-28">
         <div className="container-wide">
           <SectionHeading
             eyebrow="Route van dit seizoen"
@@ -157,14 +250,14 @@ export default function HomePage() {
       <section className="section-space">
         <div className="container-wide">
           <SectionHeading
-            eyebrow="Nieuwe verhalen"
+            eyebrow="Veldverhalen"
             title={
               <>
-                Wat ik onderweg{" "}
-                <span className="italic text-sunset-600">opschreef.</span>
+                Wat we onderweg{" "}
+                <span className="italic text-sunset-600">opschreven.</span>
               </>
             }
-            description="Geen handleidingen met tien tips, maar wat ik zelf deed, betaalde en soms verkeerd deed. Met ruimte voor twijfel."
+            description="Geen handleidingen met tien tips, maar wat we zelf deden, betaalden en soms verkeerd deden. Met ruimte voor twijfel."
             action={{ href: "/blog", label: "Alle verhalen" }}
           />
 
@@ -172,6 +265,38 @@ export default function HomePage() {
             {posts.slice(0, 2).map((post, index) => (
               <Reveal key={post.slug} delay={index * 100} className="h-full">
                 <BlogCard post={post} />
+              </Reveal>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      <section className="pb-20 sm:pb-24 lg:pb-28">
+        <div className="container-wide">
+          <SectionHeading
+            eyebrow="Kleine tips"
+            title={
+              <>
+                Dingen die we pas{" "}
+                <span className="italic text-sunset-600">onderweg leerden.</span>
+              </>
+            }
+            description="Geen lijstjes van tien, maar de dingen die we achteraf graag van tevoren hadden geweten."
+            action={{ href: "/tips", label: "Alle tips" }}
+          />
+
+          <div className="mt-10 grid gap-4 md:grid-cols-3">
+            {uitgelichteTips.map((stop, index) => (
+              <Reveal key={stop.id} delay={index * 90} className="h-full">
+                <div className="flex h-full flex-col rounded-[1.75rem] border border-jungle-900/10 bg-sand-50 p-6">
+                  <p className="inline-flex items-center gap-1.5 text-[0.62rem] font-semibold uppercase tracking-[0.16em] text-sunset-700">
+                    <MapPin className="h-3.5 w-3.5" />
+                    {stop.name}
+                  </p>
+                  <p className="mt-3 text-sm leading-7 text-jungle-700/85">
+                    {stop.tip}
+                  </p>
+                </div>
               </Reveal>
             ))}
           </div>
@@ -190,7 +315,7 @@ export default function HomePage() {
                 <div className="relative min-h-[22rem] overflow-hidden lg:min-h-full">
                   <Image
                     src="/images/traveler-portrait.jpg"
-                    alt="Mila, de reiziger achter Travel Monkey"
+                    alt="Mila, oprichter van Travel Monkey"
                     fill
                     sizes="(min-width: 1024px) 36vw, 100vw"
                     className="object-cover object-center"
@@ -200,7 +325,7 @@ export default function HomePage() {
                     aria-hidden="true"
                   />
                   <div className="absolute bottom-5 left-5 rounded-full bg-sand-50/95 px-4 py-2 text-[0.62rem] font-bold uppercase tracking-[0.14em] text-jungle-900 backdrop-blur">
-                    Hoi, ik ben Mila
+                    Mila · oprichter
                   </div>
                 </div>
 
@@ -212,25 +337,24 @@ export default function HomePage() {
                     🐒
                   </span>
                   <p className="eyebrow text-sunset-300 before:bg-sunset-400">
-                    Achter de site
+                    Over ons
                   </p>
                   <blockquote className="mt-5 max-w-2xl font-display text-[1.85rem] font-medium leading-[1.2] tracking-[-0.025em] text-sand-50 sm:text-[2.35rem]">
-                    &ldquo;Ik ben geen reisprofessor. Ik ben iemand die te veel
-                    koffie drinkt en te lang blijft hangen op plekken die niet
-                    op mijn lijstje stonden.&rdquo;
+                    &ldquo;Wij schrijven alleen over plekken waar we zelf
+                    waren.&rdquo;
                   </blockquote>
                   <p className="mt-6 max-w-xl text-sm leading-7 text-sand-200/75">
                     Travel Monkey begon als een notitieboek vol prijzen,
-                    boottijden en fouten. Die notities zijn nu routes en
-                    verhalen waar jij iets aan hebt. Geen perfecte plaatjes,
-                    wel eerlijk reizen.
+                    boottijden en fouten. Die notities zijn nu routes, tips en
+                    verhalen waar jij iets aan hebt. Geen perfecte plaatjes, wel
+                    eerlijk reizen.
                   </p>
                   <div className="mt-8 flex flex-wrap items-center gap-5">
                     <Link
-                      href="/over"
+                      href="/over-ons"
                       className="group inline-flex items-center gap-2 rounded-full bg-sand-50 px-5 py-3 text-sm font-semibold text-jungle-950 transition-all duration-300 hover:-translate-y-0.5 hover:bg-sunset-500 hover:text-white"
                     >
-                      Leer me kennen
+                      Over ons
                       <ArrowUpRight className="h-4 w-4 transition-transform duration-300 group-hover:translate-x-0.5 group-hover:-translate-y-0.5" />
                     </Link>
                     <span className="text-xs font-medium text-sand-300/70">
@@ -259,11 +383,11 @@ export default function HomePage() {
               />
               <MonkeyMark size={58} className="mx-auto ring-4 ring-white/20" />
               <h2 className="mx-auto mt-6 max-w-2xl font-display text-[2.25rem] font-semibold leading-[1.06] tracking-[-0.035em] sm:text-[3rem]">
-                Pak je rugzak. De rest komt onderweg.
+                Blijf lezen.
               </h2>
               <p className="mx-auto mt-4 max-w-xl text-sm leading-7 text-sunset-50/90 sm:text-base">
-                Begin met de route die ik zelf liep, of lees eerst hoe een
-                ochtend in Ubud eruitziet. Beide zijn een goede eerste stap.
+                Begin bij de route die we zelf liepen, of duik in de verhalen en
+                tips. Alles staat er gratis op, precies zoals we het meemaakten.
               </p>
               <div className="mt-8 flex flex-col justify-center gap-3 sm:flex-row">
                 <Link
@@ -274,10 +398,10 @@ export default function HomePage() {
                   <ArrowRight className="h-4 w-4 transition-transform duration-300 group-hover:translate-x-1" />
                 </Link>
                 <Link
-                  href="/blog/een-ochtend-in-ubud"
+                  href="/blog"
                   className="inline-flex items-center justify-center gap-2 rounded-full border border-white/35 bg-white/10 px-6 py-3.5 text-sm font-semibold text-white backdrop-blur transition-colors hover:bg-white/20"
                 >
-                  Lees het Ubud-verhaal
+                  Lees de verhalen
                 </Link>
               </div>
             </div>

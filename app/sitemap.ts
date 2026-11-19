@@ -1,6 +1,7 @@
 import type { MetadataRoute } from "next";
 
 import { getAllBlogPosts, getAllRoutes } from "@/lib/content";
+import { regions } from "@/lib/regions";
 import { siteUrl } from "@/lib/site";
 
 export default function sitemap(): MetadataRoute.Sitemap {
@@ -26,12 +27,25 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.8,
     },
     {
-      url: `${baseUrl}/over`,
+      url: `${baseUrl}/tips`,
+      lastModified: new Date(),
+      changeFrequency: "monthly",
+      priority: 0.8,
+    },
+    {
+      url: `${baseUrl}/over-ons`,
       lastModified: new Date(),
       changeFrequency: "monthly",
       priority: 0.6,
     },
   ];
+
+  const regionPages: MetadataRoute.Sitemap = regions.map((region) => ({
+    url: `${baseUrl}/regio/${region.slug}`,
+    lastModified: new Date(),
+    changeFrequency: "weekly",
+    priority: 0.7,
+  }));
 
   const routePages: MetadataRoute.Sitemap = getAllRoutes().map((route) => ({
     url: `${baseUrl}/reizen/${route.slug}`,
@@ -47,5 +61,5 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.7,
   }));
 
-  return [...staticPages, ...routePages, ...blogPages];
+  return [...staticPages, ...regionPages, ...routePages, ...blogPages];
 }

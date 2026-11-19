@@ -278,7 +278,7 @@ foto's staan in de projectmap en er is geen database of API-sleutel nodig.
 
 > 🖼️ **Wat je ziet (screenshot-beschrijving)**
 > Bovenaan je eigen site staat het bruine logo met het aapje, de naam Travel
-> Monkey en het menu Reizen, Verhalen en Over Mila. Daaronder begint de grote
+> Monkey en het menu Reizen, Tips, Verhalen en Over ons. Daaronder begint de grote
 > titel "Reis verder dan de gebaande paden." Je bent klaar: dit is jouw live
 > website.
 
@@ -406,3 +406,87 @@ Daarmee kan iemand je meestal binnen een paar minuten verder helpen.
 **Klaar?** Dan heb je nu een echte website, een GitHub-repository en een gratis
 Vercel-adres. Je kunt de site vanaf nu delen, en later teksten of foto's
 aanpassen zonder opnieuw te hoeven beginnen.
+
+---
+
+## 10. Automatisch nieuwe artikelen (elke dag)
+
+Vanaf nu kan de site zichzelf vullen: elke dag komen er vijf nieuwe artikelen
+bij, zonder dat je computer aan hoeft te staan.
+
+**Zo werkt het**
+
+1. GitHub Actions start elke dag om 05:00 UTC (06:00 of 07:00 Nederlandse tijd).
+2. Het script `scripts/generate.mjs` schrijft drie reisroutes en twee
+   tipsartikelen, verspreid over de zeven regio's.
+3. Bij elk artikel zoekt het script een foto via Pixabay, downloadt die,
+   verkleint hem naar 1400 pixels en slaat hem op in `public/images/posts`.
+   De fotograaf komt onder het artikel te staan.
+4. De nieuwe artikelen worden als JSON in `data/blog` gezet en gecommit,
+   samen met de foto's.
+5. Vercel ziet de commit en bouwt de site automatisch opnieuw.
+
+Je hoeft dus niets te doen: geen laptop aan, geen knop indrukken.
+
+### Eenmalig instellen (ongeveer 15 minuten)
+
+1. Zorg dat je project in een GitHub-repository staat (stap 2 en 3 hierboven).
+2. Maak een OpenAI-sleutel op **platform.openai.com** → *API keys* →
+   *Create new secret key*. Stel bij *Limits* een maandbedrag in, bijvoorbeeld
+   5 dollar. Dat is ruim genoeg.
+3. Maak een gratis Pixabay-sleutel: log in op **pixabay.com** en ga naar
+   **pixabay.com/api/docs**. Bovenaan de pagina staat jouw sleutel.
+4. Ga in GitHub naar **Settings → Secrets and variables → Actions** en voeg
+   twee secrets toe:
+   - `OPENAI_API_KEY`
+   - `PIXABAY_API_KEY`
+5. Ga naar **Settings → Actions → General → Workflow permissions** en kies
+   **Read and write permissions**. Zonder dit mag de bot niets committen.
+6. Test het één keer met de hand: **Actions → Nieuwe reisverhalen →
+   Run workflow**.
+
+### Wat het ongeveer kost
+
+Een paar artikelen per dag met het standaardmodel (`gpt-4o-mini`) kost
+ongeveer een paar dollar per maand. Pixabay en GitHub Actions zijn gratis.
+
+Twee praktische dingen over de foto's:
+
+- Pixabay staat niet toe dat je hun afbeeldingen blijft hotlinken. Daarom
+  downloadt het script elke foto en zet hem in `public/images/posts`. Reken op
+  ongeveer 70 tot 120 KB per artikel, dus zo'n 20 MB per maand.
+- De Pixabay-licentie vraagt geen naamsvermelding, maar we zetten de fotograaf
+  toch onder elk artikel.
+
+### Kwaliteit en eerlijkheid
+
+De generator schrijft als **Redactie**, niet als Mila, en zet onder elk
+automatisch artikel een regel dat het automatisch is samengesteld. Het script
+krijgt de opdracht geen hotels of restaurants te verzinnen, geen exacte prijzen
+te noemen en geen visa-eisen te beweren. Lees de eerste week toch even mee: AI
+is niet altijd betrouwbaar.
+
+### Aanpassen
+
+| Wat | Waar |
+| --- | --- |
+| Aantal per dag | `POSTS_PER_DAY` in de workflow, of het invoerveld bij handmatig starten |
+| Routes versus tips | `ROUTE_RATIO` in de workflow (0.6 is drie routes en twee tips) |
+| Model | GitHub → Settings → Variables → `OPENAI_MODEL` |
+| Onderwerpen | `data/topics.json` — voeg bestemmingen of tips-onderwerpen toe |
+| Stoppen | GitHub → Actions → de workflow → *Disable workflow* |
+| Toon of regels | `SYSTEM_PROMPT` in `scripts/generate.mjs` |
+
+### Lokaal testen
+
+```bash
+npm run generate:mock   # offline, maakt vijf voorbeeldartikelen
+npm run generate:dry    # echte API, maar schrijft niets weg
+npm run generate        # echte run
+```
+
+### Grenzen
+
+- De lijst met onderwerpen raakt een keer op. Breid `data/topics.json` dan uit.
+- De site wordt trager om te bouwen naarmate er meer artikelen bijkomen.
+- Controleer af en toe of de feiten nog kloppen, zeker bij prijzen en regels.

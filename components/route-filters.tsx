@@ -126,19 +126,19 @@ export function RouteFilters({ routes }: RouteFiltersProps) {
               <div className="relative">
                 <MonkeyMark size={52} />
                 <p className="mt-7 text-[0.64rem] font-semibold uppercase tracking-[0.19em] text-sunset-300">
-                  Mijn regel
+                  Onze regel
                 </p>
                 <h2 className="mt-3 font-display text-[2rem] font-semibold leading-[1.08] tracking-[-0.03em] text-sand-50">
                   Eerst lopen, dan schrijven.
                 </h2>
                 <p className="mt-5 text-sm leading-7 text-sand-200/75">
-                  Ik zet pas een route online als ik hem zelf heb gelopen. Met
-                  de prijzen die ik betaalde, de boot die te laat kwam en de
-                  plek waar ik langer bleef dan gepland.
+                  Wij zetten pas een route online als we hem zelf hebben
+                  gelopen. Met de prijzen die we betaalden, de boot die te laat
+                  kwam en de plek waar we langer bleven dan gepland.
                 </p>
                 <p className="mt-4 text-sm leading-7 text-sand-200/75">
-                  Daarom staat hier nu één route. De volgende komt pas als ik
-                  terug ben — niet omdat de kalender het vraagt.
+                  Daarom staat hier nu één route. De volgende komt pas als we
+                  terug zijn — niet omdat de kalender het vraagt.
                 </p>
 
                 <dl className="mt-7 grid grid-cols-3 gap-3 border-y border-sand-100/15 py-5 text-center">
@@ -170,10 +170,10 @@ export function RouteFilters({ routes }: RouteFiltersProps) {
               </div>
 
               <Link
-                href="/over"
+                href="/over-ons"
                 className="group relative mt-7 inline-flex items-center justify-between gap-3 rounded-full border border-sand-100/20 px-5 py-3 text-sm font-semibold text-sand-50 transition-colors hover:bg-sand-50 hover:text-jungle-950"
               >
-                Waarom ik dit doe
+                Waarom we dit doen
                 <ArrowUpRight className="h-4 w-4" />
               </Link>
             </aside>
@@ -186,8 +186,8 @@ export function RouteFilters({ routes }: RouteFiltersProps) {
             Deze route is nog niet af.
           </h2>
           <p className="mx-auto mt-3 max-w-md text-sm leading-6 text-jungle-700/80">
-            Ik zet pas een route online als ik hem zelf heb gelopen. Kies een
-            andere duur of bekijk de route die er wel is.
+            Wij zetten pas een route online als we hem zelf hebben gelopen.
+            Kies een andere duur of bekijk de route die er wel is.
           </p>
           <button
             type="button"

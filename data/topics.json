@@ -1,0 +1,1277 @@
+{
+  "_comment": "Onderwerpen waaruit de generator put. Voeg gerust bestemmingen of tips-angles toe; de generator pakt automatisch wat het minst gebruikt is.",
+  "destinations": [
+    {
+      "key": "thailand",
+      "region": "azie",
+      "country": "Thailand",
+      "name": "Thailand",
+      "places": [
+        "Bangkok",
+        "Chiang Mai",
+        "Pai",
+        "Koh Tao",
+        "Krabi",
+        "Khao Sok"
+      ],
+      "imageQuery": "thailand temple",
+      "routeVariants": [
+        "1 week",
+        "2 weken",
+        "3 weken"
+      ]
+    },
+    {
+      "key": "vietnam",
+      "region": "azie",
+      "country": "Vietnam",
+      "name": "Vietnam",
+      "places": [
+        "Hanoi",
+        "Ha Long Bay",
+        "Hoi An",
+        "Ninh Binh",
+        "Ho Chi Minhstad"
+      ],
+      "imageQuery": "vietnam rice terrace",
+      "routeVariants": [
+        "1 week",
+        "2 weken",
+        "3 weken"
+      ]
+    },
+    {
+      "key": "indonesie",
+      "region": "azie",
+      "country": "Indonesië",
+      "name": "Indonesië",
+      "places": [
+        "Ubud",
+        "Uluwatu",
+        "Gili Trawangan",
+        "Nusa Penida",
+        "Yogyakarta"
+      ],
+      "imageQuery": "bali rice terrace",
+      "routeVariants": [
+        "1 week",
+        "2 weken",
+        "3 weken"
+      ]
+    },
+    {
+      "key": "japan",
+      "region": "azie",
+      "country": "Japan",
+      "name": "Japan",
+      "places": [
+        "Tokio",
+        "Kyoto",
+        "Osaka",
+        "Hakone",
+        "Hiroshima"
+      ],
+      "imageQuery": "japan temple kyoto",
+      "routeVariants": [
+        "1 week",
+        "2 weken",
+        "3 weken"
+      ]
+    },
+    {
+      "key": "sri-lanka",
+      "region": "azie",
+      "country": "Sri Lanka",
+      "name": "Sri Lanka",
+      "places": [
+        "Colombo",
+        "Kandy",
+        "Ella",
+        "Mirissa",
+        "Sigiriya"
+      ],
+      "imageQuery": "sri lanka train",
+      "routeVariants": [
+        "1 week",
+        "2 weken",
+        "3 weken"
+      ]
+    },
+    {
+      "key": "nepal",
+      "region": "azie",
+      "country": "Nepal",
+      "name": "Nepal",
+      "places": [
+        "Kathmandu",
+        "Pokhara",
+        "Annapurna",
+        "Chitwan",
+        "Bhaktapur"
+      ],
+      "imageQuery": "nepal himalaya",
+      "routeVariants": [
+        "1 week",
+        "2 weken",
+        "3 weken"
+      ]
+    },
+    {
+      "key": "maleisie",
+      "region": "azie",
+      "country": "Maleisië",
+      "name": "Maleisië",
+      "places": [
+        "Kuala Lumpur",
+        "Penang",
+        "Langkawi",
+        "Borneo",
+        "Malakka"
+      ],
+      "imageQuery": "malaysia street food",
+      "routeVariants": [
+        "1 week",
+        "2 weken",
+        "3 weken"
+      ]
+    },
+    {
+      "key": "filipijnen",
+      "region": "azie",
+      "country": "Filipijnen",
+      "name": "Filipijnen",
+      "places": [
+        "Manila",
+        "Palawan",
+        "Cebu",
+        "Siargao",
+        "Bohol"
+      ],
+      "imageQuery": "philippines island",
+      "routeVariants": [
+        "1 week",
+        "2 weken",
+        "3 weken"
+      ]
+    },
+    {
+      "key": "india",
+      "region": "azie",
+      "country": "India",
+      "name": "India",
+      "places": [
+        "Delhi",
+        "Agra",
+        "Jaipur",
+        "Varanasi",
+        "Kerala"
+      ],
+      "imageQuery": "india taj mahal",
+      "routeVariants": [
+        "1 week",
+        "2 weken",
+        "3 weken"
+      ]
+    },
+    {
+      "key": "cambodja",
+      "region": "azie",
+      "country": "Cambodja",
+      "name": "Cambodja",
+      "places": [
+        "Phnom Penh",
+        "Siem Reap",
+        "Kampot",
+        "Koh Rong"
+      ],
+      "imageQuery": "cambodia angkor",
+      "routeVariants": [
+        "1 week",
+        "2 weken",
+        "3 weken"
+      ]
+    },
+    {
+      "key": "china",
+      "region": "azie",
+      "country": "China",
+      "name": "China",
+      "places": [
+        "Peking",
+        "Xi'an",
+        "Shanghai",
+        "Guilin",
+        "Chengdu"
+      ],
+      "imageQuery": "china great wall",
+      "routeVariants": [
+        "1 week",
+        "2 weken",
+        "3 weken"
+      ]
+    },
+    {
+      "key": "south-korea",
+      "region": "azie",
+      "country": "Zuid-Korea",
+      "name": "Zuid-Korea",
+      "places": [
+        "Seoul",
+        "Busan",
+        "Jeju",
+        "Gyeongju"
+      ],
+      "imageQuery": "south korea seoul",
+      "routeVariants": [
+        "1 week",
+        "2 weken",
+        "3 weken"
+      ]
+    },
+    {
+      "key": "costa-rica",
+      "region": "midden-amerika",
+      "country": "Costa Rica",
+      "name": "Costa Rica",
+      "places": [
+        "San José",
+        "La Fortuna",
+        "Monteverde",
+        "Manuel Antonio",
+        "Tamarindo"
+      ],
+      "imageQuery": "costa rica jungle",
+      "routeVariants": [
+        "1 week",
+        "2 weken",
+        "3 weken"
+      ]
+    },
+    {
+      "key": "guatemala",
+      "region": "midden-amerika",
+      "country": "Guatemala",
+      "name": "Guatemala",
+      "places": [
+        "Antigua",
+        "Lake Atitlán",
+        "Flores",
+        "Tikal"
+      ],
+      "imageQuery": "guatemala lake atitlan",
+      "routeVariants": [
+        "1 week",
+        "2 weken",
+        "3 weken"
+      ]
+    },
+    {
+      "key": "mexico",
+      "region": "midden-amerika",
+      "country": "Mexico",
+      "name": "Mexico (Yucatán)",
+      "places": [
+        "Cancún",
+        "Tulum",
+        "Valladolid",
+        "Mérida",
+        "Bacalar"
+      ],
+      "imageQuery": "mexico cenote",
+      "routeVariants": [
+        "1 week",
+        "2 weken",
+        "3 weken"
+      ]
+    },
+    {
+      "key": "panama",
+      "region": "midden-amerika",
+      "country": "Panama",
+      "name": "Panama",
+      "places": [
+        "Panama-Stad",
+        "Bocas del Toro",
+        "Boquete",
+        "San Blas"
+      ],
+      "imageQuery": "panama islands",
+      "routeVariants": [
+        "1 week",
+        "2 weken",
+        "3 weken"
+      ]
+    },
+    {
+      "key": "belize",
+      "region": "midden-amerika",
+      "country": "Belize",
+      "name": "Belize",
+      "places": [
+        "Belize City",
+        "Caye Caulker",
+        "San Ignacio",
+        "Placencia"
+      ],
+      "imageQuery": "belize reef",
+      "routeVariants": [
+        "1 week",
+        "2 weken",
+        "3 weken"
+      ]
+    },
+    {
+      "key": "nicaragua",
+      "region": "midden-amerika",
+      "country": "Nicaragua",
+      "name": "Nicaragua",
+      "places": [
+        "Granada",
+        "León",
+        "Ometepe",
+        "San Juan del Sur"
+      ],
+      "imageQuery": "nicaragua volcano",
+      "routeVariants": [
+        "1 week",
+        "2 weken",
+        "3 weken"
+      ]
+    },
+    {
+      "key": "honduras",
+      "region": "midden-amerika",
+      "country": "Honduras",
+      "name": "Honduras",
+      "places": [
+        "Roatán",
+        "Utila",
+        "Copán",
+        "La Ceiba"
+      ],
+      "imageQuery": "honduras caribbean",
+      "routeVariants": [
+        "1 week",
+        "2 weken",
+        "3 weken"
+      ]
+    },
+    {
+      "key": "el-salvador",
+      "region": "midden-amerika",
+      "country": "El Salvador",
+      "name": "El Salvador",
+      "places": [
+        "San Salvador",
+        "Santa Ana",
+        "El Tunco",
+        "Suchitoto"
+      ],
+      "imageQuery": "el salvador surf",
+      "routeVariants": [
+        "1 week",
+        "2 weken",
+        "3 weken"
+      ]
+    },
+    {
+      "key": "peru",
+      "region": "zuid-amerika",
+      "country": "Peru",
+      "name": "Peru",
+      "places": [
+        "Lima",
+        "Cusco",
+        "Machu Picchu",
+        "Arequipa",
+        "Puno"
+      ],
+      "imageQuery": "peru machu picchu",
+      "routeVariants": [
+        "1 week",
+        "2 weken",
+        "3 weken"
+      ]
+    },
+    {
+      "key": "colombia",
+      "region": "zuid-amerika",
+      "country": "Colombia",
+      "name": "Colombia",
+      "places": [
+        "Bogotá",
+        "Medellín",
+        "Cartagena",
+        "Salento",
+        "Santa Marta"
+      ],
+      "imageQuery": "colombia cartagena",
+      "routeVariants": [
+        "1 week",
+        "2 weken",
+        "3 weken"
+      ]
+    },
+    {
+      "key": "argentinie",
+      "region": "zuid-amerika",
+      "country": "Argentinië",
+      "name": "Argentinië",
+      "places": [
+        "Buenos Aires",
+        "Mendoza",
+        "Bariloche",
+        "El Calafate",
+        "Salta"
+      ],
+      "imageQuery": "argentina patagonia",
+      "routeVariants": [
+        "1 week",
+        "2 weken",
+        "3 weken"
+      ]
+    },
+    {
+      "key": "chili",
+      "region": "zuid-amerika",
+      "country": "Chili",
+      "name": "Chili",
+      "places": [
+        "Santiago",
+        "Valparaíso",
+        "Atacama",
+        "Torres del Paine",
+        "Chiloé"
+      ],
+      "imageQuery": "chile atacama",
+      "routeVariants": [
+        "1 week",
+        "2 weken",
+        "3 weken"
+      ]
+    },
+    {
+      "key": "brazilie",
+      "region": "zuid-amerika",
+      "country": "Brazilië",
+      "name": "Brazilië",
+      "places": [
+        "Rio de Janeiro",
+        "São Paulo",
+        "Salvador",
+        "Iguaçu",
+        "Florianópolis"
+      ],
+      "imageQuery": "brazil rio",
+      "routeVariants": [
+        "1 week",
+        "2 weken",
+        "3 weken"
+      ]
+    },
+    {
+      "key": "ecuador",
+      "region": "zuid-amerika",
+      "country": "Ecuador",
+      "name": "Ecuador",
+      "places": [
+        "Quito",
+        "Galápagos",
+        "Cuenca",
+        "Baños",
+        "Otavalo"
+      ],
+      "imageQuery": "ecuador galapagos",
+      "routeVariants": [
+        "1 week",
+        "2 weken",
+        "3 weken"
+      ]
+    },
+    {
+      "key": "bolivia",
+      "region": "zuid-amerika",
+      "country": "Bolivia",
+      "name": "Bolivia",
+      "places": [
+        "La Paz",
+        "Uyuni",
+        "Sucre",
+        "Potosí",
+        "Lake Titicaca"
+      ],
+      "imageQuery": "bolivia salt flats",
+      "routeVariants": [
+        "1 week",
+        "2 weken",
+        "3 weken"
+      ]
+    },
+    {
+      "key": "uruguay",
+      "region": "zuid-amerika",
+      "country": "Uruguay",
+      "name": "Uruguay",
+      "places": [
+        "Montevideo",
+        "Punta del Este",
+        "Colonia",
+        "Cabo Polonio"
+      ],
+      "imageQuery": "uruguay coast",
+      "routeVariants": [
+        "1 week",
+        "2 weken",
+        "3 weken"
+      ]
+    },
+    {
+      "key": "portugal",
+      "region": "europa",
+      "country": "Portugal",
+      "name": "Portugal",
+      "places": [
+        "Lissabon",
+        "Porto",
+        "Algarve",
+        "Madeira",
+        "Douro"
+      ],
+      "imageQuery": "portugal lisbon",
+      "routeVariants": [
+        "1 week",
+        "2 weken",
+        "3 weken"
+      ]
+    },
+    {
+      "key": "spanje",
+      "region": "europa",
+      "country": "Spanje",
+      "name": "Spanje",
+      "places": [
+        "Madrid",
+        "Barcelona",
+        "Andalusië",
+        "Baskenland",
+        "Canarische Eilanden"
+      ],
+      "imageQuery": "spain andalusia",
+      "routeVariants": [
+        "1 week",
+        "2 weken",
+        "3 weken"
+      ]
+    },
+    {
+      "key": "italie",
+      "region": "europa",
+      "country": "Italië",
+      "name": "Italië",
+      "places": [
+        "Rome",
+        "Florence",
+        "Venetië",
+        "Amalfikust",
+        "Sicilië"
+      ],
+      "imageQuery": "italy amalfi",
+      "routeVariants": [
+        "1 week",
+        "2 weken",
+        "3 weken"
+      ]
+    },
+    {
+      "key": "griekenland",
+      "region": "europa",
+      "country": "Griekenland",
+      "name": "Griekenland",
+      "places": [
+        "Athene",
+        "Santorini",
+        "Kreta",
+        "Naxos",
+        "Peloponnesos"
+      ],
+      "imageQuery": "greece island",
+      "routeVariants": [
+        "1 week",
+        "2 weken",
+        "3 weken"
+      ]
+    },
+    {
+      "key": "noorwegen",
+      "region": "europa",
+      "country": "Noorwegen",
+      "name": "Noorwegen",
+      "places": [
+        "Oslo",
+        "Bergen",
+        "Fjorden",
+        "Lofoten",
+        "Tromsø"
+      ],
+      "imageQuery": "norway fjord",
+      "routeVariants": [
+        "1 week",
+        "2 weken",
+        "3 weken"
+      ]
+    },
+    {
+      "key": "slovenie",
+      "region": "europa",
+      "country": "Slovenië",
+      "name": "Slovenië",
+      "places": [
+        "Ljubljana",
+        "Lake Bled",
+        "Triglav",
+        "Piran",
+        "Postojna"
+      ],
+      "imageQuery": "slovenia lake bled",
+      "routeVariants": [
+        "1 week",
+        "2 weken",
+        "3 weken"
+      ]
+    },
+    {
+      "key": "kroatie",
+      "region": "europa",
+      "country": "Kroatië",
+      "name": "Kroatië",
+      "places": [
+        "Dubrovnik",
+        "Split",
+        "Hvar",
+        "Plitvice",
+        "Zadar"
+      ],
+      "imageQuery": "croatia dubrovnik",
+      "routeVariants": [
+        "1 week",
+        "2 weken",
+        "3 weken"
+      ]
+    },
+    {
+      "key": "ijsland",
+      "region": "europa",
+      "country": "IJsland",
+      "name": "IJsland",
+      "places": [
+        "Reykjavik",
+        "Golden Circle",
+        "Vík",
+        "Jökulsárlón",
+        "Akureyri"
+      ],
+      "imageQuery": "iceland waterfall",
+      "routeVariants": [
+        "1 week",
+        "2 weken",
+        "3 weken"
+      ]
+    },
+    {
+      "key": "schotland",
+      "region": "europa",
+      "country": "Schotland",
+      "name": "Schotland",
+      "places": [
+        "Edinburgh",
+        "Isle of Skye",
+        "Glasgow",
+        "Hooglanden",
+        "Inverness"
+      ],
+      "imageQuery": "scotland highlands",
+      "routeVariants": [
+        "1 week",
+        "2 weken",
+        "3 weken"
+      ]
+    },
+    {
+      "key": "albanie",
+      "region": "europa",
+      "country": "Albanië",
+      "name": "Albanië",
+      "places": [
+        "Tirana",
+        "Berat",
+        "Gjirokastër",
+        "Ksamili",
+        "Theth"
+      ],
+      "imageQuery": "albania coast",
+      "routeVariants": [
+        "1 week",
+        "2 weken",
+        "3 weken"
+      ]
+    },
+    {
+      "key": "tsjechie",
+      "region": "europa",
+      "country": "Tsjechië",
+      "name": "Tsjechië",
+      "places": [
+        "Praag",
+        "Český Krumlov",
+        "Brno",
+        "Bohemian Switzerland"
+      ],
+      "imageQuery": "prague old town",
+      "routeVariants": [
+        "1 week",
+        "2 weken",
+        "3 weken"
+      ]
+    },
+    {
+      "key": "turkije",
+      "region": "europa",
+      "country": "Turkije",
+      "name": "Turkije",
+      "places": [
+        "Istanbul",
+        "Cappadocië",
+        "Antalya",
+        "Efeze",
+        "Pamukkale"
+      ],
+      "imageQuery": "turkey cappadocia",
+      "routeVariants": [
+        "1 week",
+        "2 weken",
+        "3 weken"
+      ]
+    },
+    {
+      "key": "zuid-afrika",
+      "region": "afrika",
+      "country": "Zuid-Afrika",
+      "name": "Zuid-Afrika",
+      "places": [
+        "Kaapstad",
+        "Wijnland",
+        "Kruger",
+        "Drakensberg",
+        "Garden Route"
+      ],
+      "imageQuery": "south africa cape town",
+      "routeVariants": [
+        "1 week",
+        "2 weken",
+        "3 weken"
+      ]
+    },
+    {
+      "key": "marokko",
+      "region": "afrika",
+      "country": "Marokko",
+      "name": "Marokko",
+      "places": [
+        "Marrakech",
+        "Fes",
+        "Chefchaouen",
+        "Essaouira",
+        "Sahara"
+      ],
+      "imageQuery": "morocco sahara",
+      "routeVariants": [
+        "1 week",
+        "2 weken",
+        "3 weken"
+      ]
+    },
+    {
+      "key": "namibie",
+      "region": "afrika",
+      "country": "Namibië",
+      "name": "Namibië",
+      "places": [
+        "Windhoek",
+        "Sossusvlei",
+        "Swakopmund",
+        "Etosha",
+        "Damaraland"
+      ],
+      "imageQuery": "namibia dunes",
+      "routeVariants": [
+        "1 week",
+        "2 weken",
+        "3 weken"
+      ]
+    },
+    {
+      "key": "kenia",
+      "region": "afrika",
+      "country": "Kenia",
+      "name": "Kenia",
+      "places": [
+        "Nairobi",
+        "Masai Mara",
+        "Diani",
+        "Naivasha",
+        "Amboseli"
+      ],
+      "imageQuery": "kenya safari",
+      "routeVariants": [
+        "1 week",
+        "2 weken",
+        "3 weken"
+      ]
+    },
+    {
+      "key": "tanzania",
+      "region": "afrika",
+      "country": "Tanzania",
+      "name": "Tanzania",
+      "places": [
+        "Dar es Salaam",
+        "Zanzibar",
+        "Serengeti",
+        "Kilimanjaro",
+        "Arusha"
+      ],
+      "imageQuery": "tanzania zanzibar",
+      "routeVariants": [
+        "1 week",
+        "2 weken",
+        "3 weken"
+      ]
+    },
+    {
+      "key": "egypte",
+      "region": "afrika",
+      "country": "Egypte",
+      "name": "Egypte",
+      "places": [
+        "Caïro",
+        "Luxor",
+        "Aswan",
+        "Hurghada",
+        "Siwa"
+      ],
+      "imageQuery": "egypt pyramids",
+      "routeVariants": [
+        "1 week",
+        "2 weken",
+        "3 weken"
+      ]
+    },
+    {
+      "key": "rwanda",
+      "region": "afrika",
+      "country": "Rwanda",
+      "name": "Rwanda",
+      "places": [
+        "Kigali",
+        "Volcanoes National Park",
+        "Lake Kivu",
+        "Nyungwe"
+      ],
+      "imageQuery": "rwanda hills",
+      "routeVariants": [
+        "1 week",
+        "2 weken",
+        "3 weken"
+      ]
+    },
+    {
+      "key": "mozambique",
+      "region": "afrika",
+      "country": "Mozambique",
+      "name": "Mozambique",
+      "places": [
+        "Maputo",
+        "Vilankulo",
+        "Bazaruto",
+        "Tofo"
+      ],
+      "imageQuery": "mozambique beach",
+      "routeVariants": [
+        "1 week",
+        "2 weken",
+        "3 weken"
+      ]
+    },
+    {
+      "key": "ghana",
+      "region": "afrika",
+      "country": "Ghana",
+      "name": "Ghana",
+      "places": [
+        "Accra",
+        "Cape Coast",
+        "Kumasi",
+        "Volta"
+      ],
+      "imageQuery": "ghana coast",
+      "routeVariants": [
+        "1 week",
+        "2 weken",
+        "3 weken"
+      ]
+    },
+    {
+      "key": "kaapverdie",
+      "region": "afrika",
+      "country": "Kaapverdië",
+      "name": "Kaapverdië",
+      "places": [
+        "Sal",
+        "Boa Vista",
+        "Santo Antão",
+        "São Vicente"
+      ],
+      "imageQuery": "cape verde island",
+      "routeVariants": [
+        "1 week",
+        "2 weken",
+        "3 weken"
+      ]
+    },
+    {
+      "key": "jordanie",
+      "region": "midden-oosten",
+      "country": "Jordanië",
+      "name": "Jordanië",
+      "places": [
+        "Amman",
+        "Petra",
+        "Wadi Rum",
+        "Dode Zee",
+        "Aqaba"
+      ],
+      "imageQuery": "jordan petra",
+      "routeVariants": [
+        "1 week",
+        "2 weken",
+        "3 weken"
+      ]
+    },
+    {
+      "key": "oman",
+      "region": "midden-oosten",
+      "country": "Oman",
+      "name": "Oman",
+      "places": [
+        "Muscat",
+        "Nizwa",
+        "Wahiba Sands",
+        "Salalah",
+        "Musandam"
+      ],
+      "imageQuery": "oman desert",
+      "routeVariants": [
+        "1 week",
+        "2 weken",
+        "3 weken"
+      ]
+    },
+    {
+      "key": "vae",
+      "region": "midden-oosten",
+      "country": "Verenigde Arabische Emiraten",
+      "name": "Verenigde Arabische Emiraten",
+      "places": [
+        "Dubai",
+        "Abu Dhabi",
+        "Sharjah",
+        "Ras al-Khaimah"
+      ],
+      "imageQuery": "dubai skyline",
+      "routeVariants": [
+        "1 week",
+        "2 weken",
+        "3 weken"
+      ]
+    },
+    {
+      "key": "qatar",
+      "region": "midden-oosten",
+      "country": "Qatar",
+      "name": "Qatar",
+      "places": [
+        "Doha",
+        "Souq Waqif",
+        "Khor al Adaid",
+        "Al Zubarah"
+      ],
+      "imageQuery": "qatar doha",
+      "routeVariants": [
+        "1 week",
+        "2 weken",
+        "3 weken"
+      ]
+    },
+    {
+      "key": "saudi-arabie",
+      "region": "midden-oosten",
+      "country": "Saoedi-Arabië",
+      "name": "Saoedi-Arabië",
+      "places": [
+        "Riyad",
+        "AlUla",
+        "Jeddah",
+        "Abha"
+      ],
+      "imageQuery": "saudi arabia alula",
+      "routeVariants": [
+        "1 week",
+        "2 weken",
+        "3 weken"
+      ]
+    },
+    {
+      "key": "libanon",
+      "region": "midden-oosten",
+      "country": "Libanon",
+      "name": "Libanon",
+      "places": [
+        "Beiroet",
+        "Byblos",
+        "Baalbek",
+        "Batroun"
+      ],
+      "imageQuery": "lebanon coast",
+      "routeVariants": [
+        "1 week",
+        "2 weken",
+        "3 weken"
+      ]
+    },
+    {
+      "key": "israel",
+      "region": "midden-oosten",
+      "country": "Israël",
+      "name": "Israël",
+      "places": [
+        "Tel Aviv",
+        "Jeruzalem",
+        "Dode Zee",
+        "Eilat"
+      ],
+      "imageQuery": "israel jerusalem",
+      "routeVariants": [
+        "1 week",
+        "2 weken",
+        "3 weken"
+      ]
+    },
+    {
+      "key": "australie",
+      "region": "oceanie",
+      "country": "Australië",
+      "name": "Australië",
+      "places": [
+        "Sydney",
+        "Melbourne",
+        "Great Ocean Road",
+        "Uluru",
+        "Cairns"
+      ],
+      "imageQuery": "australia sydney",
+      "routeVariants": [
+        "1 week",
+        "2 weken",
+        "3 weken"
+      ]
+    },
+    {
+      "key": "nieuw-zeeland",
+      "region": "oceanie",
+      "country": "Nieuw-Zeeland",
+      "name": "Nieuw-Zeeland",
+      "places": [
+        "Auckland",
+        "Rotorua",
+        "Queenstown",
+        "Fiordland",
+        "Abel Tasman"
+      ],
+      "imageQuery": "new zealand mountains",
+      "routeVariants": [
+        "1 week",
+        "2 weken",
+        "3 weken"
+      ]
+    },
+    {
+      "key": "fiji",
+      "region": "oceanie",
+      "country": "Fiji",
+      "name": "Fiji",
+      "places": [
+        "Nadi",
+        "Yasawa-eilanden",
+        "Denarau",
+        "Coral Coast"
+      ],
+      "imageQuery": "fiji island",
+      "routeVariants": [
+        "1 week",
+        "2 weken",
+        "3 weken"
+      ]
+    },
+    {
+      "key": "frans-polynesie",
+      "region": "oceanie",
+      "country": "Frans-Polynesië",
+      "name": "Frans-Polynesië",
+      "places": [
+        "Tahiti",
+        "Moorea",
+        "Bora Bora",
+        "Raiatea"
+      ],
+      "imageQuery": "french polynesia",
+      "routeVariants": [
+        "1 week",
+        "2 weken",
+        "3 weken"
+      ]
+    },
+    {
+      "key": "samoa",
+      "region": "oceanie",
+      "country": "Samoa",
+      "name": "Samoa",
+      "places": [
+        "Apia",
+        "Savai'i",
+        "Upolu",
+        "Lalomanu"
+      ],
+      "imageQuery": "samoa beach",
+      "routeVariants": [
+        "1 week",
+        "2 weken",
+        "3 weken"
+      ]
+    },
+    {
+      "key": "vanuatu",
+      "region": "oceanie",
+      "country": "Vanuatu",
+      "name": "Vanuatu",
+      "places": [
+        "Port Vila",
+        "Espiritu Santo",
+        "Tanna",
+        "Efate"
+      ],
+      "imageQuery": "vanuatu volcano",
+      "routeVariants": [
+        "1 week",
+        "2 weken",
+        "3 weken"
+      ]
+    },
+    {
+      "key": "cookeilanden",
+      "region": "oceanie",
+      "country": "Cookeilanden",
+      "name": "Cookeilanden",
+      "places": [
+        "Rarotonga",
+        "Aitutaki",
+        "Atiu"
+      ],
+      "imageQuery": "cook islands lagoon",
+      "routeVariants": [
+        "1 week",
+        "2 weken",
+        "3 weken"
+      ]
+    },
+    {
+      "key": "palau",
+      "region": "oceanie",
+      "country": "Palau",
+      "name": "Palau",
+      "places": [
+        "Koror",
+        "Rock Islands",
+        "Peleliu",
+        "Babeldaob"
+      ],
+      "imageQuery": "palau rock islands",
+      "routeVariants": [
+        "1 week",
+        "2 weken",
+        "3 weken"
+      ]
+    }
+  ],
+  "tipAngles": [
+    {
+      "key": "vervoer",
+      "label": "Vervoer",
+      "brief": "Hoe reis je tussen de plekken: trein, bus, huurauto of binnenlandse vlucht, met wat je ongeveer betaalt en waar je op moet letten."
+    },
+    {
+      "key": "budget",
+      "label": "Budget",
+      "brief": "Wat een reis ongeveer kost per dag, waar het geld naartoe gaat en waar je redelijk kunt besparen zonder iets leuks te missen."
+    },
+    {
+      "key": "beste-reistijd",
+      "label": "Beste reistijd",
+      "brief": "Seizoenen, regen en drukte: wanneer je het beste kunt gaan en wat de nadelen zijn van de populairste maanden."
+    },
+    {
+      "key": "paklijst",
+      "label": "Paklijst",
+      "brief": "Wat je echt nodig hebt, wat je thuis kunt laten en de spullen die achteraf onmisbaar bleken."
+    },
+    {
+      "key": "eten",
+      "label": "Eten en drinken",
+      "brief": "Wat je moet proberen, hoe je veilig eet en wat je ongeveer betaalt voor ontbijt, lunch en diner."
+    },
+    {
+      "key": "solo",
+      "label": "Solo reizen",
+      "brief": "Is het land geschikt om alleen te reizen, waar ontmoet je mensen en waar moet je extra op letten."
+    },
+    {
+      "key": "met-kinderen",
+      "label": "Met kinderen",
+      "brief": "Wat werkt met kinderen, welke plekken te vermoeiend zijn en hoe je het tempo laag houdt."
+    },
+    {
+      "key": "auto-huren",
+      "label": "Auto huren",
+      "brief": "Of huren verstandig is, wat een auto kost, welke verzekering je nodig hebt en de valkuilen op de weg."
+    },
+    {
+      "key": "eilandhoppen",
+      "label": "Eilandhoppen",
+      "brief": "Hoe je tussen eilanden komt, wat boten kosten en hoe je voorkomt dat je hele dagen in de haven staat."
+    },
+    {
+      "key": "eerste-keer",
+      "label": "Eerste keer",
+      "brief": "Wat je moet weten als je er nog nooit was: visa, geld, simkaart, gewoontes en de fouten die iedereen maakt."
+    },
+    {
+      "key": "veiligheid",
+      "label": "Veiligheid en gezondheid",
+      "brief": "Realistische risico's, waar je op let, wat je regelt voor vertrek en wanneer je beter ergens niet heen gaat."
+    },
+    {
+      "key": "wandelen",
+      "label": "Wandelen en natuur",
+      "brief": "De mooiste wandelingen, hoe zwaar ze zijn, wat je meeneemt en hoe je ze combineert met de rest van je reis."
+    }
+  ]
+}

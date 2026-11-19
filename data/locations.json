@@ -3,7 +3,10 @@
     "id": "bali-3-weken",
     "name": "Bali",
     "country": "Indonesië",
-    "coords": [-8.4095, 115.1889],
+    "coords": [
+      -8.4095,
+      115.1889
+    ],
     "slug": "bali-3-weken",
     "type": "route",
     "thumbnail": "/images/nusa-aerial.jpg",
@@ -13,7 +16,10 @@
     "id": "ubud-blog",
     "name": "Ubud",
     "country": "Indonesië",
-    "coords": [-8.5069, 115.2625],
+    "coords": [
+      -8.5069,
+      115.2625
+    ],
     "slug": "een-ochtend-in-ubud",
     "type": "blog",
     "thumbnail": "/images/ubud-green.jpg",
@@ -23,7 +29,10 @@
     "id": "nusa-penida-blog",
     "name": "Nusa Penida",
     "country": "Indonesië",
-    "coords": [-8.7278, 115.5444],
+    "coords": [
+      -8.7278,
+      115.5444
+    ],
     "slug": "nusa-penida-zonder-tour",
     "type": "blog",
     "thumbnail": "/images/nusa-diamond.jpg",

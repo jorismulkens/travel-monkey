@@ -523,14 +523,14 @@ export default function RouteDetailPage({ params }: RoutePageProps) {
       <section className="pb-20 sm:pb-24 lg:pb-28">
         <div className="container-wide">
           <SectionHeading
-            eyebrow="Uit mijn camera"
+            eyebrow="Uit de camera"
             title={
               <>
                 Geen filter, wel{" "}
                 <span className="italic text-sunset-600">natte voeten.</span>
               </>
             }
-            description="De foto's die ik op mijn telefoon bewaarde. Soms wazig, soms te donker, maar altijd een herinnering aan een echte dag."
+            description="De foto's die we op de telefoon bewaarden. Soms wazig, soms te donker, maar altijd een herinnering aan een echte dag."
           />
           <div className="mt-10">
             <PhotoGallery images={route.gallery} />

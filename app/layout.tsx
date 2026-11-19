@@ -13,13 +13,14 @@ import { siteUrl } from "@/lib/site";
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
   title: {
-    default: "Travel Monkey — reizen met een omweg",
+    default: "Travel Monkey — reisblog over reizen met een omweg",
     template: "%s | Travel Monkey",
   },
   description:
-    "Persoonlijke reisroutes en eerlijke verhalen van Mila. Van rijstvelden op Bali tot kliffen op Nusa Penida. Met echte prijzen en ruimte voor een verkeerde afslag.",
+    "Een reisblog over reizen met een omweg. Routes die we zelf liepen, tips die werken en verhalen van onderweg. Van rijstvelden op Bali tot kliffen op Nusa Penida.",
   keywords: [
     "reisblog",
+    "reistips",
     "Bali",
     "reisroute",
     "backpacken",
@@ -28,6 +29,7 @@ export const metadata: Metadata = {
     "Travel Monkey",
   ],
   authors: [{ name: "Mila — Travel Monkey" }],
+  publisher: "Travel Monkey",
   creator: "Travel Monkey",
   alternates: {
     canonical: "/",
@@ -37,9 +39,9 @@ export const metadata: Metadata = {
     locale: "nl_NL",
     url: siteUrl,
     siteName: "Travel Monkey",
-    title: "Travel Monkey — reizen met een omweg",
+    title: "Travel Monkey — reisblog over reizen met een omweg",
     description:
-      "Reis verder dan de gebaande paden. Persoonlijke routes, echte prijzen en verhalen van onderweg.",
+      "Reis verder dan de gebaande paden. Routes die we zelf liepen, tips die werken en verhalen van onderweg.",
     images: [
       {
         url: "/images/og-travel-monkey.jpg",
@@ -51,9 +53,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Travel Monkey — reizen met een omweg",
+    title: "Travel Monkey — reisblog over reizen met een omweg",
     description:
-      "Reis verder dan de gebaande paden. Persoonlijke routes, echte prijzen en verhalen van onderweg.",
+      "Reis verder dan de gebaande paden. Routes die we zelf liepen, tips die werken en verhalen van onderweg.",
     images: ["/images/og-travel-monkey.jpg"],
   },
   icons: {

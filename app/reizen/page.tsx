@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Image from "next/image";
+import Link from "next/link";
 
 import { ArrowUpRight, Clock, MapPin, Sparkles } from "@/components/icons";
 import { Reveal } from "@/components/reveal";
@@ -9,7 +10,7 @@ import { getAllRoutes } from "@/lib/content";
 export const metadata: Metadata = {
   title: "Reisroutes",
   description:
-    "Reisroutes die ik zelf liep, met dag-tot-dag plannen, echte prijzen en praktische tips. Begin met drie weken Bali.",
+    "Reisroutes die we zelf liepen, met dag-tot-dag plannen, echte prijzen en praktische tips. Begin met drie weken Bali.",
   alternates: {
     canonical: "/reizen",
   },
@@ -39,7 +40,7 @@ export default function RoutesPage() {
                 en echte prijzen.
               </h1>
               <p className="mt-6 max-w-xl text-[1.01rem] leading-8 text-jungle-800/80">
-                Geen route die ik van internet plukte. Alles hier heb ik zelf
+                Geen route die we van internet plukten. Alles hier is zelf
                 gelopen, geboekt en betaald. Soms ging het mis, en dat staat er
                 dan ook bij.
               </p>
@@ -115,10 +116,10 @@ export default function RoutesPage() {
               </h2>
             </div>
             <a
-              href="/over"
+              href="/over-ons"
               className="group inline-flex w-fit items-center gap-2 text-sm font-semibold text-jungle-700 transition-colors hover:text-sunset-600"
             >
-              Hoe ik routes maak
+              Hoe wij routes maken
               <ArrowUpRight className="h-4 w-4" />
             </a>
           </div>
@@ -134,11 +135,11 @@ export default function RoutesPage() {
                   01
                 </p>
                 <h3 className="mt-2 font-display text-xl font-semibold text-jungle-950">
-                  Ik loop hem eerst.
+                  Wij lopen hem eerst.
                 </h3>
                 <p className="mt-2 text-sm leading-6 text-jungle-700/80">
-                  Geen routes uit een brochure. Elke stop is ergens waar ik
-                  zelf sliep, at of verdwaalde.
+                  Geen routes uit een brochure. Elke stop is ergens waar we zelf
+                  sliepen, aten of verdwaalden.
                 </p>
               </div>
               <div className="border-jungle-900/10 md:border-l md:pl-6">
@@ -146,11 +147,11 @@ export default function RoutesPage() {
                   02
                 </p>
                 <h3 className="mt-2 font-display text-xl font-semibold text-jungle-950">
-                  Ik schrijf de prijs op.
+                  Wij schrijven de prijs op.
                 </h3>
                 <p className="mt-2 text-sm leading-6 text-jungle-700/80">
-                  Wat ik betaalde, niet wat een website zegt dat het kost. Prijzen
-                  zijn momentopnames, dus check ze altijd opnieuw.
+                  Wat we betaalden, niet wat een website zegt dat het kost.
+                  Prijzen zijn momentopnames, dus check ze altijd opnieuw.
                 </p>
               </div>
               <div className="border-jungle-900/10 md:border-l md:pl-6">
@@ -158,13 +159,37 @@ export default function RoutesPage() {
                   03
                 </p>
                 <h3 className="mt-2 font-display text-xl font-semibold text-jungle-950">
-                  Ik laat fouten staan.
+                  Wij laten fouten staan.
                 </h3>
                 <p className="mt-2 text-sm leading-6 text-jungle-700/80">
                   De verkeerde boot, de te dure taxi, de koffer in het zand. Dat
                   is vaak het nuttigste deel van een route.
                 </p>
               </div>
+            </div>
+          </Reveal>
+
+          <Reveal className="mt-12">
+            <div className="flex flex-col items-start justify-between gap-6 rounded-[2rem] bg-jungle-900 p-7 text-sand-100 sm:flex-row sm:items-center sm:p-9">
+              <div>
+                <p className="text-[0.64rem] font-semibold uppercase tracking-[0.19em] text-sunset-300">
+                  Liever eerst tips
+                </p>
+                <h2 className="mt-3 max-w-xl font-display text-[1.7rem] font-semibold leading-[1.15] tracking-[-0.03em] text-sand-50 sm:text-[2rem]">
+                  Voordat je gaat: dit hadden we graag geweten.
+                </h2>
+                <p className="mt-2 max-w-lg text-sm leading-7 text-sand-200/75">
+                  Over vervoer, geld, internet en wat er echt in je tas moet.
+                  Alles wat we onderweg leerden, op één plek.
+                </p>
+              </div>
+              <Link
+                href="/tips"
+                className="group inline-flex shrink-0 items-center gap-2 rounded-full bg-sand-50 px-5 py-3.5 text-sm font-semibold text-jungle-950 transition-all duration-300 hover:-translate-y-0.5 hover:bg-sunset-500 hover:text-white"
+              >
+                Lees de tips
+                <ArrowUpRight className="h-4 w-4 transition-transform duration-300 group-hover:translate-x-0.5 group-hover:-translate-y-0.5" />
+              </Link>
             </div>
           </Reveal>
         </div>

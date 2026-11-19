@@ -5,6 +5,15 @@ const nextConfig = {
   images: {
     formats: ["image/avif", "image/webp"],
   },
+  async redirects() {
+    return [
+      {
+        source: "/over",
+        destination: "/over-ons",
+        permanent: false,
+      },
+    ];
+  },
 };
 
 export default nextConfig;

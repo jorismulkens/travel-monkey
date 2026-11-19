@@ -3,7 +3,13 @@ import "server-only";
 import fs from "node:fs";
 import path from "node:path";
 
-import type { BlogPost, LocationPin, Route } from "@/lib/types";
+import type {
+  BlogPost,
+  LocationPin,
+  PostKind,
+  RegionSlug,
+  Route,
+} from "@/lib/types";
 
 const dataDirectory = path.join(process.cwd(), "data");
 
@@ -84,4 +90,39 @@ export function getRouteOptions(): { value: string; label: string }[] {
       ? [{ value: "lang", label: "15+ dagen" }]
       : []),
   ];
+}
+
+export function getPostsByRegion(region: RegionSlug): BlogPost[] {
+  return getAllBlogPosts().filter((post) => post.region === region);
+}
+
+export function getPostsByKind(kind: PostKind): BlogPost[] {
+  return getAllBlogPosts().filter((post) => post.kind === kind);
+}
+
+export interface PaginatedPosts {
+  posts: BlogPost[];
+  page: number;
+  totalPages: number;
+  total: number;
+  perPage: number;
+}
+
+export function paginatePosts(
+  posts: BlogPost[],
+  page: number,
+  perPage = 9,
+): PaginatedPosts {
+  const total = posts.length;
+  const totalPages = Math.max(1, Math.ceil(total / perPage));
+  const safePage = Math.min(Math.max(1, page), totalPages);
+  const start = (safePage - 1) * perPage;
+
+  return {
+    posts: posts.slice(start, start + perPage),
+    page: safePage,
+    totalPages,
+    total,
+    perPage,
+  };
 }

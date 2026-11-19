@@ -89,6 +89,24 @@ export interface BlogLocation {
   coords: Coordinates;
 }
 
+export type RegionSlug =
+  | "azie"
+  | "midden-amerika"
+  | "zuid-amerika"
+  | "europa"
+  | "afrika"
+  | "midden-oosten"
+  | "oceanie";
+
+export type PostKind = "reisroute" | "tips" | "verhaal";
+
+export interface ImageCredit {
+  name: string;
+  url: string;
+  /** Platform waar de foto vandaan komt, bijvoorbeeld "Pixabay". */
+  source?: string;
+}
+
 export interface BlogPost {
   slug: string;
   title: string;
@@ -106,4 +124,16 @@ export interface BlogPost {
   tip: string;
   relatedLocationIds: string[];
   relatedRouteSlug: string;
+  /** Regio waarin het verhaal valt. Ontbreekt bij de handgeschreven verhalen. */
+  region?: RegionSlug;
+  /** Soort artikel: routegids, tipsartikel of persoonlijk verhaal. */
+  kind?: PostKind;
+  /** Wie het schreef: Mila zelf of de automatische redactie. */
+  author?: "Mila" | "Redactie";
+  /** Verplichte bronvermelding bij foto's van Pexels. */
+  imageCredit?: ImageCredit;
+  /** True bij artikelen die de generator heeft geschreven. */
+  generated?: boolean;
+  /** Interne sleutel om dubbele onderwerpen te voorkomen. */
+  topicKey?: string;
 }

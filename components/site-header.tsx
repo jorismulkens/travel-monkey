@@ -10,8 +10,9 @@ import { cn } from "@/lib/utils";
 
 const navigation = [
   { href: "/reizen", label: "Reizen" },
+  { href: "/tips", label: "Tips" },
   { href: "/blog", label: "Verhalen" },
-  { href: "/over", label: "Over Mila" },
+  { href: "/over-ons", label: "Over ons" },
 ];
 
 export function SiteHeader() {
@@ -59,7 +60,7 @@ export function SiteHeader() {
             <span className="block font-display text-[1.32rem] font-semibold tracking-[-0.03em] text-jungle-900">
               Travel Monkey
             </span>
-            <span className="mt-1 hidden text-[0.64rem] font-semibold uppercase tracking-[0.22em] text-jungle-600 sm:block">
+            <span className="mt-1 hidden whitespace-nowrap text-[0.64rem] font-semibold uppercase tracking-[0.22em] text-jungle-600 sm:block">
               Reizen met een omweg
             </span>
           </span>
@@ -100,10 +101,10 @@ export function SiteHeader() {
 
         <div className="flex items-center gap-2">
           <Link
-            href="/reizen/bali-3-weken"
+            href="/blog"
             className="group hidden items-center gap-2 rounded-full bg-jungle-900 px-5 py-2.5 text-sm font-semibold text-sand-50 transition-all duration-300 hover:-translate-y-0.5 hover:bg-jungle-800 hover:shadow-soft lg:inline-flex"
           >
-            Bekijk de Bali-route
+            Lees de verhalen
             <ArrowUpRight className="h-4 w-4 transition-transform duration-300 group-hover:translate-x-0.5 group-hover:-translate-y-0.5" />
           </Link>
 
@@ -146,11 +147,11 @@ export function SiteHeader() {
             </Link>
           ))}
           <Link
-            href="/reizen/bali-3-weken"
+            href="/blog"
             className="mt-3 inline-flex items-center justify-between rounded-2xl bg-jungle-900 px-4 py-4 font-semibold text-sand-50"
             tabIndex={isOpen ? 0 : -1}
           >
-            Bekijk de Bali-route
+            Lees de verhalen
             <ArrowUpRight className="h-5 w-5" />
           </Link>
         </nav>

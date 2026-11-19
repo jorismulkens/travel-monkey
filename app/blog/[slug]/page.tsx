@@ -24,6 +24,7 @@ import {
   getRelatedLocations,
   getRoute,
 } from "@/lib/content";
+import { getRegion } from "@/lib/regions";
 import { siteUrl } from "@/lib/site";
 
 interface BlogPageProps {
@@ -56,7 +57,7 @@ export function generateMetadata({ params }: BlogPageProps): Metadata {
       title: post.title,
       description: post.excerpt,
       publishedTime: post.date,
-      authors: ["Mila — Travel Monkey"],
+      authors: [post.author === "Redactie" ? "Travel Monkey redactie" : "Mila — Travel Monkey"],
       images: [
         {
           url: post.coverImage,
@@ -91,11 +92,13 @@ export default function BlogDetailPage({ params }: BlogPageProps) {
     "@type": "BlogPosting",
     headline: post.title,
     description: post.excerpt,
-    image: `${siteUrl}${post.coverImage}`,
+    image: post.coverImage.startsWith("http")
+      ? post.coverImage
+      : `${siteUrl}${post.coverImage}`,
     datePublished: post.date,
     author: {
-      "@type": "Person",
-      name: "Mila",
+      "@type": post.author === "Redactie" ? "Organization" : "Person",
+      name: post.author ?? "Mila",
     },
     publisher: {
       "@type": "Organization",
@@ -126,6 +129,17 @@ export default function BlogDetailPage({ params }: BlogPageProps) {
             Verhalen
           </Link>
           <span aria-hidden="true">/</span>
+          {post.region ? (
+            <>
+              <Link
+                href={`/regio/${post.region}`}
+                className="transition-colors hover:text-sunset-700"
+              >
+                {getRegion(post.region)?.label ?? post.region}
+              </Link>
+              <span aria-hidden="true">/</span>
+            </>
+          ) : null}
           <span className="max-w-[16rem] truncate text-jungle-900 sm:max-w-none">
             {post.location.name}
           </span>
@@ -165,9 +179,13 @@ export default function BlogDetailPage({ params }: BlogPageProps) {
               <div className="mt-8 flex items-center justify-center gap-3">
                 <MonkeyMark size={42} />
                 <div className="text-left">
-                  <p className="text-sm font-semibold text-jungle-950">Mila</p>
+                  <p className="text-sm font-semibold text-jungle-950">
+                    {post.author ?? "Mila"}
+                  </p>
                   <p className="text-[0.65rem] font-medium uppercase tracking-[0.13em] text-jungle-600">
-                    Reiziger achter Travel Monkey
+                    {post.author === "Redactie"
+                      ? "Travel Monkey redactie"
+                      : "Reiziger achter Travel Monkey"}
                   </p>
                 </div>
               </div>
@@ -193,6 +211,21 @@ export default function BlogDetailPage({ params }: BlogPageProps) {
                 {post.location.name}, {post.location.country}
               </div>
             </div>
+
+            {post.imageCredit ? (
+              <p className="mt-3 text-right text-[0.68rem] text-jungle-600">
+                Foto:{" "}
+                <a
+                  href={post.imageCredit.url}
+                  target="_blank"
+                  rel="noreferrer noopener"
+                  className="font-medium underline decoration-jungle-900/20 underline-offset-2 transition-colors hover:text-sunset-700"
+                >
+                  {post.imageCredit.name}
+                </a>{" "}
+                via {post.imageCredit.source ?? "Pixabay"}
+              </p>
+            ) : null}
           </div>
         </header>
 
@@ -290,15 +323,26 @@ export default function BlogDetailPage({ params }: BlogPageProps) {
                 </div>
               </aside>
 
+              {post.generated ? (
+                <p className="mt-6 max-w-xl text-xs leading-6 text-jungle-600">
+                  Dit artikel is automatisch samengesteld door de Travel
+                  Monkey-redactie. Controleer prijzen, openingstijden en
+                  visa-eisen altijd bij de officiële bron.
+                </p>
+              ) : null}
+
               <div className="mt-10 flex items-center gap-4 border-t border-jungle-900/10 pt-8">
                 <MonkeyMark size={54} />
                 <div>
                   <p className="font-display text-lg font-semibold text-jungle-950">
-                    Geschreven door Mila
+                    {post.author === "Redactie"
+                      ? "Gemaakt door de redactie"
+                      : "Geschreven door Mila"}
                   </p>
                   <p className="mt-1 text-sm leading-6 text-jungle-700/75">
-                    Ik schrijf op wat ik zelf meemaak, met de prijzen die ik
-                    betaalde. Geen sponsoring, geen filter.
+                    {post.author === "Redactie"
+                      ? "Samengesteld door de Travel Monkey-redactie. Klopt er iets niet? Laat het weten, dan passen we het aan."
+                      : "Ik schrijf op wat ik zelf meemaak, met de prijzen die ik betaalde. Geen sponsoring, geen filter."}
                   </p>
                 </div>
               </div>
@@ -306,16 +350,18 @@ export default function BlogDetailPage({ params }: BlogPageProps) {
 
             <aside className="space-y-5 lg:sticky lg:top-28 lg:self-start">
               <div className="overflow-hidden rounded-[1.75rem] border border-jungle-900/10 bg-sand-50 p-2 shadow-soft">
-                <div className="relative h-52 overflow-hidden rounded-[1.15rem] bg-sand-200">
-                  <MiniMapWrapper
-                    name={post.location.name}
-                    country={post.location.country}
-                    coords={post.location.coords}
-                  />
-                  <span className="pointer-events-none absolute left-3 top-3 z-[500] rounded-full bg-sand-50/95 px-3 py-1.5 text-[0.58rem] font-bold uppercase tracking-[0.13em] text-jungle-900 backdrop-blur">
-                    Waar dit is
-                  </span>
-                </div>
+                {post.location.coords[0] !== 0 ? (
+                  <div className="relative h-52 overflow-hidden rounded-[1.15rem] bg-sand-200">
+                    <MiniMapWrapper
+                      name={post.location.name}
+                      country={post.location.country}
+                      coords={post.location.coords}
+                    />
+                    <span className="pointer-events-none absolute left-3 top-3 z-[500] rounded-full bg-sand-50/95 px-3 py-1.5 text-[0.58rem] font-bold uppercase tracking-[0.13em] text-jungle-900 backdrop-blur">
+                      Waar dit is
+                    </span>
+                  </div>
+                ) : null}
                 <div className="px-3 pb-3 pt-4">
                   <p className="text-[0.6rem] font-semibold uppercase tracking-[0.16em] text-sunset-700">
                     {post.location.country}
@@ -326,15 +372,17 @@ export default function BlogDetailPage({ params }: BlogPageProps) {
                   <p className="mt-2 text-xs leading-5 text-jungle-700/75">
                     {post.subtitle}
                   </p>
-                  <a
-                    href={`https://www.google.com/maps/search/?api=1&query=${post.location.coords[0]},${post.location.coords[1]}`}
-                    target="_blank"
-                    rel="noreferrer noopener"
-                    className="mt-3 inline-flex items-center gap-1.5 text-xs font-semibold text-jungle-900 transition-colors hover:text-sunset-600"
-                  >
-                    Open in Google Maps
-                    <ArrowUpRight className="h-3.5 w-3.5" />
-                  </a>
+                  {post.location.coords[0] !== 0 ? (
+                    <a
+                      href={`https://www.google.com/maps/search/?api=1&query=${post.location.coords[0]},${post.location.coords[1]}`}
+                      target="_blank"
+                      rel="noreferrer noopener"
+                      className="mt-3 inline-flex items-center gap-1.5 text-xs font-semibold text-jungle-900 transition-colors hover:text-sunset-600"
+                    >
+                      Open in Google Maps
+                      <ArrowUpRight className="h-3.5 w-3.5" />
+                    </a>
+                  ) : null}
                 </div>
               </div>
 
@@ -388,6 +436,7 @@ export default function BlogDetailPage({ params }: BlogPageProps) {
         </div>
       </article>
 
+      {relatedLocations.length > 0 ? (
       <section className="bg-sand-100/70 py-20 sm:py-24">
         <div className="container-wide">
           <SectionHeading
@@ -412,6 +461,7 @@ export default function BlogDetailPage({ params }: BlogPageProps) {
           </div>
         </div>
       </section>
+      ) : null}
 
       {nextPost ? (
         <section className="section-space">

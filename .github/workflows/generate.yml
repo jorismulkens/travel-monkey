@@ -1,0 +1,68 @@
+name: Nieuwe reisverhalen
+
+# Draait elke dag om 05:00 UTC (06:00 of 07:00 in Nederland, afhankelijk van
+# de zomertijd). Je hoeft niets te doen: de bot schrijft de artikelen, commit
+# ze en Vercel bouwt de site opnieuw.
+on:
+  schedule:
+    - cron: "0 5 * * *"
+  workflow_dispatch:
+    inputs:
+      count:
+        description: "Aantal artikelen voor deze run"
+        required: false
+        default: "5"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: travel-monkey-generator
+  cancel-in-progress: false
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+
+    steps:
+      - name: Repository ophalen
+        uses: actions/checkout@v4
+
+      - name: Node instellen
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: "npm"
+
+      - name: Afhankelijkheden installeren
+        run: npm ci
+
+      - name: Artikelen genereren
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          PIXABAY_API_KEY: ${{ secrets.PIXABAY_API_KEY }}
+          PEXELS_API_KEY: ${{ secrets.PEXELS_API_KEY }}
+          OPENAI_MODEL: ${{ vars.OPENAI_MODEL || 'gpt-4o-mini' }}
+          POSTS_PER_DAY: ${{ github.event.inputs.count || '5' }}
+          ROUTE_RATIO: "0.6"
+        run: node scripts/generate.mjs
+
+      - name: Controleren of de site nog bouwt
+        run: npm run build
+
+      - name: Wijzigingen committen
+        run: |
+          git config user.name "Travel Monkey Bot"
+          git config user.email "bot@travel-monkey.nl"
+          mkdir -p public/images/posts
+          git add data public
+
+          if git diff --staged --quiet; then
+            echo "Geen nieuwe artikelen deze run."
+            exit 0
+          fi
+
+          COUNT=$(git diff --staged --name-only -- 'data/blog/*.json' | wc -l | tr -d ' ')
+          git commit -m "content: ${COUNT} nieuwe reisverhalen ($(date -u +%F))"
+          git push

@@ -12,7 +12,10 @@
   "location": {
     "name": "Nusa Penida",
     "country": "Indonesië",
-    "coords": [-8.7278, 115.5444]
+    "coords": [
+      -8.7278,
+      115.5444
+    ]
   },
   "intro": [
     "Bijna iedereen bezoekt Nusa Penida als dagtour: 's ochtends met de boot uit Sanur, drie fotoplekken, 's middags weer terug. Ik wilde dat niet, omdat ik precies op het moment dat de dagtoeristen aankwamen al wilde vertrekken.",
@@ -79,6 +82,12 @@
     }
   ],
   "tip": "Boek je accommodatie niet te ver van de haven als je met een koffer reist. De wegen zijn smal en niet elke homestay heeft vervoer. Vraag vooraf of ze je bij de pier kunnen ophalen en wat dat kost.",
-  "relatedLocationIds": ["bali-3-weken", "ubud-blog"],
-  "relatedRouteSlug": "bali-3-weken"
+  "relatedLocationIds": [
+    "bali-3-weken",
+    "ubud-blog"
+  ],
+  "relatedRouteSlug": "bali-3-weken",
+  "region": "azie",
+  "kind": "verhaal",
+  "author": "Mila"
 }

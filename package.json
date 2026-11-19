@@ -7,7 +7,10 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "typecheck": "tsc --noEmit"
+    "typecheck": "tsc --noEmit",
+    "generate": "node scripts/generate.mjs",
+    "generate:dry": "node scripts/generate.mjs --dry-run",
+    "generate:mock": "node scripts/generate.mjs --mock"
   },
   "engines": {
     "node": ">=18.17.0"
@@ -20,7 +23,8 @@
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-leaflet": "^4.2.1",
-    "server-only": "^0.0.1"
+    "server-only": "^0.0.1",
+    "sharp": "^0.35.5"
   },
   "devDependencies": {
     "@types/leaflet": "^1.9.14",

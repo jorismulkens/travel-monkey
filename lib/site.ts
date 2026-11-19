@@ -16,3 +16,14 @@ export const siteUrl = normalizeUrl(
     process.env.VERCEL_URL ??
     fallbackUrl,
 );
+
+export const siteName = "Travel Monkey";
+
+export const siteTagline = "Reizen met een omweg";
+
+/**
+ * Eén plek voor het e-mailadres. Zet NEXT_PUBLIC_CONTACT_EMAIL in je
+ * omgeving (of pas de fallback aan) zodra het echte adres bekend is.
+ */
+export const contactEmail =
+  process.env.NEXT_PUBLIC_CONTACT_EMAIL ?? "hallo@travelmonkey.nl";

@@ -12,7 +12,10 @@
   "location": {
     "name": "Ubud",
     "country": "Indonesië",
-    "coords": [-8.5069, 115.2625]
+    "coords": [
+      -8.5069,
+      115.2625
+    ]
   },
   "intro": [
     "Ik ben geen ochtendmens. Toch zette ik in Ubud drie keer achter elkaar om 05.45 een wekker, omdat de rijstvelden voor zonsopkomst iets doen wat ze om elf uur niet meer doen: ze zijn van niemand.",
@@ -74,6 +77,12 @@
     }
   ],
   "tip": "Praktisch: de wandeling is gratis, de koffie kostte €1,20 en het ontbijt €2,10. Wil je een gids? Verwacht €20–€30 voor twee uur. Ik deed het zonder en vond dat prima, zolang je op de paden blijft en niets van de oogst aanraakt.",
-  "relatedLocationIds": ["bali-3-weken", "nusa-penida-blog"],
-  "relatedRouteSlug": "bali-3-weken"
+  "relatedLocationIds": [
+    "bali-3-weken",
+    "nusa-penida-blog"
+  ],
+  "relatedRouteSlug": "bali-3-weken",
+  "region": "azie",
+  "kind": "verhaal",
+  "author": "Mila"
 }

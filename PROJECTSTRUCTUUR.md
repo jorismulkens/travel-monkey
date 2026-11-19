@@ -27,8 +27,15 @@ travel-monkey/
 │   │   └── [slug]/
 │   │       └── page.tsx           Detailpagina van één verhaal
 │   │
-│   └── over/
-│       └── page.tsx               De pagina over Mila
+│   ├── tips/
+│   │   └── page.tsx               Praktische tips, paklijst en tips per plek
+│   │
+│   ├── regio/
+│   │   └── [slug]/
+│   │       └── page.tsx           Alle artikelen per werelddeel
+│   │
+│   └── over-ons/
+│       └── page.tsx               Wie Travel Monkey is en hoe we schrijven
 │
 ├── components/                   Herbruikbare onderdelen van de site
 │   ├── site-header.tsx            Menu bovenaan, ook op mobiel
@@ -52,7 +59,15 @@ travel-monkey/
 │   ├── monkey-mark.tsx            Het aapje als logo
 │   └── icons.tsx                  Alle kleine iconen
 │
+├── scripts/
+│   └── generate.mjs               Schrijft dagelijks nieuwe artikelen (OpenAI + Pixabay)
+│
+├── .github/
+│   └── workflows/
+│       └── generate.yml           De dagelijkse automatische run
+│
 ├── data/                         Alle teksten en coördinaten
+│   ├── topics.json                Onderwerpen waaruit de generator kiest
 │   ├── locations.json             Alle pins op de wereldkaart
 │   ├── routes/
 │   │   └── bali-3-weken.json      De volledige Bali-route
@@ -62,12 +77,14 @@ travel-monkey/
 │
 ├── lib/                          Code die de data inleest
 │   ├── content.ts                 Leest de JSON-bestanden
+│   ├── regions.ts                 De zeven regio's met titel en uitleg
 │   ├── types.ts                   Beschrijft welke gegevens een route heeft
-│   ├── site.ts                    Bepaalt automatisch het juiste webadres
+│   ├── site.ts                    Webadres, sitenaam en tagline
 │   └── utils.ts                   Kleine hulpfuncties
 │
 ├── public/
 │   └── images/                   Alle foto's en de socialmedia-afbeelding
+│       ├── regio/                 Reservecovers per werelddeel
 │       ├── nusa-aerial.jpg
 │       ├── ubud-green.jpg
 │       ├── ...
