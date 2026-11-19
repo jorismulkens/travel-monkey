@@ -50,5 +50,31 @@
     "type": "blog",
     "thumbnail": "/images/posts/tips-voor-de-beste-reistijd-in-schotland.webp",
     "excerpt": "Ontdek wanneer je het beste naar Schotland kunt reizen en wat je moet weten over het weer en de drukte. Van Edinburgh tot de Hooglanden, deze gids helpt je bij het plannen van je reis."
+  },
+  {
+    "id": "rondreis-van-2-weken-langs-de-hoogtepunten-van-turkije-blog",
+    "name": "Turkije",
+    "country": "Turkije",
+    "coords": [
+      40.9290065,
+      26.3355331
+    ],
+    "slug": "rondreis-van-2-weken-langs-de-hoogtepunten-van-turkije",
+    "type": "blog",
+    "thumbnail": "/images/posts/rondreis-van-2-weken-langs-de-hoogtepunten-van-turkije.webp",
+    "excerpt": "Deze reisroute neemt je mee langs Istanbul, Cappadocië, Antalya, Efeze en Pamukkale. Ontdek een combinatie van cultuur, natuur en ontspanning in twee weken."
+  },
+  {
+    "id": "tips-voor-solo-reizen-in-rwanda-blog",
+    "name": "Rwanda",
+    "country": "Rwanda",
+    "coords": [
+      8.9924,
+      38.7798477
+    ],
+    "slug": "tips-voor-solo-reizen-in-rwanda",
+    "type": "blog",
+    "thumbnail": "/images/posts/tips-voor-solo-reizen-in-rwanda.webp",
+    "excerpt": "Solo reizen in Rwanda kan een bijzondere ervaring zijn, mits je goed voorbereid bent. Deze gids helpt je met praktische tips over waar je mensen ontmoet, wat je moet regelen en waar je op moet letten."
   }
 ]
