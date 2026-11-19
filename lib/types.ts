@@ -69,6 +69,8 @@ export interface Route {
   practical: PracticalItem[];
   packing: string[];
   closingNote: string;
+  /** Korte, sfeervolle kop boven de intro. */
+  introHeading?: string;
   /** Werelddeel, gebruikt voor de regiopagina's en filters. */
   continent?: RegionSlug;
   /** Wie de route schreef: Mila of de automatische redactie. */

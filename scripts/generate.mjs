@@ -236,6 +236,7 @@ Plaatsen die in de route passen: ${d.places.join(", ")}.
 
 Eisen:
 - Titel: noem de duur en één onderscheidende hoek, zonder de landnaam twee keer.
+- introHeading: een korte sfeerkop van 4 tot 7 woorden, bijvoorbeeld "Van stad naar zee".
 - 5 stops, van start- tot eindpunt, met een logische reisvolgorde.
 - Per stop: naam, gebied, daglabel (bijv. "Dag 1-3"), aantal nachten, beschrijving
   (120-180 woorden), 2-3 activiteiten met prijsindicatie, en een tip.
@@ -268,6 +269,7 @@ const ROUTE_SCHEMA = {
       "startPoint",
       "endPoint",
       "excerpt",
+      "introHeading",
       "intro",
       "highlights",
       "stops",
@@ -290,6 +292,7 @@ const ROUTE_SCHEMA = {
       startPoint: { type: "string" },
       endPoint: { type: "string" },
       excerpt: { type: "string" },
+      introHeading: { type: "string" },
       intro: { type: "array", items: { type: "string" } },
       highlights: { type: "array", items: { type: "string" } },
       stops: {
@@ -446,6 +449,10 @@ function validateRoute(route, topic) {
 
   if (!route.excerpt || route.excerpt.length < 70 || route.excerpt.length > 320) {
     errors.push("samenvatting moet 70-320 tekens zijn");
+  }
+
+  if (!route.introHeading || route.introHeading.length < 10 || route.introHeading.length > 70) {
+    errors.push("introHeading moet 10-70 tekens zijn");
   }
 
   if (!Array.isArray(route.intro) || route.intro.length < 2 || route.intro.length > 3) {
@@ -683,6 +690,7 @@ async function buildRoute({ article, topic, date, slug, images, stopCoords }) {
     coverImage: images.cover.url,
     coverAlt: article.excerpt?.trim() || `Reisroute door ${destination.name}`,
     excerpt: article.excerpt.trim(),
+    introHeading: article.introHeading?.trim(),
     intro: article.intro.map((p) => p.trim()),
     highlights: article.highlights.map((h) => h.trim()),
     stops: article.stops.map((stop, index) => ({
@@ -828,6 +836,7 @@ function mockArticle(topic) {
     startPoint: d.places[0],
     endPoint: d.places[d.places.length - 1],
     excerpt: `Een route van ${topic.variant} door ${d.name}, met vijf plekken, echte prijzen en genoeg ruimte om te blijven hangen.`,
+    introHeading: "Van stad naar zee",
     intro: [paragraph("De eerste indruk"), paragraph("De praktische kant")],
     highlights: ["Rustig tempo", "Veel natuur", "Eten op straat", "Goed te doen met de bus", "Mooie zonsondergangen"],
     stops: d.places.slice(0, 5).map((place, index) => ({

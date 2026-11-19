@@ -306,8 +306,7 @@ export default function RouteDetailPage({ params }: RoutePageProps) {
             <div>
               <p className="eyebrow">Waarom deze route</p>
               <h2 className="mt-4 max-w-lg font-display text-[2.2rem] font-semibold leading-[1.07] tracking-[-0.035em] text-jungle-950 sm:text-[3rem]">
-                Van koel groen naar{" "}
-                <span className="italic text-sunset-600">zout water.</span>
+                {route.introHeading ?? "Waarom deze route"}
               </h2>
               <div className="prose-tm mt-6 max-w-xl">
                 {route.intro.map((paragraph) => (
@@ -382,7 +381,7 @@ export default function RouteDetailPage({ params }: RoutePageProps) {
             </div>
             <div className="pointer-events-none absolute left-4 top-4 z-[500] inline-flex items-center gap-2 rounded-full bg-jungle-950/90 px-4 py-2.5 text-[0.63rem] font-semibold uppercase tracking-[0.14em] text-sand-50 backdrop-blur">
               <Compass className="h-4 w-4 text-sunset-400" />
-              Bali · 8°30′S
+              {route.country} · {route.durationDays} dagen
             </div>
           </div>
 
