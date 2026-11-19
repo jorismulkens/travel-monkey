@@ -254,6 +254,7 @@ Structuur:
 - Gebruik 5 tot 9 tussenkoppen. Onder elke kop staan alinea's en/of een opsomming.
 - Minstens twee secties bevatten een opsomming met concrete stappen of tips.
 - Sluit af met een praktische tip van 2 tot 4 zinnen.
+- Lengte is een harde eis: een reisroute telt minimaal 1100 woorden, een tipsartikel minimaal 750. Te korte artikelen worden afgekeurd.
 - Lever alleen JSON op volgens het gevraagde schema.`;
 
 function buildUserPrompt(topic, existingTitles) {
@@ -266,15 +267,20 @@ function buildUserPrompt(topic, existingTitles) {
 Duur van deze route: ${topic.variant}.
 Plaatsen die in de route voor kunnen komen: ${places}.
 
-Opbouw die je aanhoudt:
-1. "Waarom ${destination.name}" - wat de reis bijzonder maakt, zonder superlatieven.
-2. "Beste reistijd" - seizoenen, weer en drukte.
-3. "Hoe kom je er" - vliegveld, visa voor zover algemeen bekend, eerste transfer.
-4. "De route in ${topic.variant}" - verdeel de route in 5 tot 7 etappes. Elke etappe krijgt een eigen kop met dagen en plaatsnaam, bijvoorbeeld "Dag 1-2: ...". Beschrijf per etappe wat je doet, hoe lang je blijft en waarom die verdeling werkt.
-5. "Vervoer" - trein, bus, huurauto of binnenlandse vlucht, met bandbreedtes voor kosten.
-6. "Budget" - wat een dag ongeveer kost en waaraan je het uitgeeft.
-7. "Waar slapen en eten" - type accommodatie en eetgewoontes, zonder namen.
-8. "Tips" - 4 tot 6 concrete tips.
+Gebruik precies deze acht tussenkoppen, in deze volgorde:
+1. "Waarom ${destination.name}"
+2. "Beste reistijd"
+3. "Hoe kom je er"
+4. "De route in ${topic.variant}"
+5. "Vervoer"
+6. "Budget"
+7. "Waar slapen en eten"
+8. "Tips"
+
+Elke sectie heeft minimaal twee alinea's van drie tot vijf zinnen. In "De route in
+${topic.variant}" beschrijf je per etappe de dagen en de plaats, bijvoorbeeld
+"Dag 1-2: ...". In "Tips" mag je een opsomming van vijf tot zeven punten
+gebruiken. Het hele artikel telt minimaal 1100 woorden.
 
 Titel: begin met "Reisroute" of "Rondreis", noem de duur en één onderscheidende
 hoek. Noem de landnaam niet twee keer.
@@ -287,11 +293,16 @@ Titels van bestaande artikelen (niet herhalen): ${existingTitles.join(" | ")}`;
 Invalshoek: ${angle.brief}
 Plaatsen die ter sprake kunnen komen: ${places}.
 
-Opbouw:
-1. "Wat je moet weten" - het belangrijkste in het kort.
-2. Een sectie per deelonderwerp dat bij deze invalshoek hoort (2 tot 4 secties), met concrete bedragen in bandbreedtes en praktische stappen.
-3. "Veelgemaakte fouten" - 4 tot 6 punten waar het vaak misgaat.
-4. "Praktische checklist" - een korte opsomming om mee te nemen.
+Gebruik precies deze vijf tussenkoppen, in deze volgorde:
+1. "Wat je moet weten"
+2. "${angle.label} in ${destination.name}" - het onderwerp in de breedte
+3. "Wat het kost en hoe je het regelt" - met bandbreedtes en concrete stappen
+4. "Veelgemaakte fouten" - een opsomming van vijf tot zeven punten
+5. "Praktische checklist" - een opsomming van zes tot acht punten
+
+Elke sectie heeft minimaal twee alinea's van drie tot vijf zinnen, behalve de
+laatste twee: daar gebruik je de opsomming. Het hele artikel telt minimaal 750
+woorden.
 
 Titel: begin met "Tips voor" of met het onderwerp, gevolgd door de bestemming.
 Lengte: 700 tot 1000 woorden.
@@ -427,7 +438,6 @@ const BANNED = [
   "language model",
   "hidden gem",
   "bucketlist",
-  "parel",
   "paradijs",
   "lorem ipsum",
   "plaatsnaam",
@@ -481,7 +491,7 @@ function validateArticle(article, kind) {
     errors.push("praktische tip is te kort");
   }
 
-  if (words < (kind === "reisroute" ? 800 : 600)) {
+  if (words < (kind === "reisroute" ? 900 : 650)) {
     errors.push(`te weinig tekst (${words} woorden)`);
   }
 
@@ -724,11 +734,18 @@ async function generateOne(topic, existingPosts, date, existingTitles) {
     if (errors.length === 0) break;
 
     log(`poging ${attempt} afgekeurd: ${errors.join("; ")}`);
+
+    const stats = `Het artikel heeft nu ${
+      article.sections?.length ?? 0
+    } secties en ${countWords(article)} woorden.`;
+
     messages.push(
       { role: "assistant", content: JSON.stringify(article) },
       {
         role: "user",
-        content: `Verbeter het artikel. Problemen: ${errors.join("; ")}. Behoud dezelfde JSON-structuur en onderwerp, maar los deze punten op.`,
+        content: `Verbeter het artikel. ${stats} Problemen: ${errors.join(
+          "; ",
+        )}. Behoud dezelfde JSON-structuur en onderwerp, maar los deze punten op. Vul aan tot de gevraagde lengte en het gevraagde aantal secties.`,
       },
     );
   }
