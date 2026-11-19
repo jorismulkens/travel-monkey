@@ -1,0 +1,268 @@
+{
+  "slug": "7-dagen-dwars-door-spanje-stad-kust-en-cultuur",
+  "title": "7 dagen dwars door Spanje: stad, kust en cultuur",
+  "kicker": "Een gevarieerde route langs vijf bijzondere regio's",
+  "country": "Spanje",
+  "region": "Europa",
+  "durationDays": 7,
+  "durationLabel": "7 dagen",
+  "travelStyle": "cultureel en actief",
+  "budget": "€700-1100",
+  "budgetNote": "Budget is inclusief verblijf, vervoer en activiteiten, afhankelijk van keuzes kan het goedkoper of duurder uitvallen.",
+  "bestTime": "Lente en vroege herfst zijn prettig vanwege aangename temperaturen en minder drukte.",
+  "startPoint": "Madrid",
+  "endPoint": "Canarische Eilanden",
+  "coverImage": "/images/posts/7-dagen-dwars-door-spanje-stad-kust-en-cultuur-cover.webp",
+  "coverAlt": "Deze route brengt je in een week langs vijf uiteenlopende plekken in Spanje. Van de levendige hoofdstad Madrid naar het relaxte eilandgevoel op de Canarische Eilanden, met stops in het architectuurrijke Barcelona, het sfeervolle Baskenland en het zonnige Andalusië. Een goede mix van cultuur, natuur en ontspanning.",
+  "excerpt": "Deze route brengt je in een week langs vijf uiteenlopende plekken in Spanje. Van de levendige hoofdstad Madrid naar het relaxte eilandgevoel op de Canarische Eilanden, met stops in het architectuurrijke Barcelona, het sfeervolle Baskenland en het zonnige Andalusië. Een goede mix van cultuur, natuur en ontspanning.",
+  "intro": [
+    "Spanje biedt een rijke mix van cultuur, natuur en steden die elk hun eigen karakter hebben.",
+    "Deze 7-daagse route laat je kennismaken met verschillende regio's, van het binnenland tot het eiland.",
+    "Handige tips en activiteiten zorgen voor een gevarieerde en haalbare reis door het land."
+  ],
+  "highlights": [
+    "Madrid met imposante musea en pleinen.",
+    "Barcelona's unieke Gaudí-architectuur.",
+    "Andalusië's Moorse invloeden en zon.",
+    "Het Baskenland met zijn eigen taal en keuken.",
+    "De Canarische Eilanden voor strand en natuur."
+  ],
+  "stops": [
+    {
+      "id": "madrid-1",
+      "number": 1,
+      "name": "Madrid",
+      "area": "Madrid",
+      "coords": [
+        40.416782,
+        -3.703507
+      ],
+      "dayLabel": "Dag 1-2",
+      "nights": 2,
+      "image": "/images/posts/7-dagen-dwars-door-spanje-stad-kust-en-cultuur-1.webp",
+      "imageAlt": "Plaza Mayor in Madrid",
+      "description": "De hoofdstad Madrid is het bruisende hart van Spanje. Hier vind je grote pleinen zoals Puerta del Sol en Plaza Mayor, musea van wereldklasse als het Prado en Reina Sofía, en een levendige sfeer in de vele tapasbars. Wandelen door het Retiropark biedt een welkome rustpauze. Madrid combineert cultuur met gezellige stadsdrukte en is een perfecte startplek om jezelf onder te dompelen in Spaanse levensstijl.",
+      "activities": [
+        {
+          "title": "Bezoek Museo del Prado",
+          "description": "Een van de belangrijkste kunstmusea met werken van Velázquez, Goya en meer.",
+          "price": "€15-20"
+        },
+        {
+          "title": "Wandeling Retiropark",
+          "description": "Rustgevende wandeling in een groot park met vijvers en monumenten.",
+          "price": "Gratis"
+        },
+        {
+          "title": "Tapas proeven in La Latina",
+          "description": "Verken deze wijk en geniet van traditionele tapas in authentieke bars.",
+          "price": "€15-25 per persoon"
+        }
+      ],
+      "tip": "Koop van tevoren tickets voor de musea online om wachtrijen te vermijden."
+    },
+    {
+      "id": "barcelona-2",
+      "number": 2,
+      "name": "Barcelona",
+      "area": "Catalonië",
+      "coords": [
+        41.3825802,
+        2.177073
+      ],
+      "dayLabel": "Dag 3",
+      "nights": 1,
+      "image": "/images/posts/7-dagen-dwars-door-spanje-stad-kust-en-cultuur-2.webp",
+      "imageAlt": "Sagrada Família in Barcelona",
+      "description": "Barcelona staat bekend om zijn bijzondere mix van gotische en modernistische architectuur. De stad ademt creativiteit, vooral rond de Sagrada Família en Park Güell van Gaudí. Slenteren over de Ramblas en langs de kust geeft een goed beeld van de levendige sfeer. De stad is compact genoeg om in een dag enkele hoogtepunten te verkennen en te genieten van tapas en zeezicht.",
+      "activities": [
+        {
+          "title": "Rondleiding Sagrada Família",
+          "description": "Ontdek Gaudí’s iconische basiliek met een audiotour of gids.",
+          "price": "€20-30"
+        },
+        {
+          "title": "Wandeling door Barri Gòtic",
+          "description": "Bezoek de middeleeuwse wijk met smalle straatjes en pleintjes.",
+          "price": "Gratis"
+        },
+        {
+          "title": "Strandwandeling Barceloneta",
+          "description": "Geniet van zeezicht en een ontspannen sfeer langs het strand.",
+          "price": "Gratis"
+        }
+      ],
+      "tip": "Bezoek de Sagrada Família vroeg in de ochtend om drukte te vermijden."
+    },
+    {
+      "id": "baskenland-3",
+      "number": 3,
+      "name": "Baskenland",
+      "area": "Noord-Spanje",
+      "coords": [
+        42.9911816,
+        -2.5543023
+      ],
+      "dayLabel": "Dag 4",
+      "nights": 1,
+      "image": "/images/posts/7-dagen-dwars-door-spanje-stad-kust-en-cultuur-3.webp",
+      "imageAlt": "Strand van La Concha in San Sebastián",
+      "description": "Het Baskenland onderscheidt zich door een eigen taal en cultuur, plus een indrukwekkend kustlandschap. San Sebastián is de bekendste stad en staat bekend om zijn stranden en pintxos, kleine hapjes vergelijkbaar met tapas. Wandel langs het strand van La Concha of beklim de Monte Urgull voor een panoramisch uitzicht. De regio is ideaal voor wie cultuur wil combineren met een mooie natuur omgeving.",
+      "activities": [
+        {
+          "title": "Pintxos-tour in San Sebastián",
+          "description": "Proef verschillende kleine hapjes in diverse bars.",
+          "price": "€15-30 per persoon"
+        },
+        {
+          "title": "Wandeling Monte Urgull",
+          "description": "Beklimming met uitzicht over stad en zee.",
+          "price": "Gratis"
+        },
+        {
+          "title": "Bezoek Museo San Telmo",
+          "description": "Leer meer over de Baskische cultuur en geschiedenis.",
+          "price": "€5-10"
+        }
+      ],
+      "tip": "Probeer pintxos in een van de vele bars, bestel kleine gerechtjes om te delen."
+    },
+    {
+      "id": "andalusie-4",
+      "number": 4,
+      "name": "Andalusië",
+      "area": "Zuid-Spanje",
+      "coords": [
+        37.3399964,
+        -4.5811614
+      ],
+      "dayLabel": "Dag 5-6",
+      "nights": 2,
+      "image": "/images/posts/7-dagen-dwars-door-spanje-stad-kust-en-cultuur-4.webp",
+      "imageAlt": "Het Alhambra in Granada",
+      "description": "Andalusië is een regio vol historie, zon en cultuur. Granada is vooral bekend om het indrukwekkende Alhambra, een paleis en fort uit de Moorse tijd met weelderige tuinen en gedetailleerde architectuur. Naast Granada biedt Sevilla een mix van gotische kathedralen, levendige pleinen en gezellige tapasbars. Ook de witte dorpjes zoals Ronda en de sfeervolle straten van Córdoba zijn het verkennen waard. Het warme klimaat en de rijke tradities maken deze streek tot een veelzijdige bestemming.",
+      "activities": [
+        {
+          "title": "Rondleiding Alhambra",
+          "description": "Bezoek het Moorse paleis met gids of audiotour, inclusief tuinen en fort.",
+          "price": "€20-30"
+        },
+        {
+          "title": "Flamenco-show in Sevilla",
+          "description": "Ervaar de traditionele dans met live muziek in een intieme setting.",
+          "price": "€20-40"
+        },
+        {
+          "title": "Bezoek Mezquita in Córdoba",
+          "description": "Ontdek de bijzondere moskee-kathedraal met indrukwekkende architectuur.",
+          "price": "€10-15"
+        }
+      ],
+      "tip": "Plan voldoende tijd voor het Alhambra en bestel kaarten ruim van tevoren online."
+    },
+    {
+      "id": "canarische-eilanden-5",
+      "number": 5,
+      "name": "Canarische Eilanden",
+      "area": "Atlantische Oceaan",
+      "coords": [
+        28.2935785,
+        -16.6214471
+      ],
+      "dayLabel": "Dag 7",
+      "nights": 1,
+      "image": "/images/posts/7-dagen-dwars-door-spanje-stad-kust-en-cultuur-5.webp",
+      "imageAlt": "Strand en bergen op Tenerife",
+      "description": "De Canarische Eilanden bieden een aangename afsluiting van de reis met zon, zee en natuur. Tenerife is het grootste en meest veelzijdige eiland met stranden, vulkanisch landschap en goede wandelmogelijkheden. Relaxen op het strand, een bezoek aan het Nationaal Park Teide of snorkelen in de heldere wateren behoren tot de opties. Een dag hier is een fijne manier om de reis ontspannen af te sluiten.",
+      "activities": [
+        {
+          "title": "Bezoek Nationaal Park Teide",
+          "description": "Wandel of neem de kabelbaan naar de vulkaan en geniet van bijzondere landschappen.",
+          "price": "€20-40"
+        },
+        {
+          "title": "Snorkelen bij de kust",
+          "description": "Ontdek onderwaterleven in de heldere Atlantische oceaan.",
+          "price": "€15-25"
+        },
+        {
+          "title": "Stranddag Playa de las Américas",
+          "description": "Geniet van zon en zee op een populair strand met voorzieningen.",
+          "price": "Gratis"
+        }
+      ],
+      "tip": "Huur een auto om het eiland flexibel te verkennen, vooral als de tijd beperkt is."
+    }
+  ],
+  "gallery": [
+    {
+      "src": "/images/posts/7-dagen-dwars-door-spanje-stad-kust-en-cultuur-1.webp",
+      "alt": "Plaza Mayor in Madrid",
+      "caption": "Madrid — Madrid"
+    },
+    {
+      "src": "/images/posts/7-dagen-dwars-door-spanje-stad-kust-en-cultuur-2.webp",
+      "alt": "Sagrada Família in Barcelona",
+      "caption": "Barcelona — Catalonië"
+    },
+    {
+      "src": "/images/posts/7-dagen-dwars-door-spanje-stad-kust-en-cultuur-3.webp",
+      "alt": "Strand van La Concha in San Sebastián",
+      "caption": "Baskenland — Noord-Spanje"
+    },
+    {
+      "src": "/images/posts/7-dagen-dwars-door-spanje-stad-kust-en-cultuur-4.webp",
+      "alt": "Het Alhambra in Granada",
+      "caption": "Andalusië — Zuid-Spanje"
+    },
+    {
+      "src": "/images/posts/7-dagen-dwars-door-spanje-stad-kust-en-cultuur-5.webp",
+      "alt": "Strand en bergen op Tenerife",
+      "caption": "Canarische Eilanden — Atlantische Oceaan"
+    }
+  ],
+  "practical": [
+    {
+      "label": "Vervoer",
+      "value": "Binnenlandse vluchten en treinen verbinden de steden, budget tussen €40-100 per traject."
+    },
+    {
+      "label": "Verblijf",
+      "value": "Hostels, budgethotels of appartementen, kosten variëren van €30-70 per nacht."
+    },
+    {
+      "label": "Budget",
+      "value": "Dagelijks €50-80 voor eten, activiteiten en lokaal vervoer is een richtlijn."
+    },
+    {
+      "label": "Beste reistijd",
+      "value": "April-juni en september-oktober voor aangenaam weer en minder toeristen."
+    },
+    {
+      "label": "Geld en internet",
+      "value": "Bankpassen zijn gangbaar, simkaarten met data kosten rond €10-20 voor een week."
+    }
+  ],
+  "packing": [
+    "Comfortabele wandelschoenen",
+    "Zonnebril en hoed",
+    "Lichte kleding voor warme dagen",
+    "Trui of jas voor koelere avonden",
+    "Swimsuit en strandhanddoek",
+    "Adapter stekker type F",
+    "Rugzak voor dagtochten",
+    "Camera of smartphone voor foto’s",
+    "Herbruikbare waterfles"
+  ],
+  "closingNote": "Deze weeklange route laat je ervaren hoe divers Spanje kan zijn. Van cultuur en geschiedenis in grote steden tot ontspannen aan zee en in de natuur. Met een goede planning en flexibel reistempo haal je het meeste uit elke bestemming. Zo kom je thuis met een mooie indruk van het land en zijn verschillende gezichten.",
+  "continent": "europa",
+  "author": "Redactie",
+  "generated": true,
+  "createdAt": "2026-11-19",
+  "topicKey": "spanje:reisroute:1-week",
+  "imageCredit": {
+    "name": "ELG21",
+    "url": "https://pixabay.com/photos/town-coast-sea-llastres-asturias-6467851/",
+    "source": "Pixabay"
+  }
+}

@@ -1,0 +1,268 @@
+{
+  "slug": "3-weken-langs-de-geschiedenis-en-kustlijn-van-libanon",
+  "title": "3 weken langs de geschiedenis en kustlijn van Libanon",
+  "kicker": "Ontdek veelzijdigheid tussen oude ruïnes en Middellandse zee",
+  "country": "Libanon",
+  "region": "Midden-Oosten",
+  "durationDays": 21,
+  "durationLabel": "3 weken",
+  "travelStyle": "Cultureel en ontspannend",
+  "budget": "Middenklasse tot betaalbaar",
+  "budgetNote": "Dagelijkse kosten variëren van 30 tot 60 euro afhankelijk van verblijf en activiteiten.",
+  "bestTime": "Lente (april-mei) en herfst (september-oktober) voor mild weer en minder drukte.",
+  "startPoint": "Beiroet",
+  "endPoint": "Zahle",
+  "coverImage": "/images/posts/3-weken-langs-de-geschiedenis-en-kustlijn-van-libanon-cover.webp",
+  "coverAlt": "Een reis van de bruisende hoofdstad langs eeuwenoude ruïnes, pittoreske vissersplaatsen en groene valleien. Geniet van cultuur, natuur en de kust.",
+  "excerpt": "Een reis van de bruisende hoofdstad langs eeuwenoude ruïnes, pittoreske vissersplaatsen en groene valleien. Geniet van cultuur, natuur en de kust.",
+  "intro": [
+    "Libanon biedt een unieke mix van geschiedenis, cultuur en natuur. Deze route start in de levendige hoofdstad en voert langs indrukwekkende Romeinse ruïnes, charmante kustplaatsjes en vruchtbare valleien.",
+    "De afwisseling tussen stedelijke gebieden en rustgevende landschappen maakt deze reis veelzijdig. Er is ruimte om te wandelen, historische plekken te bezoeken en lokale smaken te proeven.",
+    "Met 21 dagen is er voldoende tijd om op het tempo van het land te reizen, te ontspannen aan de Middellandse Zee en de gastvrijheid te ervaren."
+  ],
+  "highlights": [
+    "Beiroet met levendige wijken en goede keuken",
+    "Oude ruïnes van Baalbek",
+    "Kust en vissershaven van Byblos",
+    "Strand en sfeer in Batroun",
+    "Groene wijnstreek rond Zahle"
+  ],
+  "stops": [
+    {
+      "id": "beiroet-1",
+      "number": 1,
+      "name": "Beiroet",
+      "area": "Libanese kust",
+      "coords": [
+        33.8892265,
+        35.5025585
+      ],
+      "dayLabel": "Dag 1-5",
+      "nights": 5,
+      "image": "/images/posts/3-weken-langs-de-geschiedenis-en-kustlijn-van-libanon-1.webp",
+      "imageAlt": "Straatbeeld in Beiroet met zee op de achtergrond",
+      "description": "Beiroet is een stad met een rijke geschiedenis en een moderne uitstraling. Wandel door verschillende wijken waar oude gebouwen en nieuwe architectuur elkaar afwisselen. De stad heeft een divers aanbod aan musea, markten en cafés. Bezoek de Corniche voor een wandeling langs zee en geniet van lokale gerechten in gezellige restaurants. Ook het nachtleven is levendig, met diverse bars en muziekpodia. De stad is een prima startpunt om de rest van Libanon te verkennen.",
+      "activities": [
+        {
+          "title": "Bezoek aan het Nationaal Museum van Beiroet",
+          "description": "Leer meer over de rijke geschiedenis van Libanon met archeologische vondsten.",
+          "price": "5-10 euro"
+        },
+        {
+          "title": "Wandeling over de Corniche",
+          "description": "Geniet van een gratis wandeling langs de kustlijn met uitzicht op de Middellandse Zee.",
+          "price": "Gratis"
+        },
+        {
+          "title": "Bezoek aan de markt van Souk el Tayeb",
+          "description": "Proef lokale producten en ontmoet Libanese producenten op deze foodmarkt.",
+          "price": "5-15 euro voor proeverijen"
+        }
+      ],
+      "tip": "Gebruik lokale taxi’s of de gedeelde minibussen om je betaalbaar en snel door de stad te verplaatsen."
+    },
+    {
+      "id": "byblos-2",
+      "number": 2,
+      "name": "Byblos",
+      "area": "Libanese kust",
+      "coords": [
+        34.1236954,
+        35.6493557
+      ],
+      "dayLabel": "Dag 6-9",
+      "nights": 4,
+      "image": "/images/posts/3-weken-langs-de-geschiedenis-en-kustlijn-van-libanon-2.webp",
+      "imageAlt": "Haven en oude kasteel van Byblos",
+      "description": "Byblos is een van de oudste continu bewoonde steden ter wereld en staat bekend om zijn prachtige oude haven en archeologische ruïnes. De stad combineert geschiedenis met een ontspannen sfeer aan zee. Wandel door de smalle straatjes vol ambachtelijke winkels en cafés. Het middeleeuwse kasteel en de Romeinse overblijfselen zijn indrukwekkend. Ook is er een bruisende vismarkt waar versgevangen vis wordt verkocht. Byblos is een plek om cultuur te snuiven en te genieten van de kust.",
+      "activities": [
+        {
+          "title": "Rondleiding door de oude stad en ruïnes",
+          "description": "Ontdek het kasteel, tempels en Romeinse theater.",
+          "price": "7-12 euro"
+        },
+        {
+          "title": "Boottocht langs de kust",
+          "description": "Zie Byblos vanaf het water en geniet van het uitzicht.",
+          "price": "15-25 euro"
+        },
+        {
+          "title": "Bezoek aan de vismarkt",
+          "description": "Bekijk het dagelijkse leven en proef vers gevangen vis in een lokaal restaurant.",
+          "price": "Gratis entree, eten 10-20 euro"
+        }
+      ],
+      "tip": "Bezoek Byblos in de vroege ochtend om de drukte van toeristen te vermijden en de markt rustig te bekijken."
+    },
+    {
+      "id": "baalbek-3",
+      "number": 3,
+      "name": "Baalbek",
+      "area": "Bekkavallei",
+      "coords": [
+        34.009653,
+        36.2117096
+      ],
+      "dayLabel": "Dag 10-14",
+      "nights": 5,
+      "image": "/images/posts/3-weken-langs-de-geschiedenis-en-kustlijn-van-libanon-3.webp",
+      "imageAlt": "Romeinse tempels van Baalbek",
+      "description": "Baalbek staat bekend om zijn indrukwekkende Romeinse tempels, een van de best bewaarde en grootste ter wereld. Het complex is een must voor liefhebbers van geschiedenis en architectuur. Naast de tempels is de stad zelf een rustigere plek waar je lokale markten kunt bezoeken en kennis kunt maken met het dagelijks leven op het platteland. De Bekkavallei rondom Baalbek is ook geschikt voor wandelingen en biedt een ander perspectief op Libanon.",
+      "activities": [
+        {
+          "title": "Bezoek aan de Romeinse tempelruïnes",
+          "description": "Verken de indrukwekkende overblijfselen van Jupiter, Bacchus en Venus tempels.",
+          "price": "10-15 euro"
+        },
+        {
+          "title": "Wandeling door de Bekkavallei",
+          "description": "Maak een rustige wandeling en ervaar het landschap rondom Baalbek.",
+          "price": "Gratis"
+        },
+        {
+          "title": "Proeverij van lokale keuken in Baalbek",
+          "description": "Geniet van traditionele gerechten in een lokaal restaurant.",
+          "price": "10-20 euro"
+        }
+      ],
+      "tip": "Plan een bezoek in de ochtend om de hitte te vermijden en de tempels in rust te bekijken."
+    },
+    {
+      "id": "batroun-4",
+      "number": 4,
+      "name": "Batroun",
+      "area": "Libanese kust",
+      "coords": [
+        34.2548879,
+        35.6588567
+      ],
+      "dayLabel": "Dag 15-18",
+      "nights": 4,
+      "image": "/images/posts/3-weken-langs-de-geschiedenis-en-kustlijn-van-libanon-4.webp",
+      "imageAlt": "Strand en haven van Batroun",
+      "description": "Batroun is een charmante kustplaats met mooie stranden en een ontspannen sfeer. Het oude centrum heeft smalle straatjes met winkeltjes en cafés. De stad is geliefd bij zowel locals als toeristen vanwege de fijne stranden en het heldere water. Daarnaast is er een levendige vissershaven en enkele historische bezienswaardigheden zoals een oud fort. Batroun is een plek om te ontspannen, zwemmen en te genieten van de zee en lokale gerechten.",
+      "activities": [
+        {
+          "title": "Stranddag bij Batroun",
+          "description": "Geniet van het strand en zwem in de Middellandse Zee.",
+          "price": "Gratis tot 5 euro voor strandfaciliteiten"
+        },
+        {
+          "title": "Bezoek aan het middeleeuwse fort",
+          "description": "Verken het fort en leer over de lokale geschiedenis.",
+          "price": "3-7 euro"
+        },
+        {
+          "title": "Proeven van de lokale zeevruchten",
+          "description": "Ga uit eten in een visrestaurant aan de haven.",
+          "price": "15-30 euro"
+        }
+      ],
+      "tip": "Huur een fiets om de kustlijn en het stadje makkelijk te verkennen."
+    },
+    {
+      "id": "zahle-5",
+      "number": 5,
+      "name": "Zahle",
+      "area": "Bekkavallei",
+      "coords": [
+        33.8477069,
+        35.9024955
+      ],
+      "dayLabel": "Dag 19-21",
+      "nights": 3,
+      "image": "/images/posts/3-weken-langs-de-geschiedenis-en-kustlijn-van-libanon-5.webp",
+      "imageAlt": "Wijngaarden en stad Zahle",
+      "description": "Zahle staat bekend als de wijnhoofdstad van Libanon en ligt in een vruchtbare vallei. De stad combineert een pittoreske ligging met een levendige eet- en wijncultuur. Bezoek de lokale wijnhuizen en proef verschillende wijnen. De stad heeft ook mooie parken en een sfeer die uitnodigt om ontspannen door de straten te wandelen. Zahle is een fijne afsluiting van de reis, met een combinatie van natuur, cultuur en gastronomie.",
+      "activities": [
+        {
+          "title": "Wijnproeverij bij lokale wijnhuizen",
+          "description": "Leer over en proef Libanese wijnen.",
+          "price": "15-30 euro"
+        },
+        {
+          "title": "Wandeling door het centrum van Zahle",
+          "description": "Bezoek parken, markten en probeer lokale specialiteiten.",
+          "price": "Gratis"
+        },
+        {
+          "title": "Bezoek aan de lokale markt",
+          "description": "Ontdek verse producten en handwerk.",
+          "price": "Gratis"
+        }
+      ],
+      "tip": "Breng een bezoek aan een wijnmakerij buiten de stad voor een rondleiding en proeverij."
+    }
+  ],
+  "gallery": [
+    {
+      "src": "/images/posts/3-weken-langs-de-geschiedenis-en-kustlijn-van-libanon-1.webp",
+      "alt": "Straatbeeld in Beiroet met zee op de achtergrond",
+      "caption": "Beiroet — Libanese kust"
+    },
+    {
+      "src": "/images/posts/3-weken-langs-de-geschiedenis-en-kustlijn-van-libanon-2.webp",
+      "alt": "Haven en oude kasteel van Byblos",
+      "caption": "Byblos — Libanese kust"
+    },
+    {
+      "src": "/images/posts/3-weken-langs-de-geschiedenis-en-kustlijn-van-libanon-3.webp",
+      "alt": "Romeinse tempels van Baalbek",
+      "caption": "Baalbek — Bekkavallei"
+    },
+    {
+      "src": "/images/posts/3-weken-langs-de-geschiedenis-en-kustlijn-van-libanon-4.webp",
+      "alt": "Strand en haven van Batroun",
+      "caption": "Batroun — Libanese kust"
+    },
+    {
+      "src": "/images/posts/3-weken-langs-de-geschiedenis-en-kustlijn-van-libanon-5.webp",
+      "alt": "Wijngaarden en stad Zahle",
+      "caption": "Zahle — Bekkavallei"
+    }
+  ],
+  "practical": [
+    {
+      "label": "Vervoer",
+      "value": "Taxi’s, gedeelde minibussen en huurauto’s zijn de meest gebruikte opties. Kosten variëren van 5 tot 40 euro per rit of dag."
+    },
+    {
+      "label": "Verblijf",
+      "value": "Er is een breed aanbod aan hotels, hostels en appartementen. Prijzen liggen meestal tussen 20 en 60 euro per nacht."
+    },
+    {
+      "label": "Budget",
+      "value": "Dagelijkse kosten voor eten, vervoer en activiteiten liggen tussen 30 en 60 euro."
+    },
+    {
+      "label": "Beste reistijd",
+      "value": "Voor aangename temperaturen zijn lente en herfst aan te raden."
+    },
+    {
+      "label": "Geld en internet",
+      "value": "Contant geld in Libanese ponden is handig, creditcards worden op veel plekken geaccepteerd. Mobiele internetverbindingen zijn beschikbaar."
+    }
+  ],
+  "packing": [
+    "Comfortabele wandelschoenen",
+    "Zonnige kleding en pet of hoed",
+    "Lichte jas voor koele avonden",
+    "Zwempak en strandhanddoek",
+    "Camera of smartphone voor foto’s",
+    "Herbruikbare waterfles",
+    "Adapter voor stopcontacten",
+    "Zonnebrandcrème",
+    "Kleine rugzak voor dagtochten"
+  ],
+  "closingNote": "Deze reisroute combineert cultuur, geschiedenis en ontspanning langs de kust en in de valleien van Libanon. Met voldoende tijd op iedere plek is er ruimte om echt te ervaren wat het land te bieden heeft. De afwisseling zorgt voor een gevarieerde en realistische reis. Zo ontstaat een goed beeld van de veelzijdigheid van Libanon.",
+  "continent": "midden-oosten",
+  "author": "Redactie",
+  "generated": true,
+  "createdAt": "2026-11-19",
+  "topicKey": "libanon:reisroute:3-weken",
+  "imageCredit": {
+    "name": "paris-roxelle",
+    "url": "https://pixabay.com/photos/landscape-lebanon-sea-travel-2260421/",
+    "source": "Pixabay"
+  }
+}

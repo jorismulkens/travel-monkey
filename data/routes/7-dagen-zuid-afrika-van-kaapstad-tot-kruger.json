@@ -1,0 +1,268 @@
+{
+  "slug": "7-dagen-zuid-afrika-van-kaapstad-tot-kruger",
+  "title": "7 dagen Zuid-Afrika: van Kaapstad tot Kruger",
+  "kicker": "Een afwisselende route vol natuur en cultuur",
+  "country": "Zuid-Afrika",
+  "region": "Afrika",
+  "durationDays": 7,
+  "durationLabel": "7 dagen",
+  "travelStyle": "avontuurlijk en gevarieerd",
+  "budget": "€800-1200",
+  "budgetNote": "Prijzen zijn indicatief en kunnen variëren afhankelijk van seizoen en type accommodatie.",
+  "bestTime": "september tot november en maart tot mei",
+  "startPoint": "Kaapstad",
+  "endPoint": "Kruger National Park",
+  "coverImage": "/images/posts/7-dagen-zuid-afrika-van-kaapstad-tot-kruger-cover.webp",
+  "coverAlt": "Een week door Zuid-Afrika waarbij je start in de levendige Kaapstad, geniet van de rustige wijnlanden, een stukje van de Drakensberg, de bekende Garden Route en eindigt met safari in Kruger.",
+  "excerpt": "Een week door Zuid-Afrika waarbij je start in de levendige Kaapstad, geniet van de rustige wijnlanden, een stukje van de Drakensberg, de bekende Garden Route en eindigt met safari in Kruger.",
+  "intro": [
+    "Zuid-Afrika biedt een unieke mix van natuur, cultuur en avontuur. In één week bezoek je steden, wijngebieden, berglandschappen en wildlife.",
+    "Deze route neemt je mee van de kleurrijke stad Kaapstad via rustige wijnlanden naar de imposante Drakensberg, de groene Garden Route en tot slot de beroemde Kruger National Park.",
+    "Elke stop biedt een ander gezicht van het land, met voldoende tijd om te ontspannen en te verkennen."
+  ],
+  "highlights": [
+    "Wijnproeven in Stellenbosch en Franschhoek",
+    "Wandelen in de Drakensberg",
+    "De Tafelberg beklimmen of met de kabelbaan",
+    "Wildlife spotten in Kruger",
+    "Verkennen van de Garden Route kustlijn"
+  ],
+  "stops": [
+    {
+      "id": "kaapstad-1",
+      "number": 1,
+      "name": "Kaapstad",
+      "area": "West-Kaap",
+      "coords": [
+        -33.9288301,
+        18.4172197
+      ],
+      "dayLabel": "Dag 1-2",
+      "nights": 2,
+      "image": "/images/posts/7-dagen-zuid-afrika-van-kaapstad-tot-kruger-1.webp",
+      "imageAlt": "Uitzicht over Kaapstad vanaf Tafelberg",
+      "description": "Kaapstad is een van Zuid-Afrika’s meest bekende steden, met een rijke geschiedenis en spectaculaire natuur. Je kunt de iconische Tafelberg beklimmen of met de kabelbaan omhoog voor een prachtig uitzicht over de stad en de oceaan. De V&A Waterfront biedt volop winkels, restaurants en een levendige sfeer. Daarnaast kun je het Robbeneiland bezoeken waar Nelson Mandela gevangen zat. De stad is compact, waardoor je in korte tijd veel kunt zien en ervaren.",
+      "activities": [
+        {
+          "title": "Tafelberg kabelbaan",
+          "description": "Rit met de kabelbaan naar de top van de Tafelberg met panoramisch uitzicht.",
+          "price": "15-25 euro"
+        },
+        {
+          "title": "Robbeneiland tour",
+          "description": "Bezoek de historische gevangenis waar Nelson Mandela zat, inclusief boottocht.",
+          "price": "20-30 euro"
+        },
+        {
+          "title": "Stadswandeling Kaapstad",
+          "description": "Rondleiding door het centrum met bezoek aan musea en bezienswaardigheden.",
+          "price": "10-15 euro"
+        }
+      ],
+      "tip": "Koop kaartjes voor de kabelbaan online om wachttijden te vermijden."
+    },
+    {
+      "id": "wijnlanden-stellenbosch-en-franschhoek-2",
+      "number": 2,
+      "name": "Wijnlanden - Stellenbosch en Franschhoek",
+      "area": "West-Kaap",
+      "coords": [
+        0,
+        0
+      ],
+      "dayLabel": "Dag 3",
+      "nights": 1,
+      "image": "/images/posts/7-dagen-zuid-afrika-van-kaapstad-tot-kruger-2.webp",
+      "imageAlt": "Wijngaard in Stellenbosch",
+      "description": "De wijnlanden rondom Stellenbosch en Franschhoek zijn bekend om hun uitgestrekte wijngaarden en charmante dorpjes. Hier proef je lokale wijnen en geniet je van de rustige landelijke sfeer. Veel wijnhuizen bieden proeverijen aan, vaak gecombineerd met een lunch. Naast wijn kun je hier ook wandelen of fietsen langs de wijnvelden, of juist ontspannen in een spa. Het is een fijne plek om bij te tanken en te genieten van de Zuid-Afrikaanse gastvrijheid.",
+      "activities": [
+        {
+          "title": "Wijnproeverij",
+          "description": "Proef verschillende wijnen bij gerenommeerde wijnhuizen.",
+          "price": "5-15 euro"
+        },
+        {
+          "title": "Fietstocht door wijngaarden",
+          "description": "Huur een fiets en verken de omgeving op eigen tempo.",
+          "price": "10-20 euro"
+        },
+        {
+          "title": "Bezoek aan Franschhoek Museum",
+          "description": "Leer meer over de geschiedenis van de regio in een klein museum.",
+          "price": "5-8 euro"
+        }
+      ],
+      "tip": "Plan een bezoek aan een wijnhuis met een goede keuken voor een lunch met wijnarrangement."
+    },
+    {
+      "id": "drakensberg-3",
+      "number": 3,
+      "name": "Drakensberg",
+      "area": "KwaZoeloe-Natal",
+      "coords": [
+        -28.6129163,
+        29.1268636
+      ],
+      "dayLabel": "Dag 4",
+      "nights": 1,
+      "image": "/images/posts/7-dagen-zuid-afrika-van-kaapstad-tot-kruger-3.webp",
+      "imageAlt": "Bergen in de Drakensberg",
+      "description": "De Drakensberg is een indrukwekkend berggebied waar rust en natuur centraal staan. Wandelaars kunnen hier kiezen uit verschillende routes, variërend van makkelijk tot pittig. De bergketen staat bekend om zijn mooie vergezichten, watervallen en rotskunst van de San-bevolking. Overnachten kan in een lodge of guesthouse met uitzicht op de bergen. Het gebied is ideaal voor natuurliefhebbers die even willen ontsnappen aan de drukte van de stad.",
+      "activities": [
+        {
+          "title": "Wandeling naar waterval",
+          "description": "Een toegankelijke wandeling naar een lokale waterval met mooie uitzichten.",
+          "price": "gratis tot 5 euro"
+        },
+        {
+          "title": "Bezoek San rotstekeningen",
+          "description": "Leer over de cultuur en geschiedenis van de oorspronkelijke bewoners.",
+          "price": "5-10 euro"
+        },
+        {
+          "title": "Ruitertocht door de bergen",
+          "description": "Verken de omgeving te paard, geschikt voor beginners en gevorderden.",
+          "price": "20-30 euro"
+        }
+      ],
+      "tip": "Draag stevige wandelschoenen en neem voldoende water mee tijdens wandelingen."
+    },
+    {
+      "id": "garden-route-knysna-4",
+      "number": 4,
+      "name": "Garden Route - Knysna",
+      "area": "West-Kaap",
+      "coords": [
+        -34.0671471,
+        23.0644379
+      ],
+      "dayLabel": "Dag 5-6",
+      "nights": 2,
+      "image": "/images/posts/7-dagen-zuid-afrika-van-kaapstad-tot-kruger-4.webp",
+      "imageAlt": "Lagune bij Knysna",
+      "description": "De Garden Route is een groene kuststrook met bossen, lagunes en mooie stranden. Knysna is een centraal punt om de omgeving te verkennen. Geniet van verse oesters, maak een boottocht over de lagune of wandel in het nabijgelegen Featherbed Nature Reserve. De sfeer is ontspannen en er zijn genoeg mogelijkheden voor activiteiten op het water of in de natuur. Dit is een fijne plek om de zeelucht op te snuiven en de lokale keuken te proeven.",
+      "activities": [
+        {
+          "title": "Boottocht Featherbed Nature Reserve",
+          "description": "Rondvaart en wandeling door beschermd natuurgebied.",
+          "price": "15-25 euro"
+        },
+        {
+          "title": "Oestertijd proeverij",
+          "description": "Proef verse oesters en zeevruchten in lokale restaurants.",
+          "price": "variabel, vanaf 10 euro"
+        },
+        {
+          "title": "Wandeling in Knysna Forest",
+          "description": "Verken de bossen rondom de stad met gemarkeerde paden.",
+          "price": "gratis"
+        }
+      ],
+      "tip": "Reserveer een boottocht bij het Featherbed Reserve vooraf om zeker te zijn van een plek."
+    },
+    {
+      "id": "kruger-national-park-5",
+      "number": 5,
+      "name": "Kruger National Park",
+      "area": "Mpumalanga",
+      "coords": [
+        -23.9357763,
+        31.5083741
+      ],
+      "dayLabel": "Dag 7",
+      "nights": 1,
+      "image": "/images/posts/7-dagen-zuid-afrika-van-kaapstad-tot-kruger-5.webp",
+      "imageAlt": "Olifanten in Kruger National Park",
+      "description": "Het Kruger National Park is een van Afrika’s bekendste wildparken. Hier kun je met een gids of zelfstandig op safari om de Big Five te spotten. Verschillende campings en lodges bieden accommodaties aan, variërend van eenvoudig tot luxe. De dierenwereld is bijzonder gevarieerd met olifanten, leeuwen, buffels, neushoorns en luipaarden. Een safari in Kruger is een mooie afsluiting van een week vol afwisseling en natuur.",
+      "activities": [
+        {
+          "title": "Safari met gids",
+          "description": "Georganiseerde safari om wildlife te spotten met uitleg van een gids.",
+          "price": "40-60 euro"
+        },
+        {
+          "title": "Zelf rijden door park",
+          "description": "Huur een auto en verken het park zelfstandig.",
+          "price": "20-40 euro per dag"
+        },
+        {
+          "title": "Bezoek educatief centrum",
+          "description": "Leer meer over het ecosysteem en dieren van het park.",
+          "price": "gratis tot 5 euro"
+        }
+      ],
+      "tip": "Ga vroeg op safari voor de beste kans om dieren te zien."
+    }
+  ],
+  "gallery": [
+    {
+      "src": "/images/posts/7-dagen-zuid-afrika-van-kaapstad-tot-kruger-1.webp",
+      "alt": "Uitzicht over Kaapstad vanaf Tafelberg",
+      "caption": "Kaapstad — West-Kaap"
+    },
+    {
+      "src": "/images/posts/7-dagen-zuid-afrika-van-kaapstad-tot-kruger-2.webp",
+      "alt": "Wijngaard in Stellenbosch",
+      "caption": "Wijnlanden - Stellenbosch en Franschhoek — West-Kaap"
+    },
+    {
+      "src": "/images/posts/7-dagen-zuid-afrika-van-kaapstad-tot-kruger-3.webp",
+      "alt": "Bergen in de Drakensberg",
+      "caption": "Drakensberg — KwaZoeloe-Natal"
+    },
+    {
+      "src": "/images/posts/7-dagen-zuid-afrika-van-kaapstad-tot-kruger-4.webp",
+      "alt": "Lagune bij Knysna",
+      "caption": "Garden Route - Knysna — West-Kaap"
+    },
+    {
+      "src": "/images/posts/7-dagen-zuid-afrika-van-kaapstad-tot-kruger-5.webp",
+      "alt": "Olifanten in Kruger National Park",
+      "caption": "Kruger National Park — Mpumalanga"
+    }
+  ],
+  "practical": [
+    {
+      "label": "Vervoer",
+      "value": "Binnenlandse vluchten en autohuur zijn aan te raden; autohuur kost ongeveer 25-40 euro per dag."
+    },
+    {
+      "label": "Verblijf",
+      "value": "Guesthouses en lodges, prijzen variëren van 40 tot 100 euro per nacht."
+    },
+    {
+      "label": "Budget",
+      "value": "Dagelijks uitgaven tussen 50 en 80 euro voor maaltijden en activiteiten."
+    },
+    {
+      "label": "Beste reistijd",
+      "value": "Voorjaar en herfst voor milde temperaturen en minder drukte."
+    },
+    {
+      "label": "Geld en internet",
+      "value": "Contant geld en creditcards worden geaccepteerd; wifi beschikbaar in steden en toeristische plekken."
+    }
+  ],
+  "packing": [
+    "Stevige wandelschoenen",
+    "Zonnehoed of pet",
+    "Zonnebrandcrème",
+    "Lichte kleding voor overdag",
+    "Warme trui voor koele avonden",
+    "Insectenspray",
+    "Camera",
+    "Reisdocumenten",
+    "Waterfles"
+  ],
+  "closingNote": "Deze route laat de veelzijdigheid van Zuid-Afrika zien in slechts een week. Van stad en cultuur tot natuur en wildlife, de afwisseling is groot. Het is een stevige planning, maar door slimme keuzes te maken blijft het ontspannen. Zo krijg je een goed beeld van wat het land te bieden heeft. Een prima start om later eventueel langer terug te komen.",
+  "continent": "afrika",
+  "author": "Redactie",
+  "generated": true,
+  "createdAt": "2026-11-19",
+  "topicKey": "zuid-afrika:reisroute:1-week",
+  "imageCredit": {
+    "name": "Daniele_K",
+    "url": "https://pixabay.com/photos/zebras-animals-africa-south-africa-8054175/",
+    "source": "Pixabay"
+  }
+}
