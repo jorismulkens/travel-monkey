@@ -98,7 +98,7 @@ async function fetchTile(z, x, y) {
   }
 }
 
-function pickZoom(stops) {
+function pickZoom(stops, maxW, maxH) {
   const lats = stops.map((stop) => stop.coords[0]);
   const lons = stops.map((stop) => stop.coords[1]);
   const minLat = Math.min(...lats);
@@ -112,13 +112,13 @@ function pickZoom(stops) {
     const y1 = latToY(maxLat, z);
     const y2 = latToY(minLat, z);
 
-    if (x2 - x1 <= 950 && y2 - y1 <= 1250) return z;
+    if (x2 - x1 <= maxW && y2 - y1 <= maxH) return z;
   }
 
   return 3;
 }
 
-function spreadMarkers(markers, minDistance = 86, iterations = 140) {
+function spreadMarkers(markers, width, height, minDistance = 80, iterations = 140) {
   const points = markers.map((marker) => ({ ...marker }));
 
   for (let round = 0; round < iterations; round += 1) {
@@ -145,37 +145,28 @@ function spreadMarkers(markers, minDistance = 86, iterations = 140) {
   }
 
   for (const point of points) {
-    point.x = Math.round(Math.min(W - 90, Math.max(90, point.x)));
-    point.y = Math.round(Math.min(H - 260, Math.max(700, point.y)));
+    point.x = Math.round(Math.min(width - 60, Math.max(60, point.x)));
+    point.y = Math.round(Math.min(height - 60, Math.max(60, point.y)));
   }
 
   return points;
 }
 
-async function buildMapBackground(stops) {
-  const z = pickZoom(stops);
+async function buildMapCard(stops, cardW, cardH) {
+  const z = pickZoom(stops, cardW - 180, cardH - 180);
   const xs = stops.map((stop) => lonToX(stop.coords[1], z));
   const ys = stops.map((stop) => latToY(stop.coords[0], z));
 
   const cx = (Math.min(...xs) + Math.max(...xs)) / 2;
   const cy = (Math.min(...ys) + Math.max(...ys)) / 2;
 
-  const originX = cx - W / 2;
-  let originY = cy - H / 2 + 120;
-
-  // Zorg dat de bovenste pin onder het titelblok valt.
-  const topmost = Math.min(
-    ...stops.map((stop) => latToY(stop.coords[0], z) - originY),
-  );
-
-  if (topmost < 700) {
-    originY -= 700 - topmost;
-  }
+  const originX = cx - cardW / 2;
+  const originY = cy - cardH / 2;
 
   const startX = Math.floor(originX / 256);
-  const endX = Math.floor((originX + W) / 256);
+  const endX = Math.floor((originX + cardW) / 256);
   const startY = Math.floor(originY / 256);
-  const endY = Math.floor((originY + H) / 256);
+  const endY = Math.floor((originY + cardH) / 256);
 
   const jobs = [];
 
@@ -209,8 +200,8 @@ async function buildMapBackground(stops) {
 
   const base = await sharp({
     create: {
-      width: W,
-      height: H,
+      width: cardW,
+      height: cardH,
       channels: 3,
       background: "#e8e3d6",
     },
@@ -219,30 +210,15 @@ async function buildMapBackground(stops) {
     .png()
     .toBuffer();
 
-  const overlay = svgBase(`
-    <defs>
-      <linearGradient id="top" x1="0" y1="0" x2="0" y2="1">
-        <stop offset="0" stop-color="${COLORS.jungle}" stop-opacity="0.97"/>
-        <stop offset="0.55" stop-color="${COLORS.jungle}" stop-opacity="0.72"/>
-        <stop offset="1" stop-color="${COLORS.jungle}" stop-opacity="0"/>
-      </linearGradient>
-      <linearGradient id="bottom" x1="0" y1="0" x2="0" y2="1">
-        <stop offset="0" stop-color="${COLORS.jungle}" stop-opacity="0"/>
-        <stop offset="1" stop-color="${COLORS.jungle}" stop-opacity="0.9"/>
-      </linearGradient>
-    </defs>
-    <rect x="0" y="0" width="${W}" height="760" fill="url(#top)"/>
-    <rect x="0" y="0" width="${W}" height="${H}" fill="${COLORS.sand}" opacity="0.16"/>
-    <rect x="0" y="${H - 420}" width="${W}" height="420" fill="url(#bottom)"/>
-  `);
-
   const markers = spreadMarkers(
-    stops.map((stop, index) => {
-      const x = Math.round(lonToX(stop.coords[1], z) - originX);
-      const y = Math.round(latToY(stop.coords[0], z) - originY);
-
-      return { x, y, index, stop };
-    }),
+    stops.map((stop, index) => ({
+      x: Math.round(lonToX(stop.coords[1], z) - originX),
+      y: Math.round(latToY(stop.coords[0], z) - originY),
+      index,
+      stop,
+    })),
+    cardW,
+    cardH,
   );
 
   const line = markers.map((m) => `${m.x},${m.y}`).join(" ");
@@ -250,48 +226,65 @@ async function buildMapBackground(stops) {
   const dots = markers
     .map(
       (m) => `
-      <circle cx="${m.x}" cy="${m.y}" r="30" fill="${COLORS.sunset}" stroke="${COLORS.sand}" stroke-width="6"/>
-      <text x="${m.x}" y="${m.y + 11}" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="30" font-weight="bold" fill="${COLORS.jungle}">${m.index + 1}</text>
+      <circle cx="${m.x}" cy="${m.y}" r="26" fill="${COLORS.sunset}" stroke="${COLORS.sand}" stroke-width="5"/>
+      <text x="${m.x}" y="${m.y + 10}" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="26" font-weight="bold" fill="${COLORS.jungle}">${m.index + 1}</text>
     `,
     )
     .join("");
 
-  const markersOverlay = svgBase(`
-    <polyline points="${line}" fill="none" stroke="${COLORS.jungle}" stroke-width="7" stroke-dasharray="16 14" stroke-linecap="round" opacity="0.85"/>
-    ${dots}
+  const overlay = Buffer.from(`
+    <svg xmlns="http://www.w3.org/2000/svg" width="${cardW}" height="${cardH}">
+      <rect x="0" y="0" width="${cardW}" height="${cardH}" fill="${COLORS.sand}" opacity="0.12"/>
+      <polyline points="${line}" fill="none" stroke="${COLORS.jungle}" stroke-width="6" stroke-dasharray="14 12" stroke-linecap="round" opacity="0.85"/>
+      ${dots}
+      <rect x="${cardW - 190}" y="${cardH - 46}" width="170" height="34" rx="8" fill="${COLORS.sand}" opacity="0.9"/>
+      <text x="${cardW - 105}" y="${cardH - 22}" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="18" fill="${COLORS.jungle}">© OpenStreetMap</text>
+    </svg>
   `);
 
   return sharp(base)
-    .composite([
-      { input: overlay, top: 0, left: 0 },
-      { input: markersOverlay, top: 0, left: 0 },
-    ])
+    .composite([{ input: overlay, top: 0, left: 0 }])
     .png()
     .toBuffer();
 }
 
+function roundedMask(width, height, radius) {
+  return Buffer.from(
+    `<svg xmlns="http://www.w3.org/2000/svg" width="${width}" height="${height}"><rect width="${width}" height="${height}" rx="${radius}" ry="${radius}" fill="#fff"/></svg>`,
+  );
+}
+
 /* ------------------------------ tekstlagen ------------------------------ */
 
-function titleOverlay(route) {
+function mapSlideOverlay(route) {
   const lines = wrap(route.introHeading ?? route.travelStyle, 30).slice(0, 2);
 
   return svgBase(`
-    <text x="64" y="110" font-family="Helvetica, Arial, sans-serif" font-size="28" font-weight="bold" letter-spacing="8" fill="${COLORS.sunset}">REISROUTE</text>
-    <text x="64" y="210" font-family="Georgia, 'DejaVu Serif', serif" font-size="82" font-weight="bold" fill="${COLORS.sand}">${escapeXml(
+    <defs>
+      <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+        <stop offset="0" stop-color="#1B2A23"/>
+        <stop offset="1" stop-color="#0E1712"/>
+      </linearGradient>
+    </defs>
+    <rect x="0" y="0" width="${W}" height="${H}" fill="url(#bg)"/>
+    <circle cx="${W - 40}" cy="170" r="190" fill="none" stroke="${COLORS.sand}" stroke-opacity="0.08" stroke-width="2"/>
+    <circle cx="30" cy="${H - 260}" r="150" fill="none" stroke="${COLORS.sand}" stroke-opacity="0.08" stroke-width="2"/>
+
+    <text x="64" y="150" font-family="Helvetica, Arial, sans-serif" font-size="28" font-weight="bold" letter-spacing="8" fill="${COLORS.sunset}">REISROUTE</text>
+    <text x="64" y="255" font-family="Georgia, 'DejaVu Serif', serif" font-size="78" font-weight="bold" fill="${COLORS.sand}">${escapeXml(
       route.durationLabel,
     )}</text>
-    <text x="64" y="320" font-family="Georgia, 'DejaVu Serif', serif" font-size="96" font-weight="bold" fill="${COLORS.sand}">${escapeXml(
+    <text x="64" y="365" font-family="Georgia, 'DejaVu Serif', serif" font-size="94" font-weight="bold" fill="${COLORS.sand}">${escapeXml(
       route.country,
     )}</text>
     ${lines
       .map(
         (line, index) =>
-          `<text x="64" y="${410 + index * 50}" font-family="Helvetica, Arial, sans-serif" font-size="36" fill="${COLORS.sand}" opacity="0.92">${escapeXml(line)}</text>`,
+          `<text x="64" y="${455 + index * 48}" font-family="Helvetica, Arial, sans-serif" font-size="34" fill="${COLORS.sand}" opacity="0.85">${escapeXml(line)}</text>`,
       )
       .join("")}
-    <text x="64" y="${H - 96}" font-family="Helvetica, Arial, sans-serif" font-size="34" font-weight="bold" fill="${COLORS.sand}">${route.stops.length} stops · travel-monkey.vercel.app</text>
-    <rect x="${W - 250}" y="${H - 66}" width="220" height="42" rx="10" fill="${COLORS.sand}" opacity="0.85"/>
-    <text x="${W - 140}" y="${H - 37}" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="22" fill="${COLORS.jungle}">© OpenStreetMap</text>
+
+    <text x="64" y="${H - 150}" font-family="Helvetica, Arial, sans-serif" font-size="32" font-weight="bold" fill="${COLORS.sand}">${route.stops.length} stops · travel-monkey.vercel.app</text>
   `);
 }
 
@@ -390,9 +383,16 @@ export async function buildSlides(route, outDir) {
   const coverImage = await cover(route);
 
   // 1. kaart
-  const map = await buildMapBackground(route.stops);
-  const slide1 = await sharp(map)
-    .composite([{ input: titleOverlay(route), top: 0, left: 0 }])
+  const cardW = 940;
+  const cardH = 860;
+  const rawCard = await buildMapCard(route.stops, cardW, cardH);
+  const card = await sharp(rawCard)
+    .composite([{ input: roundedMask(cardW, cardH, 36), blend: "dest-in" }])
+    .png()
+    .toBuffer();
+
+  const slide1 = await sharp(await sharp(mapSlideOverlay(route)).png().toBuffer())
+    .composite([{ input: card, left: 70, top: 640 }])
     .png()
     .toBuffer();
   const file1 = path.join(outDir, "slide-1.png");
