@@ -62,6 +62,6 @@ jobs:
             exit 0
           fi
 
-          COUNT=$(git diff --staged --name-only -- 'data/blog/*.json' | wc -l | tr -d ' ')
-          git commit -m "content: ${COUNT} nieuwe reisverhalen ($(date -u +%F))"
+          COUNT=$(git diff --staged --name-only -- 'data/routes/*.json' | wc -l | tr -d ' ')
+          git commit -m "content: ${COUNT} nieuwe reisroutes ($(date -u +%F))"
           git push
