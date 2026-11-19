@@ -37,5 +37,18 @@
     "type": "blog",
     "thumbnail": "/images/nusa-diamond.jpg",
     "excerpt": "Twee nachten in plaats van één dagtour. Wat wel werkte, wat niet, en wat het kostte."
+  },
+  {
+    "id": "tips-voor-de-beste-reistijd-in-schotland-blog",
+    "name": "Schotland",
+    "country": "Schotland",
+    "coords": [
+      60.2977684,
+      -1.6467827
+    ],
+    "slug": "tips-voor-de-beste-reistijd-in-schotland",
+    "type": "blog",
+    "thumbnail": "/images/posts/tips-voor-de-beste-reistijd-in-schotland.webp",
+    "excerpt": "Ontdek wanneer je het beste naar Schotland kunt reizen en wat je moet weten over het weer en de drukte. Van Edinburgh tot de Hooglanden, deze gids helpt je bij het plannen van je reis."
   }
 ]
