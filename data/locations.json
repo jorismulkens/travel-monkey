@@ -128,5 +128,18 @@
     "type": "route",
     "thumbnail": "/images/posts/7-dagen-zuid-afrika-van-kaapstad-tot-kruger-cover.webp",
     "excerpt": "Een week door Zuid-Afrika waarbij je start in de levendige Kaapstad, geniet van de rustige wijnlanden, een stukje van de Drakensberg, de bekende Garden Route en eindigt met safari in Kruger."
+  },
+  {
+    "id": "14-dagen-india-cultuur-en-natuur-in-balans-route",
+    "name": "Delhi",
+    "country": "India",
+    "coords": [
+      28.6328027,
+      77.2197713
+    ],
+    "slug": "14-dagen-india-cultuur-en-natuur-in-balans",
+    "type": "route",
+    "thumbnail": "/images/posts/14-dagen-india-cultuur-en-natuur-in-balans-cover.webp",
+    "excerpt": "Van bruisende steden en indrukwekkende monumenten tot spirituele plekken en de rust van Kerala. Deze route biedt een mooie mix van geschiedenis, cultuur en natuur."
   }
 ]

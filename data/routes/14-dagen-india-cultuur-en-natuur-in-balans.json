@@ -1,0 +1,269 @@
+{
+  "slug": "14-dagen-india-cultuur-en-natuur-in-balans",
+  "title": "14 dagen India: cultuur en natuur in balans",
+  "kicker": "Een veelzijdige route door het Noorden en Zuiden",
+  "country": "India",
+  "region": "Azië",
+  "durationDays": 14,
+  "durationLabel": "14 dagen",
+  "travelStyle": "Ontdekkingsreis",
+  "budget": "Middenklasse",
+  "budgetNote": "Dagelijkse kosten liggen gemiddeld tussen de 25 en 50 euro, afhankelijk van keuzes in vervoer en verblijf.",
+  "bestTime": "Oktober tot maart",
+  "startPoint": "Delhi",
+  "endPoint": "Kerala",
+  "coverImage": "/images/posts/14-dagen-india-cultuur-en-natuur-in-balans-cover.webp",
+  "coverAlt": "Van bruisende steden en indrukwekkende monumenten tot spirituele plekken en de rust van Kerala. Deze route biedt een mooie mix van geschiedenis, cultuur en natuur.",
+  "excerpt": "Van bruisende steden en indrukwekkende monumenten tot spirituele plekken en de rust van Kerala. Deze route biedt een mooie mix van geschiedenis, cultuur en natuur.",
+  "introHeading": "Van stad naar zee",
+  "intro": [
+    "Deze 14-daagse route door India combineert het beste van het Noorden en het Zuiden. Begin in Delhi, waar moderne drukte en historische monumenten elkaar afwisselen en de rijke geschiedenis goed voelbaar is.",
+    "Bezoek de wereldberoemde Taj Mahal in Agra en ontdek de roze stad Jaipur met haar levendige bazaars en indrukwekkende forten. Vervolgens brengt de reis je naar Varanasi, een van de oudste steden ter wereld met een intens spiritueel karakter.",
+    "Sluit af in het groene Kerala. Dit gebied staat bekend om haar rustige backwaters, tropische landschappen en ontspannen sfeer. Zo krijg je een mooie combinatie van cultuur, religie en natuur mee."
+  ],
+  "highlights": [
+    "Bezoek aan het Taj Mahal in Agra",
+    "Verkenning van de kleurrijke bazaars in Jaipur",
+    "Spirituele ervaring in Varanasi",
+    "Backwaters en natuur in Kerala",
+    "Historische monumenten in Delhi"
+  ],
+  "stops": [
+    {
+      "id": "delhi-1",
+      "number": 1,
+      "name": "Delhi",
+      "area": "Noord-India",
+      "coords": [
+        28.6328027,
+        77.2197713
+      ],
+      "dayLabel": "Dag 1-3",
+      "nights": 3,
+      "image": "/images/posts/14-dagen-india-cultuur-en-natuur-in-balans-1.webp",
+      "imageAlt": "Straatbeeld in Delhi met monumenten en markt",
+      "description": "Delhi is een stad waar oud en nieuw elkaar ontmoeten. Het historische Oud-Delhi biedt indrukwekkende monumenten zoals de Jama Masjid en het Rode Fort, terwijl Nieuw-Delhi met brede boulevards en regeringsgebouwen een heel ander beeld geeft. Tussen de drukte door zijn er rustige parken en musea. De stad staat bekend om haar levendige markten, waar het aanbod van handwerk tot streetfood groot is. Het is een goede plek om in de Indiase sfeer te komen en je voor te bereiden op de rest van de reis.",
+      "activities": [
+        {
+          "title": "Bezoek aan het Rode Fort",
+          "description": "Verken het historische Rode Fort, een indrukwekkend paleiscomplex uit de 17e eeuw.",
+          "price": "5-10 euro"
+        },
+        {
+          "title": "Fietstocht door Oud-Delhi",
+          "description": "Maak een begeleide fietstocht langs bezienswaardigheden en smalle straatjes.",
+          "price": "15-25 euro"
+        },
+        {
+          "title": "Bezoek aan het Gandhi Museum",
+          "description": "Leer over het leven van Mahatma Gandhi in dit informatieve museum.",
+          "price": "3-6 euro"
+        }
+      ],
+      "tip": "Vermijd de heetste uren van de dag en draag comfortabele schoenen. Probeer streetfood bij een drukbezochte kraam maar let op hygiëne."
+    },
+    {
+      "id": "agra-2",
+      "number": 2,
+      "name": "Agra",
+      "area": "Noord-India",
+      "coords": [
+        27.1752554,
+        78.0098161
+      ],
+      "dayLabel": "Dag 4-5",
+      "nights": 2,
+      "image": "/images/posts/14-dagen-india-cultuur-en-natuur-in-balans-2.webp",
+      "imageAlt": "Taj Mahal bij zonsopgang",
+      "description": "Agra staat vooral bekend om de Taj Mahal, een van de meest iconische gebouwen ter wereld. Naast dit witte marmeren mausoleum is er het indrukwekkende Agra Fort en het minder bezochte Itmad-ud-Daulah, ook wel de 'Baby Taj' genoemd. De stad heeft een levendige sfeer met drukke markten en traditionele ambachtslieden. Het is een ideale plek om de rijke Mughal-architectuur en geschiedenis te ervaren.",
+      "activities": [
+        {
+          "title": "Taj Mahal bezoeken",
+          "description": "Bewonder het wereldberoemde mausoleum en de omliggende tuinen.",
+          "price": "15-25 euro"
+        },
+        {
+          "title": "Agra Fort rondleiding",
+          "description": "Ontdek een gigantisch fortcomplex met paleizen en moskeeën.",
+          "price": "7-12 euro"
+        },
+        {
+          "title": "Bezoek aan Itmad-ud-Daulah",
+          "description": "Bekijk een sierlijk marmeren monument, bekend als de 'Baby Taj'.",
+          "price": "5-8 euro"
+        }
+      ],
+      "tip": "Bezoek de Taj Mahal bij zonsopgang voor minder drukte en mooi licht. Neem water mee en draag lichte kleding."
+    },
+    {
+      "id": "jaipur-3",
+      "number": 3,
+      "name": "Jaipur",
+      "area": "Rajasthan",
+      "coords": [
+        26.9154576,
+        75.8189817
+      ],
+      "dayLabel": "Dag 6-8",
+      "nights": 3,
+      "image": "/images/posts/14-dagen-india-cultuur-en-natuur-in-balans-3.webp",
+      "imageAlt": "Hawa Mahal in Jaipur",
+      "description": "Jaipur, ook wel de roze stad genoemd, is de hoofdstad van Rajasthan en staat bekend om haar indrukwekkende paleizen en forten. De stad is kleurrijk met smalle straatjes, levendige markten en een rijke cultuur. Bezoek het Hawa Mahal, het Amber Fort en het City Palace. De lokale bazaars bieden veel handwerk, textiel en sieraden. Het is een plek waar geschiedenis en tradities voelbaar zijn in het dagelijks leven.",
+      "activities": [
+        {
+          "title": "Bezoek aan Amber Fort",
+          "description": "Verken het grote fort met mooie uitzichten en architectuur.",
+          "price": "10-15 euro"
+        },
+        {
+          "title": "Rondleiding door City Palace",
+          "description": "Bekijk de paleizen, tuinen en musea in het centrum van Jaipur.",
+          "price": "5-10 euro"
+        },
+        {
+          "title": "Shoppen op de lokale markt",
+          "description": "Koop handwerk, textiel en sieraden op een van de kleurrijke markten.",
+          "price": "Afhankelijk van aankoop"
+        }
+      ],
+      "tip": "Probeer lokale gerechten in een familiegerund restaurant en vermijd het heetste middaguur buiten."
+    },
+    {
+      "id": "varanasi-4",
+      "number": 4,
+      "name": "Varanasi",
+      "area": "Noord-Oost India",
+      "coords": [
+        25.3356491,
+        83.0076292
+      ],
+      "dayLabel": "Dag 9-11",
+      "nights": 3,
+      "image": "/images/posts/14-dagen-india-cultuur-en-natuur-in-balans-4.webp",
+      "imageAlt": "Boottocht bij zonsopgang op de Ganges in Varanasi",
+      "description": "Varanasi is een van de oudste steden ter wereld en een belangrijk spiritueel centrum in India. De stad aan de rivier de Ganges is bekend om haar ghats waar religieuze rituelen, ceremonies en crematies plaatsvinden. Een boottocht bij zonsopgang biedt een indrukwekkend uitzicht op de stad en haar activiteiten. Wandel door de smalle straatjes en proef de intense sfeer die uniek is voor deze plek. Varanasi geeft een goed beeld van de religieuze rijkdom en tradities van India.",
+      "activities": [
+        {
+          "title": "Boottocht op de Ganges",
+          "description": "Bekijk de stad vanaf het water tijdens een vroeg ochtendrondvaart.",
+          "price": "10-20 euro"
+        },
+        {
+          "title": "Bezoek aan Sarnath",
+          "description": "Ontdek de plaats waar Boeddha zijn eerste toespraak gaf.",
+          "price": "3-7 euro"
+        },
+        {
+          "title": "Wandeling langs de Ghats",
+          "description": "Ervaar de levendige en spirituele sfeer langs de rivieroevers.",
+          "price": "Gratis"
+        }
+      ],
+      "tip": "Wees respectvol bij religieuze plaatsen en kleed je gepast. Boek een boottocht vroeg in de ochtend voor de beste ervaring."
+    },
+    {
+      "id": "kerala-5",
+      "number": 5,
+      "name": "Kerala",
+      "area": "Zuid-India",
+      "coords": [
+        10.3528744,
+        76.5120396
+      ],
+      "dayLabel": "Dag 12-14",
+      "nights": 3,
+      "image": "/images/posts/14-dagen-india-cultuur-en-natuur-in-balans-5.webp",
+      "imageAlt": "Boottocht in de backwaters van Kerala",
+      "description": "Kerala staat bekend om haar groene landschappen, rustige backwaters en tropische stranden. Het gebied biedt een welkome ontspanning na de drukte van het Noorden. Maak een boottocht door de kanalen en geniet van het landelijke leven. Bezoek kleine dorpjes, kruidenplantages en neem de tijd om lokale keuken en ayurvedische massages te ervaren. Kerala is een plek waar natuur en cultuur samenkomen in een ontspannen sfeer.",
+      "activities": [
+        {
+          "title": "Boottocht door de backwaters",
+          "description": "Geniet van een ontspannen tocht door het waterrijke landschap.",
+          "price": "20-35 euro"
+        },
+        {
+          "title": "Bezoek aan een kruidenplantage",
+          "description": "Leer over de lokale kruiden en hun toepassingen.",
+          "price": "5-10 euro"
+        },
+        {
+          "title": "Ayurvedische massage",
+          "description": "Ervaar een traditionele massage voor lichaam en geest.",
+          "price": "15-30 euro"
+        }
+      ],
+      "tip": "Plan een boottocht in de backwaters en probeer een traditionele ayurvedische massage voor ontspanning."
+    }
+  ],
+  "gallery": [
+    {
+      "src": "/images/posts/14-dagen-india-cultuur-en-natuur-in-balans-1.webp",
+      "alt": "Straatbeeld in Delhi met monumenten en markt",
+      "caption": "Delhi — Noord-India"
+    },
+    {
+      "src": "/images/posts/14-dagen-india-cultuur-en-natuur-in-balans-2.webp",
+      "alt": "Taj Mahal bij zonsopgang",
+      "caption": "Agra — Noord-India"
+    },
+    {
+      "src": "/images/posts/14-dagen-india-cultuur-en-natuur-in-balans-3.webp",
+      "alt": "Hawa Mahal in Jaipur",
+      "caption": "Jaipur — Rajasthan"
+    },
+    {
+      "src": "/images/posts/14-dagen-india-cultuur-en-natuur-in-balans-4.webp",
+      "alt": "Boottocht bij zonsopgang op de Ganges in Varanasi",
+      "caption": "Varanasi — Noord-Oost India"
+    },
+    {
+      "src": "/images/posts/14-dagen-india-cultuur-en-natuur-in-balans-5.webp",
+      "alt": "Boottocht in de backwaters van Kerala",
+      "caption": "Kerala — Zuid-India"
+    }
+  ],
+  "practical": [
+    {
+      "label": "Vervoer",
+      "value": "Binnenlandse vluchten kosten gemiddeld 30-70 euro per traject. Treinen en bussen zijn goedkoper, van 5-20 euro per rit."
+    },
+    {
+      "label": "Verblijf",
+      "value": "Budgethotels vanaf 10 euro, middenklasse 25-50 euro per nacht."
+    },
+    {
+      "label": "Budget",
+      "value": "Dagelijkse uitgaven (eten, vervoer, entree) tussen 25-50 euro."
+    },
+    {
+      "label": "Beste reistijd",
+      "value": "Oktober tot maart voor koeler en droger weer."
+    },
+    {
+      "label": "Geld en internet",
+      "value": "Cash is handig, pinnen bij grote steden. Simkaarten zijn betaalbaar en wijdverbreid."
+    }
+  ],
+  "packing": [
+    "Lichte, ademende kleding",
+    "Comfortabele wandelschoenen",
+    "Hoed of pet tegen de zon",
+    "Zonnebrandcrème",
+    "Reishanddoek",
+    "Adapter voor Indiase stopcontacten",
+    "Medicatie en EHBO-set",
+    "Lichte regenjas (voor het voor- of najaar)",
+    "Herbruikbare waterfles"
+  ],
+  "closingNote": "Deze route door India biedt een goede balans tussen culturele hoogtepunten en momenten van rust. Elke plaats heeft zijn eigen sfeer en verhaal, wat de reis afwisselend en interessant maakt. Met een goede voorbereiding biedt deze reis een mooie kennismaking met de veelzijdigheid van het land. Vergeet niet voldoende rustdagen in te plannen en open te staan voor onverwachte ontmoetingen. India laat zich het beste ervaren met een nieuwsgierige en geduldige houding.",
+  "continent": "azie",
+  "author": "Redactie",
+  "generated": true,
+  "createdAt": "2026-11-19",
+  "topicKey": "india:reisroute:2-weken",
+  "imageCredit": {
+    "name": "PavanPrasad_IND",
+    "url": "https://pixabay.com/photos/india-mysore-palace-architecture-10514028/",
+    "source": "Pixabay"
+  }
+}
