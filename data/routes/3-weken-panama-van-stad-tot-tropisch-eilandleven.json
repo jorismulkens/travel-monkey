@@ -1,0 +1,263 @@
+{
+  "slug": "3-weken-panama-van-stad-tot-tropisch-eilandleven",
+  "title": "3 weken Panama: van stad tot tropisch eilandleven",
+  "kicker": "Ontdek diversiteit en natuur in Midden-Amerika",
+  "country": "Panama",
+  "region": "Midden-Amerika",
+  "durationDays": 21,
+  "durationLabel": "21 dagen",
+  "travelStyle": "avontuurlijk en ontspannen",
+  "budget": "€100-150 per dag",
+  "budgetNote": "Afhankelijk van gekozen accommodatie en activiteiten kunnen kosten variëren",
+  "bestTime": "December tot april voor droog seizoen",
+  "startPoint": "Panama-Stad",
+  "endPoint": "Santa Catalina",
+  "coverImage": "/images/posts/3-weken-panama-van-stad-tot-tropisch-eilandleven-cover.webp",
+  "coverAlt": "Een veelzijdige reis door Panama, met bruisende stad, tropische eilanden, bergdorpjes en ongerepte stranden. Ideaal voor reizigers die natuur, cultuur en avontuur willen combineren.",
+  "excerpt": "Een veelzijdige reis door Panama, met bruisende stad, tropische eilanden, bergdorpjes en ongerepte stranden. Ideaal voor reizigers die natuur, cultuur en avontuur willen combineren.",
+  "intro": [
+    "Panama biedt veel meer dan alleen het beroemde Panamakanaal. Tijdens deze 3-weekse route ontdek je het veelzijdige landschap van het land, waarbij je van een bruisende hoofdstad naar rustige tropische eilanden reist.",
+    "De reis start in Panama-Stad, waar moderne architectuur en koloniale historie elkaar ontmoeten. Daarna is het tijd om te relaxen en te snorkelen in de eilandengroep Bocas del Toro aan de Caribische kust.",
+    "Vervolgens gaat het naar de bergachtige regio van Boquete, waar koffieplantages en natuur centraal staan. Daarna brengt een boottocht je naar de San Blas-eilanden, een plek met een authentieke Kuna-cultuur en prachtige stranden. De reis eindigt aan de Pacifische kust in het surfersdorp Santa Catalina, waar je kunt ontspannen en genieten van watersporten."
+  ],
+  "highlights": [
+    "Panamakanaal en Casco Viejo in Panama-Stad",
+    "Kleurrijke huizen en snorkelen in Bocas del Toro",
+    "Koffietours en natuurwandelingen in Boquete",
+    "Traditionele Kuna-cultuur en witte stranden in San Blas",
+    "Surfen en duiken bij Santa Catalina"
+  ],
+  "stops": [
+    {
+      "id": "panama-stad-1",
+      "number": 1,
+      "name": "Panama-Stad",
+      "area": "Panama-Stad",
+      "coords": [
+        8.9714493,
+        -79.5341802
+      ],
+      "dayLabel": "Dag 1-4",
+      "nights": 4,
+      "image": "/images/posts/3-weken-panama-van-stad-tot-tropisch-eilandleven-1.webp",
+      "imageAlt": "Panama-Stad skyline met Panamakanaal",
+      "description": "Panama-Stad is een dynamische metropool waar koloniale charme en moderne hoogbouw samenkomen. Bezoek het historische Casco Viejo met zijn gezellige pleinen, kerken en cafeetjes. Het Panamakanaal, één van de beroemdste waterwerken ter wereld, is een must-see. Hier zie je enorme schepen door de sluizen varen. Naast cultuur is er ook natuur binnen handbereik, zoals het Metropolitan Park voor een korte wandeltocht met uitzicht over de stad.",
+      "activities": [
+        {
+          "title": "Bezoek Panamakanaal Miraflores Locks",
+          "description": "Ontdek de werking van het kanaal en leer over de geschiedenis in het bezoekerscentrum.",
+          "price": "10-15 euro"
+        },
+        {
+          "title": "Wandeling door Casco Viejo",
+          "description": "Verken het historische centrum te voet en geniet van lokale eetgelegenheden.",
+          "price": "gratis tot 10 euro voor eten"
+        },
+        {
+          "title": "Metropolitan Park hike",
+          "description": "Korte wandeling met uitzicht over de stad en vogels spotten.",
+          "price": "gratis"
+        }
+      ],
+      "tip": "Koop een dagpas voor de bus of gebruik ridesharing apps om de stad betaalbaar te verkennen."
+    },
+    {
+      "id": "bocas-del-toro-2",
+      "number": 2,
+      "name": "Bocas del Toro",
+      "area": "Caribisch Panama",
+      "coords": [
+        9.2675219,
+        -81.9575352
+      ],
+      "dayLabel": "Dag 5-10",
+      "nights": 6,
+      "image": "/images/posts/3-weken-panama-van-stad-tot-tropisch-eilandleven-2.webp",
+      "imageAlt": "Kleurrijke huizen en helder water op Bocas del Toro",
+      "description": "Bocas del Toro is een eilandengroep met een ontspannen Caribische sfeer. De kleurrijke huizen van Bocas Town en de omliggende stranden bieden een perfecte plek om te relaxen. De onderwaterwereld is rijk aan koraalriffen en tropische vissen, geschikt om te snorkelen of duiken. Lokale boottochten naar nabijgelegen eilanden zoals Isla Zapatilla bieden rust en natuur. Ook is het leuk om met een kajak de mangroves te verkennen en onderweg dieren te spotten.",
+      "activities": [
+        {
+          "title": "Snorkelen bij Coral Cay",
+          "description": "Verken koraalriffen en zie tropische vissen in helder water.",
+          "price": "15-25 euro inclusief uitrusting"
+        },
+        {
+          "title": "Boottocht naar Isla Zapatilla",
+          "description": "Dagtrip naar ongerepte eilanden met witte stranden.",
+          "price": "20-35 euro"
+        },
+        {
+          "title": "Kajakken door mangroves",
+          "description": "Rustige tocht langs mangrovebossen en lokale fauna.",
+          "price": "10-20 euro"
+        }
+      ],
+      "tip": "Huur een golfkarretje om het eiland gemakkelijk te verkennen en vermijd de taxi’s."
+    },
+    {
+      "id": "boquete-3",
+      "number": 3,
+      "name": "Boquete",
+      "area": "West-Panama, hoogland",
+      "coords": [
+        8.7407496,
+        -82.3853832
+      ],
+      "dayLabel": "Dag 11-15",
+      "nights": 5,
+      "image": "/images/posts/3-weken-panama-van-stad-tot-tropisch-eilandleven-3.webp",
+      "imageAlt": "Koffieplantage en bergen in Boquete",
+      "description": "Boquete ligt in de koele bergen en staat bekend om zijn koffieplantages en natuurschoon. Wandelingen door het nevelwoud en langs watervallen laten de diversiteit van de flora en fauna zien. Bezoek een koffieboerderij om het proces van boon tot kop koffie te leren. Ook zijn er avontuurlijke activiteiten mogelijk zoals ziplinen en raften in de omgeving. Het dorp heeft een ontspannen sfeer met gezellige cafés en lokale markten, waar je de lokale cultuur kunt proeven.",
+      "activities": [
+        {
+          "title": "Koffietour op lokale plantage",
+          "description": "Leer alles over de productie van Panamese koffie.",
+          "price": "15-25 euro"
+        },
+        {
+          "title": "Wandeling naar de Lost Waterfalls",
+          "description": "Prachtige natuurwandeling langs watervallen.",
+          "price": "gratis tot 5 euro toegangsprijs"
+        },
+        {
+          "title": "Ziplinen door het nevelwoud",
+          "description": "Avontuurlijke tocht met prachtige uitzichten.",
+          "price": "40-60 euro"
+        }
+      ],
+      "tip": "Plan je wandelingen vroeg op de dag om het koel te houden en kans op regen te vermijden."
+    },
+    {
+      "id": "san-blas-4",
+      "number": 4,
+      "name": "San Blas",
+      "area": "Kuna Yala eilanden",
+      "coords": [
+        9.1875975,
+        -77.8713723
+      ],
+      "dayLabel": "Dag 16-19",
+      "nights": 4,
+      "image": "/images/posts/3-weken-panama-van-stad-tot-tropisch-eilandleven-4.webp",
+      "imageAlt": "Strand en hutten op een eiland in San Blas",
+      "description": "San Blas is een rustige archipel met meer dan 300 eilanden, bewoond door het Kuna-volk. De eilanden bieden een bijzondere combinatie van cultuur, zon en zee. Verblijf in eenvoudige hutten aan het strand en geniet van rust, snorkelen en kajakken in helder water. De Kuna-cultuur is zichtbaar in de kleurrijke molas (traditionele kunstwerken) en de gastvrijheid van de bewoners. Het is een plek om even helemaal weg te zijn van het massatoerisme en te ontspannen in een natuurlijke omgeving.",
+      "activities": [
+        {
+          "title": "Snorkelen rond de eilanden",
+          "description": "Ontdek koraal en tropische vissen in helder water.",
+          "price": "10-20 euro"
+        },
+        {
+          "title": "Bezoek aan Kuna-dorp",
+          "description": "Leer over de cultuur en tradities van de lokale bevolking.",
+          "price": "gratis tot 10 euro toelage"
+        },
+        {
+          "title": "Kajakken tussen de eilanden",
+          "description": "Peddel langs kleine onbewoonde eilandjes.",
+          "price": "15-25 euro"
+        }
+      ],
+      "tip": "Neem voldoende contant geld mee, want pinautomaten zijn er nauwelijks."
+    },
+    {
+      "id": "santa-catalina-5",
+      "number": 5,
+      "name": "Santa Catalina",
+      "area": "Pacifische kust",
+      "coords": [
+        8.6629016,
+        -81.359787
+      ],
+      "dayLabel": "Dag 20-21",
+      "nights": 2,
+      "image": "/images/posts/3-weken-panama-van-stad-tot-tropisch-eilandleven-5.webp",
+      "imageAlt": "Surfer op het strand van Santa Catalina",
+      "description": "Santa Catalina is een klein surfersdorpje aan de Stille Oceaan, populair bij surfers en duikers. De stranden zijn uitgestrekt en bieden goede golven, ook voor beginners. Vanuit hier kun je duiktrips maken naar het Coiba National Park, een van de beste duikplekken van Midden-Amerika. Daarnaast zijn er wandelpaden door de omgeving met mooie uitzichten en rustige plekken om te ontspannen na een actieve dag.",
+      "activities": [
+        {
+          "title": "Surfen op de stranden van Santa Catalina",
+          "description": "Surfles of boardhuur voor beginners en gevorderden.",
+          "price": "20-40 euro"
+        },
+        {
+          "title": "Duiktrip naar Coiba National Park",
+          "description": "Ontdek kleurrijke onderwaterwereld met koraal en vissen.",
+          "price": "80-120 euro"
+        }
+      ],
+      "tip": "Reserveer duiktrips en surfboards op tijd, vooral in het hoogseizoen."
+    }
+  ],
+  "gallery": [
+    {
+      "src": "/images/posts/3-weken-panama-van-stad-tot-tropisch-eilandleven-1.webp",
+      "alt": "Panama-Stad skyline met Panamakanaal",
+      "caption": "Panama-Stad — Panama-Stad"
+    },
+    {
+      "src": "/images/posts/3-weken-panama-van-stad-tot-tropisch-eilandleven-2.webp",
+      "alt": "Kleurrijke huizen en helder water op Bocas del Toro",
+      "caption": "Bocas del Toro — Caribisch Panama"
+    },
+    {
+      "src": "/images/posts/3-weken-panama-van-stad-tot-tropisch-eilandleven-3.webp",
+      "alt": "Koffieplantage en bergen in Boquete",
+      "caption": "Boquete — West-Panama, hoogland"
+    },
+    {
+      "src": "/images/posts/3-weken-panama-van-stad-tot-tropisch-eilandleven-4.webp",
+      "alt": "Strand en hutten op een eiland in San Blas",
+      "caption": "San Blas — Kuna Yala eilanden"
+    },
+    {
+      "src": "/images/posts/3-weken-panama-van-stad-tot-tropisch-eilandleven-5.webp",
+      "alt": "Surfer op het strand van Santa Catalina",
+      "caption": "Santa Catalina — Pacifische kust"
+    }
+  ],
+  "practical": [
+    {
+      "label": "Vervoer",
+      "value": "Binnenlandse vluchten, bus en boot zijn gebruikelijk. Taxi’s en ridesharing apps zijn beschikbaar in steden."
+    },
+    {
+      "label": "Verblijf",
+      "value": "Variërend van budgethostels tot middenklasse hotels en eenvoudige strandhutten."
+    },
+    {
+      "label": "Budget",
+      "value": "Dagelijkse kosten liggen tussen 100 en 150 euro, afhankelijk van activiteiten en accommodatie."
+    },
+    {
+      "label": "Beste reistijd",
+      "value": "Droog seizoen van december tot april is ideaal voor reizen door het hele land."
+    },
+    {
+      "label": "Geld en internet",
+      "value": "Contant geld is vaak nodig buiten de steden. Wifi is beschikbaar in hotels en cafés, maar mobiel internet kan beperkt zijn."
+    }
+  ],
+  "packing": [
+    "Lichte kleding voor tropisch klimaat",
+    "Regenjas of poncho voor onverwachte buien",
+    "Goede wandelschoenen",
+    "Snorkelset of zwemspullen",
+    "Zonnebrandcrème met hoge factor",
+    "Insectenspray",
+    "Hoed of pet voor zonbescherming",
+    "Camera of smartphone voor foto's",
+    "Reisstekker voor stopcontacten"
+  ],
+  "closingNote": "Deze reis door Panama combineert stedelijke indrukken met natuur en cultuur, afgewisseld met ontspanning op het water. Door de verschillende regio’s ontstaat een compleet beeld van het land. Met aandacht voor praktische tips en diverse activiteiten is het geschikt voor reizigers die hun eigen tempo willen bepalen. Panama toont zich hiermee als een veelzijdige bestemming in Midden-Amerika.",
+  "continent": "midden-amerika",
+  "author": "Redactie",
+  "generated": true,
+  "createdAt": "2026-11-19",
+  "topicKey": "panama:reisroute:3-weken",
+  "imageCredit": {
+    "name": "grebmot",
+    "url": "https://pixabay.com/photos/beach-san-blas-islands-panama-4388225/",
+    "source": "Pixabay"
+  }
+}

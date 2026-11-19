@@ -76,5 +76,31 @@
     "type": "blog",
     "thumbnail": "/images/posts/tips-voor-solo-reizen-in-rwanda.webp",
     "excerpt": "Solo reizen in Rwanda kan een bijzondere ervaring zijn, mits je goed voorbereid bent. Deze gids helpt je met praktische tips over waar je mensen ontmoet, wat je moet regelen en waar je op moet letten."
+  },
+  {
+    "id": "3-weken-panama-van-stad-tot-tropisch-eilandleven-route",
+    "name": "Panama-Stad",
+    "country": "Panama",
+    "coords": [
+      8.9714493,
+      -79.5341802
+    ],
+    "slug": "3-weken-panama-van-stad-tot-tropisch-eilandleven",
+    "type": "route",
+    "thumbnail": "/images/posts/3-weken-panama-van-stad-tot-tropisch-eilandleven-cover.webp",
+    "excerpt": "Een veelzijdige reis door Panama, met bruisende stad, tropische eilanden, bergdorpjes en ongerepte stranden. Ideaal voor reizigers die natuur, cultuur en avontuur willen combineren."
+  },
+  {
+    "id": "3-weken-argentinie-van-bruisende-stad-tot-ruige-natuur-route",
+    "name": "Buenos Aires",
+    "country": "Argentinië",
+    "coords": [
+      -34.6095579,
+      -58.3887904
+    ],
+    "slug": "3-weken-argentinie-van-bruisende-stad-tot-ruige-natuur",
+    "type": "route",
+    "thumbnail": "/images/posts/3-weken-argentinie-van-bruisende-stad-tot-ruige-natuur-cover.webp",
+    "excerpt": "Een reisroute die je meeneemt van de culturele hoogtepunten van Buenos Aires tot de natuurwonderen in Patagonië en het noorden van Argentinië. Inclusief wijnlandschap, meren en bergen."
   }
 ]

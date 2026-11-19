@@ -1,0 +1,263 @@
+{
+  "slug": "3-weken-argentinie-van-bruisende-stad-tot-ruige-natuur",
+  "title": "3 weken Argentinië: van bruisende stad tot ruige natuur",
+  "kicker": "Ontdek de veelzijdigheid van Argentinië",
+  "country": "Argentinië",
+  "region": "Zuid-Amerika",
+  "durationDays": 21,
+  "durationLabel": "3 weken",
+  "travelStyle": "Avontuurlijk en cultureel",
+  "budget": "Middenklasse",
+  "budgetNote": "Dagelijkse kosten kunnen variëren tussen 40 en 80 euro, afhankelijk van keuzes in vervoer en verblijf.",
+  "bestTime": "Oktober tot april voor het beste weer in de meeste regio's",
+  "startPoint": "Buenos Aires",
+  "endPoint": "Salta",
+  "coverImage": "/images/posts/3-weken-argentinie-van-bruisende-stad-tot-ruige-natuur-cover.webp",
+  "coverAlt": "Een reisroute die je meeneemt van de culturele hoogtepunten van Buenos Aires tot de natuurwonderen in Patagonië en het noorden van Argentinië. Inclusief wijnlandschap, meren en bergen.",
+  "excerpt": "Een reisroute die je meeneemt van de culturele hoogtepunten van Buenos Aires tot de natuurwonderen in Patagonië en het noorden van Argentinië. Inclusief wijnlandschap, meren en bergen.",
+  "intro": [
+    "Argentinië staat bekend om haar grote variatie aan landschappen en cultuur. Van de bruisende straten van Buenos Aires tot de stille, uitgestrekte natuur van Patagonië biedt het land voor ieder wat wils.",
+    "Deze reisroute is zo samengesteld dat er tijd is om de belangrijkste plekken rustig te verkennen. De combinatie van stad, wijnregio, meren, gletsjers en het noordelijke berggebied geeft een mooi en gevarieerd beeld van Argentinië.",
+    "Tijdens drie weken reizen wissel je af tussen het ontdekken van cultuur, wandelen in de natuur en het proeven van lokale specialiteiten. Het is een route met een goede balans tussen actieve dagen en ontspanning."
+  ],
+  "highlights": [
+    "Flaneer over de Avenida 9 de Julio in Buenos Aires.",
+    "Proef Malbec-wijnen in de Mendoza wijnregio.",
+    "Verken het merengebied rond Bariloche.",
+    "Bewonder het gletsjergebied bij El Calafate.",
+    "Ontdek de koloniale sfeer en bergen rond Salta."
+  ],
+  "stops": [
+    {
+      "id": "buenos-aires-1",
+      "number": 1,
+      "name": "Buenos Aires",
+      "area": "Buenos Aires",
+      "coords": [
+        -34.6095579,
+        -58.3887904
+      ],
+      "dayLabel": "Dag 1-5",
+      "nights": 4,
+      "image": "/images/posts/3-weken-argentinie-van-bruisende-stad-tot-ruige-natuur-1.webp",
+      "imageAlt": "Straatbeeld van Buenos Aires met tango danseres",
+      "description": "Buenos Aires is een bruisende metropool met een mix van Europese charme en Latijns-Amerikaanse flair. Struin door verschillende wijken zoals San Telmo en Palermo, waar kunst en gastronomie samenkomen. De stad is bekend om zijn tango, historische gebouwen en levendige markten. Bezoek het culturele centrum in La Boca en geniet van lokale gerechten zoals empanadas en asado. De stad biedt een goede start om Argentijnse cultuur en geschiedenis te leren kennen.",
+      "activities": [
+        {
+          "title": "Stadswandeling door San Telmo en La Boca",
+          "description": "Ontdek kleurrijke straatkunst en historische plekken met een gids.",
+          "price": "15-25 euro"
+        },
+        {
+          "title": "Bezoek aan het Teatro Colón",
+          "description": "Rondleiding door een van de mooiste operahuizen ter wereld.",
+          "price": "10-20 euro"
+        },
+        {
+          "title": "Tangoshow met diner",
+          "description": "Geniet van traditionele tango en een Argentijns diner.",
+          "price": "40-60 euro"
+        }
+      ],
+      "tip": "Plan een avond in een traditioneel tangoshowtheater, maar boek vooraf om verzekerd te zijn van een plek."
+    },
+    {
+      "id": "mendoza-2",
+      "number": 2,
+      "name": "Mendoza",
+      "area": "Mendoza",
+      "coords": [
+        -34.5970325,
+        -68.7304797
+      ],
+      "dayLabel": "Dag 6-9",
+      "nights": 3,
+      "image": "/images/posts/3-weken-argentinie-van-bruisende-stad-tot-ruige-natuur-2.webp",
+      "imageAlt": "Wijngaarden in Mendoza met Andes op de achtergrond",
+      "description": "Mendoza ligt aan de voet van de Andes en staat bekend om zijn wijngaarden en uitstekende Malbec-wijnen. De omgeving is perfect voor wijnproeverijen en buitenactiviteiten. Naast wijncultuur kun je hier wandelen of fietsen door het landschap. Het is ook een toegangspoort tot de Andes, met mogelijkheden voor dagtochten naar bergmeren of zelfs een klim naar de hoogste berg van Amerika, Aconcagua, voor ervaren klimmers.",
+      "activities": [
+        {
+          "title": "Wijnproeverij tour",
+          "description": "Bezoek verschillende wijngaarden en proef lokale wijnen.",
+          "price": "20-35 euro"
+        },
+        {
+          "title": "Fietstocht door wijngaarden",
+          "description": "Fiets langs verschillende wijnhuizen en geniet van het landschap.",
+          "price": "15-30 euro"
+        },
+        {
+          "title": "Dagtocht naar Aconcagua Nationaal Park",
+          "description": "Wandel in de Andes en bewonder het hoogste punt van het continent.",
+          "price": "30-50 euro"
+        }
+      ],
+      "tip": "Reserveer wijnproeverijen van tevoren, vooral in het hoogseizoen."
+    },
+    {
+      "id": "bariloche-3",
+      "number": 3,
+      "name": "Bariloche",
+      "area": "Patagonië",
+      "coords": [
+        -41.1334781,
+        -71.3101474
+      ],
+      "dayLabel": "Dag 10-14",
+      "nights": 4,
+      "image": "/images/posts/3-weken-argentinie-van-bruisende-stad-tot-ruige-natuur-3.webp",
+      "imageAlt": "Landschap van meren en bergen rond Bariloche",
+      "description": "Bariloche ligt in het merengebied van Patagonië en heeft een Alpenachtige sfeer met veel bossen en bergen. Het is een goede plek voor wandelingen, watersporten en om te genieten van chocolade en lokale gerechten. De omgeving leent zich uitstekend voor dagtochten naar nabijgelegen meren en uitzichtpunten. Ook in de winter is Bariloche populair vanwege de skipistes, maar in de zomer zijn wandelroutes en kajakken favoriet.",
+      "activities": [
+        {
+          "title": "Wandeling naar Cerro Campanario",
+          "description": "Prachtig uitzicht over het merengebied na een korte hike.",
+          "price": "3-7 euro"
+        },
+        {
+          "title": "Kajakken op het Nahuel Huapi meer",
+          "description": "Verken het water en geniet van de natuur vanaf een kajak.",
+          "price": "20-40 euro"
+        },
+        {
+          "title": "Bezoek aan chocoladefabriek",
+          "description": "Leer over het maken van chocolade en proef verschillende soorten.",
+          "price": "Gratis tot 10 euro"
+        }
+      ],
+      "tip": "Probeer lokale chocolade en bezoek een van de chocoladefabrieken in de stad."
+    },
+    {
+      "id": "el-calafate-4",
+      "number": 4,
+      "name": "El Calafate",
+      "area": "Patagonië",
+      "coords": [
+        -50.3387375,
+        -72.2737216
+      ],
+      "dayLabel": "Dag 15-18",
+      "nights": 3,
+      "image": "/images/posts/3-weken-argentinie-van-bruisende-stad-tot-ruige-natuur-4.webp",
+      "imageAlt": "Perito Moreno gletsjer met ijs en water",
+      "description": "El Calafate is de uitvalsbasis voor het bezoeken van het indrukwekkende Perito Moreno gletsjergebied. Het stadje zelf is klein maar biedt voldoende voorzieningen. Het hoogtepunt is een boottocht of wandelingen bij de gletsjer, waar je het ijs van dichtbij kunt zien afbreken. Daarnaast is er een museum waar de geologie en natuur van Patagonië worden uitgelegd. Het gebied is droog en winderig, dus goede kleding is belangrijk.",
+      "activities": [
+        {
+          "title": "Boottocht bij Perito Moreno gletsjer",
+          "description": "Beleef de gletsjer vanaf het water, inclusief ijsbergen.",
+          "price": "40-60 euro"
+        },
+        {
+          "title": "Wandelingen over de gletsjerbruggen",
+          "description": "Bekijk de gletsjer van verschillende uitkijkpunten.",
+          "price": "Gratis tot 10 euro"
+        },
+        {
+          "title": "Bezoek aan het Glaciarium museum",
+          "description": "Informatief museum over gletsjers en klimaat.",
+          "price": "5-10 euro"
+        }
+      ],
+      "tip": "Ga vroeg in de ochtend naar de Perito Moreno gletsjer om de drukte te vermijden."
+    },
+    {
+      "id": "salta-5",
+      "number": 5,
+      "name": "Salta",
+      "area": "Noord-Argentinië",
+      "coords": [
+        -25.2269908,
+        -64.5911956
+      ],
+      "dayLabel": "Dag 19-21",
+      "nights": 3,
+      "image": "/images/posts/3-weken-argentinie-van-bruisende-stad-tot-ruige-natuur-5.webp",
+      "imageAlt": "Koloniaal plein in Salta met bergen op de achtergrond",
+      "description": "Salta is een stad met een rijke koloniale geschiedenis en een aangenaam klimaat. De stad heeft mooie pleinen, musea en kerken. Vanuit Salta kun je dagtochten maken naar omliggende bergdorpen en indrukwekkende landschappen zoals de Quebrada de Humahuaca. De lokale keuken en folklore zijn hier typisch voor het noorden van Argentinië en bieden een andere kant van het land dan het zuiden.",
+      "activities": [
+        {
+          "title": "Stadswandeling door Salta",
+          "description": "Ontdek koloniale gebouwen en musea.",
+          "price": "Gratis tot 10 euro"
+        },
+        {
+          "title": "Dagtocht naar Quebrada de Humahuaca",
+          "description": "Bezoek kleurrijke bergen en dorpjes in de vallei.",
+          "price": "20-40 euro"
+        }
+      ],
+      "tip": "Bezoek de markt en proef lokale specialiteiten zoals empanadas tucumanas."
+    }
+  ],
+  "gallery": [
+    {
+      "src": "/images/posts/3-weken-argentinie-van-bruisende-stad-tot-ruige-natuur-1.webp",
+      "alt": "Straatbeeld van Buenos Aires met tango danseres",
+      "caption": "Buenos Aires — Buenos Aires"
+    },
+    {
+      "src": "/images/posts/3-weken-argentinie-van-bruisende-stad-tot-ruige-natuur-2.webp",
+      "alt": "Wijngaarden in Mendoza met Andes op de achtergrond",
+      "caption": "Mendoza — Mendoza"
+    },
+    {
+      "src": "/images/posts/3-weken-argentinie-van-bruisende-stad-tot-ruige-natuur-3.webp",
+      "alt": "Landschap van meren en bergen rond Bariloche",
+      "caption": "Bariloche — Patagonië"
+    },
+    {
+      "src": "/images/posts/3-weken-argentinie-van-bruisende-stad-tot-ruige-natuur-4.webp",
+      "alt": "Perito Moreno gletsjer met ijs en water",
+      "caption": "El Calafate — Patagonië"
+    },
+    {
+      "src": "/images/posts/3-weken-argentinie-van-bruisende-stad-tot-ruige-natuur-5.webp",
+      "alt": "Koloniaal plein in Salta met bergen op de achtergrond",
+      "caption": "Salta — Noord-Argentinië"
+    }
+  ],
+  "practical": [
+    {
+      "label": "Vervoer",
+      "value": "Binnenlandse vluchten en langeafstandsbussen zijn gebruikelijk. Vluchten tussen Buenos Aires, Mendoza, Bariloche, El Calafate en Salta besparen tijd."
+    },
+    {
+      "label": "Verblijf",
+      "value": "Mid-range hotels en hostels met goede beoordelingen zijn beschikbaar. Kamers kosten meestal 25-60 euro per nacht."
+    },
+    {
+      "label": "Budget",
+      "value": "Reken op 40-80 euro per dag voor eten, vervoer en activiteiten, afhankelijk van keuzes."
+    },
+    {
+      "label": "Beste reistijd",
+      "value": "Lente en zomer (oktober-april) bieden het beste weer, vooral voor Patagonië."
+    },
+    {
+      "label": "Geld en internet",
+      "value": "Contant geld is handig buiten steden. Wifi is meestal beschikbaar in hotels en cafés."
+    }
+  ],
+  "packing": [
+    "Comfortabele wandelschoenen",
+    "Lagen kleding voor wisselende temperaturen",
+    "Waterdichte jas of poncho",
+    "Zonnehoed en zonnebrandcrème",
+    "Reisstekker voor Argentijnse stopcontacten",
+    "Camera of smartphone voor foto's",
+    "Persoonlijke medicatie",
+    "Rugzak voor dagtochten",
+    "Herbruikbare waterfles"
+  ],
+  "closingNote": "Deze route combineert stad, wijnland, meren, gletsjers en bergen in één reis. Door de afwisseling blijft het interessant en biedt het volop mogelijkheden voor natuur en cultuur. Plan je vervoer goed om reistijd te minimaliseren en houd rekening met het weer in verschillende regio's. Zo wordt de reis comfortabel en afwisselend.",
+  "continent": "zuid-amerika",
+  "author": "Redactie",
+  "generated": true,
+  "createdAt": "2026-11-19",
+  "topicKey": "argentinie:reisroute:3-weken",
+  "imageCredit": {
+    "name": "sergiovisor_ph",
+    "url": "https://pixabay.com/photos/lake-trees-mountains-water-nature-7884049/",
+    "source": "Pixabay"
+  }
+}
