@@ -1,11 +1,9 @@
 name: Social media
 
-# Draait na de dagelijkse contentrun. upload-post plaatst de nieuwste routes
-# als TikTok-fotocarrousel. Vereist: UPLOAD_POST_API_KEY (secret) en
-# UPLOAD_POST_PROFILE (variable).
+# Wordt elke dag om 06:30 UTC gestart door de Vercel-cron (/api/cron/social).
+# upload-post plaatst de nieuwste routes als TikTok-fotocarrousel. Vereist:
+# UPLOAD_POST_API_KEY (secret) en UPLOAD_POST_PROFILE (variable).
 on:
-  schedule:
-    - cron: "30 6 * * *"
   workflow_dispatch:
     inputs:
       count:

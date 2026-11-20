@@ -1,11 +1,8 @@
 name: Nieuwe reisverhalen
 
-# Draait elke dag om 05:00 UTC (06:00 of 07:00 in Nederland, afhankelijk van
-# de zomertijd). Je hoeft niets te doen: de bot schrijft de artikelen, commit
-# ze en Vercel bouwt de site opnieuw.
+# Wordt elke dag om 05:00 UTC gestart door de Vercel-cron (/api/cron/content).
+# De bot schrijft de artikelen, commit ze en Vercel bouwt de site opnieuw.
 on:
-  schedule:
-    - cron: "0 5 * * *"
   workflow_dispatch:
     inputs:
       count:
