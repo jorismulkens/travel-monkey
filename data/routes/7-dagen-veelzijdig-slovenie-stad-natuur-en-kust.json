@@ -1,0 +1,264 @@
+{
+  "slug": "7-dagen-veelzijdig-slovenie-stad-natuur-en-kust",
+  "title": "7 dagen veelzijdig Slovenië: stad, natuur en kust",
+  "kicker": "Een week vol afwisseling",
+  "country": "Slovenië",
+  "region": "Europa",
+  "durationDays": 7,
+  "durationLabel": "7 dagen",
+  "travelStyle": "mix van cultuur en outdoor",
+  "budget": "middenklasse",
+  "budgetNote": "Prijzen kunnen variëren, reken op 50-90 euro per dag inclusief accommodatie en maaltijden.",
+  "bestTime": "mei tot september",
+  "startPoint": "Ljubljana",
+  "endPoint": "Piran",
+  "coverImage": "/images/posts/7-dagen-veelzijdig-slovenie-stad-natuur-en-kust-cover.webp",
+  "coverAlt": "Deze weekroute door Slovenië combineert de charme van Ljubljana, het natuurschoon rond Lake Bled en Triglav, de indrukwekkende grotten bij Postojna en de ontspannen sfeer aan de Adriatische kust in Piran.",
+  "excerpt": "Deze weekroute door Slovenië combineert de charme van Ljubljana, het natuurschoon rond Lake Bled en Triglav, de indrukwekkende grotten bij Postojna en de ontspannen sfeer aan de Adriatische kust in Piran.",
+  "introHeading": "Van stad naar zee",
+  "intro": [
+    "Slovenië is een compacte bestemming die verrassend veel te bieden heeft. Van een levendige hoofdstad tot indrukwekkende natuur en een aangename kustlijn, alles ligt binnen handbereik. Dit maakt het ideaal voor een weekreis waarin je verschillende kanten van het land ontdekt.",
+    "De route start in Ljubljana, een stad met een vriendelijke sfeer en mooie architectuur. Daarna volgen natuurgebieden als Lake Bled en Nationaal Park Triglav, waar wandelen en rust centraal staan. Vervolgens wacht een bijzondere ondergrondse wereld in de Postojna-grot en als afsluiter het kustplaatsje Piran met zijn historische straatjes en zeezicht.",
+    "Door de korte reistijden tussen de stops is er voldoende ruimte om op elk moment rustig te verkennen en te genieten. Zo ontstaat een evenwichtige reis met afwisseling tussen stad, natuur en zee."
+  ],
+  "highlights": [
+    "De sfeervolle binnenstad van Ljubljana met haar bruggen en pleinen.",
+    "De helderblauwe waterspiegel van Lake Bled met het kerkje op het eiland.",
+    "Wandelen in Nationaal Park Triglav met panoramische uitzichten.",
+    "De mysterieuze grotten van Postojna met indrukwekkende stalactieten.",
+    "De middeleeuwse sfeer en zeezicht in het kustplaatsje Piran."
+  ],
+  "stops": [
+    {
+      "id": "ljubljana-1",
+      "number": 1,
+      "name": "Ljubljana",
+      "area": "Centraal Slovenië",
+      "coords": [
+        46.0500268,
+        14.5069289
+      ],
+      "dayLabel": "Dag 1-2",
+      "nights": 2,
+      "image": "/images/posts/7-dagen-veelzijdig-slovenie-stad-natuur-en-kust-1.webp",
+      "imageAlt": "Gezicht op de rivier en bruggen in Ljubljana",
+      "description": "Begin in Ljubljana, de compacte hoofdstad met een vriendelijk centrum. Wandel over de diverse bruggen zoals de Drakenbrug, bezoek het kasteel dat boven de stad uit torent en geniet van de vele cafés aan de rivier. De stad is overzichtelijk en leent zich goed voor een ontspannen verkenning te voet of met de fiets. Naast cultuur is er een gemengde keuken en levendige markten waar lokale producten te vinden zijn.",
+      "activities": [
+        {
+          "title": "Stadswandeling met gids",
+          "description": "Leer meer over de geschiedenis en architectuur van Ljubljana tijdens een begeleide wandeling.",
+          "price": "circa 20-30 euro"
+        },
+        {
+          "title": "Bezoek aan het kasteel van Ljubljana",
+          "description": "Neem de kabelbaan of wandel omhoog voor een prachtig uitzicht over de stad.",
+          "price": "5-10 euro"
+        },
+        {
+          "title": "Fietsen huren",
+          "description": "Ontdek de stad en haar groene zones op een huurfiets.",
+          "price": "10-15 euro per dag"
+        }
+      ],
+      "tip": "Bezoek vroeg in de ochtend de centrale markt voor verse producten en een authentieke sfeer."
+    },
+    {
+      "id": "lake-bled-2",
+      "number": 2,
+      "name": "Lake Bled",
+      "area": "Alpenregio",
+      "coords": [
+        46.3639132,
+        14.0938069
+      ],
+      "dayLabel": "Dag 3",
+      "nights": 1,
+      "image": "/images/posts/7-dagen-veelzijdig-slovenie-stad-natuur-en-kust-2.webp",
+      "imageAlt": "Uitzicht op Lake Bled met eiland en kasteel",
+      "description": "Lake Bled is bekend om zijn mooie meer met een eilandje en een pittoresk kerkje. Het is een perfecte plek voor een rustige dag in de natuur. Maak een traditionele roeiboottocht naar het eiland of wandel rond het meer op goed aangelegde paden. De omgeving nodigt ook uit voor een bezoek aan het kasteel dat hoog boven het meer ligt, met een museum en een café waar je de beroemde Bled-gebakjes kunt proeven.",
+      "activities": [
+        {
+          "title": "Boottocht naar het eiland",
+          "description": "Bezoek het eiland met de historische kerk per traditionele pletna-boot.",
+          "price": "10-15 euro"
+        },
+        {
+          "title": "Bezoek aan het kasteel van Bled",
+          "description": "Leer over de lokale geschiedenis en geniet van het uitzicht over het meer.",
+          "price": "10 euro"
+        },
+        {
+          "title": "Wandeling rond het meer",
+          "description": "Een vlakke wandeling van ongeveer 6 km langs het meer met mooie vergezichten.",
+          "price": "gratis"
+        }
+      ],
+      "tip": "Reserveer een pletna-boottocht naar het eiland om de drukte te vermijden."
+    },
+    {
+      "id": "triglav-nationaal-park-3",
+      "number": 3,
+      "name": "Triglav Nationaal Park",
+      "area": "Julische Alpen",
+      "coords": [
+        0,
+        0
+      ],
+      "dayLabel": "Dag 4-5",
+      "nights": 2,
+      "image": "/images/posts/7-dagen-veelzijdig-slovenie-stad-natuur-en-kust-3.webp",
+      "imageAlt": "Bergen en meren in Nationaal Park Triglav",
+      "description": "Dit nationale park is het hart van de Julische Alpen en ideaal voor natuurliefhebbers. Er zijn diverse wandelroutes, variërend van makkelijk tot uitdagend, met uitzicht op het hoogste punt van Slovenië, de Triglav. Naast wandelen zijn er mogelijkheden om te zwemmen in bergmeren of gewoon te genieten van de frisse berglucht. Overnachten kan in kleinschalige pensions of berghutten, waar je kunt genieten van de rustige natuur.",
+      "activities": [
+        {
+          "title": "Wandelen naar watervallen",
+          "description": "Bezoek de Savica-waterval, een van de bekendste in het park, met een wandeling van ongeveer 1-2 uur.",
+          "price": "gratis tot 5 euro"
+        },
+        {
+          "title": "Bezoek aan het bergmeer Bohinj",
+          "description": "Rustig zwemmen en picknicken aan het meer, met wandelmogelijkheden in de omgeving.",
+          "price": "gratis"
+        },
+        {
+          "title": "Overnachting in berghut",
+          "description": "Ervaar het bergleven in een eenvoudig pension of berghut in het park.",
+          "price": "25-50 euro per nacht"
+        }
+      ],
+      "tip": "Draag goede wandelschoenen en neem voldoende water mee voor dagtochten."
+    },
+    {
+      "id": "postojna-4",
+      "number": 4,
+      "name": "Postojna",
+      "area": "Krasgebied",
+      "coords": [
+        45.7872735,
+        14.1593063
+      ],
+      "dayLabel": "Dag 6",
+      "nights": 1,
+      "image": "/images/posts/7-dagen-veelzijdig-slovenie-stad-natuur-en-kust-4.webp",
+      "imageAlt": "Ingang van de Postojna-grot",
+      "description": "Postojna staat vooral bekend om de beroemde grotten, een spectaculair ondergronds gangenstelsel met stalactieten en stalagmieten. De grot is per treintje te bezoeken wat het toegankelijk maakt. Naast de grotten is er ook een kasteel in de buurt dat een bezoek waard is. Postojna is een goede plek om even uit te rusten en iets anders te zien dan natuur boven de grond.",
+      "activities": [
+        {
+          "title": "Rondleiding door Postojna-grot",
+          "description": "Beleef een indrukwekkende tocht door de grotten met een elektrische trein en gids.",
+          "price": "20-30 euro"
+        },
+        {
+          "title": "Bezoek aan Predjama-kasteel",
+          "description": "Ontdek het kasteel dat in een rots is gebouwd, vlakbij de grotten.",
+          "price": "10-15 euro"
+        }
+      ],
+      "tip": "Koop tickets voor de Postojna-grot vooraf om wachttijden te vermijden."
+    },
+    {
+      "id": "piran-5",
+      "number": 5,
+      "name": "Piran",
+      "area": "Sloveense kust",
+      "coords": [
+        45.5284919,
+        13.5684485
+      ],
+      "dayLabel": "Dag 7",
+      "nights": 1,
+      "image": "/images/posts/7-dagen-veelzijdig-slovenie-stad-natuur-en-kust-5.webp",
+      "imageAlt": "Zicht op Piran met zee en historische gebouwen",
+      "description": "Piran is een charmant kustplaatsje met een middeleeuwse uitstraling. Smalle straatjes, pleinen en uitzicht op zee maken het een fijne plek om te wandelen en te ontspannen. Bezoek de hoofdkerk en klim naar het stadsmuur voor een panoramisch uitzicht over de Adriatische kust. Er zijn diverse plekken waar verse vis en lokale specialiteiten worden geserveerd, een goede afsluiter van de reis.",
+      "activities": [
+        {
+          "title": "Stadswandeling met gids",
+          "description": "Ontdek de geschiedenis en verborgen hoekjes van Piran tijdens een korte wandeling.",
+          "price": "15-20 euro"
+        },
+        {
+          "title": "Bezoek aan de stadsmuur",
+          "description": "Klim voor een mooi uitzicht over de stad en de zee.",
+          "price": "5 euro"
+        },
+        {
+          "title": "Diner met zeezicht",
+          "description": "Geniet van verse visgerechten in een restaurant aan de kust.",
+          "price": "20-35 euro"
+        }
+      ],
+      "tip": "Ga vroeg in de avond naar het Tartiniplein om de sfeer te voelen zonder de drukte."
+    }
+  ],
+  "gallery": [
+    {
+      "src": "/images/posts/7-dagen-veelzijdig-slovenie-stad-natuur-en-kust-1.webp",
+      "alt": "Gezicht op de rivier en bruggen in Ljubljana",
+      "caption": "Ljubljana — Centraal Slovenië"
+    },
+    {
+      "src": "/images/posts/7-dagen-veelzijdig-slovenie-stad-natuur-en-kust-2.webp",
+      "alt": "Uitzicht op Lake Bled met eiland en kasteel",
+      "caption": "Lake Bled — Alpenregio"
+    },
+    {
+      "src": "/images/posts/7-dagen-veelzijdig-slovenie-stad-natuur-en-kust-3.webp",
+      "alt": "Bergen en meren in Nationaal Park Triglav",
+      "caption": "Triglav Nationaal Park — Julische Alpen"
+    },
+    {
+      "src": "/images/posts/7-dagen-veelzijdig-slovenie-stad-natuur-en-kust-4.webp",
+      "alt": "Ingang van de Postojna-grot",
+      "caption": "Postojna — Krasgebied"
+    },
+    {
+      "src": "/images/posts/7-dagen-veelzijdig-slovenie-stad-natuur-en-kust-5.webp",
+      "alt": "Zicht op Piran met zee en historische gebouwen",
+      "caption": "Piran — Sloveense kust"
+    }
+  ],
+  "practical": [
+    {
+      "label": "Vervoer",
+      "value": "Treinen en bussen verbinden de belangrijkste plaatsen. Autohuur is handig voor flexibiliteit, kosten zo'n 30-50 euro per dag."
+    },
+    {
+      "label": "Verblijf",
+      "value": "Accommodatie varieert van hostels, guesthouses tot middenklasse hotels. Boek vooral in het hoogseizoen tijdig."
+    },
+    {
+      "label": "Budget",
+      "value": "Dagelijkse kosten liggen tussen 50-90 euro inclusief eten, vervoer en verblijf."
+    },
+    {
+      "label": "Beste reistijd",
+      "value": "Van mei tot september is het weer aangenaam voor zowel stedentrips als natuuractiviteiten."
+    },
+    {
+      "label": "Geld en internet",
+      "value": "De munteenheid is de euro. Wifi is op veel plekken beschikbaar, maar neem eventueel een lokale simkaart voor internet."
+    }
+  ],
+  "packing": [
+    "Stevige wandelschoenen",
+    "Lichte regenkleding",
+    "Zwemkleding",
+    "Zonnebril en zonnebrand",
+    "Rugzak voor dagtochten",
+    "Camera of smartphone",
+    "Warme trui voor avonden in de bergen",
+    "Comfortabele schoenen voor de stad",
+    "Fles voor water meenemen"
+  ],
+  "closingNote": "Deze route door Slovenië biedt een goede mix van cultuur, natuur en ontspanning. De afstanden zijn kort, waardoor je niet hoeft te haasten. Zo is er ruimte om echt in de verschillende sferen te duiken, van het stadsleven in Ljubljana tot het rustgevende uitzicht aan zee in Piran. Slovenië is een bestemming die uitnodigt tot bewust reizen en genieten van eenvoudige, maar mooie ervaringen.",
+  "continent": "europa",
+  "author": "Redactie",
+  "generated": true,
+  "createdAt": "2026-11-20",
+  "topicKey": "slovenie:reisroute:1-week",
+  "imageCredit": {
+    "name": "12019",
+    "url": "https://pixabay.com/photos/lake-sunset-reflection-2608425/",
+    "source": "Pixabay"
+  }
+}

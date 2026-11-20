@@ -1,0 +1,269 @@
+{
+  "slug": "14-dagen-vanuatu-vulkanen-stranden-en-cultuur",
+  "title": "14 dagen Vanuatu: vulkanen, stranden en cultuur",
+  "kicker": "Ontdek het veelzijdige eilandleven",
+  "country": "Vanuatu",
+  "region": "Oceanië",
+  "durationDays": 14,
+  "durationLabel": "14 dagen",
+  "travelStyle": "avontuurlijk en cultureel",
+  "budget": "middenklasse",
+  "budgetNote": "Prijzen voor verblijf en activiteiten kunnen variëren tussen laag en middenklasse.",
+  "bestTime": "mei tot oktober",
+  "startPoint": "Port Vila",
+  "endPoint": "Malekula",
+  "coverImage": "/images/posts/14-dagen-vanuatu-vulkanen-stranden-en-cultuur-cover.webp",
+  "coverAlt": "Deze route door Vanuatu leidt je langs actieve vulkanen, tropische stranden en traditionele dorpen. Ontdek het unieke eilandleven en de rijke cultuur verspreid over meerdere eilanden.",
+  "excerpt": "Deze route door Vanuatu leidt je langs actieve vulkanen, tropische stranden en traditionele dorpen. Ontdek het unieke eilandleven en de rijke cultuur verspreid over meerdere eilanden.",
+  "introHeading": "Van vulkaan tot dorp en strand",
+  "intro": [
+    "Vanuatu biedt een bijzondere mix van natuur en cultuur. Van de bruisende hoofdstad Port Vila tot de afgelegen stammen op Malekula, elke plek heeft zijn eigen verhalen.",
+    "Deze reis neemt je mee naar verschillende eilanden, waar actieve vulkanen, heldere wateren en lokale tradities centraal staan.",
+    "De route is geschikt voor reizigers die houden van natuur, avontuur en het leren kennen van lokale culturen."
+  ],
+  "highlights": [
+    "Actieve vulkaan beklimmen op Tanna",
+    "Onderwatergrotten en stranden op Espiritu Santo",
+    "De hoofdstad Port Vila verkennen",
+    "Traditionele dorpen op Malekula bezoeken",
+    "Snorkelen bij koraalriffen rond Efate"
+  ],
+  "stops": [
+    {
+      "id": "port-vila-1",
+      "number": 1,
+      "name": "Port Vila",
+      "area": "Efate",
+      "coords": [
+        -17.7414972,
+        168.3150163
+      ],
+      "dayLabel": "Dag 1-3",
+      "nights": 3,
+      "image": "/images/posts/14-dagen-vanuatu-vulkanen-stranden-en-cultuur-1.webp",
+      "imageAlt": "Haven van Port Vila met bootjes en palmbomen",
+      "description": "Port Vila is de levendige hoofdstad van Vanuatu en biedt een goede introductie tot het land. Hier vind je markten met verse producten, lokale souvenirs en een ontspannen sfeer aan het water. De stad is compact, waardoor je makkelijk te voet de belangrijkste plekken kunt bezoeken. Een mix van Melanesische cultuur en moderne invloeden maakt het tot een interessante startplek. Geniet van verse zeevruchten bij een lokaal restaurant en maak een wandeling langs het haventerrein.",
+      "activities": [
+        {
+          "title": "Bezoek Centrale Markt",
+          "description": "Ontdek lokale producten, handwerk en voel de sfeer van Vanuatu's hoofdstad.",
+          "price": "gratis"
+        },
+        {
+          "title": "Tuin van het Parlement bezoeken",
+          "description": "Leer over de geschiedenis en cultuur van Vanuatu in een mooie buitenomgeving.",
+          "price": "ongeveer 5-10 euro"
+        },
+        {
+          "title": "Duitse Waterfall wandeling",
+          "description": "Maak een korte wandeling naar deze waterval net buiten de stad.",
+          "price": "ongeveer 10-15 euro"
+        }
+      ],
+      "tip": "Bezoek de Centrale Markt vroeg in de ochtend voor verse producten en handwerk."
+    },
+    {
+      "id": "espiritu-santo-2",
+      "number": 2,
+      "name": "Espiritu Santo",
+      "area": "Espiritu Santo",
+      "coords": [
+        -15.1563411,
+        167.0510705
+      ],
+      "dayLabel": "Dag 4-6",
+      "nights": 3,
+      "image": "/images/posts/14-dagen-vanuatu-vulkanen-stranden-en-cultuur-2.webp",
+      "imageAlt": "Wit strand en blauwe lagune op Espiritu Santo",
+      "description": "Espiritu Santo is het grootste eiland van Vanuatu en bekend om zijn ongerepte natuur. Hier vind je witte zandstranden, helderblauwe lagunes en indrukwekkende onderwatergrotten. Het eiland is minder ontwikkeld, waardoor je volop kunt genieten van rust en natuur. Naast snorkelen en zwemmen, zijn er ook mogelijkheden om lokale dorpjes te bezoeken en meer te leren over de cultuur. Het is een plek om te ontspannen en te ontdekken wat het buiten de stadsdrukte te bieden heeft.",
+      "activities": [
+        {
+          "title": "Snorkelen bij Million Dollar Point",
+          "description": "Verken het scheepswrak en het rijke onderwaterleven.",
+          "price": "15-25 euro"
+        },
+        {
+          "title": "Blue Holes tour",
+          "description": "Bezoek natuurlijke onderwatergrotten met helder water.",
+          "price": "20-30 euro"
+        },
+        {
+          "title": "Lokale dorpen bezoeken",
+          "description": "Leer over de traditionele levensstijl van Santo Bewoners.",
+          "price": "10-20 euro"
+        }
+      ],
+      "tip": "Neem een snorkeluitrusting mee om het kleurrijke koraalrif te verkennen."
+    },
+    {
+      "id": "tanna-3",
+      "number": 3,
+      "name": "Tanna",
+      "area": "Tanna",
+      "coords": [
+        -19.4857785,
+        169.3345014
+      ],
+      "dayLabel": "Dag 7-9",
+      "nights": 3,
+      "image": "/images/posts/14-dagen-vanuatu-vulkanen-stranden-en-cultuur-3.webp",
+      "imageAlt": "Actieve vulkaan Mount Yasur op Tanna",
+      "description": "Tanna is beroemd vanwege de actieve vulkaan Mount Yasur. Het eiland heeft een rauwe, natuurlijke charme en je kunt hier het vulkanische landschap van dichtbij ervaren. Naast het avontuur rond de vulkaan biedt Tanna ook traditionele dorpjes waar je een kijkje kunt nemen in het dagelijkse leven van de lokale bevolking. De combinatie van natuur en cultuur maakt het tot een bijzondere bestemming tijdens deze reis.",
+      "activities": [
+        {
+          "title": "Vulkanentocht Mount Yasur",
+          "description": "Beklim de vulkaan en bekijk het lavalandschap dichtbij.",
+          "price": "25-40 euro"
+        },
+        {
+          "title": "Bezoek traditioneel dorp",
+          "description": "Leer over de cultuur en tradities van Tanna bewoners.",
+          "price": "15-25 euro"
+        },
+        {
+          "title": "Wandeling naar Blue Cave",
+          "description": "Ontdek een natuurlijke blauwe grot met helder water.",
+          "price": "10-15 euro"
+        }
+      ],
+      "tip": "Plan een avondexcursie naar Mount Yasur om de lavastromen te zien oplichten."
+    },
+    {
+      "id": "efate-4",
+      "number": 4,
+      "name": "Efate",
+      "area": "Efate",
+      "coords": [
+        -17.6739005,
+        168.3648386
+      ],
+      "dayLabel": "Dag 10-11",
+      "nights": 2,
+      "image": "/images/posts/14-dagen-vanuatu-vulkanen-stranden-en-cultuur-4.webp",
+      "imageAlt": "Tropisch strand op Efate",
+      "description": "Na het vulkaanavontuur keert de reis terug naar Efate, het eiland waar Port Vila ligt, maar dit keer voor rustige natuurervaringen buiten de stad. Er zijn ongerepte stranden, koraalriffen om te snorkelen en bossen om te wandelen. De sfeer is ontspannen en het is een fijne plek om even bij te komen en te genieten van de eenvoud van het eilandleven. Ook zijn er mogelijkheden om lokale koffie- en kruidenplantages te bezoeken.",
+      "activities": [
+        {
+          "title": "Snorkelen bij Hideaway Island",
+          "description": "Verken het koraalrif en de onderwaterwereld.",
+          "price": "15-25 euro"
+        },
+        {
+          "title": "Wandeling naar Mele Cascades",
+          "description": "Bezoek een waterval en neem een verfrissende duik.",
+          "price": "5-10 euro"
+        },
+        {
+          "title": "Bezoek een koffieplantage",
+          "description": "Leer over koffieproductie en proef lokale smaken.",
+          "price": "10-15 euro"
+        }
+      ],
+      "tip": "Probeer lokaal gezette koffie bij een plantage en combineer dat met een korte wandeling."
+    },
+    {
+      "id": "malekula-5",
+      "number": 5,
+      "name": "Malekula",
+      "area": "Malekula",
+      "coords": [
+        -16.2343919,
+        167.4991724
+      ],
+      "dayLabel": "Dag 12-14",
+      "nights": 3,
+      "image": "/images/posts/14-dagen-vanuatu-vulkanen-stranden-en-cultuur-5.webp",
+      "imageAlt": "Traditioneel dorp op Malekula",
+      "description": "Malekula is een van de cultuurrijkste eilanden van Vanuatu, bekend om zijn traditionele dorpen en unieke rituelen. Het eiland is minder toeristisch en biedt een diepere blik op het leven van de inheemse bevolking. Je kunt hier deelnemen aan begeleide bezoeken aan dorpen, waar je lokale dansen en ambachten kunt zien. Daarnaast is het landschap gevarieerd met bossen en stranden, ideaal voor wandelingen en ontspanning aan het einde van de reis.",
+      "activities": [
+        {
+          "title": "Bezoek traditionele dorpen",
+          "description": "Ervaar culturele dansen en ambachten van de lokale bevolking.",
+          "price": "20-30 euro"
+        },
+        {
+          "title": "Wandeling door tropisch regenwoud",
+          "description": "Ontdek de natuur en het landschap van Malekula.",
+          "price": "gratis tot 10 euro met gids"
+        },
+        {
+          "title": "Stranddag bij Norsup Beach",
+          "description": "Geniet van rust en een zwem in helder water.",
+          "price": "gratis"
+        }
+      ],
+      "tip": "Respecteer de lokale gebruiken en vraag toestemming voordat je foto's maakt in dorpen."
+    }
+  ],
+  "gallery": [
+    {
+      "src": "/images/posts/14-dagen-vanuatu-vulkanen-stranden-en-cultuur-1.webp",
+      "alt": "Haven van Port Vila met bootjes en palmbomen",
+      "caption": "Port Vila — Efate"
+    },
+    {
+      "src": "/images/posts/14-dagen-vanuatu-vulkanen-stranden-en-cultuur-2.webp",
+      "alt": "Wit strand en blauwe lagune op Espiritu Santo",
+      "caption": "Espiritu Santo — Espiritu Santo"
+    },
+    {
+      "src": "/images/posts/14-dagen-vanuatu-vulkanen-stranden-en-cultuur-3.webp",
+      "alt": "Actieve vulkaan Mount Yasur op Tanna",
+      "caption": "Tanna — Tanna"
+    },
+    {
+      "src": "/images/posts/14-dagen-vanuatu-vulkanen-stranden-en-cultuur-4.webp",
+      "alt": "Tropisch strand op Efate",
+      "caption": "Efate — Efate"
+    },
+    {
+      "src": "/images/posts/14-dagen-vanuatu-vulkanen-stranden-en-cultuur-5.webp",
+      "alt": "Traditioneel dorp op Malekula",
+      "caption": "Malekula — Malekula"
+    }
+  ],
+  "practical": [
+    {
+      "label": "Vervoer",
+      "value": "Binnenlandse vluchten tussen de eilanden kosten doorgaans 50-150 euro per enkele reis. Lokale bussen en bootjes worden gebruikt voor kortere afstanden."
+    },
+    {
+      "label": "Verblijf",
+      "value": "Accommodaties variëren van eenvoudige guesthouses tot middenklasse hotels, meestal tussen 20-80 euro per nacht."
+    },
+    {
+      "label": "Budget",
+      "value": "Dagelijkse kosten inclusief eten en activiteiten liggen vaak tussen 40-70 euro."
+    },
+    {
+      "label": "Beste reistijd",
+      "value": "Van mei tot oktober is het droger en aangenamer om te reizen."
+    },
+    {
+      "label": "Geld en internet",
+      "value": "Contant geld in Vatu is gebruikelijk, pinnen kan beperkt zijn. Simkaarten met internet zijn beschikbaar in grotere plaatsen."
+    }
+  ],
+  "packing": [
+    "Lichte kleding voor warm weer",
+    "Goede wandelschoenen",
+    "Zwemkleding en snorkeluitrusting",
+    "Regenjas of poncho",
+    "Zonnebrandcrème en insectenspray",
+    "Hoed of pet tegen de zon",
+    "Camera of smartphone voor foto's",
+    "Persoonlijke medicijnen",
+    "Kleine rugzak voor dagtochten"
+  ],
+  "closingNote": "Deze reisroute door Vanuatu combineert natuur, avontuur en cultuur op een toegankelijke manier. Door verschillende eilanden te bezoeken, krijg je een breed beeld van het leven en landschap in dit eilandrijk. Zorg voor voldoende tijd bij elke stop om de omgeving echt te ervaren en het lokale leven te ontdekken. Met een goede voorbereiding wacht een afwisselende en boeiende vakantie.",
+  "continent": "oceanie",
+  "author": "Redactie",
+  "generated": true,
+  "createdAt": "2026-11-20",
+  "topicKey": "vanuatu:reisroute:2-weken",
+  "imageCredit": {
+    "name": "Julius_Silver",
+    "url": "https://pixabay.com/photos/new-zealand-volcano-crater-3018634/",
+    "source": "Pixabay"
+  }
+}

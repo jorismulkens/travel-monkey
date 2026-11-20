@@ -1,0 +1,269 @@
+{
+  "slug": "3-weken-kenia-wildparken-en-tropische-kust",
+  "title": "3 weken Kenia: wildparken en tropische kust",
+  "kicker": "Ontdek natuur en cultuur",
+  "country": "Kenia",
+  "region": "Afrika",
+  "durationDays": 21,
+  "durationLabel": "3 weken",
+  "travelStyle": "avontuurlijk en natuur",
+  "budget": "middel",
+  "budgetNote": "Prijzen voor activiteiten en verblijf kunnen variëren, afhankelijk van seizoen en keuze van accommodatie.",
+  "bestTime": "juni tot oktober; december tot maart",
+  "startPoint": "Nairobi",
+  "endPoint": "Diani",
+  "coverImage": "/images/posts/3-weken-kenia-wildparken-en-tropische-kust-cover.webp",
+  "coverAlt": "Een afwisselende reis door Kenia met safari’s in beroemde reservaten, ontspanning aan de Indische Oceaan en bezoek aan de kleurrijke hoofdstad Nairobi.",
+  "excerpt": "Een afwisselende reis door Kenia met safari’s in beroemde reservaten, ontspanning aan de Indische Oceaan en bezoek aan de kleurrijke hoofdstad Nairobi.",
+  "introHeading": "Van stad naar zee en savanne",
+  "intro": [
+    "Kenia is een land van contrasten met bruisende steden, uitgestrekte wildparken en tropische stranden. Deze reis neemt je mee langs de bekendste natuurgebieden en laat je genieten van de cultuur en het landschap. Nairobi is een levendige startplek waar natuur en stad samenkomen.",
+    "De route vervolgt zich naar de wereldberoemde Masai Mara, waar indrukwekkende safari’s wachten. Daarna is het tijd voor ontspanning aan het meer van Naivasha en de bijzondere omgeving van Amboseli, met uitzicht op de Kilimanjaro.",
+    "Tot slot brengt de reis je naar Diani aan de kust, waar witte zandstranden en helder water de perfecte afsluiting vormen. Zo combineer je avontuur, natuur en rust in één reis."
+  ],
+  "highlights": [
+    "Safari’s in Masai Mara en Amboseli.",
+    "Boottocht op Lake Naivasha.",
+    "Bezoek aan het Giraffencentrum in Nairobi.",
+    "Stranden en koraalriffen van Diani.",
+    "Uitzicht op Kilimanjaro bij Amboseli."
+  ],
+  "stops": [
+    {
+      "id": "nairobi-1",
+      "number": 1,
+      "name": "Nairobi",
+      "area": "Nairobi",
+      "coords": [
+        -1.2890006,
+        36.8172812
+      ],
+      "dayLabel": "Dag 1-4",
+      "nights": 3,
+      "image": "/images/posts/3-weken-kenia-wildparken-en-tropische-kust-1.webp",
+      "imageAlt": "Giraffen in Giraffecenter Nairobi",
+      "description": "De reis begint in Nairobi, de bruisende hoofdstad van Kenia. Hier is een mix van modern stadsleven en natuurlijke verrassingen binnen handbereik. Bezoek het David Sheldrick Wildlife Trust om olifantenbaby’s te zien of het Giraffencentrum, waar je giraf van dichtbij kunt voeren. Voor een culturele ervaring is het Nationaal Museum aan te raden, met tentoonstellingen over Keniaanse geschiedenis en natuur. Ontdek ook lokale markten en proef kenmerkende gerechten. Nairobi biedt een goede introductie tot het land en zijn natuur.",
+      "activities": [
+        {
+          "title": "Bezoek David Sheldrick Wildlife Trust",
+          "description": "Ontmoet en leer over weesolifanten.",
+          "price": "10-20 euro"
+        },
+        {
+          "title": "Giraffecentrum tour",
+          "description": "Voer en leer over Rothschild-giraf.",
+          "price": "15-25 euro"
+        },
+        {
+          "title": "Nationaal Museum Nairobi",
+          "description": "Ontdek cultuur en natuurgeschiedenis.",
+          "price": "5-10 euro"
+        }
+      ],
+      "tip": "Plan een dag om wildlife-centra te bezoeken aan de rand van Nairobi, zodat je het drukke stadsverkeer kunt vermijden."
+    },
+    {
+      "id": "masai-mara-2",
+      "number": 2,
+      "name": "Masai Mara",
+      "area": "Masai Mara",
+      "coords": [
+        -1.4881431,
+        35.1054095
+      ],
+      "dayLabel": "Dag 5-10",
+      "nights": 6,
+      "image": "/images/posts/3-weken-kenia-wildparken-en-tropische-kust-2.webp",
+      "imageAlt": "Leeuw in Masai Mara savanne",
+      "description": "Masai Mara is een van de bekendste wildparken van Afrika en staat bekend om de grote concentratie wilde dieren. Tijdens safari’s zie je hier vaak leeuwen, olifanten, giraffen en soms de jaarlijkse migratie van duizenden gnoes en zebra’s. De uitgestrekte savanne is perfect om op zoek te gaan naar het ‘grote vijf’. Overnachting in een safaritent of lodge geeft een authentieke ervaring midden in de natuur. Ook ontmoet je er de Masai, een traditionele stam met een unieke cultuur.",
+      "activities": [
+        {
+          "title": "Ochtend- en avondsafari’s",
+          "description": "Spot wilde dieren in hun natuurlijke omgeving.",
+          "price": "100-200 euro per safari"
+        },
+        {
+          "title": "Bezoek Masai-dorp",
+          "description": "Leer over de cultuur en tradities van de Masai.",
+          "price": "20-40 euro"
+        },
+        {
+          "title": "Ballonsafari",
+          "description": "Luchtballon over de savanne (optioneel).",
+          "price": "300-400 euro"
+        }
+      ],
+      "tip": "Ga vroeg op pad met een ervaren gids om de dieren in actie te zien tijdens het koelere ochtendlicht."
+    },
+    {
+      "id": "lake-naivasha-3",
+      "number": 3,
+      "name": "Lake Naivasha",
+      "area": "Naivasha",
+      "coords": [
+        -0.7586353,
+        36.3553769
+      ],
+      "dayLabel": "Dag 11-13",
+      "nights": 3,
+      "image": "/images/posts/3-weken-kenia-wildparken-en-tropische-kust-3.webp",
+      "imageAlt": "Boottocht op Lake Naivasha",
+      "description": "Lake Naivasha is een zoetwatermeer in het Great Rift Valley en populair om de rust en de vogelrijkdom. Je kunt hier boottochten maken om nijlpaarden en vogels te spotten, en het omliggende landschap is ideaal om te wandelen of fietsen. De omgeving is minder druk dan de grote wildparken, wat het een fijne plek maakt voor ontspanning tussen de safari’s door. Ook zijn er tuinen en boerderijen te bezoeken die de vruchtbare grond van het gebied tonen.",
+      "activities": [
+        {
+          "title": "Boottocht Lake Naivasha",
+          "description": "Spot nijlpaarden en diverse vogelsoorten.",
+          "price": "25-40 euro"
+        },
+        {
+          "title": "Bezoek Crescent Island",
+          "description": "Wandelen tussen dieren zonder omheining.",
+          "price": "15-25 euro"
+        },
+        {
+          "title": "Fietstocht rondom het meer",
+          "description": "Ontdek het landschap op de fiets.",
+          "price": "10-20 euro"
+        }
+      ],
+      "tip": "Neem een boottocht in de vroege ochtend voor de beste kans op het zien van wildlife en vogels."
+    },
+    {
+      "id": "amboseli-nationaal-park-4",
+      "number": 4,
+      "name": "Amboseli Nationaal Park",
+      "area": "Amboseli",
+      "coords": [
+        0,
+        0
+      ],
+      "dayLabel": "Dag 14-18",
+      "nights": 5,
+      "image": "/images/posts/3-weken-kenia-wildparken-en-tropische-kust-4.webp",
+      "imageAlt": "Olifanten bij Amboseli met Kilimanjaro",
+      "description": "Amboseli staat vooral bekend om zijn grote olifantenpopulatie en het spectaculaire uitzicht op de Kilimanjaro. Het park bestaat uit een mix van open vlaktes en moerassen waar veel dieren samenkomen. Tijdens safari’s is de kans groot om olifanten, buffels en diverse vogelsoorten te zien. Ook zijn er mogelijkheden om lokale dorpjes te bezoeken en meer te leren over het leven van de lokale bevolking. Het park is goed bereikbaar vanaf Nairobi en biedt een wat andere ervaring dan Masai Mara.",
+      "activities": [
+        {
+          "title": "Dagelijkse safari’s",
+          "description": "Observeer olifanten en andere dieren met uitzicht op Kilimanjaro.",
+          "price": "80-150 euro per safari"
+        },
+        {
+          "title": "Bezoek lokaal dorp",
+          "description": "Leer over cultuur en tradities van Maasai-stam.",
+          "price": "15-30 euro"
+        },
+        {
+          "title": "Fotografieworkshop safari",
+          "description": "Verbeter je natuurfotografievaardigheden.",
+          "price": "50-100 euro"
+        }
+      ],
+      "tip": "Zorg dat je een camera met goede zoomlens meeneemt voor close-ups van de olifanten en het landschap met Kilimanjaro."
+    },
+    {
+      "id": "diani-beach-5",
+      "number": 5,
+      "name": "Diani Beach",
+      "area": "Diani",
+      "coords": [
+        -4.3124919,
+        39.5793598
+      ],
+      "dayLabel": "Dag 19-21",
+      "nights": 3,
+      "image": "/images/posts/3-weken-kenia-wildparken-en-tropische-kust-5.webp",
+      "imageAlt": "Strand en palmbomen Diani Beach",
+      "description": "Diani is een kustplaats aan de Indische Oceaan met lange witte zandstranden en helder water. Het is een fijne plek om te ontspannen na de safari’s, met mogelijkheden voor snorkelen, duiken en andere watersporten. Lokale marktjes, goede restaurants en strandbars maken het verblijf aangenaam. Ook kun je een bezoek brengen aan het nabijgelegen Kaya Kinondo bos, een heilige plek voor de lokale bevolking. De sfeer is ontspannen en toeristisch, maar met een authentiek tintje.",
+      "activities": [
+        {
+          "title": "Snorkelen en duiken",
+          "description": "Verken het koraalrif en tropische vissen.",
+          "price": "30-60 euro"
+        },
+        {
+          "title": "Bezoek Kaya Kinondo bos",
+          "description": "Leer over de spirituele betekenis van het bos.",
+          "price": "10-20 euro"
+        },
+        {
+          "title": "Relaxen op het strand",
+          "description": "Geniet van zon en zee zonder kosten.",
+          "price": "gratis"
+        }
+      ],
+      "tip": "Plan een dagtrip naar het koraalrif om te snorkelen of duiken en ontdek de onderwaterwereld."
+    }
+  ],
+  "gallery": [
+    {
+      "src": "/images/posts/3-weken-kenia-wildparken-en-tropische-kust-1.webp",
+      "alt": "Giraffen in Giraffecenter Nairobi",
+      "caption": "Nairobi — Nairobi"
+    },
+    {
+      "src": "/images/posts/3-weken-kenia-wildparken-en-tropische-kust-2.webp",
+      "alt": "Leeuw in Masai Mara savanne",
+      "caption": "Masai Mara — Masai Mara"
+    },
+    {
+      "src": "/images/posts/3-weken-kenia-wildparken-en-tropische-kust-3.webp",
+      "alt": "Boottocht op Lake Naivasha",
+      "caption": "Lake Naivasha — Naivasha"
+    },
+    {
+      "src": "/images/posts/3-weken-kenia-wildparken-en-tropische-kust-4.webp",
+      "alt": "Olifanten bij Amboseli met Kilimanjaro",
+      "caption": "Amboseli Nationaal Park — Amboseli"
+    },
+    {
+      "src": "/images/posts/3-weken-kenia-wildparken-en-tropische-kust-5.webp",
+      "alt": "Strand en palmbomen Diani Beach",
+      "caption": "Diani Beach — Diani"
+    }
+  ],
+  "practical": [
+    {
+      "label": "Vervoer",
+      "value": "Binnenlandse vluchten en privétransfers tussen safari-bestemmingen; lokale taxi’s en bussen in steden."
+    },
+    {
+      "label": "Verblijf",
+      "value": "Van eenvoudige lodges en tentenkampen tot comfortabele hotels en resorts aan de kust."
+    },
+    {
+      "label": "Budget",
+      "value": "Dagelijkse kosten tussen 50-150 euro, afhankelijk van activiteiten en accommodatie."
+    },
+    {
+      "label": "Beste reistijd",
+      "value": "Droge seizoenen van juni tot oktober en december tot maart zijn ideaal voor safari en strand."
+    },
+    {
+      "label": "Geld en internet",
+      "value": "Contant geld (Keniaanse shilling) handig in natuurgebieden; wifi vaak beschikbaar in steden en resorts."
+    }
+  ],
+  "packing": [
+    "Lichte kleding voor warme dagen",
+    "Warme trui voor koele ochtenden en avonden",
+    "Stevige wandelschoenen",
+    "Zonnehoed of pet",
+    "Zonnebrandcrème",
+    "Insectenspray",
+    "Camera met zoomlens",
+    "Waterfles herbruikbaar",
+    "Zwempak en strandhanddoek"
+  ],
+  "closingNote": "Deze 3-weekse reis door Kenia biedt een mooie combinatie van natuur, cultuur en ontspanning. Van de drukte en wildlife van Nairobi en Masai Mara, via het rustige Naivasha en het indrukwekkende Amboseli, tot het ontspannen strand van Diani. Met deze route ervaar je veelzijdigheid en krijg je een goed beeld van wat Kenia te bieden heeft. Vergeet niet om voldoende tijd te nemen voor rust na de safari’s en te genieten van het landschap en de lokale cultuur.",
+  "continent": "afrika",
+  "author": "Redactie",
+  "generated": true,
+  "createdAt": "2026-11-20",
+  "topicKey": "kenia:reisroute:3-weken",
+  "imageCredit": {
+    "name": "Fearscare",
+    "url": "https://pixabay.com/photos/safari-elephant-landscape-nature-4043090/",
+    "source": "Pixabay"
+  }
+}

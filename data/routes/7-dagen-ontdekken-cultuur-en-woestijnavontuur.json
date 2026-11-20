@@ -1,0 +1,269 @@
+{
+  "slug": "7-dagen-ontdekken-cultuur-en-woestijnavontuur",
+  "title": "7 dagen ontdekken: cultuur en woestijnavontuur",
+  "kicker": "Een week tussen futurisme en traditie",
+  "country": "Qatar",
+  "region": "Midden-Oosten",
+  "durationDays": 7,
+  "durationLabel": "7 dagen",
+  "travelStyle": "Cultureel en avontuurlijk",
+  "budget": "Middenklasse",
+  "budgetNote": "Prijzen kunnen variëren afhankelijk van seizoen en type accommodatie.",
+  "bestTime": "November tot april",
+  "startPoint": "Doha",
+  "endPoint": "Al Shahaniya",
+  "coverImage": "/images/posts/7-dagen-ontdekken-cultuur-en-woestijnavontuur-cover.webp",
+  "coverAlt": "Een afwisselende week door Qatar waarin moderne architectuur, traditionele markten, woestijnlandschappen en historische sites samenkomen.",
+  "excerpt": "Een afwisselende week door Qatar waarin moderne architectuur, traditionele markten, woestijnlandschappen en historische sites samenkomen.",
+  "introHeading": "Van stad naar woestijnpracht",
+  "intro": [
+    "Deze route laat je kennismaken met de veelzijdigheid van Qatar. Van de moderne skyline van Doha tot de rust en uitgestrektheid van de woestijn. De stad biedt een combinatie van futuristische architectuur en culturele bezienswaardigheden die inzicht geven in het hedendaagse leven in het emiraat.",
+    "Je bezoekt levendige souks, erfgoedlocaties en natuurlijke wonderen zoals de Khor al Adaid, ook wel de Inland Sea genoemd. De reis combineert cultuur, geschiedenis en natuur op korte afstanden, wat het prettig en overzichtelijk maakt voor reizigers die het beste uit het land willen halen.",
+    "De route sluit af met een bezoek aan Al Shahaniya, waar traditionele kamelenraces en bedoeïenenleven de woestijn tot leven brengen. Praktische tips en een paklijst helpen om goed voorbereid op avontuur te gaan en optimaal te genieten van het diverse landschap."
+  ],
+  "highlights": [
+    "De skyline en musea van Doha verkennen",
+    "Wandelen door Souq Waqif en lokale specialiteiten proeven",
+    "Unieke ervaring bij de Khor al Adaid woestijnduinen",
+    "Bezoek aan het UNESCO-werelderfgoed Al Zubarah Fort",
+    "Kamelen en tradities ontdekken in Al Shahaniya"
+  ],
+  "stops": [
+    {
+      "id": "doha-1",
+      "number": 1,
+      "name": "Doha",
+      "area": "Doha",
+      "coords": [
+        25.3108807,
+        51.5081812
+      ],
+      "dayLabel": "Dag 1-2",
+      "nights": 2,
+      "image": "/images/posts/7-dagen-ontdekken-cultuur-en-woestijnavontuur-1.webp",
+      "imageAlt": "Skyline van Doha met moderne wolkenkrabbers",
+      "description": "Doha, de hoofdstad van Qatar, combineert futuristische architectuur met rijke culturele plekken. De stad is bekend om indrukwekkende gebouwen zoals het Museum voor Islamitische Kunst en de moderne skyline langs de Corniche. Bezoek culturele centra, winkel in moderne malls of geniet van de sfeer aan de waterkant. Doha is een goed startpunt om het hedendaagse Qatar te ervaren en de basis te leggen voor deze reis.",
+      "activities": [
+        {
+          "title": "Bezoek Museum voor Islamitische Kunst",
+          "description": "Ontdek een indrukwekkende collectie kunst uit de islamitische wereld.",
+          "price": "15-25 euro"
+        },
+        {
+          "title": "Wandeling langs de Corniche",
+          "description": "Geniet van het uitzicht over de baai en de skyline van Doha.",
+          "price": "Gratis"
+        },
+        {
+          "title": "Diner in een lokaal restaurant",
+          "description": "Proef Qatarese specialiteiten in de stad, zoals machboos of harees.",
+          "price": "20-40 euro"
+        }
+      ],
+      "tip": "Plan een wandeling langs de Corniche in de vroege ochtend of avond om de stad in comfortabele temperaturen te zien."
+    },
+    {
+      "id": "souq-waqif-2",
+      "number": 2,
+      "name": "Souq Waqif",
+      "area": "Doha",
+      "coords": [
+        25.2882293,
+        51.5332171
+      ],
+      "dayLabel": "Dag 3",
+      "nights": 1,
+      "image": "/images/posts/7-dagen-ontdekken-cultuur-en-woestijnavontuur-2.webp",
+      "imageAlt": "Traditionele markt met kleurrijke kraampjes",
+      "description": "Souq Waqif is een traditionele markt in het hart van Doha, waar het oude Qatar tot leven komt. Wandel langs de vele kraampjes met kruiden, kleding, handwerk en souvenirs. Het is ook een plek om typische gerechten te proberen en ambachtelijke koffie te drinken. De sfeer is levendig met straatartiesten en kleine cafés. Souq Waqif is ideaal om cultuur te proeven en inkopen te doen in een authentieke omgeving.",
+      "activities": [
+        {
+          "title": "Rondleiding door de souq",
+          "description": "Leer over de geschiedenis en tradities van de markt met een gids.",
+          "price": "20-30 euro"
+        },
+        {
+          "title": "Proeverij van lokale gerechten",
+          "description": "Proef verschillende kleine gerechtjes in de souq.",
+          "price": "15-25 euro"
+        },
+        {
+          "title": "Koffie en thee in een traditioneel café",
+          "description": "Geniet van koffie met kardemom of verse muntthee.",
+          "price": "5-10 euro"
+        }
+      ],
+      "tip": "Breng een bezoek in de avond voor een sfeervol verlichte markt en koelere temperaturen."
+    },
+    {
+      "id": "khor-al-adaid-3",
+      "number": 3,
+      "name": "Khor al Adaid",
+      "area": "Zuid-Qatar",
+      "coords": [
+        0,
+        0
+      ],
+      "dayLabel": "Dag 4",
+      "nights": 1,
+      "image": "/images/posts/7-dagen-ontdekken-cultuur-en-woestijnavontuur-3.webp",
+      "imageAlt": "Zandduinen die overgaan in zee bij zonsondergang",
+      "description": "Khor al Adaid, ook wel de Inland Sea genoemd, is een uniek natuurlijk fenomeen waar de zee de woestijn ontmoet. Dit gebied is alleen per 4x4 te bereiken en biedt uitgestrekte zandduinen en rust. Het is een bijzondere plek om te wandelen, sandboarden of simpelweg te genieten van de zonsopgang of zonsondergang in de woestijn. Khor al Adaid staat bekend om zijn spectaculaire landschap en stilte.",
+      "activities": [
+        {
+          "title": "4x4 woestijnexcursie",
+          "description": "Ontdek de duinen en het kustgebied met een ervaren gids.",
+          "price": "50-80 euro"
+        },
+        {
+          "title": "Sandboarden op de duinen",
+          "description": "Ervaar het glijden van de zandhellingen in de woestijn.",
+          "price": "20-30 euro"
+        },
+        {
+          "title": "Fotografiewandeling bij zonsondergang",
+          "description": "Leg het bijzondere licht en landschap vast.",
+          "price": "Gratis"
+        }
+      ],
+      "tip": "Boek een excursie met een ervaren gids en neem voldoende water mee."
+    },
+    {
+      "id": "al-zubarah-4",
+      "number": 4,
+      "name": "Al Zubarah",
+      "area": "Noordwest-Qatar",
+      "coords": [
+        25.1606309,
+        51.5412553
+      ],
+      "dayLabel": "Dag 5",
+      "nights": 1,
+      "image": "/images/posts/7-dagen-ontdekken-cultuur-en-woestijnavontuur-4.webp",
+      "imageAlt": "Al Zubarah fort met stenen muren en woestijnlandschap",
+      "description": "Al Zubarah is de locatie van een oud fort en een handelsstad die op de werelderfgoedlijst van UNESCO staat. De plek biedt een kijkje in de geschiedenis van Qatar met archeologische overblijfselen van een 18e-eeuwse suikerrijke nederzetting. Bezoek het fort, wandel door de ruïnes en leer over het verleden van de regio. Dit is een van de weinige plekken waar het erfgoed van Qatar tastbaar is bewaard gebleven.",
+      "activities": [
+        {
+          "title": "Rondleiding Al Zubarah Fort",
+          "description": "Leer over de geschiedenis van het fort en de oude stad.",
+          "price": "10-20 euro"
+        },
+        {
+          "title": "Bezoek aan archeologische site",
+          "description": "Verken de ruïnes van de oude handelsstad.",
+          "price": "Gratis"
+        },
+        {
+          "title": "Picknick in de omgeving",
+          "description": "Neem zelf eten mee om te genieten in de natuur rondom het fort.",
+          "price": "Gratis"
+        }
+      ],
+      "tip": "Combineer het bezoek met een korte rit langs het kustgebied voor een afwisselend landschap."
+    },
+    {
+      "id": "al-shahaniya-5",
+      "number": 5,
+      "name": "Al Shahaniya",
+      "area": "Centraal-Qatar",
+      "coords": [
+        25.4000594,
+        51.0518714
+      ],
+      "dayLabel": "Dag 6-7",
+      "nights": 2,
+      "image": "/images/posts/7-dagen-ontdekken-cultuur-en-woestijnavontuur-5.webp",
+      "imageAlt": "Kamelen in de woestijn met zandduinen op achtergrond",
+      "description": "Al Shahaniya staat bekend om zijn kamelenraces en de mogelijkheid om het traditionele woestijnleven van dichtbij te ervaren. Dit gebied is een centrum van belangrijke culturele evenementen waarin kamelen een grote rol spelen. Naast het bijwonen van een kamelenrace is het mogelijk om een bedoeïenenkamp te bezoeken waar verhalen en tradities worden gedeeld en je inzicht krijgt in het leven van deze nomadische gemeenschap. De rustige woestijnomgeving biedt ook ruimte voor wandelingen en het observeren van de natuur.",
+      "activities": [
+        {
+          "title": "Bezoek kamelenrenbaan",
+          "description": "Bekijk de voorbereiding en wedstrijden van kamelenraces.",
+          "price": "10-15 euro"
+        },
+        {
+          "title": "Bezoek bedoeïenenkamp",
+          "description": "Maak kennis met de lokale nomadische cultuur en tradities.",
+          "price": "20-40 euro"
+        },
+        {
+          "title": "Wandeling in de woestijn",
+          "description": "Verken de omgeving te voet en geniet van de rust.",
+          "price": "Gratis"
+        }
+      ],
+      "tip": "Informeer vooraf of er kamelenraces zijn tijdens je bezoek voor een authentieke ervaring en kleed je luchtig maar bedekkend om je tegen zon en zand te beschermen."
+    }
+  ],
+  "gallery": [
+    {
+      "src": "/images/posts/7-dagen-ontdekken-cultuur-en-woestijnavontuur-1.webp",
+      "alt": "Skyline van Doha met moderne wolkenkrabbers",
+      "caption": "Doha — Doha"
+    },
+    {
+      "src": "/images/posts/7-dagen-ontdekken-cultuur-en-woestijnavontuur-2.webp",
+      "alt": "Traditionele markt met kleurrijke kraampjes",
+      "caption": "Souq Waqif — Doha"
+    },
+    {
+      "src": "/images/posts/7-dagen-ontdekken-cultuur-en-woestijnavontuur-3.webp",
+      "alt": "Zandduinen die overgaan in zee bij zonsondergang",
+      "caption": "Khor al Adaid — Zuid-Qatar"
+    },
+    {
+      "src": "/images/posts/7-dagen-ontdekken-cultuur-en-woestijnavontuur-4.webp",
+      "alt": "Al Zubarah fort met stenen muren en woestijnlandschap",
+      "caption": "Al Zubarah — Noordwest-Qatar"
+    },
+    {
+      "src": "/images/posts/7-dagen-ontdekken-cultuur-en-woestijnavontuur-5.webp",
+      "alt": "Kamelen in de woestijn met zandduinen op achtergrond",
+      "caption": "Al Shahaniya — Centraal-Qatar"
+    }
+  ],
+  "practical": [
+    {
+      "label": "Vervoer",
+      "value": "Taxi of huurauto van 25-50 euro per dag, afhankelijk van type en brandstof."
+    },
+    {
+      "label": "Verblijf",
+      "value": "Hotels en guesthouses variëren van 50-150 euro per nacht."
+    },
+    {
+      "label": "Budget",
+      "value": "Dagelijks 40-70 euro voor eten, activiteiten en lokaal vervoer."
+    },
+    {
+      "label": "Beste reistijd",
+      "value": "November tot april vanwege mildere temperaturen."
+    },
+    {
+      "label": "Geld en internet",
+      "value": "Contant geld en creditcards worden geaccepteerd; 4G-internet is breed beschikbaar."
+    }
+  ],
+  "packing": [
+    "Zonnehoed of pet",
+    "Lichte katoenen kleding",
+    "Zonnebrandcrème",
+    "Comfortabele wandelschoenen",
+    "Zonnebril",
+    "Lichte trui voor koele avonden",
+    "Herbruikbare waterfles",
+    "Camera of smartphone met voldoende opslag",
+    "Basis EHBO-kit"
+  ],
+  "closingNote": "Deze reisroute biedt een goede mix van stad, cultuur en natuur in Qatar. Het is eenvoudig om elke dag iets nieuws te ontdekken zonder lange reistijden. De afwisseling tussen moderne highlights en traditionele plekken geeft een compleet beeld van het land. Voorbereiding en flexibiliteit zorgen voor een prettige reiservaring. Geniet van de bijzondere combinatie van woestijn en kosmopolitische sfeer.",
+  "continent": "midden-oosten",
+  "author": "Redactie",
+  "generated": true,
+  "createdAt": "2026-11-20",
+  "topicKey": "qatar:reisroute:1-week",
+  "imageCredit": {
+    "name": "LeafWriter",
+    "url": "https://pixabay.com/photos/sand-desert-dunes-landscape-nature-5100918/",
+    "source": "Pixabay"
+  }
+}

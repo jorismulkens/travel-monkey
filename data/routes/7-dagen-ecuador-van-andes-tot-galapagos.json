@@ -1,0 +1,249 @@
+{
+  "slug": "7-dagen-ecuador-van-andes-tot-galapagos",
+  "title": "7 dagen Ecuador: van Andes tot Galápagos",
+  "kicker": "Een week tussen bergen en eilanden",
+  "country": "Ecuador",
+  "region": "Zuid-Amerika",
+  "durationDays": 7,
+  "durationLabel": "7 dagen",
+  "travelStyle": "avontuurlijk en gevarieerd",
+  "budget": "middelmatig",
+  "budgetNote": "Prijzen voor activiteiten en verblijf kunnen variëren afhankelijk van seizoen en locatie; transport tussen eilanden is prijziger.",
+  "bestTime": "juni tot september voor droog en aangenaam weer",
+  "startPoint": "Quito",
+  "endPoint": "Quito",
+  "coverImage": "/images/posts/7-dagen-ecuador-van-andes-tot-galapagos-cover.webp",
+  "coverAlt": "Een afwisselende route door Ecuador die begint in de Andeshoofdstad Quito, een bezoek brengt aan het kleurrijke Otavalo, de natuur van Baños ontdekt, de koloniale charme van Cuenca ervaart en eindigt met een avontuur op de Galápagos-eilanden.",
+  "excerpt": "Een afwisselende route door Ecuador die begint in de Andeshoofdstad Quito, een bezoek brengt aan het kleurrijke Otavalo, de natuur van Baños ontdekt, de koloniale charme van Cuenca ervaart en eindigt met een avontuur op de Galápagos-eilanden.",
+  "introHeading": "Van Andesstad tot eilandparadijs",
+  "intro": [
+    "Deze reisroute neemt je mee langs de hoogtepunten van Ecuador in een week tijd. Van de bruisende hoofdstad Quito tot de unieke natuur van de Galápagos-eilanden, met onderweg authentieke dorpen en natuurgebieden.",
+    "Elke stop laat een andere kant van Ecuador zien. Ontdek historische steden, levendige markten en spectaculaire landschappen, waarbij cultuur en natuur elkaar afwisselen.",
+    "De planning is zo opgezet dat je op een ontspannen manier kunt reizen, zonder al te veel haasten, zodat je optimaal kunt genieten van de Ecuadoriaanse gastvrijheid en avonturen."
+  ],
+  "highlights": [
+    "Bezoek aan het historische centrum van Quito",
+    "Kleurrijke markt van Otavalo",
+    "Watervallen en avontuurlijke activiteiten in Baños",
+    "Koloniale sfeer en rivierdalen in Cuenca",
+    "Wildlife spotten op de Galápagos-eilanden"
+  ],
+  "stops": [
+    {
+      "id": "quito-1",
+      "number": 1,
+      "name": "Quito",
+      "area": "Andes",
+      "coords": [
+        -0.2201641,
+        -78.5123274
+      ],
+      "dayLabel": "Dag 1-2",
+      "nights": 2,
+      "image": "/images/posts/7-dagen-ecuador-van-andes-tot-galapagos-1.webp",
+      "imageAlt": "Historisch centrum van Quito met kerk en plein",
+      "description": "Quito is de hoofdstad van Ecuador en ligt hoog in de Andes. Het historische centrum staat op de werelderfgoedlijst en biedt een rijke mix van koloniale architectuur, gezellige pleinen en levendige markten. Naast cultuur is er ook volop natuur te vinden rondom de stad, zoals het uitkijkpunt bij het Panecillo. Tijdens je verblijf kun je genieten van lokale gerechten en kennismaken met de Ecuadoriaanse gastvrijheid.",
+      "activities": [
+        {
+          "title": "Stadswandeling door het centrum",
+          "description": "Ontdek kerken, pleinen en musea in het oude Quito met een gids.",
+          "price": "10-20 euro"
+        },
+        {
+          "title": "Bezoek aan Mitad del Mundo",
+          "description": "Sta op de evenaarlijn net buiten de stad en leer over de geografische bijzonderheid.",
+          "price": "5-10 euro"
+        }
+      ],
+      "tip": "Bezoek een lokaal koffiehuis om de Ecuadoriaanse koffie te proeven en maak een stadswandeling met een gids voor een goede introductie."
+    },
+    {
+      "id": "otavalo-2",
+      "number": 2,
+      "name": "Otavalo",
+      "area": "Andes",
+      "coords": [
+        0.2227637,
+        -78.2454274
+      ],
+      "dayLabel": "Dag 3",
+      "nights": 1,
+      "image": "/images/posts/7-dagen-ecuador-van-andes-tot-galapagos-2.webp",
+      "imageAlt": "Kleurrijke markt met stoffen en kunstnijverheid",
+      "description": "Otavalo staat bekend om zijn grote en kleurrijke markt waar handgemaakte producten worden verkocht. Het is een plek om traditionele textiel, sieraden en kunst te bekijken en aan te schaffen. Het dorp zelf heeft een ontspannen sfeer en ligt te midden van groene heuvels. Naast de markt zijn er ook mogelijkheden om de omgeving te verkennen, zoals nabijgelegen meren en watervallen.",
+      "activities": [
+        {
+          "title": "Bezoek aan de markt",
+          "description": "Wandel over de markt en bekijk ambachtelijke producten.",
+          "price": "gratis, kopen naar eigen wens"
+        },
+        {
+          "title": "Excursie naar Laguna Cuicocha",
+          "description": "Boottocht op het kratermeer en wandelen rondom het meer.",
+          "price": "15-25 euro"
+        }
+      ],
+      "tip": "Breng vroeg een bezoek aan de markt om de drukte en het aanbod optimaal mee te maken."
+    },
+    {
+      "id": "banos-3",
+      "number": 3,
+      "name": "Baños",
+      "area": "Andes",
+      "coords": [
+        -1.3319157,
+        -78.2625285
+      ],
+      "dayLabel": "Dag 4",
+      "nights": 1,
+      "image": "/images/posts/7-dagen-ecuador-van-andes-tot-galapagos-3.webp",
+      "imageAlt": "Waterval en groene natuur rond Baños",
+      "description": "Baños is een klein stadje dat bekendstaat om zijn warmwaterbronnen en avontuurlijke activiteiten zoals ziplinen en raften. De omgeving wordt gekenmerkt door watervallen, groene valleien en vulkanen. Het is een fijne plek om te ontspannen in thermale baden of juist actief te zijn in de natuur. De sfeer is informeel en er zijn diverse restaurantjes en cafés waar lokale specialiteiten worden geserveerd.",
+      "activities": [
+        {
+          "title": "Thermaalbaden bezoeken",
+          "description": "Ontspan in natuurlijke warmwaterbronnen met uitzicht op de bergen.",
+          "price": "5-15 euro"
+        },
+        {
+          "title": "Zipline avonturenpark",
+          "description": "Ga van boom naar boom met verschillende kabelbanen in de natuur.",
+          "price": "20-40 euro"
+        }
+      ],
+      "tip": "Huur een fiets of scooter om de omgeving en watervallen gemakkelijk te verkennen."
+    },
+    {
+      "id": "cuenca-4",
+      "number": 4,
+      "name": "Cuenca",
+      "area": "Andes",
+      "coords": [
+        -2.8974072,
+        -79.0041726
+      ],
+      "dayLabel": "Dag 5-6",
+      "nights": 2,
+      "image": "/images/posts/7-dagen-ecuador-van-andes-tot-galapagos-4.webp",
+      "imageAlt": "Koloniaal plein in Cuenca met kerk en palmbomen",
+      "description": "Cuenca is een charmante stad in het zuiden van Ecuador met een goed bewaard gebleven koloniale binnenstad. De stad staat bekend om haar architectuur, musea en ambachtelijke markten. Aan de rivier kun je wandelen of een boottocht maken, en in de omgeving zijn ruïnes en natuurparken te bezoeken. Cuenca heeft een ontspannen tempo en is een goede plek om de Ecuadoriaanse cultuur te ervaren zonder het grote toerisme.",
+      "activities": [
+        {
+          "title": "Wandeling door het historische centrum",
+          "description": "Ontdek musea, kerken en pleinen in Cuenca.",
+          "price": "gratis tot 10 euro voor musea"
+        },
+        {
+          "title": "Boottocht op de rivier Tomebamba",
+          "description": "Geniet van het uitzicht op de stad vanaf het water.",
+          "price": "10-15 euro"
+        }
+      ],
+      "tip": "Bezoek een keramiekatelier of leer over Panama-hoeden die hier gemaakt worden."
+    },
+    {
+      "id": "galapagos-eilanden-5",
+      "number": 5,
+      "name": "Galápagos-eilanden",
+      "area": "Eilanden",
+      "coords": [
+        0,
+        0
+      ],
+      "dayLabel": "Dag 7",
+      "nights": 1,
+      "image": "/images/posts/7-dagen-ecuador-van-andes-tot-galapagos-5.webp",
+      "imageAlt": "Galápagos landschappen met schildpadden en zee",
+      "description": "De Galápagos-eilanden vormen een bijzondere archipel met unieke flora en fauna die nergens anders ter wereld te vinden zijn. Het gebied is bekend vanwege de reuzenschildpadden, zeeleguanen, blauwvoetgenten, en vele vogelsoorten. Tijdens een verblijf op de eilanden kun je wandelen door vulkanisch landschap, snorkelen tussen tropische vissen en zeeschildpadden, en genieten van ongerepte stranden. De eilanden zijn ook belangrijk voor natuurbehoud en wetenschappelijk onderzoek. Een bezoek vereist enige planning vanwege de afstand en regels, maar is een onvergetelijke ervaring.",
+      "activities": [
+        {
+          "title": "Bootexcursie rond een eiland",
+          "description": "Snorkelen met zeeleven en dieren spotten met een gids.",
+          "price": "70-120 euro afhankelijk van reisorganisatie"
+        },
+        {
+          "title": "Bezoek aan het Charles Darwin Research Station",
+          "description": "Informatie over natuurbehoud en schildpadden bekijken.",
+          "price": "5-10 euro"
+        },
+        {
+          "title": "Wandeling op een van de eilanden",
+          "description": "Ontdek vulkanische landschappen en unieke fauna.",
+          "price": "gratis tot 15 euro afhankelijk van gids"
+        }
+      ],
+      "tip": "Draag comfortabele wandelschoenen, neem een waterdichte tas mee en respecteer de natuurregels voor dieren en planten."
+    }
+  ],
+  "gallery": [
+    {
+      "src": "/images/posts/7-dagen-ecuador-van-andes-tot-galapagos-1.webp",
+      "alt": "Historisch centrum van Quito met kerk en plein",
+      "caption": "Quito — Andes"
+    },
+    {
+      "src": "/images/posts/7-dagen-ecuador-van-andes-tot-galapagos-2.webp",
+      "alt": "Kleurrijke markt met stoffen en kunstnijverheid",
+      "caption": "Otavalo — Andes"
+    },
+    {
+      "src": "/images/posts/7-dagen-ecuador-van-andes-tot-galapagos-3.webp",
+      "alt": "Waterval en groene natuur rond Baños",
+      "caption": "Baños — Andes"
+    },
+    {
+      "src": "/images/posts/7-dagen-ecuador-van-andes-tot-galapagos-4.webp",
+      "alt": "Koloniaal plein in Cuenca met kerk en palmbomen",
+      "caption": "Cuenca — Andes"
+    },
+    {
+      "src": "/images/posts/7-dagen-ecuador-van-andes-tot-galapagos-5.webp",
+      "alt": "Galápagos landschappen met schildpadden en zee",
+      "caption": "Galápagos-eilanden — Eilanden"
+    }
+  ],
+  "practical": [
+    {
+      "label": "Vervoer",
+      "value": "Binnenlandse vluchten tussen Quito, Cuenca en de Galápagos (50-150 euro); bussen en taxi's voor korte afstanden (2-10 euro)."
+    },
+    {
+      "label": "Verblijf",
+      "value": "Hostels en budgethotels tussen 15-40 euro per nacht; middenklasse hotels 40-80 euro."
+    },
+    {
+      "label": "Budget",
+      "value": "Dagelijkse kosten 30-60 euro exclusief vluchten; excursies kunnen variëren van 10 tot 120 euro."
+    },
+    {
+      "label": "Beste reistijd",
+      "value": "Droge seizoen van juni tot september is ideaal voor dit traject."
+    },
+    {
+      "label": "Geld en internet",
+      "value": "Pinnen is mogelijk in steden; simkaarten met data kosten ongeveer 10-20 euro voor een week."
+    }
+  ],
+  "packing": [
+    "Lichte en warme kleding voor de Andes",
+    "Regenjas of poncho",
+    "Comfortabele wandelschoenen",
+    "Zwemkleding voor warmwaterbronnen en Galápagos",
+    "Zonnebrandcrème en hoed",
+    "Waterfles en snacks voor excursies",
+    "Camera of smartphone voor natuur en cultuur",
+    "Paspoort voor binnenlandse vluchten",
+    "Medicatie en persoonlijke verzorging"
+  ],
+  "closingNote": "Deze reis biedt een mooie mix van cultuur, natuur en avontuur in een korte tijd. Hoewel de Galápagos een flinke investering vraagt qua tijd en geld, is het een onvergetelijke afsluiter. De Andesstadjes en natuurgebieden zorgen voor een afwisselende ervaring. Door slim te plannen is deze route haalbaar en prettig, ook voor reizigers die maar een week hebben. Vergeet niet om onderweg tijd te nemen voor ontspanning en het proeven van lokale gerechten.",
+  "continent": "zuid-amerika",
+  "author": "Redactie",
+  "generated": true,
+  "createdAt": "2026-11-20",
+  "topicKey": "ecuador:reisroute:1-week",
+  "imageCredit": {
+    "name": "Keishpixl",
+    "url": "https://pixabay.com/photos/animal-mammal-horses-equine-9113761/",
+    "source": "Pixabay"
+  }
+}

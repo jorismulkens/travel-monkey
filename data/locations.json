@@ -141,5 +141,70 @@
     "type": "route",
     "thumbnail": "/images/posts/14-dagen-india-cultuur-en-natuur-in-balans-cover.webp",
     "excerpt": "Van bruisende steden en indrukwekkende monumenten tot spirituele plekken en de rust van Kerala. Deze route biedt een mooie mix van geschiedenis, cultuur en natuur."
+  },
+  {
+    "id": "7-dagen-veelzijdig-slovenie-stad-natuur-en-kust-route",
+    "name": "Ljubljana",
+    "country": "Slovenië",
+    "coords": [
+      46.0500268,
+      14.5069289
+    ],
+    "slug": "7-dagen-veelzijdig-slovenie-stad-natuur-en-kust",
+    "type": "route",
+    "thumbnail": "/images/posts/7-dagen-veelzijdig-slovenie-stad-natuur-en-kust-cover.webp",
+    "excerpt": "Deze weekroute door Slovenië combineert de charme van Ljubljana, het natuurschoon rond Lake Bled en Triglav, de indrukwekkende grotten bij Postojna en de ontspannen sfeer aan de Adriatische kust in Piran."
+  },
+  {
+    "id": "14-dagen-vanuatu-vulkanen-stranden-en-cultuur-route",
+    "name": "Port Vila",
+    "country": "Vanuatu",
+    "coords": [
+      -17.7414972,
+      168.3150163
+    ],
+    "slug": "14-dagen-vanuatu-vulkanen-stranden-en-cultuur",
+    "type": "route",
+    "thumbnail": "/images/posts/14-dagen-vanuatu-vulkanen-stranden-en-cultuur-cover.webp",
+    "excerpt": "Deze route door Vanuatu leidt je langs actieve vulkanen, tropische stranden en traditionele dorpen. Ontdek het unieke eilandleven en de rijke cultuur verspreid over meerdere eilanden."
+  },
+  {
+    "id": "3-weken-kenia-wildparken-en-tropische-kust-route",
+    "name": "Nairobi",
+    "country": "Kenia",
+    "coords": [
+      -1.2890006,
+      36.8172812
+    ],
+    "slug": "3-weken-kenia-wildparken-en-tropische-kust",
+    "type": "route",
+    "thumbnail": "/images/posts/3-weken-kenia-wildparken-en-tropische-kust-cover.webp",
+    "excerpt": "Een afwisselende reis door Kenia met safari’s in beroemde reservaten, ontspanning aan de Indische Oceaan en bezoek aan de kleurrijke hoofdstad Nairobi."
+  },
+  {
+    "id": "7-dagen-ecuador-van-andes-tot-galapagos-route",
+    "name": "Quito",
+    "country": "Ecuador",
+    "coords": [
+      -0.2201641,
+      -78.5123274
+    ],
+    "slug": "7-dagen-ecuador-van-andes-tot-galapagos",
+    "type": "route",
+    "thumbnail": "/images/posts/7-dagen-ecuador-van-andes-tot-galapagos-cover.webp",
+    "excerpt": "Een afwisselende route door Ecuador die begint in de Andeshoofdstad Quito, een bezoek brengt aan het kleurrijke Otavalo, de natuur van Baños ontdekt, de koloniale charme van Cuenca ervaart en eindigt met een avontuur op de Galápagos-eilanden."
+  },
+  {
+    "id": "7-dagen-ontdekken-cultuur-en-woestijnavontuur-route",
+    "name": "Doha",
+    "country": "Qatar",
+    "coords": [
+      25.3108807,
+      51.5081812
+    ],
+    "slug": "7-dagen-ontdekken-cultuur-en-woestijnavontuur",
+    "type": "route",
+    "thumbnail": "/images/posts/7-dagen-ontdekken-cultuur-en-woestijnavontuur-cover.webp",
+    "excerpt": "Een afwisselende week door Qatar waarin moderne architectuur, traditionele markten, woestijnlandschappen en historische sites samenkomen."
   }
 ]
