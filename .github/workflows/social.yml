@@ -69,4 +69,5 @@ jobs:
           git add data/social-posted.json
           git commit -m "social: geposte routes bijgewerkt ($(date -u +%F))"
           git pull -q --rebase origin main
+          git pull -q --rebase origin main
           git push
