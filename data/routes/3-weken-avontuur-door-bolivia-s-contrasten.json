@@ -1,0 +1,269 @@
+{
+  "slug": "3-weken-avontuur-door-bolivia-s-contrasten",
+  "title": "3 weken avontuur door Bolivia's contrasten",
+  "kicker": "Ontdek Andes, zoutvlaktes en meer",
+  "country": "Bolivia",
+  "region": "Zuid-Amerika",
+  "durationDays": 21,
+  "durationLabel": "3 weken",
+  "travelStyle": "avontuurlijk en cultureel",
+  "budget": "middenklasse",
+  "budgetNote": "Prijzen kunnen variëren afhankelijk van seizoen en voorzieningen.",
+  "bestTime": "mei tot oktober is het drogere seizoen, ideaal voor reizen.",
+  "startPoint": "La Paz",
+  "endPoint": "Lake Titicaca",
+  "coverImage": "/images/posts/3-weken-avontuur-door-bolivia-s-contrasten-cover.webp",
+  "coverAlt": "Een reis langs indrukwekkende landschappen en rijke geschiedenis, van de drukke hoofdstad La Paz tot de serene wateren van Lake Titicaca.",
+  "excerpt": "Een reis langs indrukwekkende landschappen en rijke geschiedenis, van de drukke hoofdstad La Paz tot de serene wateren van Lake Titicaca.",
+  "introHeading": "Van Andes tot zoutvlaktes",
+  "intro": [
+    "Bolivia is een land van indrukwekkende tegenstellingen. Hoog in de Andes vind je bruisende steden met rijke culturen, terwijl uitgestrekte zoutvlaktes en stille meren een heel andere wereld laten zien.",
+    "Deze route leidt je door de hoogtepunten van Bolivia, waarbij elke plek zijn eigen karakter en ervaringen biedt. Van het levendige stadsleven in La Paz tot de bijzondere landschappen rond Uyuni, is er steeds iets nieuws te ontdekken.",
+    "Langs koloniale steden als Potosí en Sucre krijg je een beeld van de geschiedenis en tradities. De reis eindigt aan het rustige Lake Titicaca, waar cultuur en natuur samenkomen in een vredige omgeving."
+  ],
+  "highlights": [
+    "Wandelen en cultuur in La Paz",
+    "Salar de Uyuni zoutvlaktes",
+    "Mijnbezoek in Potosí",
+    "Koloniale charme van Sucre",
+    "Tradities rond Lake Titicaca"
+  ],
+  "stops": [
+    {
+      "id": "la-paz-1",
+      "number": 1,
+      "name": "La Paz",
+      "area": "Andes",
+      "coords": [
+        -16.4955455,
+        -68.1336229
+      ],
+      "dayLabel": "Dag 1-4",
+      "nights": 4,
+      "image": "/images/posts/3-weken-avontuur-door-bolivia-s-contrasten-1.webp",
+      "imageAlt": "Uitzicht over La Paz met bergen op de achtergrond",
+      "description": "La Paz ligt hoog in de Andes en biedt een combinatie van traditionele cultuur en modern stadsleven. Bezoek lokale markten waar je ambachten en traditionele geneeskunde vindt. De stad wordt omringd door indrukwekkende bergen en heeft een uniek transportsysteem met kabelbanen die het stadsbeeld bepalen. Maak dagtochten naar de Valle de la Luna of nabijgelegen mijnstadjes om meer van de omgeving te ontdekken.",
+      "activities": [
+        {
+          "title": "Marktbezoek en stadswandeling",
+          "description": "Ontdek lokale markten zoals Mercado de las Brujas en wandel door het centrum.",
+          "price": "gratis tot 5 euro voor consumpties"
+        },
+        {
+          "title": "Kabelbaan rit",
+          "description": "Neem de Teleférico voor panoramisch uitzicht over de stad en omgeving.",
+          "price": "2-5 euro per rit"
+        },
+        {
+          "title": "Dagtocht Valle de la Luna",
+          "description": "Bezoek de rotsformaties in de Valle de la Luna net buiten de stad.",
+          "price": "10-20 euro inclusief gids en vervoer"
+        }
+      ],
+      "tip": "Neem de tijd om rustig te wennen aan de hoogte. Drink voldoende water en vermijd zware inspanningen in de eerste dagen om hoogteziekte te voorkomen."
+    },
+    {
+      "id": "uyuni-2",
+      "number": 2,
+      "name": "Uyuni",
+      "area": "Altiplano",
+      "coords": [
+        -20.4628406,
+        -66.8239072
+      ],
+      "dayLabel": "Dag 5-9",
+      "nights": 5,
+      "image": "/images/posts/3-weken-avontuur-door-bolivia-s-contrasten-2.webp",
+      "imageAlt": "Uitzicht over de zoutvlakte van Uyuni",
+      "description": "Uyuni vormt de toegang tot de enorme zoutvlaktes van Salar de Uyuni, waar het landschap door de uitgestrektheid bijna onwerkelijk aandoet. Tijdens een meerdaagse 4x4 tour kun je niet alleen de zoutvlakte zelf verkennen, maar ook omliggende natuurparken met kleurrijke lagunes, heetwaterbronnen en geisers. Het eiland Incahuasi, met zijn reusachtige cactussen, is een bijzondere stop. Deze regio biedt rust en ruimte, een unieke kans om de natuur in zijn pure vorm te ervaren.",
+      "activities": [
+        {
+          "title": "Salar de Uyuni tour",
+          "description": "4x4 tocht over de zoutvlaktes met stops bij bijzondere natuurgebieden en lagunes.",
+          "price": "150-250 euro voor 3 dagen"
+        },
+        {
+          "title": "Trein begraafplaats bezoek",
+          "description": "Bekijk de oude, verlaten locomotieven net buiten Uyuni.",
+          "price": "5-10 euro"
+        },
+        {
+          "title": "Bezoek Isla Incahuasi",
+          "description": "Eiland midden in de zoutvlakte met cactussen en uniek uitzicht.",
+          "price": "inbegrepen bij tours"
+        }
+      ],
+      "tip": "Boek een meerdaagse tour met een betrouwbare organisatie voor een veilige en comfortabele ervaring."
+    },
+    {
+      "id": "potosi-3",
+      "number": 3,
+      "name": "Potosí",
+      "area": "Andes",
+      "coords": [
+        -19.5892896,
+        -65.7534713
+      ],
+      "dayLabel": "Dag 10-14",
+      "nights": 5,
+      "image": "/images/posts/3-weken-avontuur-door-bolivia-s-contrasten-3.webp",
+      "imageAlt": "Straatbeeld in Potosí met koloniale gebouwen",
+      "description": "Potosí staat bekend om zijn zilvermijnen op Cerro Rico, die een belangrijke rol speelden in de koloniale geschiedenis. Maak een mijnbezoek om inzicht te krijgen in het harde werk van de mijnwerkers. De stad zelf heeft een sfeervol centrum met koloniale architectuur, pleinen en kerken. Daarnaast zijn er musea die de rijke geschiedenis van de stad en de mijnbouw uitleggen. Wandel door de straatjes en proef de lokale keuken in eenvoudige eetgelegenheden.",
+      "activities": [
+        {
+          "title": "Mijnbezoek Cerro Rico",
+          "description": "Rondleiding door de zilvermijn met uitleg over de geschiedenis en werkomstandigheden.",
+          "price": "10-20 euro inclusief gids"
+        },
+        {
+          "title": "Stadswandeling",
+          "description": "Verken het historische centrum met koloniale gebouwen en pleinen.",
+          "price": "gratis tot 5 euro voor toegangskaarten"
+        },
+        {
+          "title": "Musea bezoeken",
+          "description": "Bezoek bijvoorbeeld het Casa de la Moneda museum over muntproductie en geschiedenis.",
+          "price": "5-10 euro"
+        }
+      ],
+      "tip": "Draag stevige schoenen en neem een zaklamp mee voor de mijntour. Respecteer de lokale gidsen en mijnwerkers tijdens het bezoek."
+    },
+    {
+      "id": "sucre-4",
+      "number": 4,
+      "name": "Sucre",
+      "area": "Vallei",
+      "coords": [
+        -19.0477251,
+        -65.2594306
+      ],
+      "dayLabel": "Dag 15-19",
+      "nights": 5,
+      "image": "/images/posts/3-weken-avontuur-door-bolivia-s-contrasten-4.webp",
+      "imageAlt": "Witte koloniale gebouwen in Sucre",
+      "description": "Sucre, ook wel de witte stad genoemd, is rustiger dan de grote steden en staat bekend om zijn witgekalkte gebouwen en ontspannen sfeer. Je kunt deelnemen aan stadswandelingen langs historische gebouwen, pleinen en musea. Workshops waarin je traditionele ambachten leert of lokale gerechten bereid zijn een mooie manier om de cultuur te beleven. De omgeving van Sucre nodigt uit tot wandelingen en bezoeken aan dorpen waar traditionele levenswijzen voortleven.",
+      "activities": [
+        {
+          "title": "Stadswandeling met gids",
+          "description": "Ontdek het koloniale centrum en leer over de geschiedenis van Sucre.",
+          "price": "5-15 euro"
+        },
+        {
+          "title": "Bezoek lokale markten",
+          "description": "Proef en koop ambachtelijke producten en lokaal eten.",
+          "price": "gratis tot 5 euro voor aankopen"
+        },
+        {
+          "title": "Workshops traditionele ambachten",
+          "description": "Leer over weven of koken in een workshop.",
+          "price": "15-25 euro"
+        }
+      ],
+      "tip": "Breng een bezoek aan de lokale markten en proef typische gerechten zoals mondongo. Overweeg ook een excursie naar de nabijgelegen grotten van Maragua."
+    },
+    {
+      "id": "lake-titicaca-5",
+      "number": 5,
+      "name": "Lake Titicaca",
+      "area": "Altiplano",
+      "coords": [
+        0,
+        0
+      ],
+      "dayLabel": "Dag 20-21",
+      "nights": 2,
+      "image": "/images/posts/3-weken-avontuur-door-bolivia-s-contrasten-5.webp",
+      "imageAlt": "Boot op het Titicacameer bij een drijvend eiland",
+      "description": "Lake Titicaca is het hoogst bevaarbare meer ter wereld en staat bekend om zijn helderwater en traditionele eilanden. Je kunt een boottocht maken naar de Uros-eilanden, drijvende eilanden gemaakt van riet, waar bewoners hun unieke leefwijze laten zien. Daarnaast is het mogelijk om de omgeving te verkennen via wandelingen langs het water of bezoeken aan traditionele dorpen. Het is een rustige plek die goed is voor ontspanning na een intensieve reis.",
+      "activities": [
+        {
+          "title": "Boottocht naar Uros-eilanden",
+          "description": "Verken de drijvende rieteilanden en ontmoet de lokale bevolking.",
+          "price": "10-20 euro"
+        },
+        {
+          "title": "Wandeling langs het meer",
+          "description": "Maak een wandeling langs het meer en geniet van de uitzichten.",
+          "price": "gratis"
+        },
+        {
+          "title": "Bezoek lokale markten",
+          "description": "Ontdek handwerk en lokale producten in de dorpen rondom het meer.",
+          "price": "gratis tot 5 euro voor aankopen"
+        }
+      ],
+      "tip": "Neem warme kleding mee voor de boottocht, omdat het op het water fris kan zijn. Plan je bezoek met een lokale gids om meer over de cultuur te leren."
+    }
+  ],
+  "gallery": [
+    {
+      "src": "/images/posts/3-weken-avontuur-door-bolivia-s-contrasten-1.webp",
+      "alt": "Uitzicht over La Paz met bergen op de achtergrond",
+      "caption": "La Paz — Andes"
+    },
+    {
+      "src": "/images/posts/3-weken-avontuur-door-bolivia-s-contrasten-2.webp",
+      "alt": "Uitzicht over de zoutvlakte van Uyuni",
+      "caption": "Uyuni — Altiplano"
+    },
+    {
+      "src": "/images/posts/3-weken-avontuur-door-bolivia-s-contrasten-3.webp",
+      "alt": "Straatbeeld in Potosí met koloniale gebouwen",
+      "caption": "Potosí — Andes"
+    },
+    {
+      "src": "/images/posts/3-weken-avontuur-door-bolivia-s-contrasten-4.webp",
+      "alt": "Witte koloniale gebouwen in Sucre",
+      "caption": "Sucre — Vallei"
+    },
+    {
+      "src": "/images/posts/3-weken-avontuur-door-bolivia-s-contrasten-5.webp",
+      "alt": "Boot op het Titicacameer bij een drijvend eiland",
+      "caption": "Lake Titicaca — Altiplano"
+    }
+  ],
+  "practical": [
+    {
+      "label": "Vervoer",
+      "value": "Binnenlandse bussen en 4x4 tours zijn gebruikelijk, prijzen variëren van 10 tot 250 euro afhankelijk van afstand en type vervoer."
+    },
+    {
+      "label": "Verblijf",
+      "value": "Hostels en middenklasse hotels, kosten tussen 10-40 euro per nacht."
+    },
+    {
+      "label": "Budget",
+      "value": "Dagelijkse kosten liggen rond 25-50 euro voor accommodatie, maaltijden en activiteiten."
+    },
+    {
+      "label": "Beste reistijd",
+      "value": "Droge maanden mei tot oktober, ideaal voor reizen en buitenactiviteiten."
+    },
+    {
+      "label": "Geld en internet",
+      "value": "Contant geld is belangrijk, vooral buiten grote steden. Wifi is beschikbaar in de meeste hotels en cafés."
+    }
+  ],
+  "packing": [
+    "Warme kleding voor hoge gebieden",
+    "Stevige wandelschoenen",
+    "Zonnebrandcrème en zonnebril",
+    "Waterfles en snacks",
+    "Reisstekker (type C en A)",
+    "Hoed of pet tegen zon",
+    "Lichtgewicht regenjas",
+    "Camera of smartphone voor foto's",
+    "Persoonlijke medicatie"
+  ],
+  "closingNote": "Deze route door Bolivia combineert natuur, cultuur en geschiedenis op een toegankelijke wijze. De reis biedt afwisseling tussen het bruisende stadsleven en de kalme, uitgestrekte natuur. Met goede voorbereiding en een open houding zorgt deze trip voor een rijke ervaring in een van Zuid-Amerika’s meest veelzijdige landen.",
+  "continent": "zuid-amerika",
+  "author": "Redactie",
+  "generated": true,
+  "createdAt": "2026-11-20",
+  "topicKey": "bolivia:reisroute:3-weken",
+  "imageCredit": {
+    "name": "mtorrazzina",
+    "url": "https://pixabay.com/photos/flamingos-landscape-bolivia-lagoons-4919079/",
+    "source": "Pixabay"
+  }
+}

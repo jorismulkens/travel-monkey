@@ -1,0 +1,269 @@
+{
+  "slug": "14-dagen-woestijn-cultuur-en-zee",
+  "title": "14 dagen woestijn, cultuur en zee",
+  "kicker": "Ontdek Jordanië in twee weken",
+  "country": "Jordanië",
+  "region": "Midden-Oosten",
+  "durationDays": 14,
+  "durationLabel": "14 dagen",
+  "travelStyle": "avontuurlijk en cultureel",
+  "budget": "middenklasse",
+  "budgetNote": "Prijzen kunnen variëren per seizoen en locatie, houd rekening met entreegelden en transportkosten.",
+  "bestTime": "lente (maart-mei) en herfst (september-november)",
+  "startPoint": "Amman",
+  "endPoint": "Aqaba",
+  "coverImage": "/images/posts/14-dagen-woestijn-cultuur-en-zee-cover.webp",
+  "coverAlt": "Een afwisselende route door Jordanië met statige steden, eeuwenoude ruïnes, indrukwekkende woestijnlandschappen en ontspannen momenten aan de Dode Zee en Rode Zee.",
+  "excerpt": "Een afwisselende route door Jordanië met statige steden, eeuwenoude ruïnes, indrukwekkende woestijnlandschappen en ontspannen momenten aan de Dode Zee en Rode Zee.",
+  "introHeading": "Van stad naar woestijn en zee",
+  "intro": [
+    "Deze reis door Jordanië neemt je mee van de hoofdstad Amman naar het wereldberoemde Petra. De stad combineert moderne invloeden met historische plekken, wat het een ideale start maakt om de Jordaanse sfeer te proeven.",
+    "In Petra wandel je door de eeuwenoude rotsstad, een indrukwekkende plek die de rijke geschiedenis van het land zichtbaar maakt. De nabijgelegen woestijn van Wadi Rum biedt daarna een totaal andere ervaring met zijn uitgestrekte zandvlaktes en spectaculaire rotsformaties.",
+    "De reis eindigt ontspannen aan de Dode Zee en in Aqaba, waar je kunt drijven op het zoute water en genieten van de Rode Zee. Zo biedt de route een mooie balans tussen cultuur, natuur en rust."
+  ],
+  "highlights": [
+    "Bezoek aan de rotsstad Petra, een van de nieuwe zeven wereldwonderen.",
+    "Overnachten in een Bedoeïenenkamp in de woestijn van Wadi Rum.",
+    "Drijven en ontspannen aan de Dode Zee.",
+    "Verkennen van de levendige hoofdstad Amman.",
+    "Snorkelen in het heldere water van Aqaba."
+  ],
+  "stops": [
+    {
+      "id": "amman-1",
+      "number": 1,
+      "name": "Amman",
+      "area": "Midden-Jordanië",
+      "coords": [
+        31.9515694,
+        35.9239625
+      ],
+      "dayLabel": "Dag 1-3",
+      "nights": 3,
+      "image": "/images/posts/14-dagen-woestijn-cultuur-en-zee-1.webp",
+      "imageAlt": "Straatbeeld van Amman met oude gebouwen en moderne elementen",
+      "description": "Amman is de bruisende hoofdstad waar oud en nieuw samenkomen. Wandel door de smalle straatjes van de oude wijken en bezoek de Romeinse citadel met uitzicht over de stad. De stad heeft een levendige cultuur met musea, moderne cafés en traditionele markten. Proef lokale gerechten in de vele restaurants en ervaar de gastvrijheid van Jordaniërs. Amman is een goede uitvalsbasis om de eerste indruk van het land op te doen en rustig te acclimatiseren.",
+      "activities": [
+        {
+          "title": "Bezoek aan de Romeinse citadel",
+          "description": "Verken de archeologische ruïnes inclusief het oude theater en het museum.",
+          "price": "5-10 euro"
+        },
+        {
+          "title": "Wandeling door de oude stad en souks",
+          "description": "Ontdek lokale markten en proef straateten.",
+          "price": "gratis tot 5 euro"
+        },
+        {
+          "title": "Diner met Jordaanse specialiteiten",
+          "description": "Probeer gerechten zoals mansaf of falafel in een lokaal restaurant.",
+          "price": "10-20 euro"
+        }
+      ],
+      "tip": "Bezoek het Rainbow Street gebied voor gezellige cafés en uitzichtpunten over Amman."
+    },
+    {
+      "id": "petra-2",
+      "number": 2,
+      "name": "Petra",
+      "area": "Zuidoost-Jordanië",
+      "coords": [
+        30.3258363,
+        35.4745669
+      ],
+      "dayLabel": "Dag 4-6",
+      "nights": 3,
+      "image": "/images/posts/14-dagen-woestijn-cultuur-en-zee-2.webp",
+      "imageAlt": "Ingang van Petra met rotsstructuren en wandelende toeristen",
+      "description": "Petra is een indrukwekkende archeologische site, beroemd om de rotswoningen en tempels die uit de rode zandsteen zijn gehouwen. Wandel door de Siq, een smalle kloof die toegang geeft tot de schatkamer, en ontdek het amfitheater, de koningsgraven en het klooster. De site is uitgestrekt, dus plan rustmomenten en neem voldoende water mee. 's Avonds kun je deelnemen aan de Petra by Night tour om de rotsen sfeervol verlicht te zien.",
+      "activities": [
+        {
+          "title": "Entree en rondleiding Petra",
+          "description": "Bezoek de archeologische site met een gids.",
+          "price": "40-60 euro"
+        },
+        {
+          "title": "Petra by Night",
+          "description": "Sfeervolle avondwandeling met lampionnenverlichting.",
+          "price": "15-25 euro"
+        },
+        {
+          "title": "Bezoek aan het Ad-Deir klooster",
+          "description": "Maak een stevige wandeling naar het klooster en geniet van het uitzicht.",
+          "price": "inbegrepen bij entree"
+        }
+      ],
+      "tip": "Begin vroeg in de ochtend om de drukte te vermijden en draag goede wandelschoenen."
+    },
+    {
+      "id": "wadi-rum-3",
+      "number": 3,
+      "name": "Wadi Rum",
+      "area": "Zuid-Jordanië",
+      "coords": [
+        29.5084443,
+        35.3362154
+      ],
+      "dayLabel": "Dag 7-9",
+      "nights": 3,
+      "image": "/images/posts/14-dagen-woestijn-cultuur-en-zee-3.webp",
+      "imageAlt": "Woestijnlandschap met rotsen en een bedoeïenenkamp",
+      "description": "Wadi Rum is een woestijngebied met uitgestrekte zandvlaktes, hoge rotsformaties en diepe kloven. Het landschap nodigt uit tot avontuur en rust. Overnacht in een traditionele Bedoeïenenkamp onder een indrukwekkende sterrenhemel. Activiteiten zoals jeeptours, kamelenritten en wandelingen geven een goed beeld van de woestijn en haar geschiedenis. De stilte en uitgestrektheid zorgen voor een bijzondere ervaring die je niet snel vergeet.",
+      "activities": [
+        {
+          "title": "Jeeptour door Wadi Rum",
+          "description": "Ontdek de mooiste plekken zoals natuurlijke arches en rotsformaties.",
+          "price": "50-80 euro"
+        },
+        {
+          "title": "Kameelrit in de woestijn",
+          "description": "Ervaar de woestijn op een traditionele manier.",
+          "price": "20-40 euro"
+        },
+        {
+          "title": "Overnachting in een Bedoeïenenkamp",
+          "description": "Geniet van de sterrenhemel en lokale gerechten.",
+          "price": "60-100 euro"
+        }
+      ],
+      "tip": "Kies een kamp met comfortabele voorzieningen en proef een traditionele Bedoeïenendiner."
+    },
+    {
+      "id": "dode-zee-4",
+      "number": 4,
+      "name": "Dode Zee",
+      "area": "West-Jordanië",
+      "coords": [
+        0,
+        0
+      ],
+      "dayLabel": "Dag 10-11",
+      "nights": 2,
+      "image": "/images/posts/14-dagen-woestijn-cultuur-en-zee-4.webp",
+      "imageAlt": "Personen drijven in de Dode Zee met bergen op de achtergrond",
+      "description": "De Dode Zee is bekend om het extreem zoute water waarin je makkelijk blijft drijven. Het is een plek voor ontspanning en wellness met verschillende resorts en spa's aan de kust. Geniet van modderbaden die goed zouden zijn voor de huid en neem de tijd om te relaxen na de intensieve wandelingen en tours. Ook kan je korte wandelingen in de omliggende gebieden maken en genieten van het bijzondere landschap en het uitzicht op de bergen.",
+      "activities": [
+        {
+          "title": "Drijven en modderbaden",
+          "description": "Ervaar het unieke gevoel van het drijven in zout water.",
+          "price": "gratis bij openbare toegang, spa's variëren"
+        },
+        {
+          "title": "Wellness en massages",
+          "description": "Ontspan met een behandeling in een resort of spa.",
+          "price": "30-80 euro"
+        },
+        {
+          "title": "Wandeling bij Ein Gedi natuurgebied",
+          "description": "Maak een korte hike langs watervallen en oases.",
+          "price": "5-10 euro"
+        }
+      ],
+      "tip": "Breng een badlaken en waterschoenen mee, want de zoutkristallen kunnen scherp zijn."
+    },
+    {
+      "id": "aqaba-5",
+      "number": 5,
+      "name": "Aqaba",
+      "area": "Zuid-Jordanië",
+      "coords": [
+        29.5266483,
+        35.0075433
+      ],
+      "dayLabel": "Dag 12-14",
+      "nights": 3,
+      "image": "/images/posts/14-dagen-woestijn-cultuur-en-zee-5.webp",
+      "imageAlt": "Strand en helderblauw water in Aqaba met bergen op de achtergrond",
+      "description": "Aqaba is een havenstad aan de Rode Zee en biedt een aangename mix van strand, zee en cultuur. Het water is helder en geschikt om te snorkelen en duiken, met kleurrijke koraalriffen en veel zeeleven. De stad heeft ook historische bezienswaardigheden en een gezellig centrum met restaurants en cafés. Hier kan je de reis ontspannen afsluiten, met voldoende mogelijkheden voor watersport en om te genieten van de lokale keuken.",
+      "activities": [
+        {
+          "title": "Snorkelen of duiken in de Rode Zee",
+          "description": "Verken de kleurrijke onderwaterwereld rondom Aqaba.",
+          "price": "30-70 euro"
+        },
+        {
+          "title": "Bezoek aan Aqaba Fort",
+          "description": "Leer over de geschiedenis van de stad in dit oude fort.",
+          "price": "3-7 euro"
+        },
+        {
+          "title": "Boottocht bij zonsondergang",
+          "description": "Ontspan op het water met uitzicht op de kust.",
+          "price": "20-40 euro"
+        }
+      ],
+      "tip": "Bezoek het Aqaba Fort en combineer dit met een snorkeltrip voor een dag vol afwisseling."
+    }
+  ],
+  "gallery": [
+    {
+      "src": "/images/posts/14-dagen-woestijn-cultuur-en-zee-1.webp",
+      "alt": "Straatbeeld van Amman met oude gebouwen en moderne elementen",
+      "caption": "Amman — Midden-Jordanië"
+    },
+    {
+      "src": "/images/posts/14-dagen-woestijn-cultuur-en-zee-2.webp",
+      "alt": "Ingang van Petra met rotsstructuren en wandelende toeristen",
+      "caption": "Petra — Zuidoost-Jordanië"
+    },
+    {
+      "src": "/images/posts/14-dagen-woestijn-cultuur-en-zee-3.webp",
+      "alt": "Woestijnlandschap met rotsen en een bedoeïenenkamp",
+      "caption": "Wadi Rum — Zuid-Jordanië"
+    },
+    {
+      "src": "/images/posts/14-dagen-woestijn-cultuur-en-zee-4.webp",
+      "alt": "Personen drijven in de Dode Zee met bergen op de achtergrond",
+      "caption": "Dode Zee — West-Jordanië"
+    },
+    {
+      "src": "/images/posts/14-dagen-woestijn-cultuur-en-zee-5.webp",
+      "alt": "Strand en helderblauw water in Aqaba met bergen op de achtergrond",
+      "caption": "Aqaba — Zuid-Jordanië"
+    }
+  ],
+  "practical": [
+    {
+      "label": "Vervoer",
+      "value": "Binnenlandse bussen, taxi’s en georganiseerde tours zijn beschikbaar. Autohuur is een goede optie voor flexibiliteit, kosten liggen tussen 20-40 euro per dag."
+    },
+    {
+      "label": "Verblijf",
+      "value": "Variërend van budget tot middenklasse hotels, hostels en woestijnkampen. Prijzen ongeveer 20-80 euro per nacht."
+    },
+    {
+      "label": "Budget",
+      "value": "Dagelijkse uitgaven tussen 30-60 euro, afhankelijk van activiteiten en eetgelegenheden."
+    },
+    {
+      "label": "Beste reistijd",
+      "value": "Lente en herfst zijn aangenaam qua temperatuur en minder druk."
+    },
+    {
+      "label": "Geld en internet",
+      "value": "Pinnen is op veel plekken mogelijk, creditcards soms beperkt. Lokale simkaart voor internet kost rond 15-25 euro."
+    }
+  ],
+  "packing": [
+    "Lichte, ademende kleding voor warme dagen",
+    "Warme trui of jas voor koele woestijnnachten",
+    "Goede wandelschoenen",
+    "Zonnebril en hoed",
+    "Zwemkleding voor Dode Zee en Aqaba",
+    "Herbruikbare waterfles",
+    "Toilettas met zonnebrandcrème en lippenbalsem",
+    "Camera of smartphone voor foto's",
+    "Kleine rugzak voor dagtochten"
+  ],
+  "closingNote": "Deze reisroute biedt een brede blik op Jordanië, met een goede mix van cultuur, natuur en ontspanning. Door de afwisseling tussen stad, woestijn en zee blijft de reis gevarieerd en interessant. Bereid je voor op warme dagen en koelere avonden, vooral in de woestijn. Met deze route ontdek je de veelzijdigheid van het land en krijg je een goed beeld van de Jordaanse gastvrijheid en geschiedenis.",
+  "continent": "midden-oosten",
+  "author": "Redactie",
+  "generated": true,
+  "createdAt": "2026-11-20",
+  "topicKey": "jordanie:reisroute:2-weken",
+  "imageCredit": {
+    "name": "Squirrel_photos",
+    "url": "https://pixabay.com/photos/dead-sea-jordan-water-clouds-4784640/",
+    "source": "Pixabay"
+  }
+}

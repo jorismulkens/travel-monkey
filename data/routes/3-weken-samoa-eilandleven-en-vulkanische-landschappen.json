@@ -1,0 +1,269 @@
+{
+  "slug": "3-weken-samoa-eilandleven-en-vulkanische-landschappen",
+  "title": "3 weken Samoa: eilandleven en vulkanische landschappen",
+  "kicker": "Eilandhoppen en natuurbelevenissen",
+  "country": "Samoa",
+  "region": "Oceanië",
+  "durationDays": 21,
+  "durationLabel": "21 dagen",
+  "travelStyle": "avontuurlijk en natuurliefhebber",
+  "budget": "middenklasse",
+  "budgetNote": "prijzen kunnen variëren, afhankelijk van seizoen en type accommodatie",
+  "bestTime": "mei tot oktober",
+  "startPoint": "Apia",
+  "endPoint": "Salelologa",
+  "coverImage": "/images/posts/3-weken-samoa-eilandleven-en-vulkanische-landschappen-cover.webp",
+  "coverAlt": "Deze 3-weekse route door Samoa combineert levendige steden, rustige stranden en indrukwekkende natuur op de eilanden Upolu en Savai'i. Van culturele ervaringen in Apia tot vulkanische landschappen op Savai'i, en ontspannen aan de kusten van Lalomanu.",
+  "excerpt": "Deze 3-weekse route door Samoa combineert levendige steden, rustige stranden en indrukwekkende natuur op de eilanden Upolu en Savai'i. Van culturele ervaringen in Apia tot vulkanische landschappen op Savai'i, en ontspannen aan de kusten van Lalomanu.",
+  "introHeading": "Van stad naar zee en bergen",
+  "intro": [
+    "Samoa biedt een mix van cultuur, natuur en strand. Deze route begint in Apia, de hoofdstad, en reist via het eiland Upolu naar het grotere Savai'i.",
+    "Er is volop gelegenheid om lokale markten te bezoeken, te zwemmen in watervallen en te ontspannen aan witte zandstranden.",
+    "Deze trip is ideaal voor wie het eilandleven wil ervaren zonder te haasten, met voldoende tijd voor ontdekking en rust."
+  ],
+  "highlights": [
+    "Bezoek aan het Robert Louis Stevenson Museum in Apia",
+    "Wandeling door het lavaveld van To Sua Ocean Trench",
+    "Snorkelen in Lalomanu Beach",
+    "Ontdekken van het traditionele dorp Salelologa",
+    "Verkennen van vulkanische kraters en watervallen op Savai'i"
+  ],
+  "stops": [
+    {
+      "id": "apia-1",
+      "number": 1,
+      "name": "Apia",
+      "area": "Upolu",
+      "coords": [
+        -13.8345235,
+        -171.7630955
+      ],
+      "dayLabel": "Dag 1-5",
+      "nights": 5,
+      "image": "/images/posts/3-weken-samoa-eilandleven-en-vulkanische-landschappen-1.webp",
+      "imageAlt": "Markt in Apia met kleurrijke kraampjes",
+      "description": "Apia is het levendige centrum van Samoa, waar lokale cultuur en moderne invloeden samenkomen. Je vindt er kleurrijke markten vol met verse vis, tropisch fruit en handgemaakte ambachten. Naast het Robert Louis Stevenson Museum zijn er diverse kerken en botanische tuinen te verkennen. De stad heeft een ontspannen sfeer met cafés en eetkraampjes waar je traditionele Samoaanse gerechten kunt proberen. Ook is het een goede uitvalsbasis voor dagtochten naar natuurgebieden in de omgeving, zoals het Palolo Deep Marine Reserve en de watervallen in de buurt.",
+      "activities": [
+        {
+          "title": "Marktbezoek en lokale gerechten proeven",
+          "description": "Ontdek de lokale keuken en koop verse producten op de markt.",
+          "price": "gratis tot 10 euro"
+        },
+        {
+          "title": "Bezoek Robert Louis Stevenson Museum",
+          "description": "Leer over het leven van de schrijver in zijn voormalige woning.",
+          "price": "5-10 euro"
+        },
+        {
+          "title": "Wandeling langs de kust en botanische tuin",
+          "description": "Geniet van de zee en de flora rondom Apia.",
+          "price": "gratis"
+        }
+      ],
+      "tip": "Bezoek de markt in de ochtend om de beste producten te zien en combineer dit met een wandeling langs de kustpromenade."
+    },
+    {
+      "id": "lalomanu-2",
+      "number": 2,
+      "name": "Lalomanu",
+      "area": "Upolu",
+      "coords": [
+        -14.0414129,
+        -171.4484648
+      ],
+      "dayLabel": "Dag 6-11",
+      "nights": 6,
+      "image": "/images/posts/3-weken-samoa-eilandleven-en-vulkanische-landschappen-2.webp",
+      "imageAlt": "Wit zandstrand met palmbomen en helder blauw water",
+      "description": "Lalomanu is een van de bekendste stranden van Upolu, met wit zand en helder water. Het is een uitstekende plek voor wie wil ontspannen, snorkelen of zwemmen in een relatief rustige omgeving. Naast het strand is het mogelijk om in een lokaal dorp mee te maken hoe de Samoaanse gemeenschap leeft, met traditionele woningen en ceremonies. De omgeving leent zich ook voor korte wandelingen door de natuur, waarbij je soms wilde flora en fauna kunt spotten. Dankzij de langgerekte kustlijn is er ruimte om het strand rustig te beleven, ook buiten het hoogseizoen.",
+      "activities": [
+        {
+          "title": "Snorkelen bij het koraalrif",
+          "description": "Verken de kleurrijke onderwaterwereld vlakbij het strand.",
+          "price": "verhuur snorkelspullen 5-15 euro"
+        },
+        {
+          "title": "Strandwandeling en zwemmen",
+          "description": "Ontspan aan het strand en neem een duik in het warme water.",
+          "price": "gratis"
+        },
+        {
+          "title": "Bezoek lokaal dorp met gids",
+          "description": "Leer over het traditionele Samoaanse leven en cultuur.",
+          "price": "5-15 euro"
+        }
+      ],
+      "tip": "Neem snorkelspullen mee om het rif vlakbij te verkennen en bezoek een lokaal dorp met een gids voor een authentieke ervaring."
+    },
+    {
+      "id": "salelologa-3",
+      "number": 3,
+      "name": "Salelologa",
+      "area": "Savai'i",
+      "coords": [
+        -13.7434057,
+        -172.218564
+      ],
+      "dayLabel": "Dag 12-16",
+      "nights": 5,
+      "image": "/images/posts/3-weken-samoa-eilandleven-en-vulkanische-landschappen-3.webp",
+      "imageAlt": "Markt en haven in Salelologa, Savai'i",
+      "description": "Salelologa is het belangrijkste dorp en de poort naar eiland Savai'i. Het is een plek waar je het echte Samoaanse dagelijks leven kunt ervaren, bijvoorbeeld op de markt waar verse producten en handwerk worden verkocht. Vanuit hier starten excursies naar indrukwekkende natuurlijke bezienswaardigheden zoals vulkanische lavavelden en watervallen. De sfeer is authentiek en gemoedelijk, en er zijn verschillende eetgelegenheden waar lokale gerechten worden geserveerd. Ook is Salelologa de plek om de veerboot terug naar Upolu te nemen of verder het eiland te verkennen.",
+      "activities": [
+        {
+          "title": "Bezoek aan lavaveld Saleaula",
+          "description": "Wandel door het indrukwekkende vulkanische landschap dat door uitbarstingen is gevormd.",
+          "price": "gratis tot 10 euro voor gids"
+        },
+        {
+          "title": "Marktbezoek en lokale specialiteiten proeven",
+          "description": "Ervaar de markt en proef Samoaanse gerechten.",
+          "price": "gratis tot 10 euro"
+        },
+        {
+          "title": "Boottocht langs de kust",
+          "description": "Ontdek de ruige kustlijn van Savai'i per boot.",
+          "price": "20-40 euro"
+        }
+      ],
+      "tip": "Plan een dagtrip met een lokale gids om het lavaveld en de omliggende natuur beter te begrijpen."
+    },
+    {
+      "id": "savai-i-natuurgebieden-4",
+      "number": 4,
+      "name": "Savai'i Natuurgebieden",
+      "area": "Savai'i",
+      "coords": [
+        0,
+        0
+      ],
+      "dayLabel": "Dag 17-20",
+      "nights": 4,
+      "image": "/images/posts/3-weken-samoa-eilandleven-en-vulkanische-landschappen-4.webp",
+      "imageAlt": "To Sua Ocean Trench, een natuurlijk zwembad omringd door groen",
+      "description": "In dit deel van Savai'i ligt de focus op natuur en avontuur. Het To Sua Ocean Trench is een indrukwekkend natuurlijk zwembad waar zwemmen een bijzondere ervaring is. Daarnaast bieden de watervallen en vulkanische kraters verschillende wandelmogelijkheden door ongerepte bossen. Voor wie actief wil zijn, zijn er fietstochten door het vulkanische landschap of snorkeltrips langs rustige kusten. De omgeving biedt rust en ruimte, weg van de drukte, waardoor het een ideale plek is om te genieten van de natuur en het uitzicht.",
+      "activities": [
+        {
+          "title": "Bezoek To Sua Ocean Trench",
+          "description": "Zwem in het indrukwekkende natuurlijke zwembad.",
+          "price": "5-15 euro entree"
+        },
+        {
+          "title": "Wandeling naar watervallen",
+          "description": "Ontdek de watervallen en geniet van een natuurlijke omgeving.",
+          "price": "gratis tot 5 euro"
+        },
+        {
+          "title": "Fietstocht door vulkanisch landschap",
+          "description": "Huur een fiets en verken de natuurlijke omgeving op eigen tempo.",
+          "price": "10-20 euro"
+        }
+      ],
+      "tip": "Plan een volledige dag voor To Sua Ocean Trench gecombineerd met een bezoek aan nabijgelegen watervallen en neem voldoende water mee."
+    },
+    {
+      "id": "upolu-verkenning-5",
+      "number": 5,
+      "name": "Upolu Verkenning",
+      "area": "Upolu",
+      "coords": [
+        0,
+        0
+      ],
+      "dayLabel": "Dag 21",
+      "nights": 1,
+      "image": "/images/posts/3-weken-samoa-eilandleven-en-vulkanische-landschappen-5.webp",
+      "imageAlt": "Rustig strand op Upolu, Samoa",
+      "description": "De laatste dag op Upolu is bedoeld om het eiland nog even in ontspannen tempo te ervaren. Bezoek een minder bekend strand of maak een korte wandeling in de omgeving. Het is ook een goede gelegenheid om souvenirs te kopen of te genieten van een laatste Samoaanse maaltijd. Zorg voor tijdig vervoer naar de luchthaven of veerboot voor de terugreis.",
+      "activities": [
+        {
+          "title": "Korte strandwandeling",
+          "description": "Geniet van de rust op een afgelegen strand.",
+          "price": "gratis"
+        },
+        {
+          "title": "Bezoek traditioneel dorp",
+          "description": "Maak kennis met de lokale cultuur en tradities.",
+          "price": "gratis tot 5 euro"
+        },
+        {
+          "title": "Snorkelen of zwemmen",
+          "description": "Neem een laatste duik in helder water.",
+          "price": "gratis"
+        }
+      ],
+      "tip": "Plan op tijd vervoer naar de luchthaven en neem voldoende tijd voor de laatste inkopen."
+    }
+  ],
+  "gallery": [
+    {
+      "src": "/images/posts/3-weken-samoa-eilandleven-en-vulkanische-landschappen-1.webp",
+      "alt": "Markt in Apia met kleurrijke kraampjes",
+      "caption": "Apia — Upolu"
+    },
+    {
+      "src": "/images/posts/3-weken-samoa-eilandleven-en-vulkanische-landschappen-2.webp",
+      "alt": "Wit zandstrand met palmbomen en helder blauw water",
+      "caption": "Lalomanu — Upolu"
+    },
+    {
+      "src": "/images/posts/3-weken-samoa-eilandleven-en-vulkanische-landschappen-3.webp",
+      "alt": "Markt en haven in Salelologa, Savai'i",
+      "caption": "Salelologa — Savai'i"
+    },
+    {
+      "src": "/images/posts/3-weken-samoa-eilandleven-en-vulkanische-landschappen-4.webp",
+      "alt": "To Sua Ocean Trench, een natuurlijk zwembad omringd door groen",
+      "caption": "Savai'i Natuurgebieden — Savai'i"
+    },
+    {
+      "src": "/images/posts/3-weken-samoa-eilandleven-en-vulkanische-landschappen-5.webp",
+      "alt": "Rustig strand op Upolu, Samoa",
+      "caption": "Upolu Verkenning — Upolu"
+    }
+  ],
+  "practical": [
+    {
+      "label": "Vervoer",
+      "value": "Binnenlandse veerboten tussen Upolu en Savai'i kosten ongeveer 10-20 euro enkele reis. Lokale bussen en taxi's zijn betaalbaar, met tarieven van 1-5 euro per rit."
+    },
+    {
+      "label": "Verblijf",
+      "value": "Accommodatie varieert van eenvoudige guesthouses tot middenklasse resorts, met prijzen tussen 25-80 euro per nacht."
+    },
+    {
+      "label": "Budget",
+      "value": "Dagelijks budget rond 40-60 euro is realistisch, inclusief eten, vervoer en activiteiten."
+    },
+    {
+      "label": "Beste reistijd",
+      "value": "De drogere maanden van mei tot oktober zijn het meest geschikt voor reizen en buitenactiviteiten."
+    },
+    {
+      "label": "Geld en internet",
+      "value": "Contant geld is gebruikelijk; pinautomaten zijn beperkt beschikbaar. Simkaarten met internet zijn betaalbaar en makkelijk te verkrijgen."
+    }
+  ],
+  "packing": [
+    "Zwemkleding",
+    "Snorkeluitrusting of set te huur",
+    "Zonnebrandcrème",
+    "Lichte kleding voor warm weer",
+    "Goede wandelschoenen",
+    "Regenjas of poncho",
+    "Insectenwerend middel",
+    "Camera of smartphone voor foto's",
+    "Herbruikbare waterfles"
+  ],
+  "closingNote": "Deze reisroute door Samoa combineert cultuur, natuur en ontspanning op een evenwichtige manier. Met voldoende tijd op elk eiland, kan de reis rustig worden genoten zonder haast. Het eilandleven nodigt uit om te vertragen, lokale tradities te ontdekken en de veelzijdigheid van de natuur te waarderen.",
+  "continent": "oceanie",
+  "author": "Redactie",
+  "generated": true,
+  "createdAt": "2026-11-20",
+  "topicKey": "samoa:reisroute:3-weken",
+  "imageCredit": {
+    "name": "Holgi",
+    "url": "https://pixabay.com/photos/palm-trees-ocean-tropical-samoa-213149/",
+    "source": "Pixabay"
+  }
+}

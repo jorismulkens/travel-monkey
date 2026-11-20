@@ -1,0 +1,269 @@
+{
+  "slug": "14-dagen-ontdekkingstocht-door-belize-s-natuur-en-cultuur",
+  "title": "14 dagen ontdekkingstocht door Belize's natuur en cultuur",
+  "kicker": "Van stad naar tropisch paradijs",
+  "country": "Belize",
+  "region": "Midden-Amerika",
+  "durationDays": 14,
+  "durationLabel": "14 dagen",
+  "travelStyle": "avontuurlijk en ontspannen",
+  "budget": "middenklasse",
+  "budgetNote": "Verwacht prijzen voor maaltijden en activiteiten in de range van 10-50 euro, accommodatie varieert van eenvoudige hostels tot comfortabele hotels.",
+  "bestTime": "november tot mei, tijdens het droge seizoen",
+  "startPoint": "Belize City",
+  "endPoint": "Hopkins",
+  "coverImage": "/images/posts/14-dagen-ontdekkingstocht-door-belize-s-natuur-en-cultuur-cover.webp",
+  "coverAlt": "Deze 14-daagse route neemt je mee van de drukte van Belize City naar de rustige eilanden, het groene binnenland en de tropische kust. Een goede mix van cultuur, natuur en ontspanning.",
+  "excerpt": "Deze 14-daagse route neemt je mee van de drukte van Belize City naar de rustige eilanden, het groene binnenland en de tropische kust. Een goede mix van cultuur, natuur en ontspanning.",
+  "introHeading": "Van stad naar zee en jungle",
+  "intro": [
+    "Belize is een relatief klein land met een verrassend grote verscheidenheid aan landschappen en culturen. Deze route begint in de levendige hoofdstad en leidt je via tropische eilanden en het groene binnenland naar de Caribische kust. Het biedt een mooie afwisseling tussen stedelijke indrukken, natuuravonturen en ontspannen stranddagen.",
+    "De reis is ontworpen voor wie het land op een rustig tempo wil ontdekken, met voldoende tijd om te genieten van zowel cultuur als natuur. Onderweg zijn er mogelijkheden om Maya-ruïnes te bezoeken, te snorkelen bij het barrièrerif en de lokale keuken en tradities te ervaren.",
+    "Elke stop heeft zijn eigen karakter en sfeer, van de drukte van Belize City tot de relaxte eilandsfeer op Caye Caulker, de avontuurlijke wandelingen rond San Ignacio en de culturele charme van Hopkins als afsluiter. Zo ontstaat een gevarieerde reis met verdieping en ontspanning."
+  ],
+  "highlights": [
+    "De Maya-ruïnes van San Ignacio",
+    "Snorkelen bij het barrièrerif rondom Caye Caulker",
+    "Relaxen in het laidback dorp Hopkins",
+    "Wandelen en kajakken in het binnenland",
+    "De levendige cultuur van Belize City"
+  ],
+  "stops": [
+    {
+      "id": "belize-city-1",
+      "number": 1,
+      "name": "Belize City",
+      "area": "Belize District",
+      "coords": [
+        17.5002768,
+        -88.1988737
+      ],
+      "dayLabel": "Dag 1-2",
+      "nights": 2,
+      "image": "/images/posts/14-dagen-ontdekkingstocht-door-belize-s-natuur-en-cultuur-1.webp",
+      "imageAlt": "Straatbeeld van Belize City met historische gebouwen",
+      "description": "Belize City is de grootste stad en vaak het startpunt van een reis door het land. Het is er levendig en een tikkeltje chaotisch, wat een reëel beeld geeft van het dagelijks leven in Belize. Hier vind je koloniale architectuur, markten vol tropisch fruit en vis, en musea die ingaan op de geschiedenis van het land en de Maya-cultuur. De stad is ook een logistiek knooppunt voor vervoer naar andere bestemmingen in Belize. Het is slim om hier je reis rustig te beginnen en alvast te wennen aan de lokale sfeer.",
+      "activities": [
+        {
+          "title": "Bezoek Museum van Belize",
+          "description": "Leer over de geschiedenis en cultuur van Belize in dit kleine maar informatieve museum.",
+          "price": "5-10 euro"
+        },
+        {
+          "title": "Wandeling over de kustboulevard",
+          "description": "Geniet van het uitzicht op de Caribische Zee en de levendige lokale omgeving.",
+          "price": "gratis"
+        },
+        {
+          "title": "Lokale markt bezoeken",
+          "description": "Proef tropisch fruit en bekijk handgemaakte souvenirs.",
+          "price": "gratis tot 15 euro"
+        }
+      ],
+      "tip": "Gebruik lokale bussen en een betrouwbare taxi-app om je veilig en voordelig door de stad te bewegen."
+    },
+    {
+      "id": "caye-caulker-2",
+      "number": 2,
+      "name": "Caye Caulker",
+      "area": "Caribische Zee",
+      "coords": [
+        17.7395148,
+        -88.0336867
+      ],
+      "dayLabel": "Dag 3-5",
+      "nights": 3,
+      "image": "/images/posts/14-dagen-ontdekkingstocht-door-belize-s-natuur-en-cultuur-2.webp",
+      "imageAlt": "Snorkelaars bij het koraalrif rond Caye Caulker",
+      "description": "Caye Caulker is een klein eiland met een ontspannen sfeer en geen auto's. Hier draait het om rustig genieten van de natuur en het heldere water rondom het barrièrerif. Het eiland is makkelijk te verkennen per fiets of te voet, en je vindt er diverse kleine restaurantjes met verse visgerechten. Snorkelen en kajakken zijn populaire activiteiten om de onderwaterwereld te ontdekken of de omgeving vanaf het water te bekijken. Caye Caulker is een fijne plek om even helemaal tot rust te komen.",
+      "activities": [
+        {
+          "title": "Snorkeltocht naar het barrièrerif",
+          "description": "Verken de kleurrijke onderwaterwereld met vissen en koraal.",
+          "price": "30-50 euro"
+        },
+        {
+          "title": "Kajakken rond het eiland",
+          "description": "Relaxte tocht over het kalme water rondom Caye Caulker.",
+          "price": "15-25 euro"
+        },
+        {
+          "title": "Fietsen huren",
+          "description": "Ontdek het eiland op eigen tempo en geniet van de omgeving.",
+          "price": "10-20 euro"
+        }
+      ],
+      "tip": "Huur een snorkelset of kajak direct bij lokale verhuurders voor de beste prijs."
+    },
+    {
+      "id": "san-ignacio-3",
+      "number": 3,
+      "name": "San Ignacio",
+      "area": "Cayo District",
+      "coords": [
+        17.1527588,
+        -89.0761718
+      ],
+      "dayLabel": "Dag 6-8",
+      "nights": 3,
+      "image": "/images/posts/14-dagen-ontdekkingstocht-door-belize-s-natuur-en-cultuur-3.webp",
+      "imageAlt": "Maya-ruïnes bij San Ignacio in het binnenland",
+      "description": "San Ignacio ligt in het groene binnenland van Belize en is bekend vanwege de nabijheid van indrukwekkende Maya-ruïnes en tropische natuur. Het stadje zelf heeft een ontspannen, vriendelijke sfeer met lokale markten en sfeervolle cafés. Vanuit hier kun je dagtochten maken naar archeologische sites zoals Xunantunich en Caracol, of avontuurlijke activiteiten ondernemen zoals grottentochten en kajakken op de rivieren. Deze regio biedt een mooie combinatie van cultuur, natuur en avontuur.",
+      "activities": [
+        {
+          "title": "Bezoek Xunantunich ruïnes",
+          "description": "Verken een indrukwekkend Maya-complex met mooie uitzichten.",
+          "price": "20-30 euro inclusief gids"
+        },
+        {
+          "title": "Grottentocht in Actun Tunichil Muknal",
+          "description": "Avontuurlijke wandeling en zwemmen in een archeologische grot.",
+          "price": "50-70 euro"
+        },
+        {
+          "title": "Kajakken op de Macal-rivier",
+          "description": "Ontspannen tocht door het groene binnenland.",
+          "price": "25-40 euro"
+        }
+      ],
+      "tip": "Plan een volle dag voor een bezoek aan Xunantunich met gids om meer over de geschiedenis te leren."
+    },
+    {
+      "id": "placencia-4",
+      "number": 4,
+      "name": "Placencia",
+      "area": "Stann Creek District",
+      "coords": [
+        16.5156113,
+        -88.3671785
+      ],
+      "dayLabel": "Dag 9-11",
+      "nights": 3,
+      "image": "/images/posts/14-dagen-ontdekkingstocht-door-belize-s-natuur-en-cultuur-4.webp",
+      "imageAlt": "Strand en boulevard van Placencia aan de kust",
+      "description": "Placencia is een charmante kustplaats met een lange zandstrand en een gezellige boulevard. Het dorp heeft een relaxte sfeer en biedt een goede uitvalsbasis om te genieten van zon, zee en lokale gerechten. Vanuit hier kun je boottochten maken naar nabijgelegen eilanden en mariene reservaten om te snorkelen of te duiken. Naast wateractiviteiten is het ook fijn om rustig over de boulevard te wandelen en verse zeevruchten te proeven in een van de vele restaurants.",
+      "activities": [
+        {
+          "title": "Boottocht naar Silk Cayes",
+          "description": "Snorkelen in een beschermd marien reservaat met helder water.",
+          "price": "40-60 euro"
+        },
+        {
+          "title": "Strandwandeling",
+          "description": "Geniet van het uitzicht en de ontspannen sfeer aan zee.",
+          "price": "gratis"
+        },
+        {
+          "title": "Lokale zeevruchten proeven",
+          "description": "Probeer verse visgerechten in een lokaal restaurant.",
+          "price": "15-30 euro"
+        }
+      ],
+      "tip": "Maak een boottocht naar de nabijgelegen Silk Cayes voor prachtige snorkelmogelijkheden."
+    },
+    {
+      "id": "hopkins-5",
+      "number": 5,
+      "name": "Hopkins",
+      "area": "Stann Creek District",
+      "coords": [
+        16.860416,
+        -88.2845324
+      ],
+      "dayLabel": "Dag 12-14",
+      "nights": 3,
+      "image": "/images/posts/14-dagen-ontdekkingstocht-door-belize-s-natuur-en-cultuur-5.webp",
+      "imageAlt": "Strand en Garifuna cultuur in Hopkins",
+      "description": "Hopkins is een klein en authentiek dorp aan de Caribische kust, bekend om zijn sterke Garifuna-cultuur. De ontspannen sfeer, mooie stranden en culturele evenementen maken het een aangename plek om de reis af te sluiten. Je kunt deelnemen aan traditionele dansvoorstellingen, genieten van lokale gerechten en ontspannen op het strand. Ook zijn er mogelijkheden voor snorkelen en wandelingen in de natuur rondom het dorp. Hopkins biedt zo een rustige, culturele en natuurrijke afsluiting van de reis.",
+      "activities": [
+        {
+          "title": "Garifuna dansvoorstelling",
+          "description": "Ervaar traditionele muziek en dans van de lokale bevolking.",
+          "price": "10-20 euro"
+        },
+        {
+          "title": "Snorkelen bij het rif",
+          "description": "Ontdek het koraalrif vlakbij het dorp.",
+          "price": "30-45 euro"
+        },
+        {
+          "title": "Natuurwandeling met gids",
+          "description": "Leer over de lokale flora en fauna tijdens een begeleide tocht.",
+          "price": "15-25 euro"
+        }
+      ],
+      "tip": "Vraag bij lokale bewoners naar culturele evenementen, zoals muziek en dans, tijdens je verblijf."
+    }
+  ],
+  "gallery": [
+    {
+      "src": "/images/posts/14-dagen-ontdekkingstocht-door-belize-s-natuur-en-cultuur-1.webp",
+      "alt": "Straatbeeld van Belize City met historische gebouwen",
+      "caption": "Belize City — Belize District"
+    },
+    {
+      "src": "/images/posts/14-dagen-ontdekkingstocht-door-belize-s-natuur-en-cultuur-2.webp",
+      "alt": "Snorkelaars bij het koraalrif rond Caye Caulker",
+      "caption": "Caye Caulker — Caribische Zee"
+    },
+    {
+      "src": "/images/posts/14-dagen-ontdekkingstocht-door-belize-s-natuur-en-cultuur-3.webp",
+      "alt": "Maya-ruïnes bij San Ignacio in het binnenland",
+      "caption": "San Ignacio — Cayo District"
+    },
+    {
+      "src": "/images/posts/14-dagen-ontdekkingstocht-door-belize-s-natuur-en-cultuur-4.webp",
+      "alt": "Strand en boulevard van Placencia aan de kust",
+      "caption": "Placencia — Stann Creek District"
+    },
+    {
+      "src": "/images/posts/14-dagen-ontdekkingstocht-door-belize-s-natuur-en-cultuur-5.webp",
+      "alt": "Strand en Garifuna cultuur in Hopkins",
+      "caption": "Hopkins — Stann Creek District"
+    }
+  ],
+  "practical": [
+    {
+      "label": "Vervoer",
+      "value": "Binnenlandse bussen en bootverbindingen kosten meestal tussen 1 en 25 euro per rit; taxi’s zijn duurder maar sneller."
+    },
+    {
+      "label": "Verblijf",
+      "value": "Hostels en guesthouses vanaf 10-30 euro per nacht, middenklasse hotels tussen 40-70 euro."
+    },
+    {
+      "label": "Budget",
+      "value": "Reken op 30-60 euro per dag voor eten, vervoer en activiteiten."
+    },
+    {
+      "label": "Beste reistijd",
+      "value": "Droog seizoen van november tot mei is ideaal om te reizen, dan valt er minder regen."
+    },
+    {
+      "label": "Geld en internet",
+      "value": "Contant geld is handig; bij de meeste hotels en cafés is wifi beschikbaar."
+    }
+  ],
+  "packing": [
+    "lichte kleding",
+    "wandelschoenen",
+    "zwemkleding",
+    "snorkeluitrusting (optioneel)",
+    "zonnebrandcrème",
+    "insectenspray",
+    "waterfles",
+    "regenjas of poncho",
+    "hoed of pet"
+  ],
+  "closingNote": "Deze route laat een veelzijdig beeld zien van Belize, met genoeg tijd voor cultuur, natuur en ontspanning. De afwisseling tussen stad, eiland, jungle en kust zorgt voor een gebalanceerde reiservaring. Zo is er ruimte voor avontuur, maar ook om rustig te genieten van de omgeving en de lokale cultuur. Neem de tijd om de vriendelijke sfeer en bijzondere plekken van het land echt in je op te nemen.",
+  "continent": "midden-amerika",
+  "author": "Redactie",
+  "generated": true,
+  "createdAt": "2026-11-20",
+  "topicKey": "belize:reisroute:2-weken",
+  "imageCredit": {
+    "name": "beasternchen",
+    "url": "https://pixabay.com/photos/eyeglasses-world-map-map-8227429/",
+    "source": "Pixabay"
+  }
+}

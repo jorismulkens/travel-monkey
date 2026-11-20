@@ -206,5 +206,57 @@
     "type": "route",
     "thumbnail": "/images/posts/7-dagen-ontdekken-cultuur-en-woestijnavontuur-cover.webp",
     "excerpt": "Een afwisselende week door Qatar waarin moderne architectuur, traditionele markten, woestijnlandschappen en historische sites samenkomen."
+  },
+  {
+    "id": "14-dagen-woestijn-cultuur-en-zee-route",
+    "name": "Amman",
+    "country": "Jordanië",
+    "coords": [
+      31.9515694,
+      35.9239625
+    ],
+    "slug": "14-dagen-woestijn-cultuur-en-zee",
+    "type": "route",
+    "thumbnail": "/images/posts/14-dagen-woestijn-cultuur-en-zee-cover.webp",
+    "excerpt": "Een afwisselende route door Jordanië met statige steden, eeuwenoude ruïnes, indrukwekkende woestijnlandschappen en ontspannen momenten aan de Dode Zee en Rode Zee."
+  },
+  {
+    "id": "3-weken-samoa-eilandleven-en-vulkanische-landschappen-route",
+    "name": "Apia",
+    "country": "Samoa",
+    "coords": [
+      -13.8345235,
+      -171.7630955
+    ],
+    "slug": "3-weken-samoa-eilandleven-en-vulkanische-landschappen",
+    "type": "route",
+    "thumbnail": "/images/posts/3-weken-samoa-eilandleven-en-vulkanische-landschappen-cover.webp",
+    "excerpt": "Deze 3-weekse route door Samoa combineert levendige steden, rustige stranden en indrukwekkende natuur op de eilanden Upolu en Savai'i. Van culturele ervaringen in Apia tot vulkanische landschappen op Savai'i, en ontspannen aan de kusten van Lalomanu."
+  },
+  {
+    "id": "14-dagen-ontdekkingstocht-door-belize-s-natuur-en-cultuur-route",
+    "name": "Belize City",
+    "country": "Belize",
+    "coords": [
+      17.5002768,
+      -88.1988737
+    ],
+    "slug": "14-dagen-ontdekkingstocht-door-belize-s-natuur-en-cultuur",
+    "type": "route",
+    "thumbnail": "/images/posts/14-dagen-ontdekkingstocht-door-belize-s-natuur-en-cultuur-cover.webp",
+    "excerpt": "Deze 14-daagse route neemt je mee van de drukte van Belize City naar de rustige eilanden, het groene binnenland en de tropische kust. Een goede mix van cultuur, natuur en ontspanning."
+  },
+  {
+    "id": "3-weken-avontuur-door-bolivia-s-contrasten-route",
+    "name": "La Paz",
+    "country": "Bolivia",
+    "coords": [
+      -16.4955455,
+      -68.1336229
+    ],
+    "slug": "3-weken-avontuur-door-bolivia-s-contrasten",
+    "type": "route",
+    "thumbnail": "/images/posts/3-weken-avontuur-door-bolivia-s-contrasten-cover.webp",
+    "excerpt": "Een reis langs indrukwekkende landschappen en rijke geschiedenis, van de drukke hoofdstad La Paz tot de serene wateren van Lake Titicaca."
   }
 ]
