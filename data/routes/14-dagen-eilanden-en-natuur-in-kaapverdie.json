@@ -1,0 +1,269 @@
+{
+  "slug": "14-dagen-eilanden-en-natuur-in-kaapverdie",
+  "title": "14 dagen eilanden en natuur in Kaapverdië",
+  "kicker": "Ontdek Sal, Boa Vista, Santo Antão, São Vicente en Mindelo",
+  "country": "Kaapverdië",
+  "region": "Afrika",
+  "durationDays": 14,
+  "durationLabel": "14 dagen",
+  "travelStyle": "avontuur en natuur",
+  "budget": "middenklasse",
+  "budgetNote": "Budget varieert afhankelijk van accommodatie en activiteiten; gerekend wordt met 40-70 euro per dag voor een comfortabele reis.",
+  "bestTime": "november tot juni voor droog weer en milde temperaturen",
+  "startPoint": "Sal",
+  "endPoint": "Mindelo",
+  "coverImage": "/images/posts/14-dagen-eilanden-en-natuur-in-kaapverdie-cover.webp",
+  "coverAlt": "Een tweeweekse reis langs vijf Kaapverdische eilanden, met stranden, ruige natuur en levendige cultuur.",
+  "excerpt": "Een tweeweekse reis langs vijf Kaapverdische eilanden, met stranden, ruige natuur en levendige cultuur.",
+  "introHeading": "Van stranden tot bergdorpen",
+  "intro": [
+    "Kaapverdië is een archipel in de Atlantische Oceaan waar zon, zee en bergen samenkomen. Deze reis start op Sal, bekend om de brede stranden en zoutvlaktes. Het eiland heeft een prettige mix van toeristische voorzieningen en rustige plekken om te ontspannen en de omgeving te ontdekken.",
+    "Na Sal gaat de reis naar Boa Vista, met uitgestrekte zandduinen en stille stranden. Dit eiland biedt ruimte om te genieten van de natuur en rust, ver weg van de grotere drukte.",
+    "Het ruige Santo Antão is het volgende eiland, bekend om zijn groene valleien en wandelmogelijkheden. São Vicente volgt, met een combinatie van cultuur en natuur, en de reis eindigt in Mindelo, waar het lokale leven en muziek centraal staan."
+  ],
+  "highlights": [
+    "Strand en zoutvlaktes op Sal",
+    "Dune safari op Boa Vista",
+    "Wandelen door groene valleien op Santo Antão",
+    "Culturele mix in São Vicente",
+    "Levendige muziekstad Mindelo"
+  ],
+  "stops": [
+    {
+      "id": "sal-1",
+      "number": 1,
+      "name": "Sal",
+      "area": "Sal",
+      "coords": [
+        16.7204556,
+        -22.9386761
+      ],
+      "dayLabel": "Dag 1-4",
+      "nights": 4,
+      "image": "/images/posts/14-dagen-eilanden-en-natuur-in-kaapverdie-1.webp",
+      "imageAlt": "Zoutvlaktes en stranden van Sal",
+      "description": "Sal is een goed beginpunt met zijn brede, zonnige stranden en helder water. De zoutvlaktes bij Pedra de Lume zijn een bijzondere plek waar je in een zoutmeer kunt drijven. Naast ontspannen op het strand zijn er mogelijkheden voor wind- en kitesurfen en snorkelen. Het dorp Santa Maria heeft een ontspannen sfeer met cafés en winkels. Een scooter huren is een handige manier om het eiland te verkennen en meer afgelegen plekken te bereiken.",
+      "activities": [
+        {
+          "title": "Bezoek zoutvlaktes Pedra de Lume",
+          "description": "Drijven in een natuurlijk zoutmeer en rondwandelen in het oude zoutwinningsgebied.",
+          "price": "5-10 euro"
+        },
+        {
+          "title": "Windsurfen of kitesurfen",
+          "description": "Les nemen of materiaal huren bij de lokale surfspots.",
+          "price": "20-40 euro per uur"
+        },
+        {
+          "title": "Snorkelen bij Santa Maria",
+          "description": "Ontdek het onderwaterleven met een snorkeluitrusting.",
+          "price": "10-20 euro"
+        }
+      ],
+      "tip": "Bezoek de zoutvlaktes vroeg in de ochtend om de hitte te vermijden. Huur een scooter voor meer vrijheid op het eiland."
+    },
+    {
+      "id": "boa-vista-2",
+      "number": 2,
+      "name": "Boa Vista",
+      "area": "Boa Vista",
+      "coords": [
+        16.099509,
+        -22.8009411
+      ],
+      "dayLabel": "Dag 5-7",
+      "nights": 3,
+      "image": "/images/posts/14-dagen-eilanden-en-natuur-in-kaapverdie-2.webp",
+      "imageAlt": "Zandduinen en strand van Boa Vista",
+      "description": "Boa Vista staat bekend om zijn uitgestrekte zandduinen en rustige stranden. Het eiland is minder druk bezocht dan Sal, waardoor het een plek is om te genieten van ruimte en natuur. Een 4x4-safari is een goede manier om het eiland en de verborgen strandjes te verkennen. In het seizoen zijn er mogelijkheden om zeeschildpadden te zien. De dorpjes zijn eenvoudig, met vriendelijke bewoners en lokale winkels waar verse vis en lokale gerechten worden aangeboden.",
+      "activities": [
+        {
+          "title": "4x4 tour door de duinen",
+          "description": "Ontdek de zandvlaktes en verborgen stranden met een gids.",
+          "price": "40-60 euro per persoon"
+        },
+        {
+          "title": "Bezoek schildpaddenstrand",
+          "description": "Bekijk zeeschildpadden tijdens het broedseizoen.",
+          "price": "gratis tot 10 euro voor gids"
+        },
+        {
+          "title": "Strandwandeling en zwemmen",
+          "description": "Geniet van het rustige strand en helder water.",
+          "price": "gratis"
+        }
+      ],
+      "tip": "Plan een 4x4-tour om het eiland te ontdekken; openbaar vervoer is beperkt en wegen zijn vaak onverhard."
+    },
+    {
+      "id": "santo-antao-3",
+      "number": 3,
+      "name": "Santo Antão",
+      "area": "Santo Antão",
+      "coords": [
+        17.0555285,
+        -25.1723049
+      ],
+      "dayLabel": "Dag 8-11",
+      "nights": 4,
+      "image": "/images/posts/14-dagen-eilanden-en-natuur-in-kaapverdie-3.webp",
+      "imageAlt": "Berglandschap en valleien op Santo Antão",
+      "description": "Santo Antão is het groenste eiland van Kaapverdië en populair bij wandelaars. Het eiland heeft spectaculaire bergen en valleien met mooie uitzichten en wandelroutes. Kleine dorpjes en landbouwterrassen bepalen het beeld. Lokale bussen verbinden de dorpen, maar een gids kan je helpen om de mooiste en minder bekende plekken te ontdekken. Het frisse bergachtige klimaat is een aangename afwisseling met de drogere kustgebieden.",
+      "activities": [
+        {
+          "title": "Wandeling door Paul-vallei",
+          "description": "Populaire route langs landbouwterrassen en groene landschappen.",
+          "price": "gratis"
+        },
+        {
+          "title": "Bezoek traditionele dorpjes",
+          "description": "Ontdek lokale cultuur en ambachten in de bergdorpen.",
+          "price": "gratis tot 5 euro voor rondleiding"
+        },
+        {
+          "title": "Gids huren voor dagwandeling",
+          "description": "Lokaal begeleide trektocht naar minder toegankelijke gebieden.",
+          "price": "20-40 euro per dag"
+        }
+      ],
+      "tip": "Neem stevige wandelschoenen mee en vraag lokale bewoners naar veilige en interessante wandelroutes."
+    },
+    {
+      "id": "sao-vicente-4",
+      "number": 4,
+      "name": "São Vicente",
+      "area": "São Vicente",
+      "coords": [
+        16.8494412,
+        -24.9718792
+      ],
+      "dayLabel": "Dag 12-13",
+      "nights": 2,
+      "image": "/images/posts/14-dagen-eilanden-en-natuur-in-kaapverdie-4.webp",
+      "imageAlt": "Kustlijn en natuur op São Vicente",
+      "description": "São Vicente biedt een mix van natuur en cultuur. Het eiland heeft fraaie baaien en kleinere stranden, ideaal voor een dagje rust. Voor vogelliefhebbers zijn er natuurgebieden waar diverse soorten te zien zijn. De stad Mindelo is levendig met veel kunst en muziek. Het is een goede plek om te ontspannen na het actieve Santo Antão en je voor te bereiden op de laatste reisdag.",
+      "activities": [
+        {
+          "title": "Stranddag bij São Pedro",
+          "description": "Ontspannen op een rustig strand met helder water.",
+          "price": "gratis"
+        },
+        {
+          "title": "Vogels spotten in natuurgebieden",
+          "description": "Korte wandeling om lokale vogels te observeren.",
+          "price": "gratis tot 10 euro voor gids"
+        },
+        {
+          "title": "Bezoek lokale markt in Mindelo",
+          "description": "Proef de sfeer en koop handwerk en producten.",
+          "price": "gratis"
+        }
+      ],
+      "tip": "Breng een bezoek aan de baai van São Pedro voor een rustige stranddag vlakbij Mindelo."
+    },
+    {
+      "id": "mindelo-5",
+      "number": 5,
+      "name": "Mindelo",
+      "area": "São Vicente",
+      "coords": [
+        16.8873057,
+        -24.9864064
+      ],
+      "dayLabel": "Dag 14",
+      "nights": 1,
+      "image": "/images/posts/14-dagen-eilanden-en-natuur-in-kaapverdie-5.webp",
+      "imageAlt": "Straatbeeld en kleurrijke huizen in Mindelo",
+      "description": "Mindelo is de culturele hoofdstad van Kaapverdië, bekend om zijn muziek en levendige straatleven. De stad heeft kleurrijke koloniale gebouwen en sfeervolle pleinen waar het prettig vertoeven is. Lokale cafés en restaurants serveren typische gerechten en in de avonduren is er vaak live muziek. Mindelo is een passende plek om de reis af te sluiten, met een mooie combinatie van cultuur, geschiedenis en gezelligheid.",
+      "activities": [
+        {
+          "title": "Stadswandeling met gids",
+          "description": "Leer over de geschiedenis en cultuur van Mindelo tijdens een rondleiding.",
+          "price": "10-20 euro"
+        },
+        {
+          "title": "Live muziekavond",
+          "description": "Bezoek een café met lokale optredens.",
+          "price": "5-15 euro entree"
+        },
+        {
+          "title": "Lokale markten bezoeken",
+          "description": "Koop souvenirs en ervaar het lokale leven.",
+          "price": "gratis"
+        }
+      ],
+      "tip": "Bezoek ’s avonds een lokaal muziekcafé om de authentieke Kaapverdiaanse klanken te ervaren."
+    }
+  ],
+  "gallery": [
+    {
+      "src": "/images/posts/14-dagen-eilanden-en-natuur-in-kaapverdie-1.webp",
+      "alt": "Zoutvlaktes en stranden van Sal",
+      "caption": "Sal — Sal"
+    },
+    {
+      "src": "/images/posts/14-dagen-eilanden-en-natuur-in-kaapverdie-2.webp",
+      "alt": "Zandduinen en strand van Boa Vista",
+      "caption": "Boa Vista — Boa Vista"
+    },
+    {
+      "src": "/images/posts/14-dagen-eilanden-en-natuur-in-kaapverdie-3.webp",
+      "alt": "Berglandschap en valleien op Santo Antão",
+      "caption": "Santo Antão — Santo Antão"
+    },
+    {
+      "src": "/images/posts/14-dagen-eilanden-en-natuur-in-kaapverdie-4.webp",
+      "alt": "Kustlijn en natuur op São Vicente",
+      "caption": "São Vicente — São Vicente"
+    },
+    {
+      "src": "/images/posts/14-dagen-eilanden-en-natuur-in-kaapverdie-5.webp",
+      "alt": "Straatbeeld en kleurrijke huizen in Mindelo",
+      "caption": "Mindelo — São Vicente"
+    }
+  ],
+  "practical": [
+    {
+      "label": "Vervoer",
+      "value": "Tussen eilanden meestal per veerboot of korte vlucht. Op de eilanden taxi’s, scooters of lokaal vervoer beschikbaar."
+    },
+    {
+      "label": "Verblijf",
+      "value": "Guesthouses, kleine hotels en appartementen zijn goedkoop tot middenklasse; 30-70 euro per nacht."
+    },
+    {
+      "label": "Budget",
+      "value": "Reken op 40-70 euro per dag inclusief eten, vervoer en activiteiten."
+    },
+    {
+      "label": "Beste reistijd",
+      "value": "November tot juni, met weinig regen en milde temperaturen."
+    },
+    {
+      "label": "Geld en internet",
+      "value": "Contant geld in euro’s aanbevolen; wifi vaak beschikbaar in hotels en cafés, maar niet overal stabiel."
+    }
+  ],
+  "packing": [
+    "Lichte kleding voor warme dagen",
+    "Stevige wandelschoenen voor Santo Antão",
+    "Zwemkleding en strandhanddoek",
+    "Zonnebrandcrème en hoed",
+    "Reisstekker en powerbank",
+    "Waterfles voor onderweg",
+    "Snorkelset of watersportuitrusting (optioneel)",
+    "Lichte regenjas voor onverwachte buien",
+    "Camera voor natuurfoto's"
+  ],
+  "closingNote": "Deze reisroute biedt een goede mix van natuur, cultuur en ontspanning door verschillende eilanden. De afwisseling tussen strand en bergen zorgt voor een gevarieerde ervaring. Met voldoende nachten op elke plek is er ruimte om het eiland te verkennen en het lokale leven te proeven. Zo ontstaat een evenwichtige en plezierige rondreis door Kaapverdië.",
+  "continent": "afrika",
+  "author": "Redactie",
+  "generated": true,
+  "createdAt": "2026-11-24",
+  "topicKey": "kaapverdie:reisroute:2-weken",
+  "imageCredit": {
+    "name": "Matthias_Lemm",
+    "url": "https://pixabay.com/photos/boa-vista-cape-verde-vacations-3444300/",
+    "source": "Pixabay"
+  }
+}

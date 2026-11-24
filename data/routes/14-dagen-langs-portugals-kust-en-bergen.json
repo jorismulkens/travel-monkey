@@ -1,0 +1,264 @@
+{
+  "slug": "14-dagen-langs-portugals-kust-en-bergen",
+  "title": "14 dagen langs Portugals kust en bergen",
+  "kicker": "Ontdek de veelzijdigheid van Portugal",
+  "country": "Portugal",
+  "region": "Europa",
+  "durationDays": 14,
+  "durationLabel": "14 dagen",
+  "travelStyle": "mix van cultuur, natuur en ontspanning",
+  "budget": "middenklasse",
+  "budgetNote": "Dagelijkse kosten liggen vaak tussen 50-100 euro per persoon, afhankelijk van vervoer en eetkeuze.",
+  "bestTime": "lente en vroege herfst bieden aangenaam weer en minder toeristen",
+  "startPoint": "Lissabon",
+  "endPoint": "Madeira",
+  "coverImage": "/images/posts/14-dagen-langs-portugals-kust-en-bergen-cover.webp",
+  "coverAlt": "Een gevarieerde reis door Portugal met charmante steden, indrukwekkende wijngaarden, zonnige stranden en een eiland vol natuur.",
+  "excerpt": "Een gevarieerde reis door Portugal met charmante steden, indrukwekkende wijngaarden, zonnige stranden en een eiland vol natuur.",
+  "introHeading": "Van stad naar zee en bergen",
+  "intro": [
+    "Deze reis neemt je mee van de bruisende hoofdstad Lissabon naar het noordelijke Porto, bekend om zijn wijn. Vervolgens gaat het zuidwaarts naar de Algarve, waar rust en zee elkaar ontmoeten. Daarna volgt een bijzondere oversteek naar het eiland Madeira, met zijn groene bergen en kustlijnen. Tot slot sluit je af in de Douro-vallei, waar de rivier en wijngaarden het landschap kleuren.",
+    "De route combineert cultuur, natuur en ontspanning met voldoende tijd om elke plek te ontdekken.",
+    "Je reist met een mix van trein, bus en vliegtuig om zo efficiënt mogelijk de verschillende regio's te verkennen."
+  ],
+  "highlights": [
+    "Lissabon met zijn historische wijken en uitzichtpunten",
+    "Porto en de beroemde portwijnkelders",
+    "De stranden en kliffen van de Algarve",
+    "Madeira's groene bergen en wandelingen",
+    "Douro-vallei met wijntours en rivierlandschap"
+  ],
+  "stops": [
+    {
+      "id": "lissabon-1",
+      "number": 1,
+      "name": "Lissabon",
+      "area": "Lissabon",
+      "coords": [
+        38.7077507,
+        -9.1365919
+      ],
+      "dayLabel": "Dag 1-3",
+      "nights": 3,
+      "image": "/images/posts/14-dagen-langs-portugals-kust-en-bergen-1.webp",
+      "imageAlt": "Kleurrijk straatje in Lissabon met tram",
+      "description": "Lissabon is een stad vol geschiedenis, kleurrijke straatjes en levendige pleinen. Begin bij de wijk Alfama met zijn smalle steegjes en de iconische tram 28. Bezoek het kasteel van São Jorge voor een panoramisch uitzicht over de stad en de Taag. Wandel door de wijk Belém om het beroemde pastéis de nata te proeven en het indrukwekkende Jerónimos-klooster te bekijken. ’s Avonds is het leuk om te genieten van een fado-optreden in een van de traditionele cafés.",
+      "activities": [
+        {
+          "title": "Bezoek tram 28 route",
+          "description": "Stap in deze iconische tram en reis langs vele bezienswaardigheden van Lissabon.",
+          "price": "3-5 euro per rit"
+        },
+        {
+          "title": "Entree kasteel São Jorge",
+          "description": "Ontdek het kasteel en geniet van de uitzichten over de stad.",
+          "price": "10-15 euro"
+        },
+        {
+          "title": "Fado-avond",
+          "description": "Geniet van traditionele Portugese muziek in een kleinschalige locatie.",
+          "price": "15-25 euro"
+        }
+      ],
+      "tip": "Koop een dagkaart voor het openbaar vervoer, inclusief trams en liften, om gemakkelijk de stad te verkennen."
+    },
+    {
+      "id": "porto-2",
+      "number": 2,
+      "name": "Porto",
+      "area": "Noord-Portugal",
+      "coords": [
+        41.1502195,
+        -8.6103497
+      ],
+      "dayLabel": "Dag 4-6",
+      "nights": 3,
+      "image": "/images/posts/14-dagen-langs-portugals-kust-en-bergen-2.webp",
+      "imageAlt": "Gezicht op de kade van Porto met kleurrijke huizen",
+      "description": "Porto is een sfeervolle stad aan de Douro-rivier en wereldberoemd om zijn portwijn. Wandel langs de sfeervolle kade Ribeira met kleurrijke huisjes en gezellige terrassen. Bezoek een van de wijnkelders voor een rondleiding en proeverij. De moderne architectuur van de brug Ponte de Dom Luís I maakt het stadsbeeld compleet. Bezoek ook de boekhandel Livraria Lello, bekend om zijn bijzondere inrichting. De stad combineert historie met een jonge, creatieve sfeer.",
+      "activities": [
+        {
+          "title": "Portwijnproeverij",
+          "description": "Rondleiding en proeverij bij een van de portkelders in Vila Nova de Gaia.",
+          "price": "10-20 euro"
+        },
+        {
+          "title": "Bezoek Livraria Lello",
+          "description": "Toegang tot een van de mooiste boekhandels ter wereld.",
+          "price": "5-10 euro"
+        },
+        {
+          "title": "Boottocht op de Douro",
+          "description": "Een korte riviercruise om de stad en bruggen vanaf het water te zien.",
+          "price": "15-25 euro"
+        }
+      ],
+      "tip": "Wandel de stad in vanaf het treinstation São Bento, bekend om zijn blauwe azulejos."
+    },
+    {
+      "id": "algarve-3",
+      "number": 3,
+      "name": "Algarve",
+      "area": "Zuid-Portugal",
+      "coords": [
+        37.2449218,
+        -8.1959563
+      ],
+      "dayLabel": "Dag 7-10",
+      "nights": 4,
+      "image": "/images/posts/14-dagen-langs-portugals-kust-en-bergen-3.webp",
+      "imageAlt": "Kliffen en helderblauwe zee aan de Algarve",
+      "description": "De Algarve staat bekend om zijn ruige kustlijnen, helderblauwe zee en fijne zandstranden. Kies een centrale plek, zoals Lagos of Albufeira, om van hieruit verschillende stranden en kliffen te ontdekken. Maak een boottocht naar de grotten bij Ponta da Piedade of ga wandelen langs het kustpad Rota Vicentina. De visrestaurants serveren verse zeevruchten, ideaal om de lokale keuken te proeven. Het is ook een fijne plek om te ontspannen na de stedentrips.",
+      "activities": [
+        {
+          "title": "Boottocht grotten Ponta da Piedade",
+          "description": "Verken de indrukwekkende zeegrotten per boot vanaf Lagos.",
+          "price": "20-30 euro"
+        },
+        {
+          "title": "Wandelen Rota Vicentina",
+          "description": "Volg delen van dit langeafstandspad langs de kust.",
+          "price": "gratis"
+        },
+        {
+          "title": "Bezoek lokale vismarkt",
+          "description": "Bekijk en proef verse vis op een markt in de streek.",
+          "price": "gratis"
+        }
+      ],
+      "tip": "Bezoek niet alleen de bekende stranden maar ga ook voor een rustige baai iets verder weg van de toeristische centra."
+    },
+    {
+      "id": "madeira-4",
+      "number": 4,
+      "name": "Madeira",
+      "area": "Madeira-eiland",
+      "coords": [
+        32.7517501,
+        -16.9817487
+      ],
+      "dayLabel": "Dag 11-13",
+      "nights": 3,
+      "image": "/images/posts/14-dagen-langs-portugals-kust-en-bergen-4.webp",
+      "imageAlt": "Groene bergen en zee op Madeira",
+      "description": "Madeira is een groen eiland met steile bergen, diepe valleien en een milde klimaat. Het is een plek om te wandelen langs de levada’s, smalle irrigatiekanalen die door het landschap lopen. Bezoek de hoofdstad Funchal met zijn kleurrijke markt en botanische tuinen. Maak een rit met de kabelbaan naar Monte en bezoek de tuinen en kapel. De combinatie van natuur en cultuur maakt Madeira een bijzonder onderdeel van deze reis.",
+      "activities": [
+        {
+          "title": "Wandeling levada",
+          "description": "Maak een begeleide of zelf geplande wandeling langs de irrigatiekanalen.",
+          "price": "gratis tot 10 euro afhankelijk van gids"
+        },
+        {
+          "title": "Kabelbaan Funchal-Monte",
+          "description": "Geniet van het uitzicht tijdens de rit omhoog in de kabelbaan.",
+          "price": "15-20 euro"
+        },
+        {
+          "title": "Bezoek botanische tuin",
+          "description": "Ontdek de diverse flora van het eiland in een mooie tuin.",
+          "price": "10-15 euro"
+        }
+      ],
+      "tip": "Huur een auto om het eiland flexibel te ontdekken, vooral de bergachtige gebieden."
+    },
+    {
+      "id": "douro-vallei-5",
+      "number": 5,
+      "name": "Douro-vallei",
+      "area": "Noord-Portugal",
+      "coords": [
+        0,
+        0
+      ],
+      "dayLabel": "Dag 14",
+      "nights": 1,
+      "image": "/images/posts/14-dagen-langs-portugals-kust-en-bergen-5.webp",
+      "imageAlt": "Wijngaarden aan de Douro-rivier",
+      "description": "De Douro-vallei is een van de oudste wijngebieden ter wereld met glooiende hellingen en de gelijknamige rivier. Hier kun je genieten van het landschap en wijnhuizen bezoeken. Maak een korte boottocht op de rivier of kies voor een wijntour met proeverijen. De regio heeft een rustige sfeer en is een mooi contrast met de grotere steden. Het is een fijne plek om de reis af te sluiten met een glaasje port en uitzicht op de wijngaarden.",
+      "activities": [
+        {
+          "title": "Boottocht Douro-rivier",
+          "description": "Een korte cruise om het landschap vanaf het water te zien.",
+          "price": "15-25 euro"
+        },
+        {
+          "title": "Wijnproeverij Douro",
+          "description": "Bezoek een wijnhuis met rondleiding en proeverij.",
+          "price": "10-30 euro"
+        }
+      ],
+      "tip": "Plan de overnachting bij een wijnboerderij voor een authentieke ervaring."
+    }
+  ],
+  "gallery": [
+    {
+      "src": "/images/posts/14-dagen-langs-portugals-kust-en-bergen-1.webp",
+      "alt": "Kleurrijk straatje in Lissabon met tram",
+      "caption": "Lissabon — Lissabon"
+    },
+    {
+      "src": "/images/posts/14-dagen-langs-portugals-kust-en-bergen-2.webp",
+      "alt": "Gezicht op de kade van Porto met kleurrijke huizen",
+      "caption": "Porto — Noord-Portugal"
+    },
+    {
+      "src": "/images/posts/14-dagen-langs-portugals-kust-en-bergen-3.webp",
+      "alt": "Kliffen en helderblauwe zee aan de Algarve",
+      "caption": "Algarve — Zuid-Portugal"
+    },
+    {
+      "src": "/images/posts/14-dagen-langs-portugals-kust-en-bergen-4.webp",
+      "alt": "Groene bergen en zee op Madeira",
+      "caption": "Madeira — Madeira-eiland"
+    },
+    {
+      "src": "/images/posts/14-dagen-langs-portugals-kust-en-bergen-5.webp",
+      "alt": "Wijngaarden aan de Douro-rivier",
+      "caption": "Douro-vallei — Noord-Portugal"
+    }
+  ],
+  "practical": [
+    {
+      "label": "Vervoer",
+      "value": "Treinen en bussen verbinden Lissabon, Porto en de Algarve goed. Voor Madeira is een korte vlucht nodig. Lokale bussen en autohuur zijn handig om regio's te verkennen."
+    },
+    {
+      "label": "Verblijf",
+      "value": "Een mix van middenklasse hotels, guesthouses en appartementen is beschikbaar. Prijzen variëren van 50 tot 100 euro per nacht."
+    },
+    {
+      "label": "Budget",
+      "value": "Dagelijkse kosten liggen tussen 50 en 100 euro per persoon, afhankelijk van activiteiten en eetgelegenheden."
+    },
+    {
+      "label": "Beste reistijd",
+      "value": "Lente (april-juni) en vroege herfst (september-oktober) zijn ideaal met aangenaam weer en minder drukte."
+    },
+    {
+      "label": "Geld & internet",
+      "value": "Contant geld is handig voor kleine aankopen, maar kaarten worden breed geaccepteerd. Wifi is beschikbaar in de meeste hotels en cafés."
+    }
+  ],
+  "packing": [
+    "Comfortabele wandelschoenen",
+    "Zonnehoed of pet",
+    "Zwemkleding",
+    "Lichte jas voor avond en bergen",
+    "Zonnebrandcrème",
+    "Waterfles",
+    "Camera of smartphone",
+    "Reisgids of kaart",
+    "Adapter voor stopcontacten"
+  ],
+  "closingNote": "Deze 14-daagse reis laat de verschillende gezichten van Portugal zien, van levendige steden tot rustige natuur en kustlijnen. Met een goede mix van activiteiten en ontspanning is het een fijne manier om het land te verkennen. Elke stop heeft zijn eigen sfeer en bezienswaardigheden die het ontdekken waard zijn. Geniet van de lokale keuken, cultuur en het landschap tijdens deze afwisselende route.",
+  "continent": "europa",
+  "author": "Redactie",
+  "generated": true,
+  "createdAt": "2026-11-24",
+  "topicKey": "portugal:reisroute:2-weken",
+  "imageCredit": {
+    "name": "franky1st",
+    "url": "https://pixabay.com/photos/tram-train-road-building-monument-4379656/",
+    "source": "Pixabay"
+  }
+}

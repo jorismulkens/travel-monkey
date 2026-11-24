@@ -1,0 +1,269 @@
+{
+  "slug": "14-dagen-vulkanen-meren-en-stranden",
+  "title": "14 dagen vulkanen, meren en stranden",
+  "kicker": "Ontdek het gevarieerde Nicaragua",
+  "country": "Nicaragua",
+  "region": "Midden-Amerika",
+  "durationDays": 14,
+  "durationLabel": "14 dagen",
+  "travelStyle": "Avontuurlijk en cultureel",
+  "budget": "€25-50 per dag",
+  "budgetNote": "Prijzen kunnen variëren afhankelijk van seizoen en type accommodatie.",
+  "bestTime": "November tot april",
+  "startPoint": "Granada",
+  "endPoint": "San Juan del Sur",
+  "coverImage": "/images/posts/14-dagen-vulkanen-meren-en-stranden-cover.webp",
+  "coverAlt": "Een afwisselende reisroute door Nicaragua langs koloniale steden, vulkanen, een eiland in een meer, levendige markten en een strandbestemming.",
+  "excerpt": "Een afwisselende reisroute door Nicaragua langs koloniale steden, vulkanen, een eiland in een meer, levendige markten en een strandbestemming.",
+  "introHeading": "Van koloniale pracht tot strand",
+  "intro": [
+    "Nicaragua biedt een ruim aanbod aan indrukwekkende landschappen en cultuur. Deze reisroute laat je kennismaken met de koloniale charme van Granada en León, twee steden die elk hun eigen sfeer en geschiedenis hebben. Beide plaatsen zijn een prima start en vervolg om de rijke architectuur en lokale levensstijl te ontdekken.",
+    "Vervolgens leidt de route naar Ometepe, een vulkanisch eiland in het grote meer van Nicaragua. Hier wissel je cultuur af met natuur en avontuur, met wandelingen, watervallen en lokale dorpjes. Daarna ga je naar Masaya, waar ambachten en de actieve vulkaan centraal staan, gevolgd door een afsluiting aan zee in San Juan del Sur.",
+    "De combinatie van steden, natuur en strand zorgt voor een gevarieerde reis. Deze route is geschikt voor reizigers die het land op een ontspannen en tegelijkertijd actieve manier willen verkennen. De beste reistijd ligt in het droge seizoen, waarin het comfortabel reizen is."
+  ],
+  "highlights": [
+    "Koloniale architectuur in Granada.",
+    "Vulkanen beklimmen bij Ometepe.",
+    "Kunst en cultuur in León.",
+    "Ambachten en markten van Masaya.",
+    "Stranden en zee in San Juan del Sur."
+  ],
+  "stops": [
+    {
+      "id": "granada-1",
+      "number": 1,
+      "name": "Granada",
+      "area": "Granada",
+      "coords": [
+        11.98,
+        -85.95
+      ],
+      "dayLabel": "Dag 1-3",
+      "nights": 3,
+      "image": "/images/posts/14-dagen-vulkanen-meren-en-stranden-1.webp",
+      "imageAlt": "Kleurrijke gebouwen en plein in Granada",
+      "description": "Granada is een charmante stad aan het meer van Nicaragua en staat bekend om zijn kleurrijke koloniale gebouwen en levendige pleinen. De stad is compact en perfect om te voet te verkennen. Bezoek het centrale park en de kathedraal, wandel langs het meer of maak een boottocht door de omliggende meren en moerassen. Granada heeft ook leuke cafés en markten waar lokale producten verkocht worden. De sfeer is ontspannen, met veel ruimte voor culturele activiteiten en natuurbeleving in de buurt.",
+      "activities": [
+        {
+          "title": "Boottocht naar de Isletas",
+          "description": "Ontdek meer dan 300 kleine eilandjes in het meer nabij Granada per boot.",
+          "price": "15-25 euro"
+        },
+        {
+          "title": "Bezoek kathedraal van Granada",
+          "description": "Verken deze imposante koloniale kerk en geniet van het uitzicht vanaf de toren.",
+          "price": "3-5 euro"
+        },
+        {
+          "title": "Marktbezoek en lokale snacks proeven",
+          "description": "Wandel over de markt en proef verse tropische vruchten en streetfood.",
+          "price": "2-10 euro"
+        }
+      ],
+      "tip": "Probeer een boottocht naar de isletas, kleine eilandjes in het meer, voor een ander perspectief op de natuur rond Granada."
+    },
+    {
+      "id": "leon-2",
+      "number": 2,
+      "name": "León",
+      "area": "León",
+      "coords": [
+        12.4,
+        -86.87
+      ],
+      "dayLabel": "Dag 4-6",
+      "nights": 3,
+      "image": "/images/posts/14-dagen-vulkanen-meren-en-stranden-2.webp",
+      "imageAlt": "Straatbeeld met kleurrijke huizen in León",
+      "description": "León is een stad met een rijke geschiedenis en een levendige cultuur. Het is minder toeristisch dan Granada, maar heeft veel te bieden op het gebied van architectuur, kunst en gastronomie. Bezoek de vele kerken, waaronder de indrukwekkende kathedraal, en maak een wandeling door de kleurrijke straatjes. León is ook de uitvalsbasis voor vulkaanwandelingen en biedt een diepere kennismaking met het authentieke Nicaraguaanse leven. De stad heeft verschillende musea en galerieën die de revolutionaire geschiedenis en kunst tonen.",
+      "activities": [
+        {
+          "title": "Bezoek kathedraal van León",
+          "description": "Ontdek de grootste kathedraal van Midden-Amerika en beklim het dak voor uitzicht.",
+          "price": "4-6 euro"
+        },
+        {
+          "title": "Vulkaanwandeling Cerro Negro",
+          "description": "Beklim deze actieve vulkaan en probeer sandboarden af te sluiten.",
+          "price": "20-40 euro inclusief gids"
+        },
+        {
+          "title": "Museum en kunstgalerie bezoeken",
+          "description": "Leer over de geschiedenis en cultuur door lokale tentoonstellingen te bekijken.",
+          "price": "3-7 euro"
+        }
+      ],
+      "tip": "Maak een begeleide vulkaanwandeling bij Cerro Negro voor een avontuurlijke ervaring."
+    },
+    {
+      "id": "ometepe-3",
+      "number": 3,
+      "name": "Ometepe",
+      "area": "Rivas",
+      "coords": [
+        11.4983864,
+        -85.62554
+      ],
+      "dayLabel": "Dag 7-10",
+      "nights": 4,
+      "image": "/images/posts/14-dagen-vulkanen-meren-en-stranden-3.webp",
+      "imageAlt": "Vulkanisch landschap en meer bij Ometepe",
+      "description": "Ometepe is een vulkanisch eiland in het grote meer van Nicaragua en bestaat uit twee vulkanen verbonden door een smalle landengte. Het eiland is een plek voor natuurliefhebbers en avonturiers. Er zijn verschillende wandelroutes, watervallen en rustige stranden om te ontdekken. Lokale dorpjes bieden een kijkje in het dagelijks leven op het eiland. Je kunt er ook kajakken, fietsen huren of deelnemen aan rondleidingen om de biodiversiteit en de archeologische sites te verkennen.",
+      "activities": [
+        {
+          "title": "Wandeling naar de vulkaan Concepción",
+          "description": "Beklim deze vulkaan voor spectaculaire uitzichten en natuur.",
+          "price": "Gratis tot 20 euro voor gids"
+        },
+        {
+          "title": "Bezoek watervallen en natuurlijke zwembaden",
+          "description": "Verken plekken als Ojo de Agua om te zwemmen in helder water.",
+          "price": "2-5 euro entree"
+        },
+        {
+          "title": "Kajakken op het meer",
+          "description": "Huur een kajak voor een ontspannen tocht over het meer rondom het eiland.",
+          "price": "10-20 euro per uur"
+        }
+      ],
+      "tip": "Huur een scooter om het eiland op eigen tempo te verkennen en bezoek verschillende watervallen en stranden."
+    },
+    {
+      "id": "masaya-4",
+      "number": 4,
+      "name": "Masaya",
+      "area": "Masaya",
+      "coords": [
+        12.01,
+        -86.07
+      ],
+      "dayLabel": "Dag 11-12",
+      "nights": 2,
+      "image": "/images/posts/14-dagen-vulkanen-meren-en-stranden-4.webp",
+      "imageAlt": "Markt en vulkaan bij Masaya",
+      "description": "Masaya is bekend om zijn ambachtelijke markten en actieve vulkaan. De stad zelf heeft een levendige sfeer met een mix van traditionele en moderne elementen. Bezoek de grote markt waar handgemaakte souvenirs, textiel en lokale producten verkrijgbaar zijn. De vulkaan Masaya is een van de weinige plaatsen waar je tot aan de krater kunt komen en het lavalicht kunt zien. Deze combinatie van cultuur en natuur maakt Masaya een interessante plek om te verblijven.",
+      "activities": [
+        {
+          "title": "Bezoek ambachtsmarkt",
+          "description": "Koop handwerk en leer over traditionele technieken op de markt.",
+          "price": "Gratis entree, producten variëren"
+        },
+        {
+          "title": "Vulkanenpark Masaya",
+          "description": "Loop naar de krater en bekijk het lavalicht, eventueel met gids.",
+          "price": "5-10 euro"
+        },
+        {
+          "title": "Stadswandeling en lokale keuken proeven",
+          "description": "Ontdek de stad te voet en geniet van typische gerechten in eettentjes.",
+          "price": "5-15 euro"
+        }
+      ],
+      "tip": "Ga in de avond naar de vulkaan voor een indrukwekkend uitzicht op de gloeiende krater."
+    },
+    {
+      "id": "san-juan-del-sur-5",
+      "number": 5,
+      "name": "San Juan del Sur",
+      "area": "Rivas",
+      "coords": [
+        11.22,
+        -85.78
+      ],
+      "dayLabel": "Dag 13-14",
+      "nights": 2,
+      "image": "/images/posts/14-dagen-vulkanen-meren-en-stranden-5.webp",
+      "imageAlt": "Strand en baai van San Juan del Sur",
+      "description": "San Juan del Sur is een strandplaats aan de Pacifische kust en populair onder reizigers die willen ontspannen of surfen. Het stadje heeft een ontspannen sfeer met veel restaurants, bars en mogelijkheden om watersport te beoefenen. Naast het strand kun je hier ook een korte hike maken naar het Christusbeeld voor een mooi uitzicht over de baai. San Juan del Sur is een fijne plek om de reis rustig af te sluiten, met volop gelegenheid om te genieten van zon, zee en lokale lekkernijen.",
+      "activities": [
+        {
+          "title": "Surfen of lessen nemen",
+          "description": "Huur surfboards of neem een les aan het strand.",
+          "price": "10-30 euro per les of boardhuur"
+        },
+        {
+          "title": "Hike naar Christusbeeld",
+          "description": "Maak een korte klim voor een mooi uitzicht over San Juan del Sur.",
+          "price": "Gratis"
+        },
+        {
+          "title": "Boottocht of kajakken",
+          "description": "Verken de zee rondom San Juan del Sur vanaf het water.",
+          "price": "15-25 euro"
+        }
+      ],
+      "tip": "Ga bij zonsondergang naar het standbeeld van Christus voor een panoramisch uitzicht over de baai."
+    }
+  ],
+  "gallery": [
+    {
+      "src": "/images/posts/14-dagen-vulkanen-meren-en-stranden-1.webp",
+      "alt": "Kleurrijke gebouwen en plein in Granada",
+      "caption": "Granada — Granada"
+    },
+    {
+      "src": "/images/posts/14-dagen-vulkanen-meren-en-stranden-2.webp",
+      "alt": "Straatbeeld met kleurrijke huizen in León",
+      "caption": "León — León"
+    },
+    {
+      "src": "/images/posts/14-dagen-vulkanen-meren-en-stranden-3.webp",
+      "alt": "Vulkanisch landschap en meer bij Ometepe",
+      "caption": "Ometepe — Rivas"
+    },
+    {
+      "src": "/images/posts/14-dagen-vulkanen-meren-en-stranden-4.webp",
+      "alt": "Markt en vulkaan bij Masaya",
+      "caption": "Masaya — Masaya"
+    },
+    {
+      "src": "/images/posts/14-dagen-vulkanen-meren-en-stranden-5.webp",
+      "alt": "Strand en baai van San Juan del Sur",
+      "caption": "San Juan del Sur — Rivas"
+    }
+  ],
+  "practical": [
+    {
+      "label": "Vervoer",
+      "value": "Binnenlands vervoer is eenvoudig met bussen en shuttles. Fietsen en scooters zijn goede opties op Ometepe."
+    },
+    {
+      "label": "Verblijf",
+      "value": "Accommodatie varieert van budgethostels tot middenklasse hotels, met prijzen tussen 10 en 50 euro per nacht."
+    },
+    {
+      "label": "Budget",
+      "value": "Dagelijkse kosten liggen tussen 25 en 50 euro, afhankelijk van activiteiten en accommodatie."
+    },
+    {
+      "label": "Beste reistijd",
+      "value": "Droge seizoen van november tot april is het meest aangenaam."
+    },
+    {
+      "label": "Geld en internet",
+      "value": "Contant geld is handig, vooral buiten de grote steden. Wifi is vaak beschikbaar in hotels en cafés."
+    }
+  ],
+  "packing": [
+    "Lichte kleding voor warm weer",
+    "Wandelschoenen",
+    "Zwemkleding",
+    "Zonnebrandcrème",
+    "Insectenwerend middel",
+    "Regenjas voor onverwachte buien",
+    "Hoed of pet tegen de zon",
+    "Camera of smartphone",
+    "Stevige rugzak voor dagtochten"
+  ],
+  "closingNote": "Deze route biedt een mooie mix van cultuur, natuur en ontspanning. Van koloniale steden tot vulkanen en stranden, Nicaragua laat zien hoe veelzijdig Midden-Amerika kan zijn. Plan wat rustmomenten en geniet van de vriendelijke sfeer. Het land is toegankelijk en biedt voor elk wat wils tijdens deze twee weken.",
+  "continent": "midden-amerika",
+  "author": "Redactie",
+  "generated": true,
+  "createdAt": "2026-11-24",
+  "topicKey": "nicaragua:reisroute:2-weken",
+  "imageCredit": {
+    "name": "Lucent_Designs_dinoson20",
+    "url": "https://pixabay.com/photos/fiber-cable-wire-connection-4814456/",
+    "source": "Pixabay"
+  }
+}

@@ -1,0 +1,269 @@
+{
+  "slug": "14-dagen-eilanden-en-cultuur-tussen-stad-en-zee",
+  "title": "14 dagen eilanden en cultuur tussen stad en zee",
+  "kicker": "Tropische archipel verkennen",
+  "country": "Filipijnen",
+  "region": "Azië",
+  "durationDays": 14,
+  "durationLabel": "14 dagen",
+  "travelStyle": "Avontuurlijk en afwisselend",
+  "budget": "Middenklasse",
+  "budgetNote": "Prijzen zijn indicatief en kunnen per seizoen verschillen",
+  "bestTime": "November tot mei",
+  "startPoint": "Manila",
+  "endPoint": "Bohol",
+  "coverImage": "/images/posts/14-dagen-eilanden-en-cultuur-tussen-stad-en-zee-cover.webp",
+  "coverAlt": "Deze 14-daagse route door de Filipijnen combineert de energie van de hoofdstad met indrukwekkende eilanden. Van Manila naar Palawan, Cebu, Siargao en eindigend in Bohol, ontdek je afwisselende landschappen, cultuur en zeeleven.",
+  "excerpt": "Deze 14-daagse route door de Filipijnen combineert de energie van de hoofdstad met indrukwekkende eilanden. Van Manila naar Palawan, Cebu, Siargao en eindigend in Bohol, ontdek je afwisselende landschappen, cultuur en zeeleven.",
+  "introHeading": "Van stad naar zee en eilanden",
+  "intro": [
+    "De Filipijnen bestaan uit meer dan 7.000 eilanden die samen een afwisselend landschap vormen van steden, stranden en groene natuur. Deze route is een uitnodiging om zowel de culturele rijkdom van de hoofdstad te ervaren als de rust en natuurlijke schoonheid van de eilanden.",
+    "In Manila start de reis met een combinatie van historie en het stadsleven. Daarna liggen er vier eilanden op je te wachten, elk met een eigen karakter en belevenissen: van spectaculaire kalkstenen formaties tot levendige duikplekken en rustige stranden.",
+    "De route geeft voldoende tijd om te genieten zonder te haasten. Zo is er ruimte voor stadswandeling, eilandhoppen, surfen, snorkelen en het ontdekken van bijzondere dieren en landschappen. Deze afwisseling maakt de reis toegankelijk en afwisselend."
+  ],
+  "highlights": [
+    "Manila’s historische Intramuros en moderne stadsleven",
+    "Onontdekte stranden en lagunes van Palawan",
+    "Duik- en snorkelmogelijkheden rondom Cebu",
+    "Surfsfeer en natuurlijke schoonheid van Siargao",
+    "Tarsiers en chocoladeheuvels van Bohol"
+  ],
+  "stops": [
+    {
+      "id": "manila-1",
+      "number": 1,
+      "name": "Manila",
+      "area": "Luzon",
+      "coords": [
+        14.5904492,
+        120.9803621
+      ],
+      "dayLabel": "Dag 1-2",
+      "nights": 2,
+      "image": "/images/posts/14-dagen-eilanden-en-cultuur-tussen-stad-en-zee-1.webp",
+      "imageAlt": "Straatbeeld Intramuros Manila",
+      "description": "Start je reis in Manila, de hoofdstad die een mix biedt van Spaans-koloniale geschiedenis en moderne Filipijnse cultuur. Wandel door Intramuros, de oude ommuurde stad, en bezoek het museum of de San Agustin-kerk voor een duik in het verleden. De stad bruist ook met markten, winkelcentra en straatvoedsel. Het contrast tussen oud en nieuw maakt Manila een interessante startplek om de Filipijnse cultuur te proeven.",
+      "activities": [
+        {
+          "title": "Rondleiding Intramuros",
+          "description": "Bezoek de oude ommuurde stad met gids of zelfstandig via een fietstocht.",
+          "price": "5-15 euro"
+        },
+        {
+          "title": "Museumbezoek National Museum",
+          "description": "Leer meer over Filipijnse geschiedenis en kunst.",
+          "price": "Gratis tot 3 euro"
+        },
+        {
+          "title": "Streetfood tour",
+          "description": "Proef lokale snacks en gerechten in de straten van Manila.",
+          "price": "10-20 euro"
+        }
+      ],
+      "tip": "Vermijd spitsuren in het verkeer en maak gebruik van de Light Rail Transit om snel te reizen."
+    },
+    {
+      "id": "el-nido-palawan-2",
+      "number": 2,
+      "name": "El Nido, Palawan",
+      "area": "Palawan",
+      "coords": [
+        11.1800395,
+        119.390496
+      ],
+      "dayLabel": "Dag 3-6",
+      "nights": 4,
+      "image": "/images/posts/14-dagen-eilanden-en-cultuur-tussen-stad-en-zee-2.webp",
+      "imageAlt": "Turquoise lagune El Nido",
+      "description": "El Nido is een plek waar de natuur opvalt door haar kalkstenen rotsformaties en helderblauw water. Hier kun je zwemmen tussen tropische vissen, kajakken langs indrukwekkende kliffen en rust vinden op verlaten stranden. De omgeving is beschermd en de eilanden rondom bieden unieke plekken om te snorkelen en te duiken. Dankzij de rustige sfeer is El Nido een fijne plek om de natuur in alle rust te ervaren en te ontspannen na het drukke stadsleven van Manila.",
+      "activities": [
+        {
+          "title": "Island hopping tour",
+          "description": "Bezoek verborgen lagunes, stranden en snorkelplekken met een boottocht.",
+          "price": "20-40 euro"
+        },
+        {
+          "title": "Kajakken in de lagune",
+          "description": "Verken zelf de kalme lagunes per kajak.",
+          "price": "10-15 euro"
+        },
+        {
+          "title": "Snorkelen bij Shimizu Island",
+          "description": "Ontdek kleurrijk koraal en vissen onder water.",
+          "price": "10-20 euro"
+        }
+      ],
+      "tip": "Boek eilandtours vroeg om de drukte te vermijden en neem zwemkleding en waterdichte tas mee."
+    },
+    {
+      "id": "cebu-stad-en-omgeving-3",
+      "number": 3,
+      "name": "Cebu Stad en omgeving",
+      "area": "Cebu",
+      "coords": [
+        0,
+        0
+      ],
+      "dayLabel": "Dag 7-9",
+      "nights": 3,
+      "image": "/images/posts/14-dagen-eilanden-en-cultuur-tussen-stad-en-zee-3.webp",
+      "imageAlt": "Magellankruis Cebu",
+      "description": "Cebu combineert historie met natuur. In de stad zelf kun je bezienswaardigheden bezoeken zoals de Magellankruis en Basilica del Santo Niño. Daarbuiten liggen mooie plekken om te duiken, zwemmen en wandelen. De nabijgelegen watervallen en stranden zijn rustig en bieden een goede afwisseling met het stadsleven. Cebu is ook een goede uitvalsbasis om walvishaaien te spotten of walvissen te zien in de omgeving.",
+      "activities": [
+        {
+          "title": "Bezoek Magellankruis en Basilica",
+          "description": "Leer over de Spaanse geschiedenis in Cebu.",
+          "price": "Gratis tot 2 euro"
+        },
+        {
+          "title": "Walvishaai spotten in Oslob",
+          "description": "Ga mee op een boottocht om walvishaaien te zien.",
+          "price": "25-40 euro"
+        },
+        {
+          "title": "Wandeling naar Kawasan watervallen",
+          "description": "Een natuurexcursie met zwemmen in natuurlijke poelen.",
+          "price": "2-5 euro"
+        }
+      ],
+      "tip": "Huur een scooter om de omgeving makkelijk te verkennen en vraag ter plaatse naar lokale tours."
+    },
+    {
+      "id": "siargao-4",
+      "number": 4,
+      "name": "Siargao",
+      "area": "Mindanao",
+      "coords": [
+        9.9037596,
+        126.0507404
+      ],
+      "dayLabel": "Dag 10-12",
+      "nights": 3,
+      "image": "/images/posts/14-dagen-eilanden-en-cultuur-tussen-stad-en-zee-4.webp",
+      "imageAlt": "Surfer bij Cloud 9 Siargao",
+      "description": "Siargao staat bekend om zijn surfscene en ontspannen sfeer. Zelfs als je niet surft, is het eiland aantrekkelijk vanwege de mangrovebossen, natuurlijke vijvers en rustige stranden. Je kunt hier kanoën, eilandhoppen of gewoon genieten van de lokale keuken in een van de vele cafés. Het is een plek waar het tempo laag ligt en je de natuur en gastvrijheid ervaart zonder drukte.",
+      "activities": [
+        {
+          "title": "Surfles bij Cloud 9",
+          "description": "Leer surfen op een van de beste golven van Azië.",
+          "price": "20-40 euro"
+        },
+        {
+          "title": "Island hopping tour",
+          "description": "Bezoek kleine eilanden en natuurlijke zwembaden.",
+          "price": "15-30 euro"
+        },
+        {
+          "title": "Mangrove tour per kano",
+          "description": "Ontdek het mangrovebos en lokale fauna.",
+          "price": "10-15 euro"
+        }
+      ],
+      "tip": "Probeer een surfles als je nieuwsgierig bent of neem een dagtocht naar de nabijgelegen eilandjes."
+    },
+    {
+      "id": "panglao-bohol-5",
+      "number": 5,
+      "name": "Panglao, Bohol",
+      "area": "Bohol",
+      "coords": [
+        9.5791851,
+        123.7452642
+      ],
+      "dayLabel": "Dag 13-14",
+      "nights": 2,
+      "image": "/images/posts/14-dagen-eilanden-en-cultuur-tussen-stad-en-zee-5.webp",
+      "imageAlt": "Chocoladeheuvels Bohol",
+      "description": "Panglao is een rustig eiland met brede zandstranden en uitstekende duikmogelijkheden. Het is een fijne plek om de reis af te sluiten met ontspanning aan zee. Vanuit hier zijn de beroemde chocoladeheuvels en het tarsier sanctuary goed bereikbaar. De chocoladeheuvels zijn unieke geologische formaties die het landschap een bijzondere uitstraling geven. Het tarsier sanctuary biedt de kans om deze kleine primaten te zien die alleen in de Filipijnen voorkomen.",
+      "activities": [
+        {
+          "title": "Bezoek Chocolate Hills",
+          "description": "Bewonder de unieke heuvels van vulkanische oorsprong.",
+          "price": "2-5 euro"
+        },
+        {
+          "title": "Tarsier Sanctuary tour",
+          "description": "Leer over en zie de zeldzame tarsiers.",
+          "price": "3-7 euro"
+        },
+        {
+          "title": "Boottocht op Loboc-rivier",
+          "description": "Geniet van de natuur en lokale muziek aan boord.",
+          "price": "10-20 euro"
+        }
+      ],
+      "tip": "Plan een dagexcursie naar de chocoladeheuvels en tarsier sanctuary gecombineerd met een boottocht over de Loboc-rivier."
+    }
+  ],
+  "gallery": [
+    {
+      "src": "/images/posts/14-dagen-eilanden-en-cultuur-tussen-stad-en-zee-1.webp",
+      "alt": "Straatbeeld Intramuros Manila",
+      "caption": "Manila — Luzon"
+    },
+    {
+      "src": "/images/posts/14-dagen-eilanden-en-cultuur-tussen-stad-en-zee-2.webp",
+      "alt": "Turquoise lagune El Nido",
+      "caption": "El Nido, Palawan — Palawan"
+    },
+    {
+      "src": "/images/posts/14-dagen-eilanden-en-cultuur-tussen-stad-en-zee-3.webp",
+      "alt": "Magellankruis Cebu",
+      "caption": "Cebu Stad en omgeving — Cebu"
+    },
+    {
+      "src": "/images/posts/14-dagen-eilanden-en-cultuur-tussen-stad-en-zee-4.webp",
+      "alt": "Surfer bij Cloud 9 Siargao",
+      "caption": "Siargao — Mindanao"
+    },
+    {
+      "src": "/images/posts/14-dagen-eilanden-en-cultuur-tussen-stad-en-zee-5.webp",
+      "alt": "Chocoladeheuvels Bohol",
+      "caption": "Panglao, Bohol — Bohol"
+    }
+  ],
+  "practical": [
+    {
+      "label": "Vervoer",
+      "value": "Binnenlandse vluchten tussen eilanden kosten gemiddeld 30-70 euro per vlucht; lokale bussen en tricycles zijn goedkoop en ideaal voor korte afstanden."
+    },
+    {
+      "label": "Verblijf",
+      "value": "Guesthouses, hostels en middenklasse hotels variëren van 15-60 euro per nacht afhankelijk van locatie en comfort."
+    },
+    {
+      "label": "Budget",
+      "value": "Dagelijks budget ligt tussen 30-50 euro per persoon voor eten, vervoer en activiteiten."
+    },
+    {
+      "label": "Beste reistijd",
+      "value": "Van november tot mei is het droger en aangenamer voor strand en buitenactiviteiten."
+    },
+    {
+      "label": "Geld en internet",
+      "value": "Contant geld is vaak noodzakelijk buiten de grote steden; simkaarten met 4G zijn overal verkrijgbaar voor 10-20 euro."
+    }
+  ],
+  "packing": [
+    "Lichte kleding voor warm weer",
+    "Zwemkleding en strandlaken",
+    "Goede wandelschoenen of sandalen",
+    "Waterdichte tas of drybag",
+    "Zonnebrandcrème en insectenspray",
+    "Snorkelset of duikbril (optioneel)",
+    "Reisstekker (type A/B)",
+    "Persoonlijke EHBO-kit",
+    "Waterfles om bij te vullen"
+  ],
+  "closingNote": "Deze route biedt een goede mix van stad, natuur en ontspanning. De afstanden tussen de eilanden zijn goed te overzien met binnenlandse vluchten en boottochten, waardoor er voldoende tijd is voor verkenning en rust. De Filipijnen laten zich zo van verschillende kanten zien: van cultuur en historie in Manila tot ongerepte natuur en eilandervaring. Vergeet niet te genieten van de lokale keuken en de gastvrijheid onderweg.",
+  "continent": "azie",
+  "author": "Redactie",
+  "generated": true,
+  "createdAt": "2026-11-24",
+  "topicKey": "filipijnen:reisroute:2-weken",
+  "imageCredit": {
+    "name": "sabinevanerp",
+    "url": "https://pixabay.com/photos/birds-sandpipers-beak-feathers-5661631/",
+    "source": "Pixabay"
+  }
+}

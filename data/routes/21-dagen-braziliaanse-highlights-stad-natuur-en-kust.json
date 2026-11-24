@@ -1,0 +1,269 @@
+{
+  "slug": "21-dagen-braziliaanse-highlights-stad-natuur-en-kust",
+  "title": "21 dagen Braziliaanse highlights: stad, natuur en kust",
+  "kicker": "Een afwisselende route door het zuiden",
+  "country": "Brazilië",
+  "region": "Zuid-Amerika",
+  "durationDays": 21,
+  "durationLabel": "21 dagen",
+  "travelStyle": "gematigd actief",
+  "budget": "middenklasse",
+  "budgetNote": "De aangegeven prijzen zijn schattingen en kunnen variëren afhankelijk van het seizoen en het type accommodatie of vervoer.",
+  "bestTime": "mei tot oktober",
+  "startPoint": "Rio de Janeiro",
+  "endPoint": "Florianópolis",
+  "coverImage": "/images/posts/21-dagen-braziliaanse-highlights-stad-natuur-en-kust-cover.webp",
+  "coverAlt": "Een veelzijdige reis door Brazilië waarbij je geniet van bruisende steden, indrukwekkende natuur en fijne stranden. Van het iconische Rio de Janeiro naar de watervallen van Iguaçu, gevolgd door cultuur in Salvador en eindigend aan de kust van Florianópolis.",
+  "excerpt": "Een veelzijdige reis door Brazilië waarbij je geniet van bruisende steden, indrukwekkende natuur en fijne stranden. Van het iconische Rio de Janeiro naar de watervallen van Iguaçu, gevolgd door cultuur in Salvador en eindigend aan de kust van Florianópolis.",
+  "introHeading": "Van stad naar zee en natuur",
+  "intro": [
+    "Brazilië is een land van uitersten met levendige steden, indrukwekkende natuur en uitgestrekte stranden. Deze route laat de diversiteit goed zien, van het wereldberoemde Rio de Janeiro tot de indrukwekkende watervallen bij Iguaçu.",
+    "São Paulo biedt een ander stadsbeeld met meer moderne architectuur en een levendige culinaire scene. In Salvador is de Afro-Braziliaanse cultuur duidelijk aanwezig, met kleurrijke wijken en levendige muziek.",
+    "De natuur krijgt extra aandacht bij Iguaçu, waar indrukwekkende watervallen op je wachten. De reis eindigt in Florianópolis, een kustplaats die bekend staat om haar mooie stranden en relaxte sfeer."
+  ],
+  "highlights": [
+    "Bezoek aan de Suikerbroodberg en Christus de Verlosser in Rio",
+    "Wandeling door het historische centrum van Salvador",
+    "Ontdek de indrukwekkende watervallen van Iguaçu",
+    "Proef de diverse keukens in São Paulo",
+    "Geniet van de stranden en surfspots in Florianópolis"
+  ],
+  "stops": [
+    {
+      "id": "rio-de-janeiro-1",
+      "number": 1,
+      "name": "Rio de Janeiro",
+      "area": "Zuidelijk Grootstedelijk Gebied",
+      "coords": [
+        -22.9110137,
+        -43.2093727
+      ],
+      "dayLabel": "Dag 1-5",
+      "nights": 5,
+      "image": "/images/posts/21-dagen-braziliaanse-highlights-stad-natuur-en-kust-1.webp",
+      "imageAlt": "Uitzicht op Rio de Janeiro met Christus de Verlosser",
+      "description": "Rio de Janeiro is een stad waar natuur en stad samenkomen op een bijzondere manier. Behalve de wereldberoemde bezienswaardigheden zoals het standbeeld Christus de Verlosser en de Suikerbroodberg, biedt de stad uitgestrekte stranden zoals Copacabana en Ipanema waar het leven zich grotendeels buiten afspeelt. Cultureel gezien is Rio rijk aan samba en carnaval, maar ook musea en historische wijken zijn er te vinden. De stad nodigt uit om te wandelen door diverse wijken, te genieten van lokale markten en te ontspannen in stadsparken.",
+      "activities": [
+        {
+          "title": "Bezoek Christus de Verlosser",
+          "description": "Bezoek het wereldberoemde standbeeld en geniet van het panoramisch uitzicht over de stad.",
+          "price": "10-20 euro"
+        },
+        {
+          "title": "Kabelbaan Suikerbroodberg",
+          "description": "Neem de kabelbaan en wandel rond op deze markante rots voor mooie fotomomenten.",
+          "price": "15-25 euro"
+        },
+        {
+          "title": "Wandeling en stranddag aan Copacabana",
+          "description": "Combineer een wandeling langs het beroemde strand met een bezoek aan nabijgelegen parken en eetkraampjes.",
+          "price": "gratis"
+        }
+      ],
+      "tip": "Plan een bezoek aan het standbeeld Christus de Verlosser vroeg op de dag om de drukte te vermijden. Neem ook de tijd om te lunchen in Santa Teresa, een artistieke wijk met sfeervolle cafés."
+    },
+    {
+      "id": "sao-paulo-2",
+      "number": 2,
+      "name": "São Paulo",
+      "area": "Zuidelijk Grootstedelijk Gebied",
+      "coords": [
+        -23.5506507,
+        -46.6333824
+      ],
+      "dayLabel": "Dag 6-10",
+      "nights": 5,
+      "image": "/images/posts/21-dagen-braziliaanse-highlights-stad-natuur-en-kust-2.webp",
+      "imageAlt": "Skyline van São Paulo met moderne gebouwen",
+      "description": "São Paulo is een metropool met een indrukwekkend stedelijk landschap en een rijke culturele scene. De stad telt talloze musea, theaters en galerieën die kunst en geschiedenis van Brazilië en de wereld laten zien. De architectuur varieert van modern tot historisch, en de stad kent diverse wijken met elk een eigen karakter. Daarnaast staat São Paulo bekend om zijn keuken, van straateten tot chique restaurants, wat het een interessante plek maakt voor fijnproevers.",
+      "activities": [
+        {
+          "title": "Bezoek Museu de Arte de São Paulo (MASP)",
+          "description": "Ontdek kunstwerken van nationale en internationale kunstenaars in een iconisch gebouw.",
+          "price": "5-15 euro"
+        },
+        {
+          "title": "Wandeling door Ibirapuera Park",
+          "description": "Geniet van een groene oase midden in de stad met meren en culturele gebouwen.",
+          "price": "gratis"
+        },
+        {
+          "title": "Proeverij in Mercado Municipal",
+          "description": "Proef lokale specialiteiten zoals verse fruitsoorten, kaas en de beroemde mortadella sandwich.",
+          "price": "10-20 euro"
+        }
+      ],
+      "tip": "Bezoek de wijk Liberdade om de Japanse invloed te ervaren en probeer lokale specialiteiten. Reserveer tijd voor het verkennen van Avenida Paulista, het bruisende hart van de stad."
+    },
+    {
+      "id": "salvador-3",
+      "number": 3,
+      "name": "Salvador",
+      "area": "Noordoostelijk Brazilië",
+      "coords": [
+        -12.9822499,
+        -38.4812772
+      ],
+      "dayLabel": "Dag 11-15",
+      "nights": 5,
+      "image": "/images/posts/21-dagen-braziliaanse-highlights-stad-natuur-en-kust-3.webp",
+      "imageAlt": "Kleurrijke koloniale gebouwen in Pelourinho, Salvador",
+      "description": "Salvador is een stad met een rijke Afro-Braziliaanse geschiedenis en cultuur, die goed zichtbaar is in het centrum Pelourinho. De straatjes zijn kleurrijk en gevuld met muziek, dans en levendige markten. Het koloniale verleden is overal zichtbaar in de architectuur en kerken. De stad nodigt uit om uitgebreid te wandelen, musea te bezoeken en te genieten van de lokale keuken. Naast cultuur heeft Salvador ook mooie stranden in de omgeving waar het prettig vertoeven is na een dag sightseeing.",
+      "activities": [
+        {
+          "title": "Rondleiding door Pelourinho",
+          "description": "Verken de historische wijk met zijn kleurrijke straten, pleinen en kerken.",
+          "price": "gratis of kleine bijdrage voor musea"
+        },
+        {
+          "title": "Bezoek Mercado Modelo",
+          "description": "Ontdek lokale ambachten en proef traditionele snacks in de markt.",
+          "price": "gratis toegang, snacks 5-15 euro"
+        },
+        {
+          "title": "Stranddag op Porto da Barra",
+          "description": "Ontspan op een van de populairste stadsstranden met helder water en zachte golven.",
+          "price": "gratis"
+        }
+      ],
+      "tip": "Ga 's avonds naar Pelourinho voor live muziek en een levendige sfeer. Overweeg een dagtrip naar het eiland Itaparica voor rust aan heldere stranden."
+    },
+    {
+      "id": "iguacu-4",
+      "number": 4,
+      "name": "Iguaçu",
+      "area": "Noordelijk Paraná",
+      "coords": [
+        -25.693905,
+        -54.4365376
+      ],
+      "dayLabel": "Dag 16-19",
+      "nights": 4,
+      "image": "/images/posts/21-dagen-braziliaanse-highlights-stad-natuur-en-kust-4.webp",
+      "imageAlt": "Watervallen van Iguaçu in het regenwoud",
+      "description": "De watervallen van Iguaçu zijn indrukwekkend en maken deel uit van een beschermd nationaal park met een rijke biodiversiteit. Dit natuurwonder bestaat uit tientallen watervallen verdeeld over de grens tussen Brazilië en Argentinië. Er zijn diverse wandelroutes die je langs spectaculaire uitzichtpunten leiden. Ook zijn er activiteiten zoals boottochten om dicht bij de vallende watermassa’s te komen. De omgeving biedt daarnaast mogelijkheden om vogels en andere dieren te spotten, wat het een ideale plek maakt voor natuurliefhebbers.",
+      "activities": [
+        {
+          "title": "Wandeling langs de watervallen",
+          "description": "Volg de wandelpaden voor verschillende uitzichtpunten en fotomomenten.",
+          "price": "15-25 euro entree park"
+        },
+        {
+          "title": "Boottocht onder de watervallen",
+          "description": "Beleef de watervallen van dichtbij vanaf het water, een nat maar indrukwekkend avontuur.",
+          "price": "25-40 euro"
+        },
+        {
+          "title": "Bezoek Vogelpark Parque das Aves",
+          "description": "Ontdek kleurrijke vogels en leer over het ecosysteem rondom de watervallen.",
+          "price": "10-20 euro"
+        }
+      ],
+      "tip": "Plan een bezoek aan beide kanten van de watervallen voor het volledige uitzicht. Neem voldoende water en draag stevige schoenen tijdens de wandelingen."
+    },
+    {
+      "id": "florianopolis-5",
+      "number": 5,
+      "name": "Florianópolis",
+      "area": "Santa Catarina",
+      "coords": [
+        -27.5973002,
+        -48.5496098
+      ],
+      "dayLabel": "Dag 20-21",
+      "nights": 2,
+      "image": "/images/posts/21-dagen-braziliaanse-highlights-stad-natuur-en-kust-5.webp",
+      "imageAlt": "Strand met surfers in Florianópolis",
+      "description": "Florianópolis is een veelzijdige bestemming op een eiland met een mix van natuur, cultuur en recreatie. De stad staat bekend om haar mooie stranden, waar zowel beginners als ervaren surfers terechtkunnen. Naast wateractiviteiten zijn er wandelroutes door het binnenland met mooie uitzichten en rustige dorpjes om te bezoeken. De stad heeft ook een gezellig centrum met goede restaurants, waar verse zeevruchten vaak op de kaart staan. De relaxte sfeer maakt het een fijne plek om de reis af te sluiten.",
+      "activities": [
+        {
+          "title": "Surflessen op Praia Mole",
+          "description": "Leer surfen of verbeter je techniek op deze populaire surfspot.",
+          "price": "30-50 euro per les"
+        },
+        {
+          "title": "Wandeling naar Lagoinha do Leste",
+          "description": "Maak een stevige hike naar een afgelegen strand met mooie natuur.",
+          "price": "gratis"
+        },
+        {
+          "title": "Bezoek Centrale Markt van Florianópolis",
+          "description": "Proef lokale producten en geniet van de sfeer in de stad.",
+          "price": "gratis toegang, hapjes 5-15 euro"
+        }
+      ],
+      "tip": "Huur een scooter of auto om verschillende stranden en het eiland te verkennen. Vraag lokaal naar minder bekende strandjes voor een rustiger verblijf."
+    }
+  ],
+  "gallery": [
+    {
+      "src": "/images/posts/21-dagen-braziliaanse-highlights-stad-natuur-en-kust-1.webp",
+      "alt": "Uitzicht op Rio de Janeiro met Christus de Verlosser",
+      "caption": "Rio de Janeiro — Zuidelijk Grootstedelijk Gebied"
+    },
+    {
+      "src": "/images/posts/21-dagen-braziliaanse-highlights-stad-natuur-en-kust-2.webp",
+      "alt": "Skyline van São Paulo met moderne gebouwen",
+      "caption": "São Paulo — Zuidelijk Grootstedelijk Gebied"
+    },
+    {
+      "src": "/images/posts/21-dagen-braziliaanse-highlights-stad-natuur-en-kust-3.webp",
+      "alt": "Kleurrijke koloniale gebouwen in Pelourinho, Salvador",
+      "caption": "Salvador — Noordoostelijk Brazilië"
+    },
+    {
+      "src": "/images/posts/21-dagen-braziliaanse-highlights-stad-natuur-en-kust-4.webp",
+      "alt": "Watervallen van Iguaçu in het regenwoud",
+      "caption": "Iguaçu — Noordelijk Paraná"
+    },
+    {
+      "src": "/images/posts/21-dagen-braziliaanse-highlights-stad-natuur-en-kust-5.webp",
+      "alt": "Strand met surfers in Florianópolis",
+      "caption": "Florianópolis — Santa Catarina"
+    }
+  ],
+  "practical": [
+    {
+      "label": "Vervoer",
+      "value": "Binnenlandse vluchten kosten gemiddeld 50-150 euro per traject. Openbaar vervoer en taxi’s in steden variëren tussen 1-10 euro per rit."
+    },
+    {
+      "label": "Verblijf",
+      "value": "Accommodaties variëren van hostels tot middenklasse hotels. Reken op 20-60 euro per nacht, afhankelijk van locatie en comfort."
+    },
+    {
+      "label": "Budget",
+      "value": "Dagelijks budget voor eten, activiteiten en vervoer ligt ongeveer tussen 30-60 euro."
+    },
+    {
+      "label": "Beste reistijd",
+      "value": "Van mei tot oktober is het droger en aangenamer qua temperatuur, ideaal voor deze route."
+    },
+    {
+      "label": "Geld en internet",
+      "value": "Pinnen is gebruikelijk in steden, contant geld nuttig in kleinere plaatsen. Wifi is beschikbaar in de meeste hotels en cafés."
+    }
+  ],
+  "packing": [
+    "Zomerkleding voor warme temperaturen",
+    "Comfortabele wandelschoenen",
+    "Regenjas of poncho voor onverwachte buien",
+    "Zwemkleding voor stranden en watervallen",
+    "Zonnebrandcrème en hoed of pet",
+    "Insectenspray",
+    "Een lichte rugzak voor dagtochten",
+    "Camera of smartphone voor foto's",
+    "Adapter voor stopcontacten (type N)"
+  ],
+  "closingNote": "Deze reisroute biedt een goede mix van cultuur, natuur en strand. Het programma is zo samengesteld dat er voldoende tijd is om te ontspannen en op eigen tempo de hoogtepunten van Zuid-Brazilië te ontdekken. Let op dat het klimaat kan variëren, dus flexibel plannen is aan te raden. Geniet van de diversiteit die Brazilië te bieden heeft, van stadsleven tot ruige natuur en rustige kusten.",
+  "continent": "zuid-amerika",
+  "author": "Redactie",
+  "generated": true,
+  "createdAt": "2026-11-24",
+  "topicKey": "brazilie:reisroute:3-weken",
+  "imageCredit": {
+    "name": "eacuna",
+    "url": "https://pixabay.com/photos/beach-sea-sunset-dusk-sun-99388/",
+    "source": "Pixabay"
+  }
+}

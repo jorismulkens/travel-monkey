@@ -193,5 +193,70 @@
     "type": "route",
     "thumbnail": "/images/posts/3-weken-avontuur-door-bolivia-s-contrasten-cover.webp",
     "excerpt": "Een reis langs indrukwekkende landschappen en rijke geschiedenis, van de drukke hoofdstad La Paz tot de serene wateren van Lake Titicaca."
+  },
+  {
+    "id": "14-dagen-langs-portugals-kust-en-bergen-route",
+    "name": "Lissabon",
+    "country": "Portugal",
+    "coords": [
+      38.7077507,
+      -9.1365919
+    ],
+    "slug": "14-dagen-langs-portugals-kust-en-bergen",
+    "type": "route",
+    "thumbnail": "/images/posts/14-dagen-langs-portugals-kust-en-bergen-cover.webp",
+    "excerpt": "Een gevarieerde reis door Portugal met charmante steden, indrukwekkende wijngaarden, zonnige stranden en een eiland vol natuur."
+  },
+  {
+    "id": "14-dagen-eilanden-en-natuur-in-kaapverdie-route",
+    "name": "Sal",
+    "country": "Kaapverdië",
+    "coords": [
+      16.7204556,
+      -22.9386761
+    ],
+    "slug": "14-dagen-eilanden-en-natuur-in-kaapverdie",
+    "type": "route",
+    "thumbnail": "/images/posts/14-dagen-eilanden-en-natuur-in-kaapverdie-cover.webp",
+    "excerpt": "Een tweeweekse reis langs vijf Kaapverdische eilanden, met stranden, ruige natuur en levendige cultuur."
+  },
+  {
+    "id": "21-dagen-braziliaanse-highlights-stad-natuur-en-kust-route",
+    "name": "Rio de Janeiro",
+    "country": "Brazilië",
+    "coords": [
+      -22.9110137,
+      -43.2093727
+    ],
+    "slug": "21-dagen-braziliaanse-highlights-stad-natuur-en-kust",
+    "type": "route",
+    "thumbnail": "/images/posts/21-dagen-braziliaanse-highlights-stad-natuur-en-kust-cover.webp",
+    "excerpt": "Een veelzijdige reis door Brazilië waarbij je geniet van bruisende steden, indrukwekkende natuur en fijne stranden. Van het iconische Rio de Janeiro naar de watervallen van Iguaçu, gevolgd door cultuur in Salvador en eindigend aan de kust van Florianópolis."
+  },
+  {
+    "id": "14-dagen-eilanden-en-cultuur-tussen-stad-en-zee-route",
+    "name": "Manila",
+    "country": "Filipijnen",
+    "coords": [
+      14.5904492,
+      120.9803621
+    ],
+    "slug": "14-dagen-eilanden-en-cultuur-tussen-stad-en-zee",
+    "type": "route",
+    "thumbnail": "/images/posts/14-dagen-eilanden-en-cultuur-tussen-stad-en-zee-cover.webp",
+    "excerpt": "Deze 14-daagse route door de Filipijnen combineert de energie van de hoofdstad met indrukwekkende eilanden. Van Manila naar Palawan, Cebu, Siargao en eindigend in Bohol, ontdek je afwisselende landschappen, cultuur en zeeleven."
+  },
+  {
+    "id": "14-dagen-vulkanen-meren-en-stranden-route",
+    "name": "Granada",
+    "country": "Nicaragua",
+    "coords": [
+      11.98,
+      -85.95
+    ],
+    "slug": "14-dagen-vulkanen-meren-en-stranden",
+    "type": "route",
+    "thumbnail": "/images/posts/14-dagen-vulkanen-meren-en-stranden-cover.webp",
+    "excerpt": "Een afwisselende reisroute door Nicaragua langs koloniale steden, vulkanen, een eiland in een meer, levendige markten en een strandbestemming."
   }
 ]
