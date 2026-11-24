@@ -1,7 +1,8 @@
 name: Nieuwe reisroutes
 
-# Wordt elke dag om 05:00 UTC gestart door de Vercel-cron (/api/cron/content).
-# De bot schrijft de artikelen, commit ze en Vercel bouwt de site opnieuw.
+# GitHub Actions start deze workflow elke dag om 05:00 UTC, met een reserve-run
+# om 11:00 UTC. De tweede run slaat over als er al routes van vandaag zijn.
+# De bot schrijft de routes, commit ze en Vercel bouwt de site opnieuw.
 on:
   schedule:
     - cron: "0 5 * * *"
