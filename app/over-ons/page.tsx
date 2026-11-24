@@ -18,7 +18,7 @@ import { SectionHeading } from "@/components/section-heading";
 export const metadata: Metadata = {
   title: "Over ons",
   description:
-    "Travel Monkey is een reisblog over reizen met een omweg. Routes die we zelf liepen, tips die werken en verhalen van onderweg. Mila is de oprichter en schrijft de verhalen.",
+    "Travel Monkey maakt complete reisroutes met stops, prijzen en tips. Mila is de oprichter en stelt de routes samen.",
   alternates: {
     canonical: "/over-ons",
   },
@@ -100,12 +100,12 @@ export default function OverOnsPage() {
               <p className="mt-7 max-w-xl text-[1.05rem] leading-8 text-jungle-800/85">
                 Een reisblog over reizen met een omweg. Begonnen als het
                 notitieboek van Mila — prijzen, boottijden en dingen die
-                misgingen — en nu een plek waar we opschrijven wat we zelf
-                meemaakten.
+                misgingen — en nu een plek waar we complete routes
+                samenstellen.
               </p>
               <p className="mt-5 max-w-xl text-[1.01rem] leading-8 text-jungle-800/80">
                 Klein betekent bij ons: geen redactie vol persberichten, maar
-                verhalen van iemand die er zelf was. En die ook zegt wanneer iets
+                routes van iemand die er zelf was. En die ook zegt wanneer iets
                 tegenviel.
               </p>
 
@@ -129,8 +129,8 @@ export default function OverOnsPage() {
                   Bekijk de routes
                   <ArrowRight className="h-4 w-4" />
                 </Link>
-                <Link href="/blog" className="button-secondary">
-                  Lees de verhalen
+                <Link href="/reizen" className="button-secondary">
+                  Bekijk de routes
                   <ArrowUpRight className="h-4 w-4 text-sunset-600" />
                 </Link>
               </div>
@@ -292,7 +292,7 @@ export default function OverOnsPage() {
                 en de enige klif zonder rij.
               </p>
               <p className="mt-4 max-w-md text-sm leading-7 text-jungle-700/80">
-                Naast het reizen werkt ze, en dat is precies waarom de verhalen
+                Naast het reizen werkt ze, en dat is precies waarom de routes
                 nuchter blijven: geen oneindige vakantie, wel bewust kiezen waar
                 de vrije dagen naartoe gaan.
               </p>
@@ -378,7 +378,7 @@ export default function OverOnsPage() {
                     Klaar om te lezen?
                   </p>
                   <h2 className="mt-4 max-w-2xl font-display text-[2.1rem] font-semibold leading-[1.06] tracking-[-0.035em] text-sand-50 sm:text-[2.9rem]">
-                    Begin bij de route of bij de verhalen.
+                    Begin bij een werelddeel of bij de duur die je hebt.
                   </h2>
                   <p className="mt-4 max-w-xl text-sm leading-7 text-sand-200/75">
                     Alles staat er gratis op, precies zoals we het meemaakten —
@@ -394,10 +394,10 @@ export default function OverOnsPage() {
                     <ArrowRight className="h-4 w-4 transition-transform duration-300 group-hover:translate-x-1" />
                   </Link>
                   <Link
-                    href="/blog"
+                    href="/tips"
                     className="inline-flex items-center justify-center gap-2 rounded-full border border-sand-100/25 px-6 py-3.5 text-sm font-semibold text-sand-100 transition-colors hover:bg-sand-100/10"
                   >
-                    Lees de verhalen
+                    Lees de tips
                     <ArrowUpRight className="h-4 w-4" />
                   </Link>
                 </div>

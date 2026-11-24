@@ -1,12 +1,11 @@
 import Link from "next/link";
 
-import { ArrowUpRight, Compass } from "@/components/icons";
+import { ArrowUpRight } from "@/components/icons";
 import { MonkeyMark } from "@/components/monkey-mark";
 
 const footerLinks = [
   { href: "/reizen", label: "Reisroutes" },
   { href: "/tips", label: "Tips" },
-  { href: "/blog", label: "Verhalen" },
   { href: "/over-ons", label: "Over ons" },
 ];
 
@@ -37,15 +36,15 @@ export function SiteFooter() {
               </div>
             </div>
             <p className="mt-6 max-w-md text-[0.95rem] leading-7 text-sand-200/80">
-              Een reisblog over reizen met een omweg. Routes die we zelf
-              liepen, tips die werken en verhalen van onderweg. Geen perfecte
-              plaatjes, wel eerlijk reizen.
+              Complete reisroutes met vaste stops, prijzen en tips. Van een
+              week Europa tot drie weken Azië. Geen perfecte plaatjes, wel
+              eerlijk reizen.
             </p>
             <Link
-              href="/blog"
+              href="/reizen"
               className="group mt-7 inline-flex items-center gap-2 rounded-full bg-sunset-500 px-5 py-3 text-sm font-semibold text-white transition-all duration-300 hover:-translate-y-0.5 hover:bg-sunset-400"
             >
-              Lees de verhalen
+              Bekijk de routes
               <ArrowUpRight className="h-4 w-4 transition-transform duration-300 group-hover:translate-x-0.5 group-hover:-translate-y-0.5" />
             </Link>
           </div>
@@ -66,20 +65,6 @@ export function SiteFooter() {
                 </li>
               ))}
             </ul>
-          </div>
-
-          <div>
-            <p className="text-xs font-semibold uppercase tracking-[0.2em] text-sand-300/70">
-              Goed om te weten
-            </p>
-            <div className="mt-5 flex gap-3">
-              <Compass className="mt-0.5 h-5 w-5 shrink-0 text-sunset-400" />
-              <p className="text-sm leading-6 text-sand-100/75">
-                Alles op deze site is zelf gereisd en zelf betaald. We boeken
-                niets voor je en krijgen geen commissie. Prijzen zijn
-                momentopnames; check ze altijd opnieuw voor je boekt.
-              </p>
-            </div>
           </div>
         </div>
 

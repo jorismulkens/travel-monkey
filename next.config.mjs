@@ -12,6 +12,16 @@ const nextConfig = {
         destination: "/over-ons",
         permanent: false,
       },
+      {
+        source: "/blog",
+        destination: "/reizen",
+        permanent: false,
+      },
+      {
+        source: "/blog/:slug*",
+        destination: "/reizen",
+        permanent: false,
+      },
     ];
   },
 };

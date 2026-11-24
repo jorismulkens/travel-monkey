@@ -11,7 +11,6 @@ import { cn } from "@/lib/utils";
 const navigation = [
   { href: "/reizen", label: "Reizen" },
   { href: "/tips", label: "Tips" },
-  { href: "/blog", label: "Verhalen" },
   { href: "/over-ons", label: "Over ons" },
 ];
 
@@ -101,10 +100,10 @@ export function SiteHeader() {
 
         <div className="flex items-center gap-2">
           <Link
-            href="/blog"
+            href="/reizen"
             className="group hidden items-center gap-2 rounded-full bg-jungle-900 px-5 py-2.5 text-sm font-semibold text-sand-50 transition-all duration-300 hover:-translate-y-0.5 hover:bg-jungle-800 hover:shadow-soft lg:inline-flex"
           >
-            Lees de verhalen
+            Bekijk de routes
             <ArrowUpRight className="h-4 w-4 transition-transform duration-300 group-hover:translate-x-0.5 group-hover:-translate-y-0.5" />
           </Link>
 
@@ -147,11 +146,11 @@ export function SiteHeader() {
             </Link>
           ))}
           <Link
-            href="/blog"
+            href="/reizen"
             className="mt-3 inline-flex items-center justify-between rounded-2xl bg-jungle-900 px-4 py-4 font-semibold text-sand-50"
             tabIndex={isOpen ? 0 : -1}
           >
-            Lees de verhalen
+            Bekijk de routes
             <ArrowUpRight className="h-5 w-5" />
           </Link>
         </nav>

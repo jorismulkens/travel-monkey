@@ -1,6 +1,6 @@
 import type { MetadataRoute } from "next";
 
-import { getAllBlogPosts, getAllRoutes } from "@/lib/content";
+import { getAllRoutes } from "@/lib/content";
 import { regions } from "@/lib/regions";
 import { siteUrl } from "@/lib/site";
 
@@ -19,12 +19,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
       lastModified: new Date(),
       changeFrequency: "weekly",
       priority: 0.9,
-    },
-    {
-      url: `${baseUrl}/blog`,
-      lastModified: new Date(),
-      changeFrequency: "weekly",
-      priority: 0.8,
     },
     {
       url: `${baseUrl}/tips`,
@@ -54,12 +48,5 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.9,
   }));
 
-  const blogPages: MetadataRoute.Sitemap = getAllBlogPosts().map((post) => ({
-    url: `${baseUrl}/blog/${post.slug}`,
-    lastModified: new Date(post.date),
-    changeFrequency: "monthly",
-    priority: 0.7,
-  }));
-
-  return [...staticPages, ...regionPages, ...routePages, ...blogPages];
+  return [...staticPages, ...regionPages, ...routePages];
 }

@@ -1,104 +1,52 @@
 import Image from "next/image";
 import Link from "next/link";
 
-import { BlogCard } from "@/components/blog-card";
 import { HomeHero } from "@/components/home-hero";
-import {
-  ArrowRight,
-  ArrowUpRight,
-  Calendar,
-  Check,
-  Compass,
-  MapPin,
-  Sparkles,
-  Sun,
-  Wallet,
-} from "@/components/icons";
+import { ArrowRight, ArrowUpRight, MapPin } from "@/components/icons";
 import { Marquee } from "@/components/marquee";
 import { MonkeyMark } from "@/components/monkey-mark";
 import { Reveal } from "@/components/reveal";
 import { RouteCard } from "@/components/route-card";
 import { SectionHeading } from "@/components/section-heading";
 import { WorldMapSection } from "@/components/world-map-section";
-import {
-  getAllBlogPosts,
-  getAllRoutes,
-  getLocations,
-} from "@/lib/content";
+import { getAllRoutes, getLocations } from "@/lib/content";
 import { regions } from "@/lib/regions";
-
-const categories = [
-  {
-    title: "Reizen",
-    body: "Complete routes, van dag tot dag. Met echte prijzen, boottijden en de plekken waar we zelf sliepen.",
-    href: "/reizen",
-    cta: "Bekijk de routes",
-  },
-  {
-    title: "Tips",
-    body: "De kleine dingen die het verschil maken: vervoer, geld, internet en wat er echt in je tas moet.",
-    href: "/tips",
-    cta: "Lees de tips",
-  },
-  {
-    title: "Verhalen",
-    body: "Wat we onderweg meemaakten en wat we daarvan leerden. Soms mooi, soms onhandig, altijd echt.",
-    href: "/blog",
-    cta: "Lees de verhalen",
-  },
-];
 
 export default function HomePage() {
   const routes = getAllRoutes();
-  const posts = getAllBlogPosts();
   const locations = getLocations();
-  const route = routes[0];
+  const latest = routes[0];
+  const featured = routes.slice(0, 3);
 
-  if (!route) {
+  if (!latest) {
     return null;
   }
 
-  const uitgelichteTips = route.stops.slice(0, 3);
+  const tips = latest.stops.slice(0, 3);
 
   return (
     <>
-      <HomeHero route={route} />
+      <HomeHero route={latest} routeCount={routes.length} />
       <Marquee />
 
       <section className="section-space">
         <div className="container-wide">
           <SectionHeading
-            eyebrow="Waar we over schrijven"
+            eyebrow="Nieuwste routes"
             title={
               <>
-                Reizen, tips en{" "}
-                <span className="italic text-sunset-600">verhalen.</span>
+                Vers van de{" "}
+                <span className="italic text-sunset-600">redactie.</span>
               </>
             }
-            description="Een blog over reizen met een omweg. Geen boekingen en geen commissie — gewoon wat wij zelf meemaakten, opgeschreven zodat jij er iets aan hebt."
+            description="Elke route heeft vaste stops, activiteiten met een prijs, een paklijst en praktische informatie. Kies een werelddeel en de duur die bij je past."
+            action={{ href: "/reizen", label: "Alle reisroutes" }}
           />
 
-          <div className="mt-10 grid gap-4 md:grid-cols-3">
-            {categories.map((item, index) => (
-              <Reveal key={item.title} delay={index * 90} className="h-full">
-                <div className="group flex h-full flex-col rounded-[1.75rem] border border-jungle-900/10 bg-sand-50 p-6 transition-all duration-300 hover:-translate-y-0.5 hover:shadow-soft sm:p-7">
-                  <span className="flex h-11 w-11 items-center justify-center rounded-full bg-jungle-900 text-sand-50 transition-colors group-hover:bg-sunset-500">
-                    <Compass className="h-5 w-5" />
-                  </span>
-                  <h3 className="mt-5 font-display text-xl font-semibold text-jungle-950">
-                    {item.title}
-                  </h3>
-                  <p className="mt-2 text-sm leading-6 text-jungle-700/80">
-                    {item.body}
-                  </p>
-                  <Link
-                    href={item.href}
-                    className="mt-auto inline-flex items-center gap-2 pt-6 text-sm font-semibold text-jungle-900 transition-colors group-hover:text-sunset-600"
-                  >
-                    {item.cta}
-                    <ArrowUpRight className="h-4 w-4 transition-transform duration-300 group-hover:translate-x-0.5 group-hover:-translate-y-0.5" />
-                  </Link>
-                </div>
+          <div className="mt-10 grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+            {featured.map((route, index) => (
+              <Reveal key={route.slug} delay={(index % 3) * 80} className="h-full">
+                <RouteCard route={route} />
               </Reveal>
             ))}
           </div>
@@ -123,122 +71,12 @@ export default function HomePage() {
               ))}
             </div>
             <Link
-              href="/blog"
+              href="/reizen"
               className="group inline-flex items-center gap-2 text-sm font-semibold text-jungle-900 transition-colors hover:text-sunset-600 sm:ml-auto"
             >
-              Alle verhalen
+              Alle routes
               <ArrowRight className="h-4 w-4 transition-transform duration-300 group-hover:translate-x-1" />
             </Link>
-          </div>
-        </div>
-      </section>
-
-      <section className="pb-20 sm:pb-24 lg:pb-28">
-        <div className="container-wide">
-          <SectionHeading
-            eyebrow="Route van dit seizoen"
-            title={
-              <>
-                Eerst maar eens{" "}
-                <span className="italic text-sunset-600">Bali.</span>
-              </>
-            }
-            description="Drie weken, acht plekken en precies genoeg ruimte om een dag niets te doen. Deze route begint in de rijstvelden en eindigt met je voeten in het zand."
-            action={{ href: "/reizen", label: "Alle reisroutes" }}
-          />
-
-          <div className="mt-10 grid gap-6 lg:grid-cols-[1.28fr_0.72fr]">
-            <Reveal className="h-full">
-              <RouteCard route={route} featured />
-            </Reveal>
-
-            <Reveal delay={120} className="h-full">
-              <aside className="relative flex h-full flex-col overflow-hidden rounded-[2rem] bg-jungle-900 p-7 text-sand-100 shadow-soft sm:p-9">
-                <div
-                  className="pointer-events-none absolute -right-20 -top-20 h-64 w-64 rounded-full border border-sand-100/10"
-                  aria-hidden="true"
-                />
-                <div
-                  className="pointer-events-none absolute -bottom-28 -left-16 h-72 w-72 rounded-full border border-sand-100/10"
-                  aria-hidden="true"
-                />
-
-                <div className="relative">
-                  <p className="inline-flex items-center gap-2 text-[0.64rem] font-semibold uppercase tracking-[0.19em] text-sunset-300">
-                    <Sparkles className="h-3.5 w-3.5" />
-                    De route in het kort
-                  </p>
-                  <h3 className="mt-4 font-display text-[2rem] font-semibold leading-[1.05] tracking-[-0.035em] text-sand-50 sm:text-[2.4rem]">
-                    Een rugzak, drie weken, acht plekken.
-                  </h3>
-
-                  <dl className="mt-7 grid grid-cols-2 gap-x-5 gap-y-6 border-y border-sand-100/15 py-6">
-                    <div>
-                      <dt className="flex items-center gap-1.5 text-[0.6rem] font-semibold uppercase tracking-[0.15em] text-sand-300/75">
-                        <Calendar className="h-3.5 w-3.5 text-sunset-400" />
-                        Duur
-                      </dt>
-                      <dd className="mt-1.5 font-display text-lg font-semibold text-sand-50">
-                        {route.durationLabel}
-                      </dd>
-                    </div>
-                    <div>
-                      <dt className="flex items-center gap-1.5 text-[0.6rem] font-semibold uppercase tracking-[0.15em] text-sand-300/75">
-                        <Wallet className="h-3.5 w-3.5 text-sunset-400" />
-                        Budget
-                      </dt>
-                      <dd className="mt-1.5 font-display text-lg font-semibold text-sand-50">
-                        {route.budget}
-                      </dd>
-                    </div>
-                    <div>
-                      <dt className="flex items-center gap-1.5 text-[0.6rem] font-semibold uppercase tracking-[0.15em] text-sand-300/75">
-                        <MapPin className="h-3.5 w-3.5 text-sunset-400" />
-                        Start → eind
-                      </dt>
-                      <dd className="mt-1.5 font-display text-lg font-semibold text-sand-50">
-                        {route.startPoint} → {route.endPoint}
-                      </dd>
-                    </div>
-                    <div>
-                      <dt className="flex items-center gap-1.5 text-[0.6rem] font-semibold uppercase tracking-[0.15em] text-sand-300/75">
-                        <Sun className="h-3.5 w-3.5 text-sunset-400" />
-                        Beste tijd
-                      </dt>
-                      <dd className="mt-1.5 text-sm font-semibold leading-5 text-sand-50">
-                        {route.bestTime}
-                      </dd>
-                    </div>
-                  </dl>
-
-                  <ul className="mt-7 space-y-3">
-                    {route.highlights.slice(0, 4).map((highlight) => (
-                      <li
-                        key={highlight}
-                        className="flex items-start gap-2.5 text-sm text-sand-200/85"
-                      >
-                        <span className="mt-0.5 flex h-4 w-4 shrink-0 items-center justify-center rounded-full bg-sunset-500/20 text-sunset-300">
-                          <Check className="h-2.5 w-2.5" />
-                        </span>
-                        {highlight}
-                      </li>
-                    ))}
-                  </ul>
-                </div>
-
-                <div className="relative mt-auto pt-8">
-                  <Link
-                    href={`/reizen/${route.slug}`}
-                    className="group flex items-center justify-between gap-4 rounded-full bg-sand-50 px-5 py-3.5 text-sm font-semibold text-jungle-950 transition-all duration-300 hover:bg-sunset-500 hover:text-white"
-                  >
-                    Open de volledige route
-                    <span className="flex h-8 w-8 items-center justify-center rounded-full bg-jungle-900 text-sand-50 transition-colors group-hover:bg-white group-hover:text-sunset-600">
-                      <ArrowUpRight className="h-4 w-4" />
-                    </span>
-                  </Link>
-                </div>
-              </aside>
-            </Reveal>
           </div>
         </div>
       </section>
@@ -250,43 +88,19 @@ export default function HomePage() {
       <section className="section-space">
         <div className="container-wide">
           <SectionHeading
-            eyebrow="Veldverhalen"
-            title={
-              <>
-                Wat we onderweg{" "}
-                <span className="italic text-sunset-600">opschreven.</span>
-              </>
-            }
-            description="Geen handleidingen met tien tips, maar wat we zelf deden, betaalden en soms verkeerd deden. Met ruimte voor twijfel."
-            action={{ href: "/blog", label: "Alle verhalen" }}
-          />
-
-          <div className="mt-10 grid gap-6 md:grid-cols-2">
-            {posts.slice(0, 2).map((post, index) => (
-              <Reveal key={post.slug} delay={index * 100} className="h-full">
-                <BlogCard post={post} />
-              </Reveal>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      <section className="pb-20 sm:pb-24 lg:pb-28">
-        <div className="container-wide">
-          <SectionHeading
             eyebrow="Kleine tips"
             title={
               <>
-                Dingen die we pas{" "}
-                <span className="italic text-sunset-600">onderweg leerden.</span>
+                Dingen die je pas{" "}
+                <span className="italic text-sunset-600">onderweg leert.</span>
               </>
             }
-            description="Geen lijstjes van tien, maar de dingen die we achteraf graag van tevoren hadden geweten."
+            description={`De tips uit ${latest.country}: wat je vooraf wilt weten en wat je beter ter plaatse regelt.`}
             action={{ href: "/tips", label: "Alle tips" }}
           />
 
           <div className="mt-10 grid gap-4 md:grid-cols-3">
-            {uitgelichteTips.map((stop, index) => (
+            {tips.map((stop, index) => (
               <Reveal key={stop.id} delay={index * 90} className="h-full">
                 <div className="flex h-full flex-col rounded-[1.75rem] border border-jungle-900/10 bg-sand-50 p-6">
                   <p className="inline-flex items-center gap-1.5 text-[0.62rem] font-semibold uppercase tracking-[0.16em] text-sunset-700">
@@ -345,8 +159,8 @@ export default function HomePage() {
                   </blockquote>
                   <p className="mt-6 max-w-xl text-sm leading-7 text-sand-200/75">
                     Travel Monkey begon als een notitieboek vol prijzen,
-                    boottijden en fouten. Die notities zijn nu routes, tips en
-                    verhalen waar jij iets aan hebt. Geen perfecte plaatjes, wel
+                    boottijden en fouten. Die notities zijn nu complete routes
+                    met stops, kosten en tips. Geen perfecte plaatjes, wel
                     eerlijk reizen.
                   </p>
                   <div className="mt-8 flex flex-wrap items-center gap-5">
@@ -383,25 +197,25 @@ export default function HomePage() {
               />
               <MonkeyMark size={58} className="mx-auto ring-4 ring-white/20" />
               <h2 className="mx-auto mt-6 max-w-2xl font-display text-[2.25rem] font-semibold leading-[1.06] tracking-[-0.035em] sm:text-[3rem]">
-                Blijf lezen.
+                Kies je volgende reis.
               </h2>
               <p className="mx-auto mt-4 max-w-xl text-sm leading-7 text-sunset-50/90 sm:text-base">
-                Begin bij de route die we zelf liepen, of duik in de verhalen en
-                tips. Alles staat er gratis op, precies zoals we het meemaakten.
+                Begin bij een werelddeel of bij de duur die je hebt. Elke route
+                staat er gratis op, met prijzen en tips.
               </p>
               <div className="mt-8 flex flex-col justify-center gap-3 sm:flex-row">
                 <Link
-                  href="/reizen/bali-3-weken"
+                  href="/reizen"
                   className="group inline-flex items-center justify-center gap-2 rounded-full bg-jungle-950 px-6 py-3.5 text-sm font-semibold text-sand-50 transition-all duration-300 hover:-translate-y-0.5 hover:bg-jungle-900"
                 >
-                  Naar de Bali-route
+                  Bekijk alle routes
                   <ArrowRight className="h-4 w-4 transition-transform duration-300 group-hover:translate-x-1" />
                 </Link>
                 <Link
-                  href="/blog"
+                  href="/tips"
                   className="inline-flex items-center justify-center gap-2 rounded-full border border-white/35 bg-white/10 px-6 py-3.5 text-sm font-semibold text-white backdrop-blur transition-colors hover:bg-white/20"
                 >
-                  Lees de verhalen
+                  Lees de tips
                 </Link>
               </div>
             </div>

@@ -873,6 +873,17 @@ function mockArticle(topic) {
 async function main() {
   const routes = readRoutes();
   const date = formatDate(new Date());
+
+  if (process.env.SKIP_IF_DONE === "true") {
+    const doneToday = routes.some(
+      (route) => route.generated && route.createdAt === date.iso,
+    );
+
+    if (doneToday) {
+      log("vandaag zijn er al routes gemaakt; deze run slaat over");
+      return;
+    }
+  }
   const topics = selectTopics(routes, CONFIG.count);
 
   if (topics.length === 0) {

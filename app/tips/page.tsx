@@ -11,12 +11,12 @@ import {
 } from "@/components/icons";
 import { Reveal } from "@/components/reveal";
 import { SectionHeading } from "@/components/section-heading";
-import { getAllBlogPosts, getAllRoutes } from "@/lib/content";
+import { getAllRoutes } from "@/lib/content";
 
 export const metadata: Metadata = {
   title: "Tips",
   description:
-    "Praktische reistips uit onze eigen notitieboekjes: vervoer, budget, geld, internet, paklijst en tips per plek op Bali.",
+    "Praktische reistips uit onze routes: vervoer, budget, geld, internet, paklijst en tips per plek.",
   alternates: {
     canonical: "/tips",
   },
@@ -24,7 +24,6 @@ export const metadata: Metadata = {
 
 export default function TipsPage() {
   const route = getAllRoutes()[0];
-  const posts = getAllBlogPosts();
 
   if (!route) {
     return null;
@@ -65,7 +64,7 @@ export default function TipsPage() {
               </span>
               <span className="tag">
                 <Compass className="h-3.5 w-3.5 text-sunset-600" />
-                Bali, Indonesië
+                {route.country}
               </span>
             </div>
           </div>
@@ -174,47 +173,6 @@ export default function TipsPage() {
 
       <section className="pb-20 sm:pb-24">
         <div className="container-wide">
-          <SectionHeading
-            eyebrow="Uit de verhalen"
-            title={
-              <>
-                Tips uit de{" "}
-                <span className="italic text-sunset-600">verhalen.</span>
-              </>
-            }
-            description="Elk verhaal eindigt met iets praktisch. Dit zijn ze bij elkaar."
-            action={{ href: "/blog", label: "Alle verhalen" }}
-          />
-
-          <div className="mt-10 grid gap-4 md:grid-cols-2">
-            {posts.map((post, index) => (
-              <Reveal key={post.slug} delay={index * 80} className="h-full">
-                <Link
-                  href={`/blog/${post.slug}`}
-                  className="group flex h-full flex-col rounded-[1.75rem] border border-jungle-900/10 bg-sand-50 p-6 transition-all duration-300 hover:-translate-y-0.5 hover:shadow-soft sm:p-7"
-                >
-                  <p className="text-[0.62rem] font-semibold uppercase tracking-[0.16em] text-sunset-700">
-                    {post.category}
-                  </p>
-                  <h3 className="mt-3 font-display text-xl font-semibold leading-[1.15] text-jungle-950">
-                    {post.title}
-                  </h3>
-                  <p className="mt-3 text-sm leading-7 text-jungle-700/85">
-                    {post.tip}
-                  </p>
-                  <span className="mt-auto inline-flex items-center gap-2 pt-5 text-sm font-semibold text-jungle-900 transition-colors group-hover:text-sunset-600">
-                    Lees het verhaal
-                    <ArrowUpRight className="h-4 w-4" />
-                  </span>
-                </Link>
-              </Reveal>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      <section className="pb-20 sm:pb-24">
-        <div className="container-wide">
           <Reveal>
             <div className="flex flex-col items-start justify-between gap-6 rounded-[2rem] bg-jungle-900 p-7 text-sand-100 sm:flex-row sm:items-center sm:p-9">
               <div>
@@ -225,8 +183,8 @@ export default function TipsPage() {
                   Alle tips bij elkaar in één route.
                 </h2>
                 <p className="mt-2 max-w-lg text-sm leading-7 text-sand-200/75">
-                  Drie weken Bali, van rijstvelden tot eilandhoppen. Met de
-                  prijzen, de boottijden en de omwegen die we zelf maakten.
+                  {route.durationLabel} {route.country}, met alle stops,
+                  prijzen en tips bij elkaar.
                 </p>
               </div>
               <Link

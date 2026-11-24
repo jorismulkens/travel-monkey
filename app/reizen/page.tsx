@@ -54,6 +54,8 @@ function buildUrl(params: { regio?: string; duur?: string; pagina?: number }) {
 
 export default function RoutesPage({ searchParams }: RoutesPageProps) {
   const allRoutes = getAllRoutes();
+  const hero = allRoutes[0];
+  const heroStop = hero?.stops[1] ?? hero?.stops[0];
   const activeRegion =
     regions.find((region) => region.slug === searchParams.regio)?.slug ?? "alles";
   const activeDuration = durations.some((item) => item.value === searchParams.duur)
@@ -135,29 +137,29 @@ export default function RoutesPage({ searchParams }: RoutesPageProps) {
             <div className="relative mx-auto w-full max-w-lg lg:mx-0 lg:ml-auto">
               <div className="relative ml-auto aspect-[4/3] w-[86%] overflow-hidden rounded-[2.2rem] border-[5px] border-sand-50 bg-sand-200 shadow-card">
                 <Image
-                  src="/images/nusa-aerial.jpg"
-                  alt="Turquoise baai op Nusa Penida"
+                  src={hero?.coverImage ?? "/images/regio/europa.jpg"}
+                  alt={hero?.coverAlt ?? "Reisroute"}
                   fill
                   priority
                   sizes="(min-width: 1024px) 36vw, 80vw"
                   className="object-cover"
                 />
                 <span className="absolute left-4 top-4 rounded-full bg-sand-50/95 px-3 py-1.5 text-[0.6rem] font-bold uppercase tracking-[0.14em] text-jungle-900 backdrop-blur">
-                  Indonesië · 21 dagen
+                  {hero ? `${hero.country} · ${hero.durationDays} dagen` : "Reisroutes"}
                 </span>
               </div>
               <div className="absolute -bottom-7 left-0 w-[48%] -rotate-6 overflow-hidden rounded-2xl border-4 border-sand-50 bg-sand-50 shadow-sticker">
                 <div className="relative aspect-[4/3]">
                   <Image
-                    src="/images/gili-sunset.jpg"
-                    alt="Zonsondergang op Gili Trawangan"
+                    src={heroStop?.image ?? "/images/regio/europa.jpg"}
+                    alt={heroStop?.imageAlt ?? "Stop uit de route"}
                     fill
                     sizes="260px"
                     className="object-cover"
                   />
                 </div>
                 <p className="px-2 pb-1 pt-2 text-[0.58rem] font-semibold uppercase tracking-[0.14em] text-jungle-700">
-                  Gili T. · stop 5
+                  {heroStop ? `${heroStop.name} · ${heroStop.dayLabel}` : "Stop 2"}
                 </p>
               </div>
             </div>

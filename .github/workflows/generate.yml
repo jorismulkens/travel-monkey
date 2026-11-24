@@ -1,8 +1,11 @@
-name: Nieuwe reisverhalen
+name: Nieuwe reisroutes
 
 # Wordt elke dag om 05:00 UTC gestart door de Vercel-cron (/api/cron/content).
 # De bot schrijft de artikelen, commit ze en Vercel bouwt de site opnieuw.
 on:
+  schedule:
+    - cron: "0 5 * * *"
+    - cron: "0 11 * * *"
   workflow_dispatch:
     inputs:
       count:
@@ -42,6 +45,7 @@ jobs:
           PEXELS_API_KEY: ${{ secrets.PEXELS_API_KEY }}
           OPENAI_MODEL: ${{ vars.OPENAI_MODEL || 'gpt-4o-mini' }}
           POSTS_PER_DAY: ${{ github.event.inputs.count || '5' }}
+          SKIP_IF_DONE: ${{ github.event_name == 'schedule' }}
         run: node scripts/generate.mjs
 
       - name: Controleren of de site nog bouwt

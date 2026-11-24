@@ -6,9 +6,17 @@ import type { Route } from "@/lib/types";
 
 interface HomeHeroProps {
   route: Route;
+  routeCount: number;
 }
 
-export function HomeHero({ route }: HomeHeroProps) {
+export function HomeHero({ route, routeCount }: HomeHeroProps) {
+  const firstStop = route.stops[0];
+  const secondStop = route.stops[1] ?? firstStop;
+  const activityCount = route.stops.reduce(
+    (total, stop) => total + (stop.activities?.length ?? 0),
+    0,
+  );
+
   return (
     <section className="relative overflow-hidden pb-16 pt-10 sm:pb-24 sm:pt-16 lg:pb-28 lg:pt-20">
       <div
@@ -38,7 +46,7 @@ export function HomeHero({ route }: HomeHeroProps) {
           <div className="relative z-10">
             <p className="inline-flex animate-fade-up items-center gap-2 rounded-full border border-jungle-900/15 bg-sand-50/70 px-4 py-2 text-[0.67rem] font-semibold uppercase tracking-[0.17em] text-jungle-700 backdrop-blur">
               <Sparkles className="h-3.5 w-3.5 text-sunset-600" />
-              Reisblog · sinds 2022
+              {routeCount} reisroutes · sinds 2022
             </p>
 
             <h1
@@ -73,27 +81,27 @@ export function HomeHero({ route }: HomeHeroProps) {
               className="mt-7 max-w-xl animate-fade-up text-[1.02rem] leading-8 text-jungle-800/85 sm:text-[1.08rem]"
               style={{ animationDelay: "160ms" }}
             >
-              Wij schrijven over reizen: routes die we zelf liepen, tips die
-              echt werken en verhalen van onderweg. Met echte prijzen, natte
-              schoenen en de verkeerde afslagen erbij.
+              Complete reisroutes met vaste stops, activiteiten en prijzen. Van
+              een week Europa tot drie weken Azië — zelf samengesteld, met
+              eerlijke kosten en genoeg ruimte om te blijven hangen.
             </p>
 
             <div
-              className="mt-9 flex animate-fade-up flex-col gap-3 sm:flex-row sm:items-center"
+              className="mt-9 flex flex-col gap-3 animate-fade-up sm:flex-row sm:items-center"
               style={{ animationDelay: "240ms" }}
             >
               <Link
                 href="/reizen"
                 className="group inline-flex items-center justify-center gap-2 rounded-full bg-jungle-900 px-6 py-3.5 text-sm font-semibold text-sand-50 transition-all duration-300 hover:-translate-y-0.5 hover:bg-jungle-800 hover:shadow-soft"
               >
-                Bekijk de routes
+                Bekijk alle routes
                 <ArrowRight className="h-4 w-4 transition-transform duration-300 group-hover:translate-x-1" />
               </Link>
               <Link
-                href="/blog"
+                href="/tips"
                 className="group inline-flex items-center justify-center gap-2 rounded-full border border-jungle-900/20 bg-transparent px-6 py-3.5 text-sm font-semibold text-jungle-900 transition-all duration-300 hover:border-jungle-900/40 hover:bg-sand-50"
               >
-                Lees de verhalen
+                Lees de tips
                 <ArrowUpRight className="h-4 w-4 text-sunset-600 transition-transform duration-300 group-hover:translate-x-0.5 group-hover:-translate-y-0.5" />
               </Link>
             </div>
@@ -104,104 +112,97 @@ export function HomeHero({ route }: HomeHeroProps) {
             >
               <div>
                 <p className="font-display text-[1.8rem] font-semibold leading-none text-jungle-950">
-                  21
+                  {route.durationDays}
                 </p>
                 <p className="mt-1.5 text-[0.68rem] font-semibold uppercase tracking-[0.14em] text-jungle-600">
-                  dagen Bali
+                  dagen
                 </p>
               </div>
               <div>
                 <p className="font-display text-[1.8rem] font-semibold leading-none text-jungle-950">
-                  8
+                  {route.stops.length}
                 </p>
                 <p className="mt-1.5 text-[0.68rem] font-semibold uppercase tracking-[0.14em] text-jungle-600">
-                  plekken
+                  stops
                 </p>
               </div>
               <div>
                 <p className="font-display text-[1.8rem] font-semibold leading-none text-jungle-950">
-                  €1.280
+                  {activityCount}
                 </p>
                 <p className="mt-1.5 text-[0.68rem] font-semibold uppercase tracking-[0.14em] text-jungle-600">
-                  echt uitgegeven
+                  activiteiten
                 </p>
               </div>
             </div>
           </div>
 
-          <div className="relative z-0 mx-auto w-full max-w-[34rem] animate-fade-up pt-8 lg:pt-0" style={{ animationDelay: "180ms" }}>
-            <div
-              className="absolute -left-5 top-1/3 hidden h-24 w-24 -rotate-12 items-center justify-center rounded-full border border-jungle-900/10 bg-sand-100/70 text-center sm:flex"
-              aria-hidden="true"
-            >
-              <span className="text-[0.58rem] font-semibold uppercase leading-4 tracking-[0.16em] text-jungle-600">
-                Bali
-                <br />
-                8°30′S
-                <br />
-                115°E
-              </span>
-            </div>
-
+          <div
+            className="relative z-0 mx-auto w-full max-w-[34rem] animate-fade-up pt-8 lg:pt-0"
+            style={{ animationDelay: "180ms" }}
+          >
             <div className="absolute -top-1 right-8 z-20 rotate-6 rounded-full border border-white/70 bg-sunset-500 px-5 py-3 text-center shadow-sticker">
               <p className="text-[0.62rem] font-bold uppercase tracking-[0.14em] text-white">
-                Route getest
+                Nieuwste route
               </p>
               <p className="font-display text-sm font-semibold italic text-white">
-                in 2025
+                {route.durationLabel}
               </p>
             </div>
 
-            <div className="relative ml-auto aspect-[4/5] w-[88%] overflow-hidden rounded-[2.7rem] border-[5px] border-sand-50 bg-sand-200 shadow-card sm:w-[82%]">
+            <Link
+              href={`/reizen/${route.slug}`}
+              className="relative ml-auto block aspect-[4/5] w-[88%] overflow-hidden rounded-[2.7rem] border-[5px] border-sand-50 bg-sand-200 shadow-card sm:w-[82%]"
+            >
               <Image
-                src="/images/nusa-aerial.jpg"
-                alt="Turquoise baai met kliffen op Nusa Penida"
+                src={route.coverImage}
+                alt={route.coverAlt}
                 fill
                 priority
                 sizes="(min-width: 1024px) 42vw, 90vw"
                 className="object-cover"
               />
               <div
-                className="absolute inset-0 bg-gradient-to-t from-jungle-950/55 via-transparent to-transparent"
+                className="absolute inset-0 bg-gradient-to-t from-jungle-950/60 via-transparent to-transparent"
                 aria-hidden="true"
               />
-              <div className="absolute bottom-5 right-5 max-w-[54%] text-right">
+              <div className="absolute bottom-5 right-5 max-w-[62%] text-right">
                 <p className="inline-flex items-center gap-1.5 text-[0.6rem] font-semibold uppercase tracking-[0.2em] text-sand-200">
                   <MapPin className="h-3 w-3" />
-                  Nusa Penida
+                  {route.country}
                 </p>
                 <p className="mt-1 font-display text-xl font-medium italic leading-tight text-white">
-                  Het water is echt zo blauw.
+                  {route.startPoint} → {route.endPoint}
                 </p>
               </div>
-            </div>
+            </Link>
 
             <div className="absolute -bottom-7 left-0 z-20 w-[48%] -rotate-6 rounded-2xl bg-sand-50 p-2.5 shadow-sticker sm:-left-2">
               <div className="relative aspect-[4/3] overflow-hidden rounded-xl bg-sand-200">
                 <Image
-                  src="/images/ubud-green.jpg"
-                  alt="Rijstterrassen bij Ubud in de ochtend"
+                  src={secondStop.image}
+                  alt={secondStop.imageAlt}
                   fill
                   sizes="260px"
                   className="object-cover"
                 />
               </div>
               <p className="flex items-center justify-between px-1 pb-0.5 pt-2.5 text-[0.64rem] font-semibold text-jungle-800">
-                <span>Ubud, 06.20</span>
-                <span className="text-sunset-600">foto</span>
+                <span>{secondStop.name}</span>
+                <span className="text-sunset-600">{secondStop.dayLabel}</span>
               </p>
             </div>
 
             <div className="absolute -right-2 top-[47%] z-10 hidden h-28 w-28 rotate-6 items-center justify-center rounded-full bg-sunset-500 text-center text-white shadow-sticker sm:flex">
               <div>
                 <p className="font-display text-2xl font-semibold leading-none">
-                  8
+                  {route.stops.length}
                 </p>
                 <p className="mt-1 text-[0.56rem] font-bold uppercase tracking-[0.15em]">
                   stops
                 </p>
                 <p className="mt-0.5 text-[0.56rem] font-medium italic text-sunset-100">
-                  1 rugzak
+                  {firstStop.name}
                 </p>
               </div>
             </div>
@@ -219,7 +220,7 @@ export function HomeHero({ route }: HomeHeroProps) {
           <span className="flex h-9 w-5 items-center justify-center rounded-full border border-jungle-900/20">
             <span className="h-1.5 w-1.5 animate-bounce rounded-full bg-sunset-500" />
           </span>
-          Scroll voor de route
+          Scroll voor de nieuwste routes
         </div>
       </div>
     </section>

@@ -416,8 +416,9 @@ bij, zonder dat je computer aan hoeft te staan.
 
 **Zo werkt het**
 
-1. Vercel start elke dag om 05:00 UTC de GitHub-workflow via `/api/cron/content`
-   (06:00 of 07:00 Nederlandse tijd).
+1. GitHub Actions start elke dag om 05:00 UTC (06:00 of 07:00 Nederlandse
+   tijd). Om 11:00 UTC is er een reserve-run; die slaat over als er al routes
+   van vandaag zijn.
 2. Het script `scripts/generate.mjs` schrijft vijf complete reisroutes,
    verspreid over de zeven werelddelen.
 3. Elke route krijgt vaste stops met een dagindeling, twee of drie
@@ -432,20 +433,25 @@ Je hoeft dus niets te doen: geen laptop aan, geen knop indrukken.
 
 ### Eenmalig instellen (ongeveer 20 minuten)
 
-**A. De planning (Vercel)**
+**A. De planning**
 
-GitHub-planners zijn op nieuwe repositories onbetrouwbaar: de cron vuren daar
-soms helemaal niet. Daarom start Vercel de workflows. Voeg in Vercel
-(**Settings → Environment Variables**) twee variabelen toe:
+De workflows hebben een schema in GitHub. GitHubs planner is op nieuwe
+repositories niet altijd betrouwbaar; daarom is er een reserve-run om 11:00 UTC
+en een idempotente check: bestaat er al een route van vandaag, dan slaat de
+tweede run over.
 
-- `CRON_SECRET` — een zelfverzonnen lange tekst, bijvoorbeeld 32 willekeurige
-  tekens. Vercel stuurt die mee als wachtwoord.
-- `GITHUB_DISPATCH_TOKEN` — een *fine-grained* GitHub-token met alleen
-  **Actions: Read and write** voor deze repository.
-- `GITHUB_REPO` — optioneel, standaard `jorismulkens/travel-monkey`.
+Werkt de GitHub-planner helemaal niet? Dan kun je Vercel als terugval gebruiken.
+De site heeft twee endpoints: `/api/cron/content` en `/api/cron/social`. Zet in
+Vercel (**Settings → Environment Variables**):
 
-Na een nieuwe deploy staan de crons in `vercel.json` en starten ze de workflows
-op de ingestelde tijden. Handmatig starten via **Actions** blijft werken.
+- `CRON_SECRET` — een lange willekeurige tekst.
+- `GITHUB_DISPATCH_TOKEN` — een *fine-grained* token met **Actions: Read and
+  write** voor deze repository.
+- `GITHUB_REPO` — optioneel.
+
+De crons in `vercel.json` starten de workflows dan op dezelfde tijden. Dubbele
+runs zijn geen probleem: de generator slaat over als er al content van vandaag
+is.
 
 **B. De inhoud**
 
@@ -453,21 +459,21 @@ op de ingestelde tijden. Handmatig starten via **Actions** blijft werken.
 2. Maak een OpenAI-sleutel op **platform.openai.com** → *API keys* →
    *Create new secret key*. Stel bij *Limits* een maandbedrag in, bijvoorbeeld
    5 dollar. Dat is ruim genoeg.
-2. Maak een gratis Pixabay-sleutel: log in op **pixabay.com** en ga naar
+3. Maak een gratis Pixabay-sleutel: log in op **pixabay.com** en ga naar
    **pixabay.com/api/docs**. Bovenaan de pagina staat jouw sleutel.
-3. Ga in GitHub naar **Settings → Secrets and variables → Actions** en voeg
+4. Ga in GitHub naar **Settings → Secrets and variables → Actions** en voeg
    twee secrets toe:
    - `OPENAI_API_KEY`
    - `PIXABAY_API_KEY`
-4. Ga naar **Settings → Actions → General → Workflow permissions** en kies
+5. Ga naar **Settings → Actions → General → Workflow permissions** en kies
    **Read and write permissions**. Zonder dit mag de bot niets committen.
-5. Test het één keer met de hand: **Actions → Nieuwe reisverhalen →
+6. Test het één keer met de hand: **Actions → Nieuwe reisroutes →
    Run workflow**.
 
 ### Wat het ongeveer kost
 
-Een paar artikelen per dag met het standaardmodel (`gpt-4o-mini`) kost
-ongeveer een paar dollar per maand. Pixabay en GitHub Actions zijn gratis.
+Vijf routes per dag met het ingestelde model (standaard `gpt-4.1-mini`) kost
+ongeveer enkele dollars per maand. Pixabay en GitHub Actions zijn gratis.
 
 Twee praktische dingen over de foto's:
 
@@ -520,8 +526,9 @@ geplaatst. Dat gebeurt via [upload-post.com](https://www.upload-post.com).
 
 **Zo werkt het**
 
-1. Vercel start elke dag om 06:30 UTC de social-workflow via `/api/cron/social`.
-   Die pakt de nieuwste routes die nog niet gepost zijn.
+1. De social-workflow start elke dag om 06:30 UTC (of via `/api/cron/social`
+   als je de Vercel-terugval hebt ingesteld). Hij pakt de nieuwste routes die
+   nog niet gepost zijn.
 2. Per route worden zeven slides gebouwd:
    - een kaart met genummerde stops,
    - een slide per stop met daglabel, titel, korte tekst en prijs,

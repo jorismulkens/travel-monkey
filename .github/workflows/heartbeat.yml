@@ -1,0 +1,16 @@
+name: Planner test
+
+# Tijdelijke test: kijkt of geplande workflows op deze repository afgaan.
+on:
+  schedule:
+    - cron: "*/10 * * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  ping:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "planner werkt — $(date -u)"

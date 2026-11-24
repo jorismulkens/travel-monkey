@@ -4,6 +4,8 @@ name: Social media
 # upload-post plaatst de nieuwste routes als TikTok-fotocarrousel. Vereist:
 # UPLOAD_POST_API_KEY (secret) en UPLOAD_POST_PROFILE (variable).
 on:
+  schedule:
+    - cron: "30 6 * * *"
   workflow_dispatch:
     inputs:
       count:

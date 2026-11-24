@@ -13,11 +13,11 @@ import { siteUrl } from "@/lib/site";
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
   title: {
-    default: "Travel Monkey — reisblog over reizen met een omweg",
+    default: "Travel Monkey — reisroutes met een omweg",
     template: "%s | Travel Monkey",
   },
   description:
-    "Een reisblog over reizen met een omweg. Routes die we zelf liepen, tips die werken en verhalen van onderweg. Van rijstvelden op Bali tot kliffen op Nusa Penida.",
+    "Complete reisroutes met vaste stops, prijzen en tips. Van een week Europa tot drie weken Azië, met praktische informatie per bestemming.",
   keywords: [
     "reisblog",
     "reistips",
@@ -39,9 +39,9 @@ export const metadata: Metadata = {
     locale: "nl_NL",
     url: siteUrl,
     siteName: "Travel Monkey",
-    title: "Travel Monkey — reisblog over reizen met een omweg",
+    title: "Travel Monkey — reisroutes met een omweg",
     description:
-      "Reis verder dan de gebaande paden. Routes die we zelf liepen, tips die werken en verhalen van onderweg.",
+      "Reis verder dan de gebaande paden. Complete routes met stops, prijzen en tips.",
     images: [
       {
         url: "/images/og-travel-monkey.jpg",
@@ -53,9 +53,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Travel Monkey — reisblog over reizen met een omweg",
+    title: "Travel Monkey — reisroutes met een omweg",
     description:
-      "Reis verder dan de gebaande paden. Routes die we zelf liepen, tips die werken en verhalen van onderweg.",
+      "Reis verder dan de gebaande paden. Complete routes met stops, prijzen en tips.",
     images: ["/images/og-travel-monkey.jpg"],
   },
   icons: {

@@ -3,7 +3,6 @@ import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 
-import { BlogCard } from "@/components/blog-card";
 import {
   ArrowLeft,
   ArrowUpRight,
@@ -21,11 +20,7 @@ import { PhotoGallery } from "@/components/photo-gallery";
 import { Reveal } from "@/components/reveal";
 import { RouteMapWrapper } from "@/components/route-map-wrapper";
 import { SectionHeading } from "@/components/section-heading";
-import {
-  getAllBlogPosts,
-  getAllRoutes,
-  getRoute,
-} from "@/lib/content";
+import { getAllRoutes, getRoute } from "@/lib/content";
 
 interface RoutePageProps {
   params: {
@@ -73,7 +68,6 @@ export default function RouteDetailPage({ params }: RoutePageProps) {
     notFound();
   }
 
-  const blogPosts = getAllBlogPosts().slice(0, 2);
 
   const jsonLd = {
     "@context": "https://schema.org",
@@ -645,19 +639,6 @@ export default function RouteDetailPage({ params }: RoutePageProps) {
                 openingstijden en reisregels altijd bij de officiële bron.
               </p>
             ) : null}
-          </div>
-
-          <div className="mt-20">
-            <SectionHeading
-              eyebrow="Verder lezen"
-              title="De verhalen achter de stops."
-              action={{ href: "/blog", label: "Alle verhalen" }}
-            />
-            <div className="mt-8 grid gap-6 md:grid-cols-2">
-              {blogPosts.map((post) => (
-                <BlogCard key={post.slug} post={post} />
-              ))}
-            </div>
           </div>
 
           <div className="mt-14 flex flex-wrap items-center justify-between gap-5 border-t border-jungle-900/10 pt-7">

@@ -2,11 +2,10 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 
-import { BlogCard } from "@/components/blog-card";
 import { ArrowLeft, ArrowRight, ArrowUpRight, MapPin, Sparkles } from "@/components/icons";
 import { Reveal } from "@/components/reveal";
 import { RouteCard } from "@/components/route-card";
-import { getPostsByRegion, getRoutesByContinent } from "@/lib/content";
+import { getRoutesByContinent } from "@/lib/content";
 import { getRegion, regions } from "@/lib/regions";
 import type { RegionSlug } from "@/lib/types";
 
@@ -43,10 +42,8 @@ export default function RegionPage({ params }: RegionPageProps) {
     notFound();
   }
 
-  const posts = getPostsByRegion(region.slug as RegionSlug);
   const routes = getRoutesByContinent(region.slug as RegionSlug);
-  const tips = posts.filter((post) => post.kind === "tips");
-  const total = routes.length + posts.length;
+  const total = routes.length;
 
   return (
     <>
@@ -62,11 +59,11 @@ export default function RegionPage({ params }: RegionPageProps) {
         <div className="container-wide relative">
           <div className="max-w-3xl">
             <Link
-              href="/blog"
+              href="/reizen"
               className="inline-flex items-center gap-2 text-[0.68rem] font-semibold uppercase tracking-[0.14em] text-jungle-600 transition-colors hover:text-sunset-700"
             >
               <ArrowLeft className="h-3.5 w-3.5" />
-              Alle verhalen
+              Alle routes
             </Link>
             <h1 className="mt-5 font-display text-[2.9rem] font-semibold leading-[0.98] tracking-[-0.045em] text-jungle-950 sm:text-[4.2rem]">
               {region.label}
@@ -81,13 +78,12 @@ export default function RegionPage({ params }: RegionPageProps) {
             <div className="mt-8 flex flex-wrap gap-2.5">
               <span className="tag">
                 <Sparkles className="h-3.5 w-3.5 text-sunset-600" />
-                {total} {total === 1 ? "artikel" : "artikelen"}
+                {total} {total === 1 ? "route" : "routes"}
               </span>
               <span className="tag">
                 <MapPin className="h-3.5 w-3.5 text-sunset-600" />
-                {routes.length} {routes.length === 1 ? "route" : "routes"}
+                {region.label}
               </span>
-              <span className="tag">{tips.length} tips</span>
             </div>
           </div>
         </div>
@@ -118,37 +114,6 @@ export default function RegionPage({ params }: RegionPageProps) {
           </div>
         </section>
       ) : null}
-
-      <section className="pb-16 sm:pb-24">
-        <div className="container-wide">
-          {posts.length === 0 && routes.length === 0 ? (
-            <div className="rounded-[2rem] border border-dashed border-jungle-900/20 bg-sand-100/60 px-6 py-16 text-center">
-              <p className="font-display text-2xl font-semibold text-jungle-950">
-                Voor {region.label} komt er nog niets.
-              </p>
-              <p className="mx-auto mt-3 max-w-md text-sm leading-6 text-jungle-700/80">
-                De generator vult deze regio automatisch aan. Bekijk ondertussen
-                de andere regio&apos;s.
-              </p>
-              <Link
-                href="/blog"
-                className="mt-6 inline-flex items-center gap-2 rounded-full bg-jungle-900 px-5 py-2.5 text-sm font-semibold text-sand-50 transition-colors hover:bg-jungle-800"
-              >
-                Alle verhalen
-                <ArrowRight className="h-4 w-4" />
-              </Link>
-            </div>
-          ) : (
-            <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
-              {posts.map((post, index) => (
-                <Reveal key={post.slug} delay={(index % 3) * 70} className="h-full">
-                  <BlogCard post={post} />
-                </Reveal>
-              ))}
-            </div>
-          )}
-        </div>
-      </section>
 
       <section className="pb-20 sm:pb-24">
         <div className="container-wide">
