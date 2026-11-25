@@ -1,0 +1,269 @@
+{
+  "slug": "7-dagen-langs-cultuur-natuur-en-kust",
+  "title": "7 dagen langs cultuur, natuur en kust",
+  "kicker": "Ontdek de veelzijdigheid van Cambodja in een week",
+  "country": "Cambodja",
+  "region": "Azië",
+  "durationDays": 7,
+  "durationLabel": "7 dagen",
+  "travelStyle": "avontuurlijk en cultureel",
+  "budget": "budget tot middenklasse",
+  "budgetNote": "Prijzen kunnen variëren, reken op 10-30 euro per dag voor eten, vervoer en activiteiten",
+  "bestTime": "november tot februari",
+  "startPoint": "Phnom Penh",
+  "endPoint": "Koh Rong",
+  "coverImage": "/images/posts/7-dagen-langs-cultuur-natuur-en-kust-cover.webp",
+  "coverAlt": "Een week Cambodja waarin je de bruisende hoofdstad Phnom Penh, het culturele Siem Reap, het rustige Kampot, het historische Battambang en het tropische eiland Koh Rong bezoekt.",
+  "excerpt": "Een week Cambodja waarin je de bruisende hoofdstad Phnom Penh, het culturele Siem Reap, het rustige Kampot, het historische Battambang en het tropische eiland Koh Rong bezoekt.",
+  "introHeading": "Van stad naar zee",
+  "intro": [
+    "Deze route door Cambodja combineert levendige steden met ontspanning aan zee. Het startpunt is de hoofdstad Phnom Penh, waar historie en moderne bedrijvigheid samenkomen. Hier kun je het Koninklijk Paleis en het Tuol Sleng Genocide Museum bezoeken en genieten van de lokale markten.",
+    "In Siem Reap ligt de focus op het indrukwekkende tempelcomplex van Angkor, waar oude cultuur en natuur elkaar ontmoeten. Naast het verkennen van de tempels is er ook tijd voor een boottocht op het Tonlé Sap-meer en het ontdekken van de levendige nachtmarkt.",
+    "Vervolgens brengt de route je naar Kampot en Battambang, waar rust en lokale tradities de boventoon voeren. Sluit de reis af op het eiland Koh Rong, waar witte stranden en helder water uitnodigen tot ontspanning na een week vol afwisseling."
+  ],
+  "highlights": [
+    "Verken de tempels van Angkor in Siem Reap",
+    "Bezoek de Royal Palace en Tuol Sleng in Phnom Penh",
+    "Ontdek de rustige rivier en peperplantages in Kampot",
+    "Stap in de Bamboo Train bij Battambang",
+    "Ontspan aan de stranden van Koh Rong"
+  ],
+  "stops": [
+    {
+      "id": "phnom-penh-1",
+      "number": 1,
+      "name": "Phnom Penh",
+      "area": "Phnom Penh",
+      "coords": [
+        11.5730391,
+        104.857807
+      ],
+      "dayLabel": "Dag 1-2",
+      "nights": 2,
+      "image": "/images/posts/7-dagen-langs-cultuur-natuur-en-kust-1.webp",
+      "imageAlt": "Koninklijk paleis Phnom Penh",
+      "description": "Phnom Penh is de hoofdstad van Cambodja en een stad vol geschiedenis en contrasten. Wandel langs de rivier, bezoek het Koninklijk Paleis met zijn sierlijke zalen en tuinen, en ontdek het Tuol Sleng Genocide Museum om meer te leren over het bewogen verleden. De stad heeft ook drukke markten zoals de Centrale Markt waar je lokaal handwerk en streetfood vindt. De sfeer is levendig, met veel cafés en restaurants die zowel traditionele als internationale gerechten serveren.",
+      "activities": [
+        {
+          "title": "Bezoek Koninklijk Paleis en Zilver Pagode",
+          "description": "Bewonder de architectuur en kunstcollecties in het hart van de stad.",
+          "price": "ongeveer 10-15 euro"
+        },
+        {
+          "title": "Tuol Sleng Genocide Museum",
+          "description": "Leer over de geschiedenis van het Khmer Rouge regime.",
+          "price": "ongeveer 5-7 euro"
+        },
+        {
+          "title": "Centrale Markt verkennen",
+          "description": "Shop lokale producten en proef streetfood.",
+          "price": "gratis entree, kosten voor eten vanaf 1 euro"
+        }
+      ],
+      "tip": "Neem een Tuk Tuk om gemakkelijk en betaalbaar de stad te verkennen, vooral tijdens de warmere uren van de dag."
+    },
+    {
+      "id": "siem-reap-2",
+      "number": 2,
+      "name": "Siem Reap",
+      "area": "Siem Reap",
+      "coords": [
+        13.3617562,
+        103.8590321
+      ],
+      "dayLabel": "Dag 3-4",
+      "nights": 2,
+      "image": "/images/posts/7-dagen-langs-cultuur-natuur-en-kust-2.webp",
+      "imageAlt": "Angkor Wat tempel in Siem Reap",
+      "description": "Siem Reap is vooral bekend als toegangspoort tot het tempelcomplex van Angkor. De stad zelf heeft een ontspannen sfeer met gezellige cafés en een levendige nachtmarkt. Plan een bezoek aan de tempels van Angkor Wat, Bayon en Ta Prohm om verschillende stijlen en monumenten te ontdekken. Naast tempels kun je ook de omliggende natuur in, bijvoorbeeld met een boottocht over het Tonlé Sap-meer. De combinatie van cultuur, natuur en lokale gezelligheid maakt Siem Reap een veelzijdige stop.",
+      "activities": [
+        {
+          "title": "Tempels van Angkor bezoeken",
+          "description": "Ontdek onder andere Angkor Wat, Bayon en Ta Prohm.",
+          "price": "meerdaagse pas ongeveer 40-60 euro"
+        },
+        {
+          "title": "Boottocht Tonlé Sap-meer",
+          "description": "Bekijk drijvende dorpen en het vogelrijke natuurgebied.",
+          "price": "rond 10-20 euro per persoon"
+        },
+        {
+          "title": "Nachtmarkt Siem Reap",
+          "description": "Shop souvenirs en geniet van straateten.",
+          "price": "gratis entree, eten en souvenirs variëren"
+        }
+      ],
+      "tip": "Koop een meerdaagse Angkor Pas om meerdere dagen het tempelcomplex te verkennen zonder te haasten."
+    },
+    {
+      "id": "kampot-3",
+      "number": 3,
+      "name": "Kampot",
+      "area": "Kampot",
+      "coords": [
+        10.6314754,
+        104.132637
+      ],
+      "dayLabel": "Dag 5",
+      "nights": 1,
+      "image": "/images/posts/7-dagen-langs-cultuur-natuur-en-kust-3.webp",
+      "imageAlt": "Rivier in Kampot met bergen",
+      "description": "Kampot is een charmant stadje aan de rivier dat bekendstaat om zijn peperplantages en relaxte sfeer. Je kunt er fietsen langs de rivier, lokale markten bezoeken en genieten van de koloniale architectuur. Neem ook de tijd voor een bezoek aan de nabijgelegen kalkstenen bergen van Bokor Nationaal Park, waar je wandelingen maakt met uitzicht over de omgeving. ’s Avonds is het rustig en kun je genieten van verse zeevruchten in een van de lokale restaurantjes.",
+      "activities": [
+        {
+          "title": "Bezoek peperplantage",
+          "description": "Leer over de beroemde Kampot-peper en proef verschillende soorten.",
+          "price": "rond 5-10 euro"
+        },
+        {
+          "title": "Wandelen in Bokor Nationaal Park",
+          "description": "Ontdek natuur en verlaten Franse gebouwen.",
+          "price": "toegang gratis, gids optioneel rond 10 euro"
+        },
+        {
+          "title": "Fietsen langs de rivier",
+          "description": "Geniet van het rustige landschap en de koloniale sfeer.",
+          "price": "fiets huren 3-6 euro per dag"
+        }
+      ],
+      "tip": "Huur een fiets om gemakkelijk het stadscentrum, de rivier en de omgeving te verkennen."
+    },
+    {
+      "id": "battambang-4",
+      "number": 4,
+      "name": "Battambang",
+      "area": "Battambang",
+      "coords": [
+        12.9256791,
+        103.2317136
+      ],
+      "dayLabel": "Dag 6",
+      "nights": 1,
+      "image": "/images/posts/7-dagen-langs-cultuur-natuur-en-kust-4.webp",
+      "imageAlt": "Bamboo Train in Battambang",
+      "description": "Battambang is een stad met een relaxte atmosfeer en een rijke geschiedenis, bekend om haar Franse koloniale gebouwen en het omliggende platteland. Een bijzondere ervaring is de Bamboo Train: een zelfgemaakte houten wagen die over oude spoorrails raast, een leuke manier om het buitengebied te verkennen. Daarnaast is het bezoeken van lokale marktjes, tempels en de kunstscene in de stad de moeite waard. Battambang geeft een ander beeld van Cambodja dan de toeristische plekken.",
+      "activities": [
+        {
+          "title": "Ritje met de Bamboo Train",
+          "description": "Unieke ervaring op een houten kar over spoorrails.",
+          "price": "ongeveer 5 euro"
+        },
+        {
+          "title": "Bezoek lokale tempels",
+          "description": "Ontdek boeddhistische tempels binnen de stad.",
+          "price": "meestal gratis of een kleine bijdrage"
+        },
+        {
+          "title": "Stadswandeling en marktbezoek",
+          "description": "Ervaar de koloniale sfeer en lokale markten.",
+          "price": "gratis"
+        }
+      ],
+      "tip": "Plan een ritje met de Bamboo Train vroeg op de dag om drukte te vermijden."
+    },
+    {
+      "id": "koh-rong-5",
+      "number": 5,
+      "name": "Koh Rong",
+      "area": "Sihanoukville/Koh Rong",
+      "coords": [
+        10.715676,
+        103.2473427
+      ],
+      "dayLabel": "Dag 7",
+      "nights": 1,
+      "image": "/images/posts/7-dagen-langs-cultuur-natuur-en-kust-5.webp",
+      "imageAlt": "Strand op Koh Rong",
+      "description": "Koh Rong is een eiland met relatief rustige, witte stranden en een ontspannen sfeer. Na dagen vol cultuur en natuur op het vasteland is het fijn om hier uit te rusten. Zwemmen, snorkelen of gewoon luieren op het strand zijn de hoofdactiviteiten. Er zijn eenvoudige strandhutten en een paar restaurants waar verse vis wordt geserveerd. Het eiland is minder ontwikkeld dan sommige andere bestemmingen, wat bijdraagt aan de rust en natuurbeleving.",
+      "activities": [
+        {
+          "title": "Strand en zwemmen",
+          "description": "Ontspan en neem een duik in het heldere water.",
+          "price": "gratis"
+        },
+        {
+          "title": "Snorkelen bij het rif",
+          "description": "Verken het onderwaterleven rond het eiland.",
+          "price": "rond 10-20 euro voor snorkelhuur en tour"
+        },
+        {
+          "title": "Strandwandeling",
+          "description": "Verken de verschillende stranden en rustige baaitjes.",
+          "price": "gratis"
+        }
+      ],
+      "tip": "Plan de overtocht naar het eiland van tevoren en neem contant geld mee, pinnen is beperkt mogelijk."
+    }
+  ],
+  "gallery": [
+    {
+      "src": "/images/posts/7-dagen-langs-cultuur-natuur-en-kust-1.webp",
+      "alt": "Koninklijk paleis Phnom Penh",
+      "caption": "Phnom Penh — Phnom Penh"
+    },
+    {
+      "src": "/images/posts/7-dagen-langs-cultuur-natuur-en-kust-2.webp",
+      "alt": "Angkor Wat tempel in Siem Reap",
+      "caption": "Siem Reap — Siem Reap"
+    },
+    {
+      "src": "/images/posts/7-dagen-langs-cultuur-natuur-en-kust-3.webp",
+      "alt": "Rivier in Kampot met bergen",
+      "caption": "Kampot — Kampot"
+    },
+    {
+      "src": "/images/posts/7-dagen-langs-cultuur-natuur-en-kust-4.webp",
+      "alt": "Bamboo Train in Battambang",
+      "caption": "Battambang — Battambang"
+    },
+    {
+      "src": "/images/posts/7-dagen-langs-cultuur-natuur-en-kust-5.webp",
+      "alt": "Strand op Koh Rong",
+      "caption": "Koh Rong — Sihanoukville/Koh Rong"
+    }
+  ],
+  "practical": [
+    {
+      "label": "Vervoer",
+      "value": "Binnenlandse bussen en minivans kosten tussen 5-15 euro, tuk-tuks in steden 1-5 euro per rit."
+    },
+    {
+      "label": "Verblijf",
+      "value": "Guesthouses en eenvoudige hotels variëren van 10-30 euro per nacht."
+    },
+    {
+      "label": "Budget",
+      "value": "Dagelijkse kosten liggen tussen 15-30 euro, afhankelijk van stijl en activiteiten."
+    },
+    {
+      "label": "Beste reistijd",
+      "value": "Droge periode van november tot februari met aangenaam temperatuurniveau."
+    },
+    {
+      "label": "Geld en internet",
+      "value": "Cash is koning, pinnen is mogelijk in grotere steden. Simkaarten zijn goedkoop en goede dekking in stedelijke gebieden."
+    }
+  ],
+  "packing": [
+    "Lichte en ademende kleding",
+    "Stevige wandelschoenen",
+    "Zwemkleding",
+    "Zonnebrandcrème",
+    "Hoed of pet",
+    "Insectenspray",
+    "Waterfles herbruikbaar",
+    "Lichte regenkleding",
+    "Oplader en powerbank"
+  ],
+  "closingNote": "Deze route biedt een gevarieerde kennismaking met Cambodja, van stad tot strand. Op elke plek is er genoeg te zien en te doen, met ruimte voor ontspanning. Houd rekening met de lokale omstandigheden en neem tijd om te genieten van de verschillende sferen. Zo wordt het een week om nog lang op terug te kijken.",
+  "continent": "azie",
+  "author": "Redactie",
+  "generated": true,
+  "createdAt": "2026-11-25",
+  "topicKey": "cambodja:reisroute:1-week",
+  "imageCredit": {
+    "name": "KEAR_770",
+    "url": "https://pixabay.com/photos/woman-portrait-model-fashion-10009803/",
+    "source": "Pixabay"
+  }
+}

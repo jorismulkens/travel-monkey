@@ -258,5 +258,70 @@
     "type": "route",
     "thumbnail": "/images/posts/14-dagen-vulkanen-meren-en-stranden-cover.webp",
     "excerpt": "Een afwisselende reisroute door Nicaragua langs koloniale steden, vulkanen, een eiland in een meer, levendige markten en een strandbestemming."
+  },
+  {
+    "id": "7-dagen-langs-cultuur-natuur-en-kust-route",
+    "name": "Phnom Penh",
+    "country": "Cambodja",
+    "coords": [
+      11.5730391,
+      104.857807
+    ],
+    "slug": "7-dagen-langs-cultuur-natuur-en-kust",
+    "type": "route",
+    "thumbnail": "/images/posts/7-dagen-langs-cultuur-natuur-en-kust-cover.webp",
+    "excerpt": "Een week Cambodja waarin je de bruisende hoofdstad Phnom Penh, het culturele Siem Reap, het rustige Kampot, het historische Battambang en het tropische eiland Koh Rong bezoekt."
+  },
+  {
+    "id": "7-dagen-avontuur-tussen-vulkanen-en-meren-route",
+    "name": "Kigali",
+    "country": "Rwanda",
+    "coords": [
+      -1.9534357,
+      30.1140089
+    ],
+    "slug": "7-dagen-avontuur-tussen-vulkanen-en-meren",
+    "type": "route",
+    "thumbnail": "/images/posts/7-dagen-avontuur-tussen-vulkanen-en-meren-cover.webp",
+    "excerpt": "Een week lang Rwanda verkennen, van de levendige hoofdstad Kigali naar het groene landschap van Nyungwe en de indrukwekkende vulkanen bij Musanze. Sluit af aan het rustige Lake Kivu."
+  },
+  {
+    "id": "7-dagen-avontuur-tussen-gletsjers-en-geisers-route",
+    "name": "Reykjavik",
+    "country": "IJsland",
+    "coords": [
+      64.145981,
+      -21.9422367
+    ],
+    "slug": "7-dagen-avontuur-tussen-gletsjers-en-geisers",
+    "type": "route",
+    "thumbnail": "/images/posts/7-dagen-avontuur-tussen-gletsjers-en-geisers-cover.webp",
+    "excerpt": "Een week lang reizen langs de mooiste natuurfenomenen van IJsland, van bruisende hoofdstad Reykjavik via de beroemde Golden Circle naar de zuidkust, indrukwekkende gletsjers en eindigend in het noorden in Akureyri."
+  },
+  {
+    "id": "7-dagen-ontspannen-eilandleven-en-cultuur-route",
+    "name": "Nadi",
+    "country": "Fiji",
+    "coords": [
+      -17.7992725,
+      177.4178549
+    ],
+    "slug": "7-dagen-ontspannen-eilandleven-en-cultuur",
+    "type": "route",
+    "thumbnail": "/images/posts/7-dagen-ontspannen-eilandleven-en-cultuur-cover.webp",
+    "excerpt": "Deze reisroute combineert de levendige stad Nadi, de ongerepte Yasawa-eilanden en het culturele Suva. Er is ruimte voor ontspanning op stranden, snorkelen in helder water en kennismaken met de lokale cultuur."
+  },
+  {
+    "id": "7-dagen-woestijn-cultuur-en-kust-route",
+    "name": "Dubai",
+    "country": "Verenigde Arabische Emiraten",
+    "coords": [
+      25.0742823,
+      55.1885624
+    ],
+    "slug": "7-dagen-woestijn-cultuur-en-kust",
+    "type": "route",
+    "thumbnail": "/images/posts/7-dagen-woestijn-cultuur-en-kust-cover.webp",
+    "excerpt": "Een afwisselende route door de Verenigde Arabische Emiraten, van moderne steden en culturele bezienswaardigheden tot woestijnlandschappen en kustgebieden. De reis begint in Dubai en eindigt aan de oostkust in Fujairah, met stops in Abu Dhabi, Sharjah, en Ras al-Khaimah."
   }
 ]

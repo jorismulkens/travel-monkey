@@ -1,0 +1,269 @@
+{
+  "slug": "7-dagen-avontuur-tussen-gletsjers-en-geisers",
+  "title": "7 dagen avontuur tussen gletsjers en geisers",
+  "kicker": "Natuurlijke wonderen en bruisende steden",
+  "country": "IJsland",
+  "region": "Europa",
+  "durationDays": 7,
+  "durationLabel": "7 dagen",
+  "travelStyle": "avontuurlijk",
+  "budget": "middel",
+  "budgetNote": "De genoemde prijzen zijn indicatief en kunnen variëren per seizoen en boekingsmoment.",
+  "bestTime": "juni tot september",
+  "startPoint": "Reykjavik",
+  "endPoint": "Akureyri",
+  "coverImage": "/images/posts/7-dagen-avontuur-tussen-gletsjers-en-geisers-cover.webp",
+  "coverAlt": "Een week lang reizen langs de mooiste natuurfenomenen van IJsland, van bruisende hoofdstad Reykjavik via de beroemde Golden Circle naar de zuidkust, indrukwekkende gletsjers en eindigend in het noorden in Akureyri.",
+  "excerpt": "Een week lang reizen langs de mooiste natuurfenomenen van IJsland, van bruisende hoofdstad Reykjavik via de beroemde Golden Circle naar de zuidkust, indrukwekkende gletsjers en eindigend in het noorden in Akureyri.",
+  "introHeading": "Van stad naar ruige natuur",
+  "intro": [
+    "Deze 7-daagse reis door IJsland begint in Reykjavik, de hoofdstad en culturele hub van het land. Hier combineert men moderne architectuur met een levendige lokale sfeer, ideaal om rustig te starten en alvast in de IJslandse sfeer te komen.",
+    "De route leidt daarna langs de beroemde Golden Circle, waar geisers, watervallen en het nationale park Þingvellir je natuur en geschiedenis laten ervaren. Vervolgens brengt de reis je naar de zuidkust met het dorp Vík, bekend om zijn zwarte zandstranden en indrukwekkende rotsformaties.",
+    "In de tweede helft van de week staat Jökulsárlón centraal, het gletsjermeer met drijvende ijsbergen, gevolgd door Akureyri in het noorden. Deze tweede stad biedt een ontspannen sfeer en fraaie natuur, een mooie afsluiting van de reis."
+  ],
+  "highlights": [
+    "Bezoek de geisers en watervallen van de Golden Circle",
+    "Wandel over zwarte zandstranden bij Vík",
+    "Bekijk drijvende ijsbergen bij Jökulsárlón",
+    "Ontdek het levendige centrum van Reykjavik",
+    "Verken de rustige stad Akureyri met haar fjorden"
+  ],
+  "stops": [
+    {
+      "id": "reykjavik-1",
+      "number": 1,
+      "name": "Reykjavik",
+      "area": "Hoofdstad",
+      "coords": [
+        64.145981,
+        -21.9422367
+      ],
+      "dayLabel": "Dag 1",
+      "nights": 1,
+      "image": "/images/posts/7-dagen-avontuur-tussen-gletsjers-en-geisers-1.webp",
+      "imageAlt": "Straat in Reykjavik met kleurrijke huizen en kerk op de achtergrond",
+      "description": "Reykjavik is een compacte en charmante stad waar moderne gebouwen zoals het Harpa-concertgebouw afgewisseld worden met kleurrijke huizen en gezellige cafés. Wandel door het centrum en bezoek de Hallgrímskirkja, van waar je een mooi uitzicht hebt over de stad en de omliggende fjorden. De haven biedt volop eetgelegenheden met verse visgerechten, ideaal om de reis culinair te beginnen. Bezoek ook een museum of galerie om meer te leren over de IJslandse geschiedenis en cultuur.",
+      "activities": [
+        {
+          "title": "Bezoek Hallgrímskirkja",
+          "description": "Beklim de toren voor een panoramisch uitzicht over Reykjavik.",
+          "price": "5-10 euro"
+        },
+        {
+          "title": "Rondleiding in Harpa concertgebouw",
+          "description": "Ontdek de bijzondere architectuur en eventueel een concert.",
+          "price": "gratis tot 15 euro"
+        },
+        {
+          "title": "Diner in visrestaurant aan de haven",
+          "description": "Proef lokale visgerechten in een sfeervolle omgeving.",
+          "price": "25-40 euro"
+        }
+      ],
+      "tip": "Koop een Reykjavik City Card voor gratis toegang tot musea en gebruik van openbaar vervoer."
+    },
+    {
+      "id": "golden-circle-2",
+      "number": 2,
+      "name": "Golden Circle",
+      "area": "Zuid-IJsland",
+      "coords": [
+        64.2223872,
+        -20.7268518
+      ],
+      "dayLabel": "Dag 2",
+      "nights": 1,
+      "image": "/images/posts/7-dagen-avontuur-tussen-gletsjers-en-geisers-2.webp",
+      "imageAlt": "Geysir Strokkur die water uitspuit",
+      "description": "De Golden Circle is een klassieke route langs drie belangrijke natuur- en cultuurplekken. Begin bij Þingvellir, een nationaal park waar je kunt wandelen langs de breuklijnen van de aardkorst en historische plekken waar het IJslandse parlement ooit vergaderde. Bezoek daarna de geisers bij Geysir, met regelmatig erupties van de Strokkur. Tot slot kun je de imposante Gullfoss-waterval bewonderen die in twee trappen naar beneden stort. De landschapselementen vormen samen een indrukwekkende dag vol natuurervaringen.",
+      "activities": [
+        {
+          "title": "Wandeling in Þingvellir",
+          "description": "Ontdek de geologische en historische highlights van het nationale park.",
+          "price": "gratis"
+        },
+        {
+          "title": "Bekijken Strokkur geiser",
+          "description": "Wacht op de regelmatige uitbarstingen van deze actieve geiser.",
+          "price": "gratis"
+        },
+        {
+          "title": "Bezoek Gullfoss waterval",
+          "description": "Loop naar verschillende uitzichtpunten voor een goed zicht op het water.",
+          "price": "gratis"
+        }
+      ],
+      "tip": "Start vroeg om de drukte bij de populaire stops te vermijden."
+    },
+    {
+      "id": "vik-3",
+      "number": 3,
+      "name": "Vík",
+      "area": "Zuidkust",
+      "coords": [
+        63.4188166,
+        -19.0054737
+      ],
+      "dayLabel": "Dag 3-4",
+      "nights": 2,
+      "image": "/images/posts/7-dagen-avontuur-tussen-gletsjers-en-geisers-3.webp",
+      "imageAlt": "Zwart zandstrand met basaltzuilen bij Vík",
+      "description": "Vík is een klein, rustig dorpje dat bekend staat om zijn zwarte zandstrand Reynisfjara en zwarte basaltzuilen. De golven zijn krachtig, dus wees voorzichtig bij het strand. Vanuit Vík kan je ook enkele mooie wandelingen maken naar nabijgelegen watervallen zoals Skógafoss en Seljalandsfoss. De twee nachten geven voldoende tijd om te genieten van de natuur en van de lokale gastvrijheid in de guesthouses of kleine hotels.",
+      "activities": [
+        {
+          "title": "Wandeling bij Reynisfjara strand",
+          "description": "Bekijk de unieke basaltzuilen en ruwe zwarte zandstranden.",
+          "price": "gratis"
+        },
+        {
+          "title": "Bezoek Skógafoss waterval",
+          "description": "Loop langs de waterval en klim omhoog voor een uitzicht over het dal.",
+          "price": "gratis"
+        },
+        {
+          "title": "Verken Seljalandsfoss waterval",
+          "description": "Loop achter de waterval langs voor een bijzondere ervaring.",
+          "price": "gratis"
+        }
+      ],
+      "tip": "Let goed op de bewegwijzering bij het zwarte strand, de stroom en golven kunnen gevaarlijk zijn."
+    },
+    {
+      "id": "jokulsarlon-4",
+      "number": 4,
+      "name": "Jökulsárlón",
+      "area": "Zuidoost-IJsland",
+      "coords": [
+        64.0783208,
+        -16.2274213
+      ],
+      "dayLabel": "Dag 5",
+      "nights": 1,
+      "image": "/images/posts/7-dagen-avontuur-tussen-gletsjers-en-geisers-4.webp",
+      "imageAlt": "IJsbergen drijven in een gletsjermeer bij Jökulsárlón",
+      "description": "Jökulsárlón is een indrukwekkend gletsjermeer waar ijsbergen langzaam drijven voordat ze richting zee drijven. Een boottocht tussen de ijsbergen is een bijzondere ervaring en geeft je de kans om het landschap van dichtbij te zien. Loop daarna naar het nabijgelegen Diamond Beach waar stukken ijs op het zwarte zand schitteren in het zonlicht. De stilte en het bijzondere lichtspel maken dit tot een bijzondere plek om even te ontspannen en te fotograferen.",
+      "activities": [
+        {
+          "title": "Boottocht tussen ijsbergen",
+          "description": "Stap aan boord van een zodiac of amfibiebus voor een tocht over het meer.",
+          "price": "50-80 euro"
+        },
+        {
+          "title": "Wandeling naar Diamond Beach",
+          "description": "Bewonder de stukken ijs die op het zwarte zand liggen.",
+          "price": "gratis"
+        },
+        {
+          "title": "Fotograferen van het landschap",
+          "description": "Neem de tijd om het bijzondere ijs en licht vast te leggen.",
+          "price": "gratis"
+        }
+      ],
+      "tip": "Kleed je warm en waterdicht aan, zeker als je meevaart op het meer."
+    },
+    {
+      "id": "akureyri-5",
+      "number": 5,
+      "name": "Akureyri",
+      "area": "Noord-IJsland",
+      "coords": [
+        65.6839036,
+        -18.1121756
+      ],
+      "dayLabel": "Dag 6-7",
+      "nights": 2,
+      "image": "/images/posts/7-dagen-avontuur-tussen-gletsjers-en-geisers-5.webp",
+      "imageAlt": "Haven en bergen rondom Akureyri",
+      "description": "Akureyri, de tweede stad van IJsland, ligt aan een mooie fjord in het noorden. Het stadje heeft een ontspannen sfeer met kleine cafés, winkels en een botanische tuin die verrassend veel planten herbergt voor deze noordelijke locatie. Vanuit Akureyri kun je ook dagtochten maken naar het Myvatn-meer, bekend om zijn vulkanische landschap en warmwaterbronnen. Twee nachten hier geven genoeg tijd om de stad te verkennen en ook de omgeving te ontdekken.",
+      "activities": [
+        {
+          "title": "Bezoek Akureyri Botanische Tuin",
+          "description": "Bekijk planten die bestand zijn tegen het noordelijke klimaat.",
+          "price": "gratis"
+        },
+        {
+          "title": "Wandeling door het centrum",
+          "description": "Ontdek lokale winkels, cafés en de ontspannen sfeer.",
+          "price": "gratis"
+        },
+        {
+          "title": "Dagtocht naar Myvatn",
+          "description": "Verken de vulkanische landschappen en warmwaterbronnen in de omgeving.",
+          "price": "40-70 euro"
+        }
+      ],
+      "tip": "Plan een dagexcursie naar Myvatn om het vulkanische landschap en geothermische bronnen te zien."
+    }
+  ],
+  "gallery": [
+    {
+      "src": "/images/posts/7-dagen-avontuur-tussen-gletsjers-en-geisers-1.webp",
+      "alt": "Straat in Reykjavik met kleurrijke huizen en kerk op de achtergrond",
+      "caption": "Reykjavik — Hoofdstad"
+    },
+    {
+      "src": "/images/posts/7-dagen-avontuur-tussen-gletsjers-en-geisers-2.webp",
+      "alt": "Geysir Strokkur die water uitspuit",
+      "caption": "Golden Circle — Zuid-IJsland"
+    },
+    {
+      "src": "/images/posts/7-dagen-avontuur-tussen-gletsjers-en-geisers-3.webp",
+      "alt": "Zwart zandstrand met basaltzuilen bij Vík",
+      "caption": "Vík — Zuidkust"
+    },
+    {
+      "src": "/images/posts/7-dagen-avontuur-tussen-gletsjers-en-geisers-4.webp",
+      "alt": "IJsbergen drijven in een gletsjermeer bij Jökulsárlón",
+      "caption": "Jökulsárlón — Zuidoost-IJsland"
+    },
+    {
+      "src": "/images/posts/7-dagen-avontuur-tussen-gletsjers-en-geisers-5.webp",
+      "alt": "Haven en bergen rondom Akureyri",
+      "caption": "Akureyri — Noord-IJsland"
+    }
+  ],
+  "practical": [
+    {
+      "label": "Vervoer",
+      "value": "Auto huren is aan te raden, kosten variëren van 50-100 euro per dag."
+    },
+    {
+      "label": "Verblijf",
+      "value": "Guesthouses of kleine hotels, prijzen tussen 70-150 euro per nacht."
+    },
+    {
+      "label": "Budget",
+      "value": "Dagelijks 60-100 euro voor eten, activiteiten en vervoer."
+    },
+    {
+      "label": "Beste reistijd",
+      "value": "Juni tot september voor milde temperaturen en langere dagen."
+    },
+    {
+      "label": "Geld & internet",
+      "value": "Betaal met pinpas en creditcard; de meeste plekken hebben goede wifi."
+    }
+  ],
+  "packing": [
+    "Waterdichte jas en broek",
+    "Warme lagen kleding",
+    "Stevige wandelschoenen",
+    "Zonnebril en zonnebrand",
+    "Camera of smartphone",
+    "Swimsuit voor warme bronnen",
+    "Backpack of dagrugzak",
+    "Opladers en powerbank",
+    "Thermosfles voor warme dranken"
+  ],
+  "closingNote": "Deze route toont een mooie balans tussen stad en natuur in IJsland. Met een week tijd is het mogelijk om een goed beeld te krijgen van de bijzondere landschappen en gezellige plekken. Het huren van een auto biedt flexibiliteit om onderweg te stoppen waar je wilt. Het klimaat kan wisselvallig zijn, dus goede kleding is belangrijk. Zo wordt de reis comfortabel en geniet je optimaal van alles wat IJsland te bieden heeft.",
+  "continent": "europa",
+  "author": "Redactie",
+  "generated": true,
+  "createdAt": "2026-11-25",
+  "topicKey": "ijsland:reisroute:1-week",
+  "imageCredit": {
+    "name": "Dragon_XXC",
+    "url": "https://pixabay.com/photos/travel-free-wallpaper-waterfall-9698815/",
+    "source": "Pixabay"
+  }
+}

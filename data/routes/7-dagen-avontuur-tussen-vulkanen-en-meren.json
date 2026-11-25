@@ -1,0 +1,269 @@
+{
+  "slug": "7-dagen-avontuur-tussen-vulkanen-en-meren",
+  "title": "7 dagen avontuur tussen vulkanen en meren",
+  "kicker": "Ontdek Rwanda in een week",
+  "country": "Rwanda",
+  "region": "Afrika",
+  "durationDays": 7,
+  "durationLabel": "7 dagen",
+  "travelStyle": "Avontuurlijk en natuurgericht",
+  "budget": "Middenklasse",
+  "budgetNote": "Prijzen kunnen variëren afhankelijk van seizoen en boekingsmoment",
+  "bestTime": "Juni tot september en december tot februari",
+  "startPoint": "Kigali",
+  "endPoint": "Lake Kivu",
+  "coverImage": "/images/posts/7-dagen-avontuur-tussen-vulkanen-en-meren-cover.webp",
+  "coverAlt": "Een week lang Rwanda verkennen, van de levendige hoofdstad Kigali naar het groene landschap van Nyungwe en de indrukwekkende vulkanen bij Musanze. Sluit af aan het rustige Lake Kivu.",
+  "excerpt": "Een week lang Rwanda verkennen, van de levendige hoofdstad Kigali naar het groene landschap van Nyungwe en de indrukwekkende vulkanen bij Musanze. Sluit af aan het rustige Lake Kivu.",
+  "introHeading": "Van stad naar natuur en rust",
+  "intro": [
+    "Rwanda biedt een verrassende mix van moderne steden en ongerepte natuur. Deze route begint in Kigali, waar je het verhaal van het land beter leert begrijpen en de lokale sfeer proeft. De stad combineert historie met een groeiende culinaire en creatieve scene, waar lokale markten, kunstgalerijen en gezellige cafés uitnodigen tot ontdekken.",
+    "De reis gaat verder naar het noorden, naar Volcanoes National Park en Musanze. Dit park is vooral bekend om de berggorilla’s, maar biedt ook mooie wandelingen langs groene vulkanen en culturele ontmoetingen. De indrukwekkende natuur en de mogelijkheid om deze bijzondere dieren te zien maken dit een hoogtepunt van de reis.",
+    "In het zuiden ligt Nyungwe National Park, een eeuwenoud regenwoud met een rijke diversiteit aan planten en dieren. Hier staan chimpansees en andere apen centraal, maar ook de vogels en de unieke canopy walk maken indruk. De afsluiting aan Lake Kivu biedt rust en ruimte aan het water, een fijne afwisseling na actieve dagen."
+  ],
+  "highlights": [
+    "Wandeling met berggorilla’s in Volcanoes National Park",
+    "Bezoek aan het Kigali Genocide Memorial",
+    "Ontdekking van het regenwoud in Nyungwe",
+    "Verkenning van de vulkanische landschappen rond Musanze",
+    "Ontspannen aan de oevers van Lake Kivu"
+  ],
+  "stops": [
+    {
+      "id": "kigali-1",
+      "number": 1,
+      "name": "Kigali",
+      "area": "Centraal Rwanda",
+      "coords": [
+        -1.9534357,
+        30.1140089
+      ],
+      "dayLabel": "Dag 1",
+      "nights": 1,
+      "image": "/images/posts/7-dagen-avontuur-tussen-vulkanen-en-meren-1.webp",
+      "imageAlt": "Straatbeeld in Kigali met markt en heuvels",
+      "description": "Kigali is het bruisende centrum van Rwanda en een stad waar verleden en heden samenkomen. Het Kigali Genocide Memorial is een belangrijk bezoek om het land beter te begrijpen. Daarnaast is er veel te ontdekken in de levendige markten, waar lokale producten en handwerk verkocht worden. Kunstgalerijen tonen het werk van Rwandese kunstenaars en verschillende cafés en restaurants bieden een kijkje in de culinaire wereld van het land. De heuvels rondom Kigali zorgen voor mooie wandelingen met panoramisch uitzicht over de stad.",
+      "activities": [
+        {
+          "title": "Bezoek Kigali Genocide Memorial",
+          "description": "Leer over de geschiedenis van Rwanda in dit museum.",
+          "price": "5-10 euro"
+        },
+        {
+          "title": "Stadswandeling door Kigali",
+          "description": "Verken markten, kunstgalerijen en lokale café’s te voet.",
+          "price": "Gratis tot 5 euro"
+        },
+        {
+          "title": "Diner in lokaal restaurant",
+          "description": "Proef traditionele Rwandese gerechten en moderne fusion.",
+          "price": "10-20 euro"
+        }
+      ],
+      "tip": "Combineer een bezoek aan het Genocide Memorial met een wandeling door de wijk Kimihurura voor een authentieke stadsbeleving."
+    },
+    {
+      "id": "volcanoes-national-park-2",
+      "number": 2,
+      "name": "Volcanoes National Park",
+      "area": "Noord-Rwanda",
+      "coords": [
+        -1.4659684,
+        29.4928212
+      ],
+      "dayLabel": "Dag 2-3",
+      "nights": 2,
+      "image": "/images/posts/7-dagen-avontuur-tussen-vulkanen-en-meren-2.webp",
+      "imageAlt": "Berggorilla in Volcanoes National Park",
+      "description": "Volcanoes National Park is een gebied van groene bergen en actieve vulkanen, beroemd om de berggorilla’s die hier leven. De gorillatrekking is een unieke ervaring waarbij je met een gids door dichte bossen wandelt om deze indrukwekkende dieren te ontmoeten. Naast gorilla’s leven hier ook gouden apen en zijn er verschillende wandelroutes, van korte tochten tot uitdagende bergbeklimmingen. Daarnaast kun je deelnemen aan een culturele wandeling in nabijgelegen dorpen, waar je meer leert over lokale tradities en levenswijze.",
+      "activities": [
+        {
+          "title": "Berggorillatrekking",
+          "description": "Wandel door het bos op zoek naar berggorilla’s met een ervaren gids.",
+          "price": "250-300 euro (permit)"
+        },
+        {
+          "title": "Golden Monkey trekking",
+          "description": "Ga op pad om de zeldzame gouden apen te zien in het park.",
+          "price": "50-70 euro"
+        },
+        {
+          "title": "Culturele wandeling",
+          "description": "Leer over het leven en de cultuur in nabijgelegen dorpjes.",
+          "price": "15-25 euro"
+        }
+      ],
+      "tip": "Reserveer de gorillatrekking ver van tevoren en neem naast wandelschoenen ook water en snacks mee voor tijdens de tocht."
+    },
+    {
+      "id": "musanze-3",
+      "number": 3,
+      "name": "Musanze",
+      "area": "Noord-Rwanda",
+      "coords": [
+        -1.50405,
+        29.63631
+      ],
+      "dayLabel": "Dag 4",
+      "nights": 1,
+      "image": "/images/posts/7-dagen-avontuur-tussen-vulkanen-en-meren-3.webp",
+      "imageAlt": "Uitzicht over Musanze met bergen",
+      "description": "Musanze ligt in het hart van het vulkanengebied en is een rustige stad die uitnodigt tot ontspanning. Het is een goede plek om te herstellen na de trekking en om lokale markten te bezoeken waar verse producten en handwerk worden verkocht. Een bezoek aan de Musanze Caves geeft een fascinerend inzicht in de geologische geschiedenis van het gebied. Daarnaast zijn er wandelroutes in de omgeving die leiden naar indrukwekkende uitzichtpunten over de vulkanen en het dal.",
+      "activities": [
+        {
+          "title": "Bezoek Musanze Caves",
+          "description": "Verken het grottenstelsel met een gids en leer over de geschiedenis.",
+          "price": "10-15 euro"
+        },
+        {
+          "title": "Lokale markt bezoeken",
+          "description": "Ontdek verse en ambachtelijke producten op de markt.",
+          "price": "Gratis"
+        },
+        {
+          "title": "Wandeling naar uitzichtpunten",
+          "description": "Geniet van panoramische vergezichten over het vulkanengebied.",
+          "price": "Gratis"
+        }
+      ],
+      "tip": "Bezoek de Musanze Caves in de ochtend om de drukte te vermijden en neem voldoende water mee voor de wandeling in de omgeving."
+    },
+    {
+      "id": "nyungwe-national-park-4",
+      "number": 4,
+      "name": "Nyungwe National Park",
+      "area": "Zuidwest-Rwanda",
+      "coords": [
+        -2.5590609,
+        29.2939263
+      ],
+      "dayLabel": "Dag 5-6",
+      "nights": 2,
+      "image": "/images/posts/7-dagen-avontuur-tussen-vulkanen-en-meren-4.webp",
+      "imageAlt": "Hangbrug in Nyungwe regenwoud",
+      "description": "Nyungwe National Park is een uitgestrekt regenwoud met een rijke biodiversiteit, waaronder chimpansees, andere apensoorten en honderden vogelsoorten. De dichte begroeiing en het gevarieerde landschap maken het park bijzonder voor natuurliefhebbers. Wandel over de canopy walk, een hangbrug die boven de boomtoppen uitsteekt, voor een uniek perspectief op het woud. Chimpanseetrekking en vogelspottochten zijn populaire activiteiten, begeleid door ervaren gidsen die kennis delen over flora en fauna.",
+      "activities": [
+        {
+          "title": "Chimpanseetrekking",
+          "description": "Volg een gids op zoek naar chimpansees in hun natuurlijke omgeving.",
+          "price": "50-70 euro"
+        },
+        {
+          "title": "Canopy walk",
+          "description": "Wandel over een hangbrug tussen de boomtoppen met uitzicht op het regenwoud.",
+          "price": "20-30 euro"
+        },
+        {
+          "title": "Vogelspottocht",
+          "description": "Begeleid wandeltocht met focus op het observeren van bijzondere vogelsoorten.",
+          "price": "15-25 euro"
+        }
+      ],
+      "tip": "Neem comfortabele wandelschoenen en een verrekijker mee voor optimale natuurbeleving tijdens de tochten."
+    },
+    {
+      "id": "lake-kivu-5",
+      "number": 5,
+      "name": "Lake Kivu",
+      "area": "West-Rwanda",
+      "coords": [
+        -2.0419009,
+        29.2276815
+      ],
+      "dayLabel": "Dag 7",
+      "nights": 1,
+      "image": "/images/posts/7-dagen-avontuur-tussen-vulkanen-en-meren-5.webp",
+      "imageAlt": "Zonsondergang over Lake Kivu",
+      "description": "Lake Kivu is een vredige plek waar je de reis rustig kunt afsluiten. Het meer is omgeven door bergen en kleine dorpen, ideaal om te ontspannen en te genieten van het landschap. Je kunt er zwemmen, een boottocht maken of een bezoek brengen aan een vissersdorpje om kennis te maken met het lokale leven. De rustige sfeer en de mooie zonsondergangen maken het een fijne plek om te reflecteren op de belevenissen van de week.",
+      "activities": [
+        {
+          "title": "Boottocht op Lake Kivu",
+          "description": "Vaar over het meer en geniet van het omliggende landschap.",
+          "price": "15-25 euro"
+        },
+        {
+          "title": "Zwemmen en relaxen",
+          "description": "Neem een duik of rust uit aan het water.",
+          "price": "Gratis"
+        },
+        {
+          "title": "Bezoek vissersdorpje",
+          "description": "Leer over het traditionele vissersleven aan het meer.",
+          "price": "Gratis tot 10 euro"
+        }
+      ],
+      "tip": "Plan een boottocht rond zonsondergang voor een sfeervol einde van de dag."
+    }
+  ],
+  "gallery": [
+    {
+      "src": "/images/posts/7-dagen-avontuur-tussen-vulkanen-en-meren-1.webp",
+      "alt": "Straatbeeld in Kigali met markt en heuvels",
+      "caption": "Kigali — Centraal Rwanda"
+    },
+    {
+      "src": "/images/posts/7-dagen-avontuur-tussen-vulkanen-en-meren-2.webp",
+      "alt": "Berggorilla in Volcanoes National Park",
+      "caption": "Volcanoes National Park — Noord-Rwanda"
+    },
+    {
+      "src": "/images/posts/7-dagen-avontuur-tussen-vulkanen-en-meren-3.webp",
+      "alt": "Uitzicht over Musanze met bergen",
+      "caption": "Musanze — Noord-Rwanda"
+    },
+    {
+      "src": "/images/posts/7-dagen-avontuur-tussen-vulkanen-en-meren-4.webp",
+      "alt": "Hangbrug in Nyungwe regenwoud",
+      "caption": "Nyungwe National Park — Zuidwest-Rwanda"
+    },
+    {
+      "src": "/images/posts/7-dagen-avontuur-tussen-vulkanen-en-meren-5.webp",
+      "alt": "Zonsondergang over Lake Kivu",
+      "caption": "Lake Kivu — West-Rwanda"
+    }
+  ],
+  "practical": [
+    {
+      "label": "Vervoer",
+      "value": "Binnenlandse taxi’s en minibussen kosten 5-15 euro per rit. Voor langere afstanden zijn privétransfers of 4x4-verhuur mogelijk, ongeveer 40-100 euro per dag."
+    },
+    {
+      "label": "Verblijf",
+      "value": "Verblijven varieert van eenvoudige guesthouses tot middenklasse lodges met prijzen tussen 20-80 euro per nacht."
+    },
+    {
+      "label": "Budget",
+      "value": "Dagelijkse kosten exclusief gorillatrekking zijn 30-50 euro, met gorillatrekking kan het oplopen tot ongeveer 300 euro per dag."
+    },
+    {
+      "label": "Beste reistijd",
+      "value": "De droge seizoenen van juni tot september en december tot februari zijn het meest geschikt voor trekking en activiteiten."
+    },
+    {
+      "label": "Geld en internet",
+      "value": "Cash betalen in Rwandese francs is gebruikelijk. Pinnen kan in steden. Simkaarten met internet zijn betaalbaar en handig voor onderweg."
+    }
+  ],
+  "packing": [
+    "Goede wandelschoenen",
+    "Lichte regenjas",
+    "Hoed of pet tegen de zon",
+    "Verrekijker",
+    "Insectenspray",
+    "Comfortabele kleding voor wandelingen",
+    "Zwemkleding voor Lake Kivu",
+    "Camera of smartphone voor foto’s",
+    "Herbruikbare waterfles"
+  ],
+  "closingNote": "Rwanda combineert indrukwekkende natuur met een rijke cultuur en geschiedenis. Deze week geeft een mooie dwarsdoorsnede van wat het land te bieden heeft. Van stedelijke ontdekkingen tot rust en natuur in de bergen en aan het meer; elk moment is de moeite waard. Goede voorbereiding maakt het avontuur compleet en zorgt voor een fijne ervaring.",
+  "continent": "afrika",
+  "author": "Redactie",
+  "generated": true,
+  "createdAt": "2026-11-25",
+  "topicKey": "rwanda:reisroute:1-week",
+  "imageCredit": {
+    "name": "JancickaL",
+    "url": "https://pixabay.com/photos/sunrise-water-dawn-morning-country-4987384/",
+    "source": "Pixabay"
+  }
+}

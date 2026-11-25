@@ -1,0 +1,269 @@
+{
+  "slug": "7-dagen-ontspannen-eilandleven-en-cultuur",
+  "title": "7 dagen ontspannen eilandleven en cultuur",
+  "kicker": "Ontdek de variatie van Fiji in één week",
+  "country": "Fiji",
+  "region": "Oceanië",
+  "durationDays": 7,
+  "durationLabel": "7 dagen",
+  "travelStyle": "Ontspannen, natuur en cultuur",
+  "budget": "Middenklasse",
+  "budgetNote": "Dagelijkse kosten voor eten, vervoer en activiteiten liggen meestal tussen de 40 en 70 euro per dag, exclusief accommodatie.",
+  "bestTime": "mei tot oktober voor droger weer",
+  "startPoint": "Nadi",
+  "endPoint": "Suva",
+  "coverImage": "/images/posts/7-dagen-ontspannen-eilandleven-en-cultuur-cover.webp",
+  "coverAlt": "Deze reisroute combineert de levendige stad Nadi, de ongerepte Yasawa-eilanden en het culturele Suva. Er is ruimte voor ontspanning op stranden, snorkelen in helder water en kennismaken met de lokale cultuur.",
+  "excerpt": "Deze reisroute combineert de levendige stad Nadi, de ongerepte Yasawa-eilanden en het culturele Suva. Er is ruimte voor ontspanning op stranden, snorkelen in helder water en kennismaken met de lokale cultuur.",
+  "introHeading": "Van stad naar zee en cultuur",
+  "intro": [
+    "Fiji is meer dan alleen tropische stranden; het is een veelzijdige bestemming met een mix van natuur, cultuur en ontspanning. Deze route laat je kennismaken met het authentieke Fiji, van bruisende steden tot rustige eilanden.",
+    "De reis start in Nadi, waar markten en tempels uitnodigen tot een eerste duik in de cultuur. Daarna volgt de rust van de Yasawa-eilanden, ideaal om te snorkelen en te zwemmen in helder water.",
+    "De route eindigt in Suva, de hoofdstad, waar geschiedenis en cultuur samenkomen en de stad een levendig contrast biedt met de eilanden. Tussen deze punten liggen Denarau en de Coral Coast, elk met hun eigen karakter en mogelijkheden."
+  ],
+  "highlights": [
+    "Lokale markten en tempels in Nadi.",
+    "Snorkelen rondom de Yasawa-eilanden.",
+    "Strand en resorts in Denarau.",
+    "Koraalriffen en dorpjes aan de Coral Coast.",
+    "Culturele bezienswaardigheden in Suva."
+  ],
+  "stops": [
+    {
+      "id": "nadi-1",
+      "number": 1,
+      "name": "Nadi",
+      "area": "Westelijk Fiji",
+      "coords": [
+        -17.7992725,
+        177.4178549
+      ],
+      "dayLabel": "Dag 1",
+      "nights": 1,
+      "image": "/images/posts/7-dagen-ontspannen-eilandleven-en-cultuur-1.webp",
+      "imageAlt": "Lokale markt in Nadi",
+      "description": "Nadi is het startpunt van veel reizen door Fiji en biedt meer dan alleen de internationale luchthaven. Bezoek de levendige lokale markten waar verse producten en handwerk worden verkocht. De Sri Siva Subramaniya-tempel is een indrukwekkend voorbeeld van Hindoe-architectuur buiten India. Wandel door de stad en geniet van een eerste kennismaking met de Fijiaanse cultuur en keuken. Het is een goede plek om benodigdheden te kopen of een dagtrip te plannen naar nabijgelegen bezienswaardigheden.",
+      "activities": [
+        {
+          "title": "Bezoek Sri Siva Subramaniya-tempel",
+          "description": "Rondleiding of zelf bekijken van de kleurrijke tempel en het omliggende complex.",
+          "price": "gratis tot 5 euro"
+        },
+        {
+          "title": "Wandeling door de lokale markt",
+          "description": "Ontdek verse producten, kruiden en handwerk, ideaal om souvenirs te vinden.",
+          "price": "gratis"
+        },
+        {
+          "title": "Dagtrip naar de Sabeto Warmwaterbronnen",
+          "description": "Ontspan in natuurlijke warmwaterbaden in de nabijheid van Nadi.",
+          "price": "15-25 euro"
+        }
+      ],
+      "tip": "Bezoek de lokale markt vroeg in de ochtend voor de beste sfeer en versproducten."
+    },
+    {
+      "id": "yasawa-eilanden-2",
+      "number": 2,
+      "name": "Yasawa-eilanden",
+      "area": "Yasawa eilandengroep",
+      "coords": [
+        0,
+        0
+      ],
+      "dayLabel": "Dag 2-3",
+      "nights": 2,
+      "image": "/images/posts/7-dagen-ontspannen-eilandleven-en-cultuur-2.webp",
+      "imageAlt": "Strand en helder water op de Yasawa-eilanden",
+      "description": "De Yasawa-eilanden bestaan uit een keten van kleine eilanden met witte zandstranden en helderblauw water. Hier is het vooral genieten van rust, natuur en wateractiviteiten. Je kunt er snorkelen bij ondiepe koraalriffen, kajakken langs de kust of gewoon ontspannen op het strand. De eilanden zijn minder ontwikkeld dan het vasteland, wat zorgt voor een meer authentieke en rustige sfeer. Accommodaties variëren van eenvoudige lodges tot kleinschalige resorts.",
+      "activities": [
+        {
+          "title": "Snorkelen bij Blue Lagoon",
+          "description": "Verken kleurrijke koraalriffen en tropische vissen in kristalhelder water.",
+          "price": "10-20 euro voor snorkelhuur"
+        },
+        {
+          "title": "Kajakken langs de kust",
+          "description": "Peddel over rustige wateren en ontdek kleine baaien en stranden.",
+          "price": "15-30 euro per dag"
+        },
+        {
+          "title": "Lokale dorpstour",
+          "description": "Maak kennis met de cultuur en tradities bij een bezoek aan een Fijiaans dorp.",
+          "price": "15-25 euro"
+        }
+      ],
+      "tip": "Neem contant geld mee, want pinautomaten zijn schaars op de eilanden."
+    },
+    {
+      "id": "denarau-3",
+      "number": 3,
+      "name": "Denarau",
+      "area": "Westelijk Fiji",
+      "coords": [
+        -17.7753245,
+        177.3777644
+      ],
+      "dayLabel": "Dag 4",
+      "nights": 1,
+      "image": "/images/posts/7-dagen-ontspannen-eilandleven-en-cultuur-3.webp",
+      "imageAlt": "Strand en resorts in Denarau",
+      "description": "Denarau is vooral bekend als resortgebied met luxe hotels, golfbanen en een jachthaven. Het is een goede plek om even te ontspannen na de eilanden en te genieten van wat comfort. Winkels, restaurants en bars zijn er ruim aanwezig. Ook vertrekken hier veel boottochten naar de nabijgelegen eilanden. De sfeer is iets meer toeristisch, maar het biedt wel volop faciliteiten en leuke strandgedeeltes om te zwemmen.",
+      "activities": [
+        {
+          "title": "Golfen op Denarau Golf Course",
+          "description": "Speel een ronde golf met uitzicht op de oceaan in een goed onderhouden baan.",
+          "price": "40-70 euro voor 9 holes"
+        },
+        {
+          "title": "Boottocht naar nabijgelegen eilanden",
+          "description": "Dagtrips met boot om te zwemmen, snorkelen of lunchen op een privéstrand.",
+          "price": "30-60 euro"
+        },
+        {
+          "title": "Strandwandeling en zwemmen",
+          "description": "Geniet van het zand en de zee bij het strand van Denarau.",
+          "price": "gratis"
+        }
+      ],
+      "tip": "Reserveer een tafel bij een restaurant aan het water om te genieten van de zonsondergang."
+    },
+    {
+      "id": "coral-coast-4",
+      "number": 4,
+      "name": "Coral Coast",
+      "area": "Zuidoostelijk Viti Levu",
+      "coords": [
+        -18.1342388,
+        178.4255702
+      ],
+      "dayLabel": "Dag 5-6",
+      "nights": 2,
+      "image": "/images/posts/7-dagen-ontspannen-eilandleven-en-cultuur-4.webp",
+      "imageAlt": "Koraalriffen en strand aan de Coral Coast",
+      "description": "De Coral Coast strekt zich uit langs de zuidoostkust van het eiland Viti Levu en staat bekend om zijn koraalriffen en traditionele dorpen. Dit gebied is minder toeristisch dan Denarau en biedt een authentiekere ervaring. Je kunt hier snorkelen of duiken om het levendige onderwaterleven te zien. Wandel langs stranden of bezoek lokale markten en ambachtswinkels. Ook zijn er mogelijkheden om deel te nemen aan culturele activiteiten, zoals traditionele dansvoorstellingen of bezoeken aan dorpsgemeenschappen.",
+      "activities": [
+        {
+          "title": "Snorkelen bij koraalriffen",
+          "description": "Ontdek kleurrijke vissen en koraal in helder water, direct vanaf het strand.",
+          "price": "10-20 euro voor snorkelhuur"
+        },
+        {
+          "title": "Culturele dorpsbezoek",
+          "description": "Leer over lokale tradities en geniet van ambachtelijke demonstraties.",
+          "price": "15-25 euro"
+        },
+        {
+          "title": "Wandeling langs het strand",
+          "description": "Rustige wandelingen met uitzicht op de zee en het binnenland.",
+          "price": "gratis"
+        }
+      ],
+      "tip": "Plan een bezoek aan een lokaal dorp inclusief een traditionele maaltijd om de cultuur beter te leren kennen."
+    },
+    {
+      "id": "suva-5",
+      "number": 5,
+      "name": "Suva",
+      "area": "Zuidoostelijk Viti Levu",
+      "coords": [
+        -18.1415884,
+        178.4421662
+      ],
+      "dayLabel": "Dag 7",
+      "nights": 1,
+      "image": "/images/posts/7-dagen-ontspannen-eilandleven-en-cultuur-5.webp",
+      "imageAlt": "Straten en cultuur in Suva",
+      "description": "Suva is de hoofdstad van Fiji en biedt een mix van cultuur, geschiedenis en stadsleven. Bezoek het Fiji Museum om meer te leren over de rijke geschiedenis en inheemse cultuur. De botanische tuinen zijn een groene oase om te ontspannen. Wandel over de boulevard en ontdek lokale markten, cafés en winkels. Suva geeft een ander perspectief op Fiji, met een stedelijke sfeer en diverse culturele invloeden. Het is een goede plek om de reis af te sluiten voordat je terugreist.",
+      "activities": [
+        {
+          "title": "Bezoek Fiji Museum",
+          "description": "Ontdek de geschiedenis en cultuur van Fiji en omliggende eilanden.",
+          "price": "5-10 euro"
+        },
+        {
+          "title": "Wandeling in de botanische tuinen",
+          "description": "Ontspan tussen tropische planten en bloemen in het stadspark.",
+          "price": "gratis"
+        },
+        {
+          "title": "Lokale markt bezoeken",
+          "description": "Koop verse producten en handgemaakte souvenirs op de stadsmarkt.",
+          "price": "gratis"
+        }
+      ],
+      "tip": "Probeer lokale gerechten in een van de eetgelegenheden in de stad voor een authentieke ervaring."
+    }
+  ],
+  "gallery": [
+    {
+      "src": "/images/posts/7-dagen-ontspannen-eilandleven-en-cultuur-1.webp",
+      "alt": "Lokale markt in Nadi",
+      "caption": "Nadi — Westelijk Fiji"
+    },
+    {
+      "src": "/images/posts/7-dagen-ontspannen-eilandleven-en-cultuur-2.webp",
+      "alt": "Strand en helder water op de Yasawa-eilanden",
+      "caption": "Yasawa-eilanden — Yasawa eilandengroep"
+    },
+    {
+      "src": "/images/posts/7-dagen-ontspannen-eilandleven-en-cultuur-3.webp",
+      "alt": "Strand en resorts in Denarau",
+      "caption": "Denarau — Westelijk Fiji"
+    },
+    {
+      "src": "/images/posts/7-dagen-ontspannen-eilandleven-en-cultuur-4.webp",
+      "alt": "Koraalriffen en strand aan de Coral Coast",
+      "caption": "Coral Coast — Zuidoostelijk Viti Levu"
+    },
+    {
+      "src": "/images/posts/7-dagen-ontspannen-eilandleven-en-cultuur-5.webp",
+      "alt": "Straten en cultuur in Suva",
+      "caption": "Suva — Zuidoostelijk Viti Levu"
+    }
+  ],
+  "practical": [
+    {
+      "label": "Vervoer",
+      "value": "Binnenlandse veerboten en bussen zijn gebruikelijk; taxi’s en huurauto’s zijn ook beschikbaar. Veerboten naar de Yasawa-eilanden kosten ongeveer 20-50 euro enkele reis."
+    },
+    {
+      "label": "Verblijf",
+      "value": "Accommodaties variëren van eenvoudige hostels (15-30 euro per nacht) tot resorts (60-150 euro per nacht)."
+    },
+    {
+      "label": "Budget",
+      "value": "Dagelijkse kosten voor eten, vervoer en activiteiten liggen meestal tussen de 40 en 70 euro per dag, exclusief accommodatie."
+    },
+    {
+      "label": "Beste reistijd",
+      "value": "Van mei tot oktober is het droger en aangenamer qua weer."
+    },
+    {
+      "label": "Geld en internet",
+      "value": "Pinautomaten zijn in steden beschikbaar, maar op eilanden kan contant geld nodig zijn. Wifi is vaak aanwezig in resorts en cafés."
+    }
+  ],
+  "packing": [
+    "Zwemkleding",
+    "Lichte kleding voor warm weer",
+    "Regenjas of poncho",
+    "Zonnebrandcrème",
+    "Snorkelset of zwembril",
+    "Comfortabele wandelschoenen",
+    "Hoed of pet",
+    "Insectenspray",
+    "Reisadapter"
+  ],
+  "closingNote": "Fiji biedt een afwisseling van levendige steden, rustige eilanden en culturele ontmoetingen. In een week is het mogelijk om een goede indruk te krijgen van de natuur en de mensen. De combinatie van stranden, wateractiviteiten en cultuur maakt het tot een veelzijdige bestemming. Vergeet niet om ook momenten van rust in te plannen en het lokale ritme te volgen.",
+  "continent": "oceanie",
+  "author": "Redactie",
+  "generated": true,
+  "createdAt": "2026-11-25",
+  "topicKey": "fiji:reisroute:1-week",
+  "imageCredit": {
+    "name": "12019",
+    "url": "https://pixabay.com/photos/beach-sand-palm-trees-293826/",
+    "source": "Pixabay"
+  }
+}

@@ -1,0 +1,269 @@
+{
+  "slug": "7-dagen-woestijn-cultuur-en-kust",
+  "title": "7 dagen woestijn, cultuur en kust",
+  "kicker": "Ontdek diverse gezichten van de Emiraten",
+  "country": "Verenigde Arabische Emiraten",
+  "region": "Midden-Oosten",
+  "durationDays": 7,
+  "durationLabel": "7 dagen",
+  "travelStyle": "Afwisselend, cultureel en actief",
+  "budget": "Middenklasse",
+  "budgetNote": "Prijzen kunnen variëren, houd rekening met 50-100 euro per dag voor accommodatie en activiteiten",
+  "bestTime": "Oktober tot april",
+  "startPoint": "Dubai",
+  "endPoint": "Fujairah",
+  "coverImage": "/images/posts/7-dagen-woestijn-cultuur-en-kust-cover.webp",
+  "coverAlt": "Een afwisselende route door de Verenigde Arabische Emiraten, van moderne steden en culturele bezienswaardigheden tot woestijnlandschappen en kustgebieden. De reis begint in Dubai en eindigt aan de oostkust in Fujairah, met stops in Abu Dhabi, Sharjah, en Ras al-Khaimah.",
+  "excerpt": "Een afwisselende route door de Verenigde Arabische Emiraten, van moderne steden en culturele bezienswaardigheden tot woestijnlandschappen en kustgebieden. De reis begint in Dubai en eindigt aan de oostkust in Fujairah, met stops in Abu Dhabi, Sharjah, en Ras al-Khaimah.",
+  "introHeading": "Van stad naar woestijn en zee",
+  "intro": [
+    "De Verenigde Arabische Emiraten bieden een bijzondere combinatie van ultramoderne steden, rijke cultuur en indrukwekkende natuurlijke landschappen. Tijdens deze reis is er ruimte om zowel de bruisende metropolen als het rustige, woestijnachtige achterland en de kust te verkennen.",
+    "Deze weeklange route neemt je mee langs verschillende gezichten van het land. Naast de bekende skyline van Dubai beleef je het culturele hart in Sharjah, het woestijnlandschap van Ras al-Khaimah en de rust aan de oostkust in Fujairah.",
+    "Dit is een gevarieerde route die ideaal is voor wie het land wil ontdekken buiten de gebaande paden, met een goede mix van cultuur, natuur en ontspanning."
+  ],
+  "highlights": [
+    "Wandel door de woestijn bij Ras al-Khaimah",
+    "Bezoek het indrukwekkende Louvre Abu Dhabi",
+    "Ontdek traditionele souks in Sharjah",
+    "Bewonder de skyline van Dubai vanaf de Burj Khalifa",
+    "Ontspan aan de stranden van Fujairah"
+  ],
+  "stops": [
+    {
+      "id": "dubai-1",
+      "number": 1,
+      "name": "Dubai",
+      "area": "Dubai",
+      "coords": [
+        25.0742823,
+        55.1885624
+      ],
+      "dayLabel": "Dag 1-2",
+      "nights": 2,
+      "image": "/images/posts/7-dagen-woestijn-cultuur-en-kust-1.webp",
+      "imageAlt": "Skyline van Dubai met Burj Khalifa",
+      "description": "Dubai is een stad waar traditie en moderniteit samenkomen. Begin de reis met een bezoek aan het iconische Burj Khalifa, het hoogste gebouw ter wereld, en geniet van het uitzicht over de stad. Wandel door de historische wijk Al Fahidi met zijn smalle straatjes en traditionele huizen voor een indruk van het verleden. Breng een bezoek aan de levendige goud- en kruiden souks, waar je de lokale marktcultuur kunt ervaren. Daarnaast zijn er verschillende moderne winkelcentra en culturele evenementen die je verblijf afwisselend maken.",
+      "activities": [
+        {
+          "title": "Burj Khalifa uitzichtplatform",
+          "description": "Bezoek het observatiedek op de 124e verdieping voor panoramische stadsgezichten.",
+          "price": "30-50 euro"
+        },
+        {
+          "title": "Dhow cruise over de Dubai Creek",
+          "description": "Maak een boottocht bij zonsondergang en geniet van het stadslicht.",
+          "price": "25-40 euro"
+        },
+        {
+          "title": "Bezoek aan de goud- en kruiden souk",
+          "description": "Verken traditionele markten in de oude stad.",
+          "price": "gratis, eigen uitgaven"
+        }
+      ],
+      "tip": "Koop een combiticket voor de Burj Khalifa en Dubai Museum om tijd en geld te besparen."
+    },
+    {
+      "id": "abu-dhabi-2",
+      "number": 2,
+      "name": "Abu Dhabi",
+      "area": "Abu Dhabi",
+      "coords": [
+        24.4538352,
+        54.3774014
+      ],
+      "dayLabel": "Dag 3",
+      "nights": 1,
+      "image": "/images/posts/7-dagen-woestijn-cultuur-en-kust-2.webp",
+      "imageAlt": "Sheikh Zayed-moskee in Abu Dhabi",
+      "description": "Abu Dhabi, de hoofdstad van de Emiraten, combineert moderne architectuur met indrukwekkende culturele bezienswaardigheden. Breng een bezoek aan het Louvre Abu Dhabi, een architectonisch bijzonder museum met een diverse collectie kunst. De Sheikh Zayed-moskee is een absolute must-see, met haar imposante witte koepels en uitgebreide decoraties. Verder is het prettig om langs de Corniche te wandelen en te genieten van de zee en het stadsbeeld. Ook zijn er verschillende musea en parken die een bezoek waard zijn.",
+      "activities": [
+        {
+          "title": "Louvre Abu Dhabi",
+          "description": "Ontdek kunst en cultuur in een indrukwekkend museum.",
+          "price": "15-25 euro"
+        },
+        {
+          "title": "Bezoek Sheikh Zayed-moskee",
+          "description": "Rondleiding door een van de grootste moskeeën ter wereld.",
+          "price": "gratis"
+        },
+        {
+          "title": "Wandeling langs Corniche",
+          "description": "Geniet van de kustlijn en stadsgezichten.",
+          "price": "gratis"
+        }
+      ],
+      "tip": "Draag gepaste kleding bij een bezoek aan de moskee, bedekte armen en benen zijn verplicht."
+    },
+    {
+      "id": "sharjah-3",
+      "number": 3,
+      "name": "Sharjah",
+      "area": "Sharjah",
+      "coords": [
+        24.9760668,
+        56.2536044
+      ],
+      "dayLabel": "Dag 4",
+      "nights": 1,
+      "image": "/images/posts/7-dagen-woestijn-cultuur-en-kust-3.webp",
+      "imageAlt": "Straat in Sharjah met traditionele architectuur",
+      "description": "Sharjah wordt beschouwd als het culturele hart van de Emiraten en biedt een authentieke inkijk in de lokale tradities. Het Sharjah Museum of Islamic Civilization is een plek waar je uitgebreide informatie over de islamitische geschiedenis en kunst kunt vinden. De oude binnenstad met traditionele Arabische architectuur nodigt uit tot een ontspannen wandeling. De Souk Al Arsah, een van de oudste markten in de regio, toont handgemaakte producten en lokale specialiteiten. Daarnaast is Sharjah bekend om zijn kunstgalerijen en culturele festivals, waardoor het een levendige plek is voor liefhebbers van cultuur.",
+      "activities": [
+        {
+          "title": "Bezoek Sharjah Museum of Islamic Civilization",
+          "description": "Leer over de islamitische geschiedenis en cultuur.",
+          "price": "5-10 euro"
+        },
+        {
+          "title": "Souk Al Arsah verkennen",
+          "description": "Ontdek een van de oudste markten van de Emiraten.",
+          "price": "gratis, eigen uitgaven"
+        },
+        {
+          "title": "Fietstocht langs de Corniche",
+          "description": "Verken de kustlijn op de fiets.",
+          "price": "10-15 euro"
+        }
+      ],
+      "tip": "Probeer lokale gerechten in een traditioneel restaurant om de cultuur echt te ervaren."
+    },
+    {
+      "id": "ras-al-khaimah-4",
+      "number": 4,
+      "name": "Ras al-Khaimah",
+      "area": "Ras al-Khaimah",
+      "coords": [
+        25.7737705,
+        55.938232
+      ],
+      "dayLabel": "Dag 5",
+      "nights": 1,
+      "image": "/images/posts/7-dagen-woestijn-cultuur-en-kust-4.webp",
+      "imageAlt": "Woestijnlandschap bij Ras al-Khaimah",
+      "description": "Ras al-Khaimah laat een ander gezicht van de Emiraten zien, met uitgestrekte woestijngebieden en ruige bergen. De omgeving is ideaal voor avontuurlijke activiteiten zoals een woestijnsafari per 4x4, waar je kunt genieten van het stille landschap en soms overnacht onder de sterren. Daarnaast zijn er diverse wandelroutes in de Hajar-bergen die leiden langs indrukwekkende rotsformaties en oude nederzettingen. Voor wie even wil ontspannen zijn de rustige stranden aan de kust een fijne plek. De combinatie van natuur, avontuur en rust maakt Ras al-Khaimah een veelzijdige stop.",
+      "activities": [
+        {
+          "title": "Woestijnsafari met 4x4",
+          "description": "Avontuurlijke tocht door het zand met stops voor foto’s en eventueel sandboarden.",
+          "price": "50-80 euro"
+        },
+        {
+          "title": "Wandelen in de Hajar Mountains",
+          "description": "Ontdek de natuur en panoramische uitzichten via gemarkeerde routes.",
+          "price": "gratis"
+        },
+        {
+          "title": "Ontspannen aan Al Marjan stranden",
+          "description": "Geniet van de rustige en minder drukke stranden van Ras al-Khaimah.",
+          "price": "gratis"
+        }
+      ],
+      "tip": "Plan je activiteiten vroeg op de dag om de hitte te vermijden en neem voldoende water mee."
+    },
+    {
+      "id": "fujairah-5",
+      "number": 5,
+      "name": "Fujairah",
+      "area": "Fujairah",
+      "coords": [
+        25.4147357,
+        56.2313667
+      ],
+      "dayLabel": "Dag 6-7",
+      "nights": 2,
+      "image": "/images/posts/7-dagen-woestijn-cultuur-en-kust-5.webp",
+      "imageAlt": "Strand in Fujairah met bergen op de achtergrond",
+      "description": "Fujairah ligt aan de oostkust van de Emiraten en staat bekend om zijn mooie stranden en bergachtige omgeving. De heldere zee bij Sandy Beach is populair om te snorkelen en te duiken, met kleurrijke koraalriffen en een rijke onderwaterwereld. Bezoek ook het Fujairah Fort, een historisch bouwwerk dat inzicht geeft in de geschiedenis van het gebied. Wie van natuur houdt kan een wandeling maken in het Wadi Wurayah National Park, met zijn groene valleien en watervallen. Fujairah biedt een aangename rust na de stedelijke drukte van het westen.",
+      "activities": [
+        {
+          "title": "Snorkelen bij Sandy Beach",
+          "description": "Ontdek kleurrijke vissen en koraalriffen onder water.",
+          "price": "20-35 euro inclusief huur snorkelset"
+        },
+        {
+          "title": "Bezoek Fujairah Fort",
+          "description": "Leer over de geschiedenis in een van de oudste forten van het land.",
+          "price": "3-7 euro"
+        },
+        {
+          "title": "Wandeling in Wadi Wurayah National Park",
+          "description": "Natuurwandeling met watervallen en groene valleien.",
+          "price": "gratis"
+        }
+      ],
+      "tip": "Neem snorkelspullen mee om de onderwaterwereld te ontdekken, of huur ze ter plaatse voor gemak."
+    }
+  ],
+  "gallery": [
+    {
+      "src": "/images/posts/7-dagen-woestijn-cultuur-en-kust-1.webp",
+      "alt": "Skyline van Dubai met Burj Khalifa",
+      "caption": "Dubai — Dubai"
+    },
+    {
+      "src": "/images/posts/7-dagen-woestijn-cultuur-en-kust-2.webp",
+      "alt": "Sheikh Zayed-moskee in Abu Dhabi",
+      "caption": "Abu Dhabi — Abu Dhabi"
+    },
+    {
+      "src": "/images/posts/7-dagen-woestijn-cultuur-en-kust-3.webp",
+      "alt": "Straat in Sharjah met traditionele architectuur",
+      "caption": "Sharjah — Sharjah"
+    },
+    {
+      "src": "/images/posts/7-dagen-woestijn-cultuur-en-kust-4.webp",
+      "alt": "Woestijnlandschap bij Ras al-Khaimah",
+      "caption": "Ras al-Khaimah — Ras al-Khaimah"
+    },
+    {
+      "src": "/images/posts/7-dagen-woestijn-cultuur-en-kust-5.webp",
+      "alt": "Strand in Fujairah met bergen op de achtergrond",
+      "caption": "Fujairah — Fujairah"
+    }
+  ],
+  "practical": [
+    {
+      "label": "Vervoer",
+      "value": "Binnenlandse vluchten, taxi’s en gehuurde auto's zijn gebruikelijk; reken op 20-50 euro per rit afhankelijk van afstand."
+    },
+    {
+      "label": "Verblijf",
+      "value": "Hotels en appartementen variëren van 50 tot 120 euro per nacht, afhankelijk van comfort en locatie."
+    },
+    {
+      "label": "Budget",
+      "value": "Dagelijks ongeveer 50-100 euro voor eten, activiteiten en vervoer, exclusief verblijf."
+    },
+    {
+      "label": "Beste reistijd",
+      "value": "Van oktober tot april zijn de temperaturen aangenaam en geschikt voor outdoor activiteiten."
+    },
+    {
+      "label": "Geld en internet",
+      "value": "De lokale valuta is de dirham (AED). WiFi is breed beschikbaar in hotels en cafés."
+    }
+  ],
+  "packing": [
+    "Lichte en ademende kleding",
+    "Zonnebril en hoed of pet",
+    "Comfortabele wandelschoenen",
+    "Zwembroek of badpak",
+    "Zonnebrandcrème met hoge factor",
+    "Camera of smartphone voor foto's",
+    "Snorkeluitrusting of zwembril",
+    "Herbruikbare waterfles",
+    "Reisgids of kaartenapp"
+  ],
+  "closingNote": "Deze weekroute door de Verenigde Arabische Emiraten laat zien hoe divers het land is. Van het snelle stadsleven in Dubai tot de rust van woestijn en zee, elke dag biedt een nieuwe ervaring. Met een mix van cultuur, natuur en ontspanning geeft deze reis een goed beeld van wat de Emiraten te bieden hebben.",
+  "continent": "midden-oosten",
+  "author": "Redactie",
+  "generated": true,
+  "createdAt": "2026-11-25",
+  "topicKey": "vae:reisroute:1-week",
+  "imageCredit": {
+    "name": "wernerredlich",
+    "url": "https://pixabay.com/photos/hills-landscape-nature-fence-path-5044333/",
+    "source": "Pixabay"
+  }
+}
