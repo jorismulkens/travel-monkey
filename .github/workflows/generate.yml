@@ -13,6 +13,11 @@ on:
         description: "Aantal artikelen voor deze run"
         required: false
         default: "5"
+      force:
+        description: "Ook als er vandaag al routes zijn"
+        type: boolean
+        required: false
+        default: false
 
 permissions:
   contents: write
@@ -46,7 +51,7 @@ jobs:
           PEXELS_API_KEY: ${{ secrets.PEXELS_API_KEY }}
           OPENAI_MODEL: ${{ vars.OPENAI_MODEL || 'gpt-4o-mini' }}
           POSTS_PER_DAY: ${{ github.event.inputs.count || '5' }}
-          SKIP_IF_DONE: ${{ github.event_name == 'schedule' }}
+          SKIP_IF_DONE: ${{ github.event.inputs.force == 'true' && 'false' || 'true' }}
         run: node scripts/generate.mjs
 
       - name: Controleren of de site nog bouwt
