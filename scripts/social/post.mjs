@@ -161,9 +161,10 @@ async function main() {
   }
 
   if (!DRY_RUN && (!CONFIG.apiKey || !CONFIG.profile)) {
-    throw new Error(
-      "UPLOAD_POST_API_KEY of UPLOAD_POST_PROFILE ontbreekt",
+    log(
+      "upload-post is nog niet ingesteld (UPLOAD_POST_API_KEY / UPLOAD_POST_PROFILE); deze run slaat over",
     );
+    return;
   }
 
   const posted = readJson(POSTED_FILE, {});
