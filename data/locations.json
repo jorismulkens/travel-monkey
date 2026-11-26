@@ -323,5 +323,70 @@
     "type": "route",
     "thumbnail": "/images/posts/7-dagen-woestijn-cultuur-en-kust-cover.webp",
     "excerpt": "Een afwisselende route door de Verenigde Arabische Emiraten, van moderne steden en culturele bezienswaardigheden tot woestijnlandschappen en kustgebieden. De reis begint in Dubai en eindigt aan de oostkust in Fujairah, met stops in Abu Dhabi, Sharjah, en Ras al-Khaimah."
+  },
+  {
+    "id": "7-dagen-mix-van-cultuur-en-natuur-route",
+    "name": "Bogotá",
+    "country": "Colombia",
+    "coords": [
+      4.6533817,
+      -74.0836331
+    ],
+    "slug": "7-dagen-mix-van-cultuur-en-natuur",
+    "type": "route",
+    "thumbnail": "/images/posts/7-dagen-mix-van-cultuur-en-natuur-cover.webp",
+    "excerpt": "Een weeklang Colombia ontdekken van de hoofdstad Bogotá via de kleurrijke bergen van Salento naar de Caribische kust in Santa Marta. Deze route combineert cultuur, natuur en ontspanning."
+  },
+  {
+    "id": "21-dagen-ghana-cultuur-natuur-en-geschiedenis-route",
+    "name": "Accra",
+    "country": "Ghana",
+    "coords": [
+      5.5571096,
+      -0.2012376
+    ],
+    "slug": "21-dagen-ghana-cultuur-natuur-en-geschiedenis",
+    "type": "route",
+    "thumbnail": "/images/posts/21-dagen-ghana-cultuur-natuur-en-geschiedenis-cover.webp",
+    "excerpt": "Een uitgebreide reis door Ghana waarbij je kennismaakt met levendige steden, historische kustplaatsen, culturele hoogstandjes in het binnenland, het groene Voltagebied en het wildrijke noorden."
+  },
+  {
+    "id": "7-dagen-mix-van-cultuur-en-eilandleven-route",
+    "name": "Yogyakarta",
+    "country": "Indonesië",
+    "coords": [
+      -7.7953473,
+      110.3672845
+    ],
+    "slug": "7-dagen-mix-van-cultuur-en-eilandleven",
+    "type": "route",
+    "thumbnail": "/images/posts/7-dagen-mix-van-cultuur-en-eilandleven-cover.webp",
+    "excerpt": "Een week door Indonesië met een combinatie van rijke cultuur, indrukwekkende natuur en ontspannen eilandleven. Bezoek tempels, rijstvelden, kliffen en relax op witte stranden."
+  },
+  {
+    "id": "7-dagen-natuur-en-historie-in-albanie-route",
+    "name": "Tirana",
+    "country": "Albanië",
+    "coords": [
+      41.3283781,
+      19.8179825
+    ],
+    "slug": "7-dagen-natuur-en-historie-in-albanie",
+    "type": "route",
+    "thumbnail": "/images/posts/7-dagen-natuur-en-historie-in-albanie-cover.webp",
+    "excerpt": "Ontdek in zeven dagen de afwisseling van Albanië: van Tirana’s levendige sfeer naar de eeuwenoude steden Berat en Gjirokastër. Ervaar de helderblauwe stranden van Ksamil en sluit af met een wandeling in de ruige natuur van Theth."
+  },
+  {
+    "id": "14-dagen-woestijn-kust-en-berglucht-route",
+    "name": "Riyad",
+    "country": "Saoedi-Arabië",
+    "coords": [
+      24.638916,
+      46.7160104
+    ],
+    "slug": "14-dagen-woestijn-kust-en-berglucht",
+    "type": "route",
+    "thumbnail": "/images/posts/14-dagen-woestijn-kust-en-berglucht-cover.webp",
+    "excerpt": "Een reis door Saoedi-Arabië die stedelijke moderniteit combineert met indrukwekkende woestijnlandschappen, oude archeologische sites en bergachtige natuur. Deze route leidt je van de hoofdstad Riyad via AlUla en Jeddah naar het groene Taif, met onderweg bijzondere ervaringen in Abha."
   }
 ]

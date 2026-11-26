@@ -1,0 +1,269 @@
+{
+  "slug": "14-dagen-woestijn-kust-en-berglucht",
+  "title": "14 dagen woestijn, kust en berglucht",
+  "kicker": "Van het moderne stadsleven tot oude rotsformaties",
+  "country": "Saoedi-Arabië",
+  "region": "Midden-Oosten",
+  "durationDays": 14,
+  "durationLabel": "14 dagen",
+  "travelStyle": "Cultureel en natuurliefhebber",
+  "budget": "Middenklasse",
+  "budgetNote": "Prijsindicaties zijn indicatief en kunnen variëren afhankelijk van seizoen en beschikbaarheid",
+  "bestTime": "Oktober tot april",
+  "startPoint": "Riyad",
+  "endPoint": "Taif",
+  "coverImage": "/images/posts/14-dagen-woestijn-kust-en-berglucht-cover.webp",
+  "coverAlt": "Een reis door Saoedi-Arabië die stedelijke moderniteit combineert met indrukwekkende woestijnlandschappen, oude archeologische sites en bergachtige natuur. Deze route leidt je van de hoofdstad Riyad via AlUla en Jeddah naar het groene Taif, met onderweg bijzondere ervaringen in Abha.",
+  "excerpt": "Een reis door Saoedi-Arabië die stedelijke moderniteit combineert met indrukwekkende woestijnlandschappen, oude archeologische sites en bergachtige natuur. Deze route leidt je van de hoofdstad Riyad via AlUla en Jeddah naar het groene Taif, met onderweg bijzondere ervaringen in Abha.",
+  "introHeading": "Van stad naar natuur en bergen",
+  "intro": [
+    "Saoedi-Arabië is een land van contrasten waar eeuwenoude tradities samenkomen met snelle modernisering. De reis start in Riyad, de hoofdstad waar cultuur en historie hand in hand gaan met een vooruitstrevende skyline. Hier ervaar je het levendige stadsleven en krijg je een eerste indruk van de geschiedenis en cultuur van het land.",
+    "Vervolgens brengt de route je naar het noorden, naar AlUla, een gebied met indrukwekkende rotsformaties en archeologische sites die tot de oudste en best bewaarde van het Midden-Oosten behoren. Dit gebied laat de woestijn van een andere kant zien, met diepe culturele wortels en een adembenemend landschap.",
+    "De reis vervolgt naar de kuststad Jeddah, waar het bruisende leven aan de Rode Zee wacht. Daarna gaat het naar het zuidwesten, naar het koele berggebied rond Abha en tot slot naar Taif, een groene oase met rozenplantages en fruitboomgaarden. Een afwisselende route die het land in al zijn facetten laat zien."
+  ],
+  "highlights": [
+    "Wandel door de rotswoestijn van AlUla en bezoek oude graven.",
+    "Beleef de moderne en historische contrasten in Riyad.",
+    "Ontdek de kustcultuur en kleurrijke souks van Jeddah.",
+    "Geniet van koele berglucht en natuur in Abha.",
+    "Verken de fruitboomgaarden en traditionele huizen rond Taif."
+  ],
+  "stops": [
+    {
+      "id": "riyad-1",
+      "number": 1,
+      "name": "Riyad",
+      "area": "Centraal Saoedi-Arabië",
+      "coords": [
+        24.638916,
+        46.7160104
+      ],
+      "dayLabel": "Dag 1-3",
+      "nights": 3,
+      "image": "/images/posts/14-dagen-woestijn-kust-en-berglucht-1.webp",
+      "imageAlt": "Skyline van Riyad met wolkenkrabbers",
+      "description": "Riyad is de bruisende hoofdstad waar traditionele en moderne architectuur samenkomen. De stad biedt een mix van indrukwekkende wolkenkrabbers, grote winkelcentra en historische wijken. Bezoek het Nationaal Museum om een overzicht te krijgen van de rijke geschiedenis van het land. Wandel door de oude wijk Diriyah, waar je traditionele Saoedische architectuur ziet en de sfeer van vroeger proeft. Riyad is ook een prima uitvalsbasis om de lokale keuken te ontdekken in diverse restaurants en cafés.",
+      "activities": [
+        {
+          "title": "Bezoek Nationaal Museum",
+          "description": "Ontdek de geschiedenis en cultuur van Saoedi-Arabië in dit moderne museum.",
+          "price": "10-15 euro"
+        },
+        {
+          "title": "Wandeling door Diriyah",
+          "description": "Verken de historische wijk met oude paleizen en traditionele architectuur.",
+          "price": "Gratis"
+        },
+        {
+          "title": "Souk verkennen",
+          "description": "Bezoek de lokale markt voor handwerk en speciale kruiden.",
+          "price": "Gratis"
+        }
+      ],
+      "tip": "Probeer zeker de lokale gerechten zoals kabsa in een traditioneel restaurant en bezoek de souks voor authentieke souvenirs."
+    },
+    {
+      "id": "alula-2",
+      "number": 2,
+      "name": "AlUla",
+      "area": "Noordwest-Saoedi-Arabië",
+      "coords": [
+        26.5588965,
+        37.9596519
+      ],
+      "dayLabel": "Dag 4-6",
+      "nights": 3,
+      "image": "/images/posts/14-dagen-woestijn-kust-en-berglucht-2.webp",
+      "imageAlt": "Rotsformaties en oude graven in AlUla",
+      "description": "AlUla is een regio vol indrukwekkende rotsformaties, oude steenhouwkunst en archeologische wonderen die teruggaan tot duizenden jaren voor Christus. Het bekendste is de UNESCO-werelderfgoedlocatie Madain Saleh, waar goed bewaarde Nabateese graven te vinden zijn in rotswanden. Maar AlUla is meer dan alleen een archeologische site; de omliggende woestijn biedt spectaculaire natuur met unieke rotsformaties zoals Elephant Rock. De regio is de laatste jaren populairder geworden met nieuwe toeristische faciliteiten en musea die de rijke geschiedenis toelichten. Ook zijn er diverse wandelroutes en culturele evenementen die je bezoek extra bijzonder maken.",
+      "activities": [
+        {
+          "title": "Tour Madain Saleh",
+          "description": "Begeleid bezoek aan de Nabateese graven en monumenten.",
+          "price": "30-40 euro"
+        },
+        {
+          "title": "Wandeling Elephant Rock",
+          "description": "Maak een wandeling naar de beroemde rotsformatie in de woestijn.",
+          "price": "Gratis"
+        },
+        {
+          "title": "Bezoek AlUla Museum",
+          "description": "Leer meer over de geschiedenis van de regio en zijn bewoners.",
+          "price": "5-10 euro"
+        }
+      ],
+      "tip": "Plan een begeleide tour door Madain Saleh om de geschiedenis en verhalen achter de graven goed te leren kennen en combineer dit met een wandeling rond Elephant Rock."
+    },
+    {
+      "id": "jeddah-3",
+      "number": 3,
+      "name": "Jeddah",
+      "area": "West-Saoedi-Arabië, Rode Zee kust",
+      "coords": [
+        21.5504432,
+        39.1742363
+      ],
+      "dayLabel": "Dag 7-10",
+      "nights": 4,
+      "image": "/images/posts/14-dagen-woestijn-kust-en-berglucht-3.webp",
+      "imageAlt": "Traditionele straat in Al-Balad, Jeddah",
+      "description": "Jeddah is de levendige havenstad aan de Rode Zee met een rijke mix van oude en nieuwe cultuur. Het historische centrum Al-Balad staat vol traditionele gebouwen met karakteristieke houten ramen en smalle straatjes vol marktkraampjes. De stad heeft een ontspannen kustsfeer met wandelboulevards, stranden en een indrukwekkende waterfontein. Kunstliefhebbers kunnen er terecht bij diverse galerijen en openluchtmuurschilderingen. Jeddah is ook uitstekend om verse zeevruchten te proeven en het lokale leven te ervaren.",
+      "activities": [
+        {
+          "title": "Rondleiding door Al-Balad",
+          "description": "Verken het historische centrum met zijn traditionele architectuur.",
+          "price": "10-15 euro"
+        },
+        {
+          "title": "Bezoek openlucht kunstgalerieën",
+          "description": "Ontdek lokale kunst en muurschilderingen door de stad verspreid.",
+          "price": "Gratis"
+        },
+        {
+          "title": "Strandwandeling en zeevruchten eten",
+          "description": "Geniet van een wandeling langs de kust en proef verse visgerechten.",
+          "price": "15-25 euro"
+        }
+      ],
+      "tip": "Breng in de avond een bezoek aan Al-Balad waar de souks tot leven komen met kleurrijke marktkramen en straatartiesten."
+    },
+    {
+      "id": "abha-4",
+      "number": 4,
+      "name": "Abha",
+      "area": "Zuidwest-Saoedi-Arabië, Asir-gebergte",
+      "coords": [
+        18.2164282,
+        42.5043596
+      ],
+      "dayLabel": "Dag 11-12",
+      "nights": 2,
+      "image": "/images/posts/14-dagen-woestijn-kust-en-berglucht-4.webp",
+      "imageAlt": "Berglandschap bij Abha met groene bossen",
+      "description": "Abha ligt op ruim 2200 meter hoogte in het groene Asir-gebergte en biedt een aangename afwisseling van het droge woestijnklimaat. De stad zelf heeft een ontspannen sfeer met traditionele marktjes en levendige pleinen. Het omliggende landschap is rijk aan dennenbossen, heldere beekjes en bergdorpjes met karakteristieke architectuur van leem en hout. Voor natuurliefhebbers zijn er tal van wandel- en mountainbikeroutes, met uitzicht op diepe valleien en grillige bergen. De lokale cultuur van de Asir-stam is goed zichtbaar in ambachten en muziek.",
+      "activities": [
+        {
+          "title": "Wandeling in Al-Soudah park",
+          "description": "Natuurwandeling door een dennenbos met uitzichtpunten.",
+          "price": "5-10 euro"
+        },
+        {
+          "title": "Marktbezoek in Abha",
+          "description": "Ontdek lokale producten en handwerken op de markt.",
+          "price": "Gratis"
+        },
+        {
+          "title": "Bezoek traditionele dorpjes",
+          "description": "Leer over de cultuur en architectuur van bergbewoners.",
+          "price": "10-15 euro"
+        }
+      ],
+      "tip": "Reserveer tijd voor een bezoek aan het Al-Soudah park en maak een wandeling door de bossen om te genieten van de frisse berglucht."
+    },
+    {
+      "id": "taif-5",
+      "number": 5,
+      "name": "Taif",
+      "area": "West-Saoedi-Arabië, berggebied",
+      "coords": [
+        21.2702801,
+        40.4158308
+      ],
+      "dayLabel": "Dag 13-14",
+      "nights": 2,
+      "image": "/images/posts/14-dagen-woestijn-kust-en-berglucht-5.webp",
+      "imageAlt": "Bloeiende rozenvelden en bergen in Taif",
+      "description": "Taif ligt op ongeveer 1800 meter hoogte en staat bekend om zijn koele klimaat, uitgestrekte rozenplantages en vruchtbare landbouwgrond. De stad heeft een ontspannen ambiance met mooie tuinen, traditionele souks en gezellige cafés. Jaarlijks worden hier rozenwater en andere producten van de rozen geteeld en verwerkt, wat onderdeel is van het lokale ambacht. Wandelen door het bergachtige landschap rond Taif is een prettige manier om de natuur en rust op te zoeken. Ook zijn er diverse historische paleizen en musea die een bezoek waard zijn.",
+      "activities": [
+        {
+          "title": "Bezoek rozenplantages",
+          "description": "Leer over het kweken van rozen en de verwerking tot producten.",
+          "price": "10-15 euro"
+        },
+        {
+          "title": "Wandeling door Al Rudaf park",
+          "description": "Geniet van rust en natuur in een mooi bergpark.",
+          "price": "Gratis"
+        },
+        {
+          "title": "Soukbezoek met lokale specialiteiten",
+          "description": "Proef en koop fruit en andere streekproducten.",
+          "price": "Gratis"
+        }
+      ],
+      "tip": "Bezoek een rozenplantage om meer te leren over de verwerking van rozen en probeer lokale producten zoals rozenwater en honing."
+    }
+  ],
+  "gallery": [
+    {
+      "src": "/images/posts/14-dagen-woestijn-kust-en-berglucht-1.webp",
+      "alt": "Skyline van Riyad met wolkenkrabbers",
+      "caption": "Riyad — Centraal Saoedi-Arabië"
+    },
+    {
+      "src": "/images/posts/14-dagen-woestijn-kust-en-berglucht-2.webp",
+      "alt": "Rotsformaties en oude graven in AlUla",
+      "caption": "AlUla — Noordwest-Saoedi-Arabië"
+    },
+    {
+      "src": "/images/posts/14-dagen-woestijn-kust-en-berglucht-3.webp",
+      "alt": "Traditionele straat in Al-Balad, Jeddah",
+      "caption": "Jeddah — West-Saoedi-Arabië, Rode Zee kust"
+    },
+    {
+      "src": "/images/posts/14-dagen-woestijn-kust-en-berglucht-4.webp",
+      "alt": "Berglandschap bij Abha met groene bossen",
+      "caption": "Abha — Zuidwest-Saoedi-Arabië, Asir-gebergte"
+    },
+    {
+      "src": "/images/posts/14-dagen-woestijn-kust-en-berglucht-5.webp",
+      "alt": "Bloeiende rozenvelden en bergen in Taif",
+      "caption": "Taif — West-Saoedi-Arabië, berggebied"
+    }
+  ],
+  "practical": [
+    {
+      "label": "Vervoer",
+      "value": "Binnenlands reizen kan per binnenlandse vlucht (20-100 euro) of huurauto (30-50 euro per dag). Openbaar vervoer is beperkt."
+    },
+    {
+      "label": "Verblijf",
+      "value": "Hotels en guesthouses variëren van 40-100 euro per nacht, afhankelijk van locatie en comfort."
+    },
+    {
+      "label": "Budget",
+      "value": "Dagbudget tussen 50-100 euro exclusief accommodatie, afhankelijk van activiteiten en eten."
+    },
+    {
+      "label": "Beste reistijd",
+      "value": "Oktober tot april voor milde temperaturen en minder hitte."
+    },
+    {
+      "label": "Geld en internet",
+      "value": "Contant geld en creditcards worden geaccepteerd, goede mobiele internetdekking in steden."
+    }
+  ],
+  "packing": [
+    "Lichtgewicht kleding voor warme dagen",
+    "Warme lagen voor koele avonden",
+    "Comfortabele wandelschoenen",
+    "Zonnehoed en zonnebrandcrème",
+    "Zonnebril",
+    "Reisadapter",
+    "Medicatie en EHBO-kit",
+    "Camera of smartphone voor foto's",
+    "Herbruikbare waterfles"
+  ],
+  "closingNote": "Deze 14-daagse route toont de veelzijdigheid van Saoedi-Arabië, van moderne steden tot eeuwenoude archeologie en groene bergen. Door de afwisseling van landschap en cultuur krijg je een volledig beeld van het land. Het is een reis die zich goed laat combineren met comfortabele accommodaties en interessante activiteiten. Neem de tijd om de lokale keuken en gastvrijheid te ervaren voor een complete beleving.",
+  "continent": "midden-oosten",
+  "author": "Redactie",
+  "generated": true,
+  "createdAt": "2026-11-26",
+  "topicKey": "saudi-arabie:reisroute:2-weken",
+  "imageCredit": {
+    "name": "Konevi",
+    "url": "https://pixabay.com/photos/mosque-crowd-worship-mecca-islam-4372296/",
+    "source": "Pixabay"
+  }
+}

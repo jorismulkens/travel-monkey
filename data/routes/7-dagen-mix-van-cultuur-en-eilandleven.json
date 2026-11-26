@@ -1,0 +1,269 @@
+{
+  "slug": "7-dagen-mix-van-cultuur-en-eilandleven",
+  "title": "7 dagen mix van cultuur en eilandleven",
+  "kicker": "Van het culturele hart tot tropische stranden",
+  "country": "Indonesië",
+  "region": "Azië",
+  "durationDays": 7,
+  "durationLabel": "7 dagen",
+  "travelStyle": "avontuurlijk en afwisselend",
+  "budget": "middenklasse",
+  "budgetNote": "Dagelijkse kosten variëren tussen 30-60 euro, afhankelijk van activiteiten en verblijf.",
+  "bestTime": "April tot oktober voor droger weer en aangename temperaturen.",
+  "startPoint": "Yogyakarta",
+  "endPoint": "Gili Trawangan",
+  "coverImage": "/images/posts/7-dagen-mix-van-cultuur-en-eilandleven-cover.webp",
+  "coverAlt": "Een week door Indonesië met een combinatie van rijke cultuur, indrukwekkende natuur en ontspannen eilandleven. Bezoek tempels, rijstvelden, kliffen en relax op witte stranden.",
+  "excerpt": "Een week door Indonesië met een combinatie van rijke cultuur, indrukwekkende natuur en ontspannen eilandleven. Bezoek tempels, rijstvelden, kliffen en relax op witte stranden.",
+  "introHeading": "Cultuur, natuur en eilanden",
+  "intro": [
+    "Indonesië biedt een enorme diversiteit aan ervaringen, zelfs in een relatief korte week. Deze route start in Yogyakarta, het culturele hart van Java, en voert langs natuurrijke en spirituele plekken op Bali.",
+    "Van de levendige tempels en markten naar rustige stranden en indrukwekkende kliffen, deze reis combineert het beste van cultuur, natuur en eilandervaring.",
+    "De route is zo samengesteld dat je voldoende tijd hebt om elke bestemming te ontdekken zonder je te haasten, met goede verbindingen tussen de plekken."
+  ],
+  "highlights": [
+    "Bezoek de Borobudur en Prambanan tempels in Yogyakarta",
+    "Ontdek de rijstvelden en kunstscène van Ubud",
+    "Geniet van zonsondergangen bij Uluwatu-tempel",
+    "Snorkelen en duiken rondom Nusa Penida",
+    "Ontspannen op het levendige eiland Gili Trawangan"
+  ],
+  "stops": [
+    {
+      "id": "yogyakarta-1",
+      "number": 1,
+      "name": "Yogyakarta",
+      "area": "Java",
+      "coords": [
+        -7.7953473,
+        110.3672845
+      ],
+      "dayLabel": "Dag 1-2",
+      "nights": 2,
+      "image": "/images/posts/7-dagen-mix-van-cultuur-en-eilandleven-1.webp",
+      "imageAlt": "Borobudur tempel bij zonsopkomst",
+      "description": "Yogyakarta is een levendige stad die bekendstaat om zijn rijke cultuur en historische tempels. Het is een perfecte startplek voor wie Indonesië wil verkennen. Bezoek indrukwekkende UNESCO-werelderfgoedlocaties zoals de Borobudur en Prambanan tempels, die dicht bij de stad liggen. De stad zelf heeft een levendige markt en straatkunst die uitnodigen om te slenteren door de oude straatjes. De keuken is hier ook bijzonder, met lokale gerechten die je gemakkelijk kunt proeven op straat of in kleine warungs.",
+      "activities": [
+        {
+          "title": "Bezoek Borobudur",
+          "description": "Ontdek deze grootste Boeddhistische tempel ter wereld met indrukwekkende reliëfs en uitzichten.",
+          "price": "10-20 euro"
+        },
+        {
+          "title": "Prambanan tempelcomplex",
+          "description": "Verken het grootste hindoeïstische tempelcomplex in Indonesië met zijn opvallende torens.",
+          "price": "10-15 euro"
+        },
+        {
+          "title": "Stadswandeling en marktbezoek",
+          "description": "Loop door het levendige centrum en proef lokale snacks op traditionele markten.",
+          "price": "gratis tot 5 euro"
+        }
+      ],
+      "tip": "Probeer het openbaar vervoer of huur een motor om flexibel de omgeving te verkennen."
+    },
+    {
+      "id": "ubud-2",
+      "number": 2,
+      "name": "Ubud",
+      "area": "Bali",
+      "coords": [
+        -8.5170195,
+        115.2550507
+      ],
+      "dayLabel": "Dag 3-4",
+      "nights": 2,
+      "image": "/images/posts/7-dagen-mix-van-cultuur-en-eilandleven-2.webp",
+      "imageAlt": "Rijstvelden bij Ubud",
+      "description": "Ubud vormt het culturele centrum van Bali, bekend om zijn rijstvelden, ambachtslieden en spirituele sfeer. Wandel langs de groene terrassen en bezoek kunstgalerijen en traditionele markten. Het is ook een goede plek om yoga en meditatie te proberen, of lokale kooklessen te volgen. De omgeving biedt daarnaast leuke wandelroutes door het regenwoud en langs tempels. Ubud is rustiger dan de drukke kustplaatsen en geeft een goed beeld van het traditionele Balinese leven.",
+      "activities": [
+        {
+          "title": "Bezoek Monkey Forest",
+          "description": "Wandel door het bos en ontmoet de apen in hun natuurlijke leefomgeving.",
+          "price": "5-10 euro"
+        },
+        {
+          "title": "Rijstveldenwandeling",
+          "description": "Maak een begeleide wandeling langs de beroemde groene terrassen rondom Ubud.",
+          "price": "gratis tot 10 euro"
+        },
+        {
+          "title": "Kookworkshop Balinese keuken",
+          "description": "Leer traditionele gerechten bereiden bij een lokale chef.",
+          "price": "20-35 euro"
+        }
+      ],
+      "tip": "Huur een fiets om de rijstvelden en dorpjes in de buurt te verkennen, dat is vaak prettiger dan met de auto."
+    },
+    {
+      "id": "uluwatu-3",
+      "number": 3,
+      "name": "Uluwatu",
+      "area": "Bali",
+      "coords": [
+        -6.3427478,
+        106.7186876
+      ],
+      "dayLabel": "Dag 5",
+      "nights": 1,
+      "image": "/images/posts/7-dagen-mix-van-cultuur-en-eilandleven-3.webp",
+      "imageAlt": "Kloof en tempel bij Uluwatu",
+      "description": "Uluwatu ligt aan de zuidkant van Bali en staat bekend om zijn spectaculaire kliffen en de Uluwatu-tempel, die hoog op een rots uitkijkt over de zee. Het is een fijne plek voor surfers en zonaanbidders. Naast de tempel kun je hier ook een traditionele Kecak-dans bijwonen tijdens zonsondergang, wat de ervaring extra bijzonder maakt. De stranden rondom Uluwatu zijn rustiger dan die in het noorden en bieden mooie plekken om te zwemmen en te relaxen.",
+      "activities": [
+        {
+          "title": "Bezoek Uluwatu-tempel",
+          "description": "Verken deze zee-tempel met zijn bijzondere ligging en culturele shows bij zonsondergang.",
+          "price": "3-7 euro"
+        },
+        {
+          "title": "Surfen op Padang Padang Beach",
+          "description": "Probeer een surfles op een van de bekendste stranden van Bali.",
+          "price": "20-40 euro"
+        },
+        {
+          "title": "Relaxen op het strand",
+          "description": "Geniet van het rustige strand en zwem in helder water.",
+          "price": "gratis"
+        }
+      ],
+      "tip": "Plan je bezoek aan de tempel rond zonsondergang voor een mooi uitzicht en minder drukte."
+    },
+    {
+      "id": "nusa-penida-4",
+      "number": 4,
+      "name": "Nusa Penida",
+      "area": "Bali",
+      "coords": [
+        -8.7455877,
+        115.5346805
+      ],
+      "dayLabel": "Dag 6",
+      "nights": 1,
+      "image": "/images/posts/7-dagen-mix-van-cultuur-en-eilandleven-4.webp",
+      "imageAlt": "Kelingking Beach Nusa Penida",
+      "description": "Nusa Penida is een ruig eiland vlakbij Bali met indrukwekkende kliffen, verborgen baaien en helder water. Het is populair bij natuurliefhebbers en snorkelaars. Bezoek plekken zoals Kelingking Beach en Angel's Billabong voor panoramische uitzichten. Het eiland is minder ontwikkeld dan Bali zelf, waardoor de natuur hier nog onaangetast voelt. De reistijd per boot vanuit Sanur of Uluwatu is ongeveer 30 tot 45 minuten. Houd rekening met wat ruiger terrein en beperkte voorzieningen.",
+      "activities": [
+        {
+          "title": "Snorkelen bij Manta Point",
+          "description": "Zwem met reuzenmanta's in hun natuurlijke habitat.",
+          "price": "15-30 euro"
+        },
+        {
+          "title": "Bezoek Kelingking Beach",
+          "description": "Maak een wandeling naar het uitzichtpunt over de beroemde klif in de vorm van een dinosaurus.",
+          "price": "gratis"
+        },
+        {
+          "title": "Verken Angel's Billabong",
+          "description": "Bewonder het natuurlijke zwembad en de ruige kustlijn.",
+          "price": "gratis"
+        }
+      ],
+      "tip": "Huur een scooter om het eiland zelf te ontdekken, maar wees voorzichtig op de soms smalle en onverharde wegen."
+    },
+    {
+      "id": "gili-trawangan-5",
+      "number": 5,
+      "name": "Gili Trawangan",
+      "area": "Gili-eilanden",
+      "coords": [
+        -8.3503396,
+        116.0362621
+      ],
+      "dayLabel": "Dag 7",
+      "nights": 1,
+      "image": "/images/posts/7-dagen-mix-van-cultuur-en-eilandleven-5.webp",
+      "imageAlt": "Strand en helder water op Gili Trawangan",
+      "description": "Gili Trawangan is het grootste en meest levendige eiland van de drie Gili-eilanden. Het staat bekend om zijn witte zandstranden, helder water en een ontspannen sfeer zonder gemotoriseerd verkeer. Het is ideaal om te snorkelen, duiken of gewoon te ontspannen aan het strand. Er zijn verschillende gezellige eetgelegenheden en barretjes. Het eiland is een populaire afsluiter van een Indonesiëreis door de mix van natuur en sociale gezelligheid.",
+      "activities": [
+        {
+          "title": "Snorkelen rond Gili Trawangan",
+          "description": "Ontdek kleurrijke koraalriffen en tropische vissen.",
+          "price": "10-20 euro"
+        },
+        {
+          "title": "Fietstocht over het eiland",
+          "description": "Huur een fiets om het autovrije eiland te verkennen.",
+          "price": "5-10 euro"
+        },
+        {
+          "title": "Geniet van zonsondergang op het strand",
+          "description": "Sluit de dag af met een ontspannen uitzicht over zee.",
+          "price": "gratis"
+        }
+      ],
+      "tip": "Neem de boot vroeg in de ochtend om optimaal van je laatste dag te genieten."
+    }
+  ],
+  "gallery": [
+    {
+      "src": "/images/posts/7-dagen-mix-van-cultuur-en-eilandleven-1.webp",
+      "alt": "Borobudur tempel bij zonsopkomst",
+      "caption": "Yogyakarta — Java"
+    },
+    {
+      "src": "/images/posts/7-dagen-mix-van-cultuur-en-eilandleven-2.webp",
+      "alt": "Rijstvelden bij Ubud",
+      "caption": "Ubud — Bali"
+    },
+    {
+      "src": "/images/posts/7-dagen-mix-van-cultuur-en-eilandleven-3.webp",
+      "alt": "Kloof en tempel bij Uluwatu",
+      "caption": "Uluwatu — Bali"
+    },
+    {
+      "src": "/images/posts/7-dagen-mix-van-cultuur-en-eilandleven-4.webp",
+      "alt": "Kelingking Beach Nusa Penida",
+      "caption": "Nusa Penida — Bali"
+    },
+    {
+      "src": "/images/posts/7-dagen-mix-van-cultuur-en-eilandleven-5.webp",
+      "alt": "Strand en helder water op Gili Trawangan",
+      "caption": "Gili Trawangan — Gili-eilanden"
+    }
+  ],
+  "practical": [
+    {
+      "label": "Vervoer",
+      "value": "Binnenlandse vluchten en veerboten verbinden de locaties, budget tussen 20-50 euro per traject."
+    },
+    {
+      "label": "Verblijf",
+      "value": "Gastverblijven en middenklasse hotels, 15-40 euro per nacht."
+    },
+    {
+      "label": "Budget",
+      "value": "Dagelijks 30-60 euro inclusief maaltijden, vervoer en activiteiten."
+    },
+    {
+      "label": "Beste reistijd",
+      "value": "April tot oktober, het droge seizoen met weinig regen."
+    },
+    {
+      "label": "Geld en internet",
+      "value": "PINnen is algemeen mogelijk, wifi beschikbaar in hotels en cafés."
+    }
+  ],
+  "packing": [
+    "Lichte kleding",
+    "Zwemkleding",
+    "Stevige wandelschoenen",
+    "Zonnebrandcrème",
+    "Insectenspray",
+    "Reisadapter",
+    "Camera",
+    "Snorkeluitrusting (optioneel)",
+    "Lichtgewicht regenkleding"
+  ],
+  "closingNote": "Deze route combineert cultuur, natuur en ontspanning op een realistische manier binnen een week. Het is een goede mix voor wie Indonesië wil proeven zonder zich te haasten. Houd rekening met reistijden, maar geniet van de variatie tussen tempels, rijstvelden en stranden. Zo ontstaat een evenwichtig beeld van wat Indonesië te bieden heeft.",
+  "continent": "azie",
+  "author": "Redactie",
+  "generated": true,
+  "createdAt": "2026-11-26",
+  "topicKey": "indonesie:reisroute:1-week",
+  "imageCredit": {
+    "name": "AchimF",
+    "url": "https://pixabay.com/photos/water-waves-sea-beach-baltic-sea-5172404/",
+    "source": "Pixabay"
+  }
+}

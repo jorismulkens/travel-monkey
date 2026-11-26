@@ -1,0 +1,269 @@
+{
+  "slug": "21-dagen-ghana-cultuur-natuur-en-geschiedenis",
+  "title": "21 dagen Ghana: cultuur, natuur en geschiedenis",
+  "kicker": "Van hoofdstad tot wildpark",
+  "country": "Ghana",
+  "region": "Afrika",
+  "durationDays": 21,
+  "durationLabel": "3 weken",
+  "travelStyle": "avontuurlijk en cultureel",
+  "budget": "budget tot middenklasse",
+  "budgetNote": "Prijzen zijn indicatief en kunnen verschillen per seizoen en locatie.",
+  "bestTime": "november tot maart",
+  "startPoint": "Accra",
+  "endPoint": "Mole National Park",
+  "coverImage": "/images/posts/21-dagen-ghana-cultuur-natuur-en-geschiedenis-cover.webp",
+  "coverAlt": "Een uitgebreide reis door Ghana waarbij je kennismaakt met levendige steden, historische kustplaatsen, culturele hoogstandjes in het binnenland, het groene Voltagebied en het wildrijke noorden.",
+  "excerpt": "Een uitgebreide reis door Ghana waarbij je kennismaakt met levendige steden, historische kustplaatsen, culturele hoogstandjes in het binnenland, het groene Voltagebied en het wildrijke noorden.",
+  "introHeading": "Van stad naar natuur en cultuur",
+  "intro": [
+    "Deze 21-daagse reis neemt je mee door Ghana, van de drukke hoofdstad Accra naar het rustige Mole National Park in het noorden.",
+    "Je beleeft de rijke geschiedenis langs de kust, bekijkt traditionele kunst en cultuur in Kumasi en geniet van de natuur in het Voltagebied.",
+    "De route is een combinatie van stadsleven, cultuur, natuur en avontuur, met een relaxte reistempo waardoor je veel kunt ontdekken zonder te haasten."
+  ],
+  "highlights": [
+    "Ontdek de levendige hoofdstad Accra met haar kleurrijke markten.",
+    "Bezoek het indrukwekkende kasteel van Cape Coast en leer over de geschiedenis.",
+    "Ervaar de Ashanti-cultuur in Kumasi met lokale markt en paleis.",
+    "Verken het groene en bergachtige Volta-gebied met watervallen en meren.",
+    "Ga op safari in Mole National Park en spot wilde dieren."
+  ],
+  "stops": [
+    {
+      "id": "accra-1",
+      "number": 1,
+      "name": "Accra",
+      "area": "Greater Accra",
+      "coords": [
+        5.5571096,
+        -0.2012376
+      ],
+      "dayLabel": "Dag 1-4",
+      "nights": 4,
+      "image": "/images/posts/21-dagen-ghana-cultuur-natuur-en-geschiedenis-1.webp",
+      "imageAlt": "Straatmarkt in Accra met kleurrijke kramen",
+      "description": "Accra is het bruisende hart van Ghana, waar moderne gebouwen en kleurrijke markten elkaar afwisselen. De stad biedt een mix van cultuur, geschiedenis en levendige straattaferelen. Bezoek de Makola-markt voor levendige handel en lokale producten, wandel langs de kust bij Labadi Beach of bezoek het Kwame Nkrumah Mausoleum om meer te leren over de geschiedenis van het land. Accra heeft een groeiende culinaire scene waar je lokaal straateten en internationale gerechten kunt proberen.",
+      "activities": [
+        {
+          "title": "Makola-markt bezoeken",
+          "description": "Verken deze drukke markt waar je allerlei lokale producten vindt, van textiel tot eten.",
+          "price": "gratis, kosten voor aankopen variëren"
+        },
+        {
+          "title": "Bezoek aan Kwame Nkrumah Mausoleum",
+          "description": "Leer over de eerste president van Ghana en de onafhankelijkheidsstrijd.",
+          "price": "ongeveer 5-10 euro"
+        },
+        {
+          "title": "Labadi Beach wandeling",
+          "description": "Ontspan aan het strand en bekijk lokale muzikanten en dansers.",
+          "price": "gratis, entree voor sommige evenementen kan kosten hebben"
+        }
+      ],
+      "tip": "Probeer het streetfood, zoals kelewele (gekruide gebakken banaan) in een van de lokale kraampjes."
+    },
+    {
+      "id": "cape-coast-2",
+      "number": 2,
+      "name": "Cape Coast",
+      "area": "Central Region",
+      "coords": [
+        5.1080932,
+        -1.2417103
+      ],
+      "dayLabel": "Dag 5-8",
+      "nights": 4,
+      "image": "/images/posts/21-dagen-ghana-cultuur-natuur-en-geschiedenis-2.webp",
+      "imageAlt": "Cape Coast Castle aan de kust",
+      "description": "Cape Coast staat bekend om zijn geschiedenis als centrum van de trans-Atlantische slavenhandel. Het Cape Coast Castle is een indrukwekkend kasteel dat je meeneemt in het verhaal van deze periode. Daarnaast heeft de omgeving mooie stranden en mogelijkheden voor natuurwandelingen. In de stad zelf is het leuk om door de smalle straatjes te dwalen en de lokale sfeer te proeven. Ook kan een bezoek aan het nabijgelegen Kakum National Park niet ontbreken, met zijn hangbruggen door het regenwoud.",
+      "activities": [
+        {
+          "title": "Rondleiding Cape Coast Castle",
+          "description": "Leer over de geschiedenis van het kasteel en de slavernij.",
+          "price": "ongeveer 10-15 euro"
+        },
+        {
+          "title": "Canopy walk Kakum National Park",
+          "description": "Wandel over hangbruggen hoog tussen de bomen in het regenwoud.",
+          "price": "rond 7-12 euro"
+        },
+        {
+          "title": "Strandwandeling bij Cape Coast",
+          "description": "Geniet van de rust en zon op een van de stranden.",
+          "price": "gratis"
+        }
+      ],
+      "tip": "Loop de canopy walk in Kakum National Park vroeg in de ochtend, dan is het koeler en minder druk."
+    },
+    {
+      "id": "kumasi-3",
+      "number": 3,
+      "name": "Kumasi",
+      "area": "Ashanti Region",
+      "coords": [
+        6.6985605,
+        -1.6233086
+      ],
+      "dayLabel": "Dag 9-13",
+      "nights": 5,
+      "image": "/images/posts/21-dagen-ghana-cultuur-natuur-en-geschiedenis-3.webp",
+      "imageAlt": "Drukke markt in Kumasi",
+      "description": "Kumasi is de culturele hoofdstad van de Ashanti-regio en staat bekend om haar rijke tradities en geschiedenis. Het Ashanti-koninkrijk speelt hier nog steeds een belangrijke rol, met het Manhyia Palace als cultureel centrum. De Kejetia-markt is een van de grootste openluchtmarkten van West-Afrika en biedt een kleurrijke ervaring. Je kunt er ook lokale ambachtslieden aan het werk zien en traditionele stoffen kopen. De stad is een prima plek om meer te leren over de Ashanti-cultuur en kunst.",
+      "activities": [
+        {
+          "title": "Manhyia Palace Museum",
+          "description": "Leer over de Ashanti-koning en cultuur.",
+          "price": "ongeveer 5-10 euro"
+        },
+        {
+          "title": "Kejetia-markt verkennen",
+          "description": "Ontdek de grootste openluchtmarkt van West-Afrika.",
+          "price": "gratis, kosten voor aankopen variëren"
+        },
+        {
+          "title": "Bezoek traditionele weverij",
+          "description": "Bekijk het weven van Kente-stoffen, traditioneel Ghanaans textiel.",
+          "price": "ongeveer 5-10 euro"
+        }
+      ],
+      "tip": "Bezoek een traditionele Ashanti-familie of workshop voor een authentieke ervaring."
+    },
+    {
+      "id": "volta-region-4",
+      "number": 4,
+      "name": "Volta Region",
+      "area": "Volta",
+      "coords": [
+        6.5348624,
+        0.4556055
+      ],
+      "dayLabel": "Dag 14-17",
+      "nights": 4,
+      "image": "/images/posts/21-dagen-ghana-cultuur-natuur-en-geschiedenis-4.webp",
+      "imageAlt": "Watervallen in de Volta-regio",
+      "description": "De Volta-regio biedt een groene en bergachtige omgeving die anders is dan de rest van Ghana. Je vindt er watervallen, bossen en het grootste stuwmeer van West-Afrika. Populaire plekken zijn de Wli-watervallen, waar je kunt wandelen en zwemmen, en het serene Lake Volta. Lokale dorpen geven inzicht in het leven van de Ewe-bevolking. Deze regio nodigt uit tot rust en natuurbeleving, ver weg van de drukte van de steden.",
+      "activities": [
+        {
+          "title": "Wandeling en zwemmen bij Wli-watervallen",
+          "description": "Beleef de hoogste watervallen van West-Afrika.",
+          "price": "ongeveer 3-7 euro entree en gids"
+        },
+        {
+          "title": "Boottocht op Lake Volta",
+          "description": "Ontspan op het grootste kunstmatige meer van Afrika.",
+          "price": "ongeveer 10-15 euro"
+        },
+        {
+          "title": "Bezoek lokaal dorp",
+          "description": "Leer over tradities en handwerk van de Ewe-bevolking.",
+          "price": "vaak gratis, kleine bijdrage voor rondleiding mogelijk"
+        }
+      ],
+      "tip": "Huur een gids voor de wandeltochten naar minder bekende watervallen in de buurt van Wli."
+    },
+    {
+      "id": "mole-national-park-5",
+      "number": 5,
+      "name": "Mole National Park",
+      "area": "Northern Region",
+      "coords": [
+        9.6569044,
+        -1.8673508
+      ],
+      "dayLabel": "Dag 18-21",
+      "nights": 4,
+      "image": "/images/posts/21-dagen-ghana-cultuur-natuur-en-geschiedenis-5.webp",
+      "imageAlt": "Olifanten in Mole National Park",
+      "description": "Mole National Park is het grootste wildpark van Ghana en biedt mogelijkheden om safari’s te maken in een relatief onbekend deel van Afrika. Het landschap bestaat uit savanne en bos, waarin olifanten, antilopen, apen en soms zelfs leeuwen leven. Safari’s kunnen te voet, per jeep of zelfs ’s nachts gemaakt worden. Het park heeft ook een bezoekerscentrum waar je meer leert over de flora en fauna. De sfeer is rustiger en minder toeristisch dan de bekende wildparken verder zuidelijk in Afrika.",
+      "activities": [
+        {
+          "title": "Jeep safari",
+          "description": "Ga op zoek naar wilde dieren met een gids per jeep.",
+          "price": "ongeveer 20-30 euro"
+        },
+        {
+          "title": "Wandelsafari",
+          "description": "Verken het park te voet onder begeleiding van een gids.",
+          "price": "ongeveer 15-25 euro"
+        },
+        {
+          "title": "Bezoekerscentrum Mole",
+          "description": "Leer over de biodiversiteit van het park.",
+          "price": "ongeveer 2-5 euro"
+        }
+      ],
+      "tip": "Neem een verrekijker mee voor betere dierenobservaties tijdens de safari."
+    }
+  ],
+  "gallery": [
+    {
+      "src": "/images/posts/21-dagen-ghana-cultuur-natuur-en-geschiedenis-1.webp",
+      "alt": "Straatmarkt in Accra met kleurrijke kramen",
+      "caption": "Accra — Greater Accra"
+    },
+    {
+      "src": "/images/posts/21-dagen-ghana-cultuur-natuur-en-geschiedenis-2.webp",
+      "alt": "Cape Coast Castle aan de kust",
+      "caption": "Cape Coast — Central Region"
+    },
+    {
+      "src": "/images/posts/21-dagen-ghana-cultuur-natuur-en-geschiedenis-3.webp",
+      "alt": "Drukke markt in Kumasi",
+      "caption": "Kumasi — Ashanti Region"
+    },
+    {
+      "src": "/images/posts/21-dagen-ghana-cultuur-natuur-en-geschiedenis-4.webp",
+      "alt": "Watervallen in de Volta-regio",
+      "caption": "Volta Region — Volta"
+    },
+    {
+      "src": "/images/posts/21-dagen-ghana-cultuur-natuur-en-geschiedenis-5.webp",
+      "alt": "Olifanten in Mole National Park",
+      "caption": "Mole National Park — Northern Region"
+    }
+  ],
+  "practical": [
+    {
+      "label": "Vervoer",
+      "value": "Binnenlandse bus of minibus: 5-15 euro per rit. Taxi’s en privévervoer duurder."
+    },
+    {
+      "label": "Verblijf",
+      "value": "Guesthouses en middenklasse hotels: 20-50 euro per nacht."
+    },
+    {
+      "label": "Budget",
+      "value": "Dagelijks budget 25-50 euro, afhankelijk van keuzes in eten en activiteiten."
+    },
+    {
+      "label": "Beste reistijd",
+      "value": "November tot maart, droger en koeler."
+    },
+    {
+      "label": "Geld en internet",
+      "value": "Geldautomaten beschikbaar in steden. Lokale simkaart met data rond 10-20 euro."
+    }
+  ],
+  "packing": [
+    "Lichte kleding voor warm weer",
+    "Regendichte jas of poncho",
+    "Stevige wandelschoenen",
+    "Zonnehoed of pet",
+    "Zonnebrandcrème",
+    "Insectenspray",
+    "Verrekijker",
+    "Adapter voor stopcontact",
+    "Eerste hulp kit"
+  ],
+  "closingNote": "Deze 21-daagse reis door Ghana combineert stad en natuur op een ontspannen manier. Je krijgt een goed beeld van de verschillende gezichten van het land, van levendige markten tot rustige natuurgebieden. Met voldoende tijd bij elke stop is er ruimte om rustig te ontdekken en te genieten. Een goede voorbereiding en open houding maken de reis nog waardevoller.",
+  "continent": "afrika",
+  "author": "Redactie",
+  "generated": true,
+  "createdAt": "2026-11-26",
+  "topicKey": "ghana:reisroute:3-weken",
+  "imageCredit": {
+    "name": "lapping",
+    "url": "https://pixabay.com/photos/ghana-west-africa-africa-village-1927853/",
+    "source": "Pixabay"
+  }
+}

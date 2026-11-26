@@ -1,0 +1,269 @@
+{
+  "slug": "7-dagen-mix-van-cultuur-en-natuur",
+  "title": "7 dagen mix van cultuur en natuur",
+  "kicker": "Ontdekking van stad, bergen en kust",
+  "country": "Colombia",
+  "region": "Zuid-Amerika",
+  "durationDays": 7,
+  "durationLabel": "7 dagen",
+  "travelStyle": "avontuurlijk en cultureel",
+  "budget": "€€",
+  "budgetNote": "Budget ligt gemiddeld, transport en activiteiten kosten variëren maar blijven betaalbaar",
+  "bestTime": "december tot maart",
+  "startPoint": "Bogotá",
+  "endPoint": "Santa Marta",
+  "coverImage": "/images/posts/7-dagen-mix-van-cultuur-en-natuur-cover.webp",
+  "coverAlt": "Een weeklang Colombia ontdekken van de hoofdstad Bogotá via de kleurrijke bergen van Salento naar de Caribische kust in Santa Marta. Deze route combineert cultuur, natuur en ontspanning.",
+  "excerpt": "Een weeklang Colombia ontdekken van de hoofdstad Bogotá via de kleurrijke bergen van Salento naar de Caribische kust in Santa Marta. Deze route combineert cultuur, natuur en ontspanning.",
+  "introHeading": "Van stad naar natuur en zee",
+  "intro": [
+    "Deze reisroute leidt je in zeven dagen door een afwisselend Colombia. Begin in de levendige hoofdstad Bogotá met zijn rijke cultuur en musea, waar geschiedenis en moderne kunst samenkomen.",
+    "Ga vervolgens naar het koffiegebied rond Salento, een plek om te wandelen tussen de hoogste palmbomen ter wereld en de koffiecultuur te proeven. De natuur hier is een welkome afwisseling na de stadsdrukte.",
+    "Sluit de reis af aan de Caribische kust in Santa Marta en Cartagena, waar je koloniale charme kunt ervaren en kunt ontspannen aan het strand. Zo combineer je cultuur, natuur en zee in één week."
+  ],
+  "highlights": [
+    "Winkel en kunst ontdekken in Bogotá",
+    "Wandelen door de kleurrijke Valle de Cocora",
+    "Koffie proeven bij een traditionele finca",
+    "Genieten van koloniale architectuur in Cartagena",
+    "Stranden en natuurparken bij Santa Marta"
+  ],
+  "stops": [
+    {
+      "id": "bogota-1",
+      "number": 1,
+      "name": "Bogotá",
+      "area": "Cundinamarca",
+      "coords": [
+        4.6533817,
+        -74.0836331
+      ],
+      "dayLabel": "Dag 1-2",
+      "nights": 2,
+      "image": "/images/posts/7-dagen-mix-van-cultuur-en-natuur-1.webp",
+      "imageAlt": "Straat in La Candelaria in Bogotá",
+      "description": "Bogotá is het bruisende hart van Colombia en combineert traditionele en moderne cultuur. De stad heeft talloze musea, zoals het indrukwekkende Goudmuseum, en levendige wijken zoals La Candelaria met koloniale gebouwen en straatkunst. Wandel door de historische straatjes, geniet van lokale gerechten op een van de terrassen en neem de kabelbaan naar de berg Monserrate voor panoramisch uitzicht. Bogotá heeft een rijke historie die terug te zien is in de musea en architectuur, maar ook een jonge, dynamische sfeer.",
+      "activities": [
+        {
+          "title": "Bezoek Goudmuseum",
+          "description": "Ontdek de grootste collectie van precolumbiaans goud en artefacten in Latijns-Amerika.",
+          "price": "5-10 euro"
+        },
+        {
+          "title": "Kabelbaan naar Monserrate",
+          "description": "Rijd met de kabelbaan voor een prachtig uitzicht over Bogotá.",
+          "price": "3-7 euro"
+        },
+        {
+          "title": "Wandeling door La Candelaria",
+          "description": "Verken het historische centrum met kleurrijke straatkunst en pleinen.",
+          "price": "gratis"
+        }
+      ],
+      "tip": "Bezoek het Goudmuseum vroeg in de ochtend om drukte te vermijden en draag comfortabele schoenen voor stadswandelingen."
+    },
+    {
+      "id": "salento-2",
+      "number": 2,
+      "name": "Salento",
+      "area": "Eje Cafetero",
+      "coords": [
+        4.6373012,
+        -75.569799
+      ],
+      "dayLabel": "Dag 3-4",
+      "nights": 2,
+      "image": "/images/posts/7-dagen-mix-van-cultuur-en-natuur-2.webp",
+      "imageAlt": "Kleurrijke huizen in Salento",
+      "description": "Salento is een klein bergdorpje in Colombia’s koffiegebied, bekend om zijn charmante straatjes en kleurrijke houten huizen. Het is de uitvalsbasis om de Valle de Cocora te bezoeken, waar de hoogste palmbomen ter wereld staan. In Salento proef je de sfeer van de koffiecultuur en kun je een tour maken op een koffieplantage. De natuur rondom is indrukwekkend met groene valleien en berglandschappen, perfect voor wandelingen en het ontdekken van lokale flora en fauna.",
+      "activities": [
+        {
+          "title": "Wandeling Valle de Cocora",
+          "description": "Hike langs indrukwekkende waxpalmen in het groene berglandschap.",
+          "price": "3-5 euro (toegang natuurpark)"
+        },
+        {
+          "title": "Koffietour op finca",
+          "description": "Leer over het koffieproces en proef vers gezette koffie.",
+          "price": "15-25 euro"
+        },
+        {
+          "title": "Bezoek aan Salento centrum",
+          "description": "Ontdek ambachtelijke winkels en cafés in het dorp.",
+          "price": "gratis"
+        }
+      ],
+      "tip": "Bezoek een koffieboerderij en proef de versgebrande koffie, een echte aanrader om de lokale cultuur te ervaren."
+    },
+    {
+      "id": "medellin-3",
+      "number": 3,
+      "name": "Medellín",
+      "area": "Antioquia",
+      "coords": [
+        6.2697324,
+        -75.6025597
+      ],
+      "dayLabel": "Dag 5",
+      "nights": 1,
+      "image": "/images/posts/7-dagen-mix-van-cultuur-en-natuur-3.webp",
+      "imageAlt": "Straatkunst in Comuna 13, Medellín",
+      "description": "Medellín heeft zich ontwikkeld van industriestad tot moderne metropool met een prettig klimaat. De stad combineert innovatieve architectuur met gezellige pleinen en markten. Bezoek het Museum van Antioquia en de kleurrijke wijk Comuna 13, bekend om zijn straatkunst en sociale projecten. Medellín is ook een goede plek om de lokale keuken te proberen in een van de vele restaurants. De stad ademt een optimistische sfeer met een mix van cultuur en stadse dynamiek.",
+      "activities": [
+        {
+          "title": "Bezoek Museum van Antioquia",
+          "description": "Leer over moderne kunst en lokale geschiedenis.",
+          "price": "4-8 euro"
+        },
+        {
+          "title": "Tour door Comuna 13",
+          "description": "Ontdek de kleurrijke muurschilderingen en sociale initiatieven.",
+          "price": "10-20 euro"
+        },
+        {
+          "title": "Kabelbaan naar Santo Domingo",
+          "description": "Geniet van uitzicht op de stad vanuit de kabelbaan.",
+          "price": "1-3 euro"
+        }
+      ],
+      "tip": "Ga met de kabelbaan naar de hoger gelegen wijken voor een mooi uitzicht en een goede indruk van de stedelijke ontwikkeling."
+    },
+    {
+      "id": "cartagena-4",
+      "number": 4,
+      "name": "Cartagena",
+      "area": "Caribisch Gebied",
+      "coords": [
+        10.4265566,
+        -75.5441671
+      ],
+      "dayLabel": "Dag 6",
+      "nights": 1,
+      "image": "/images/posts/7-dagen-mix-van-cultuur-en-natuur-4.webp",
+      "imageAlt": "Koloniale straat in Cartagena",
+      "description": "Cartagena is een historische havenstad aan de Caribische kust met een ommuurd centrum vol koloniale charme. Wandel door de geplaveide straatjes, bezoek het fort Castillo San Felipe en geniet van het levendige plein Plaza Santo Domingo. De stad is een mengeling van geschiedenis, cultuur en tropische sfeer, waar je ook kunt proeven van verse zeevruchten en lokale specialiteiten. De zonsondergang aan het stadsstrand is een mooie afsluiter van de dag.",
+      "activities": [
+        {
+          "title": "Bezoek Castillo San Felipe",
+          "description": "Verken het grootste Spaanse fort in Zuid-Amerika.",
+          "price": "5-10 euro"
+        },
+        {
+          "title": "Wandeling door historisch centrum",
+          "description": "Ontdek pleinen, kerken en kleurrijke huizen.",
+          "price": "gratis"
+        },
+        {
+          "title": "Zonsondergang bij stadstrand",
+          "description": "Geniet van het uitzicht en de sfeer aan het water.",
+          "price": "gratis"
+        }
+      ],
+      "tip": "Kies een restaurant met terras in het oude centrum voor een ontspannen avond met uitzicht op de levendige straat."
+    },
+    {
+      "id": "santa-marta-5",
+      "number": 5,
+      "name": "Santa Marta",
+      "area": "Caribisch Gebied",
+      "coords": [
+        11.2320944,
+        -74.1950916
+      ],
+      "dayLabel": "Dag 7",
+      "nights": 1,
+      "image": "/images/posts/7-dagen-mix-van-cultuur-en-natuur-5.webp",
+      "imageAlt": "Strand bij Santa Marta",
+      "description": "Santa Marta is de oudste stad van Colombia en ligt aan de Caribische Zee. Het is een goede uitvalsbasis om het Tayrona Nationaal Park te bezoeken met prachtige stranden en jungle. In de stad zelf vind je een mix van koloniale gebouwen en markten. Santa Marta biedt rust aan het strand en de mogelijkheid om de natuurlijke omgeving te verkennen. Het tropische klimaat maakt het een fijne plek om de reis af te sluiten met zon en zee.",
+      "activities": [
+        {
+          "title": "Bezoek Tayrona Nationaal Park",
+          "description": "Ontdek stranden en wandelroutes in tropische natuur.",
+          "price": "10-20 euro"
+        },
+        {
+          "title": "Stranddag Playa Blanca",
+          "description": "Ontspan op wit zand en helder water.",
+          "price": "gratis tot kleine entreekosten"
+        },
+        {
+          "title": "Bezoek centrum Santa Marta",
+          "description": "Verken historische gebouwen en lokale markten.",
+          "price": "gratis"
+        }
+      ],
+      "tip": "Plan een halve dag voor het Tayrona Park of relax op het strand van Playa Blanca."
+    }
+  ],
+  "gallery": [
+    {
+      "src": "/images/posts/7-dagen-mix-van-cultuur-en-natuur-1.webp",
+      "alt": "Straat in La Candelaria in Bogotá",
+      "caption": "Bogotá — Cundinamarca"
+    },
+    {
+      "src": "/images/posts/7-dagen-mix-van-cultuur-en-natuur-2.webp",
+      "alt": "Kleurrijke huizen in Salento",
+      "caption": "Salento — Eje Cafetero"
+    },
+    {
+      "src": "/images/posts/7-dagen-mix-van-cultuur-en-natuur-3.webp",
+      "alt": "Straatkunst in Comuna 13, Medellín",
+      "caption": "Medellín — Antioquia"
+    },
+    {
+      "src": "/images/posts/7-dagen-mix-van-cultuur-en-natuur-4.webp",
+      "alt": "Koloniale straat in Cartagena",
+      "caption": "Cartagena — Caribisch Gebied"
+    },
+    {
+      "src": "/images/posts/7-dagen-mix-van-cultuur-en-natuur-5.webp",
+      "alt": "Strand bij Santa Marta",
+      "caption": "Santa Marta — Caribisch Gebied"
+    }
+  ],
+  "practical": [
+    {
+      "label": "Vervoer",
+      "value": "Binnenlandse vluchten en busritten; vluchten kosten meestal 30-70 euro, bussen 5-15 euro per traject."
+    },
+    {
+      "label": "Verblijf",
+      "value": "Hostels en middenklasse hotels, ongeveer 20-50 euro per nacht."
+    },
+    {
+      "label": "Budget",
+      "value": "Dagelijkse kosten gemiddeld 40-60 euro inclusief eten, vervoer en activiteiten."
+    },
+    {
+      "label": "Beste reistijd",
+      "value": "December tot maart voor zonnig weer en minder regen."
+    },
+    {
+      "label": "Geld en internet",
+      "value": "Contant geld is handig; wifi beschikbaar in de meeste accommodaties en cafés."
+    }
+  ],
+  "packing": [
+    "Lichte kleding voor warm weer",
+    "Comfortabele wandelschoenen",
+    "Regenjas of poncho",
+    "Zwemkleding",
+    "Zonnehoed of pet",
+    "Zonnebrandcrème",
+    "Insectenwerend middel",
+    "Camera of smartphone",
+    "Kleine rugzak voor dagtochten"
+  ],
+  "closingNote": "Deze route laat je binnen een week kennismaken met de verschillende gezichten van Colombia, van het culturele Bogotá tot de natuur rondom Salento en de Caribische kust. De afwisseling tussen steden, bergen en zee zorgt voor een evenwichtige en gevarieerde ervaring. Het is een goede introductie voor wie meer van het land wil ontdekken in een kortere tijd.",
+  "continent": "zuid-amerika",
+  "author": "Redactie",
+  "generated": true,
+  "createdAt": "2026-11-26",
+  "topicKey": "colombia:reisroute:1-week",
+  "imageCredit": {
+    "name": "TjjEbanez",
+    "url": "https://pixabay.com/photos/colombia-forest-cali-hummingbird-10168674/",
+    "source": "Pixabay"
+  }
+}

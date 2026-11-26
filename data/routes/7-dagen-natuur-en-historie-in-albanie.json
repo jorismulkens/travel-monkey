@@ -1,0 +1,269 @@
+{
+  "slug": "7-dagen-natuur-en-historie-in-albanie",
+  "title": "7 dagen natuur en historie in Albanië",
+  "kicker": "Een week tussen bergen en kust",
+  "country": "Albanië",
+  "region": "Europa",
+  "durationDays": 7,
+  "durationLabel": "7 dagen",
+  "travelStyle": "avontuurlijk en cultureel",
+  "budget": "budget tot middenklasse",
+  "budgetNote": "Prijzen kunnen variëren, afhankelijk van seizoen en accommodatie",
+  "bestTime": "april tot oktober",
+  "startPoint": "Tirana",
+  "endPoint": "Theth",
+  "coverImage": "/images/posts/7-dagen-natuur-en-historie-in-albanie-cover.webp",
+  "coverAlt": "Ontdek in zeven dagen de afwisseling van Albanië: van Tirana’s levendige sfeer naar de eeuwenoude steden Berat en Gjirokastër. Ervaar de helderblauwe stranden van Ksamil en sluit af met een wandeling in de ruige natuur van Theth.",
+  "excerpt": "Ontdek in zeven dagen de afwisseling van Albanië: van Tirana’s levendige sfeer naar de eeuwenoude steden Berat en Gjirokastër. Ervaar de helderblauwe stranden van Ksamil en sluit af met een wandeling in de ruige natuur van Theth.",
+  "introHeading": "Van stad naar bergen en kust",
+  "intro": [
+    "Albanië combineert verrassend veel: bruisende steden, rijke geschiedenis en indrukwekkende natuur. In zeven dagen maak je een reis door verschillende landschappen en culturen, van de hoofdstad tot afgelegen bergdorpen.",
+    "Deze route neemt je mee van het moderne Tirana via historische steden naar de kust en het ruige binnenland. Elke plek heeft zijn eigen karakter en biedt verrassende activiteiten voor cultuur- en natuurliefhebbers.",
+    "Met een goede planning is deze week een mooie mix van stedelijke ontdekkingen, ontspannen aan zee en avontuurlijke wandelingen in de bergen. Zo krijg je een compleet beeld van wat Albanië te bieden heeft."
+  ],
+  "highlights": [
+    "Tirana: moderne stad met musea en levendige markt",
+    "Berat: bekend om zijn historische binnenstad en kasteel",
+    "Gjirokastër: UNESCO-stad met Ottomaanse architectuur",
+    "Ksamil: mooie stranden met helder water aan de Ionische Zee",
+    "Theth: bergdorp omringd door spectaculaire natuur en wandelroutes"
+  ],
+  "stops": [
+    {
+      "id": "tirana-1",
+      "number": 1,
+      "name": "Tirana",
+      "area": "hoofdstad Albanië",
+      "coords": [
+        41.3283781,
+        19.8179825
+      ],
+      "dayLabel": "Dag 1-2",
+      "nights": 2,
+      "image": "/images/posts/7-dagen-natuur-en-historie-in-albanie-1.webp",
+      "imageAlt": "Straat in Tirana met kleurrijke gebouwen",
+      "description": "Tirana is de bruisende hoofdstad van Albanië, waar oud en nieuw samenkomen. Naast het centrale Skanderbegplein met het Nationaal Historisch Museum, de Et'hem Bey-moskee en het Opera-gebouw, is er veel te ontdekken in de kleurrijke straten. De Blloku-wijk, ooit verboden terrein voor het publiek, is nu dé plek voor cafés, bars en kunstgalerijen. De stad wordt omringd door bergen en de kabelbaan naar de Dajti-berg is een populaire ontsnapping naar de natuur met wandelroutes en uitzichtpunten over de stad.",
+      "activities": [
+        {
+          "title": "Bezoek Nationaal Historisch Museum",
+          "description": "Leer over Albanië’s geschiedenis en cultuur in dit uitgebreide museum aan het centrale plein.",
+          "price": "5-10 euro"
+        },
+        {
+          "title": "Kabelbaan Dajti-berg",
+          "description": "Rit met de kabelbaan naar het natuurpark, met wandel- en uitkijkmogelijkheden.",
+          "price": "7-12 euro"
+        },
+        {
+          "title": "Fietstocht door Blloku",
+          "description": "Verken deze levendige wijk vol cafés, street art en winkels op de fiets.",
+          "price": "10-15 euro"
+        }
+      ],
+      "tip": "Huur een fiets om de stad en het park rondom het Skanderbegplein gemakkelijk te verkennen. Zo zie je in korte tijd veel van Tirana."
+    },
+    {
+      "id": "berat-2",
+      "number": 2,
+      "name": "Berat",
+      "area": "Midden-Albanië",
+      "coords": [
+        40.7018636,
+        19.9580758
+      ],
+      "dayLabel": "Dag 3",
+      "nights": 1,
+      "image": "/images/posts/7-dagen-natuur-en-historie-in-albanie-2.webp",
+      "imageAlt": "Uitzicht op het kasteel van Berat",
+      "description": "Berat staat bekend als de 'stad van duizend vensters' door de vele witte huizen met grote ramen die de heuvels sieren. De oude stad is een wirwar van smalle straatjes en pleintjes, met als hoogtepunt het oude kasteel dat nog steeds bewoond is. Binnen de kasteelmuren bevinden zich verschillende kleine kerken, waaronder het Onufri Museum met iconen uit de 16e eeuw. Vanaf het kasteel heb je een prachtig uitzicht over de rivier Osum en de omliggende bergen. Berat straalt rust uit en is een mooie plek om te genieten van een authentieke historische sfeer.",
+      "activities": [
+        {
+          "title": "Rondwandeling oude stad",
+          "description": "Ontdek de Ottomaanse architectuur en wandel door de charmante straatjes.",
+          "price": "gratis tot 5 euro"
+        },
+        {
+          "title": "Bezoek Onufri Museum",
+          "description": "Bekijk iconen en religieuze kunst in het kasteel van Berat.",
+          "price": "3-6 euro"
+        },
+        {
+          "title": "Proef lokale gerechten",
+          "description": "Geniet van authentieke Albanese gerechten in een traditioneel restaurant.",
+          "price": "10-20 euro"
+        }
+      ],
+      "tip": "Breng een bezoek aan het Onufri Museum voor bijzondere religieuze kunstwerken en iconen."
+    },
+    {
+      "id": "gjirokaster-3",
+      "number": 3,
+      "name": "Gjirokastër",
+      "area": "Zuid-Albanië",
+      "coords": [
+        40.0770871,
+        20.1393359
+      ],
+      "dayLabel": "Dag 4",
+      "nights": 1,
+      "image": "/images/posts/7-dagen-natuur-en-historie-in-albanie-3.webp",
+      "imageAlt": "Straat in Gjirokastër met stenen huizen",
+      "description": "Gjirokastër is een stad met een uniek Ottomaans karakter, gekenmerkt door de imposante stenen huizen met leien daken die tegen de heuvels zijn gebouwd. Het kasteel boven de stad is een van de grootste en meest indrukwekkende in Albanië, met militaire tentoonstellingen en panoramische uitzichten. De geplaveide straatjes van de oude bazaar nodigen uit om te slenteren langs ambachtelijke winkels en gezellige cafés. Een bezoek aan het geboortehuis van de beroemde schrijver Ismail Kadare geeft inzicht in de culturele geschiedenis van de stad. Gjirokastër staat sinds 2005 op de UNESCO-werelderfgoedlijst.",
+      "activities": [
+        {
+          "title": "Bezoek kasteel van Gjirokastër",
+          "description": "Verken het enorme fort met museum en geniet van het uitzicht over de stad.",
+          "price": "5-10 euro"
+        },
+        {
+          "title": "Wandel door oude bazaar",
+          "description": "Ontdek lokale ambachten en producten in de geplaveide straatjes.",
+          "price": "gratis"
+        },
+        {
+          "title": "Bezoek geboortehuis Ismail Kadare",
+          "description": "Leer over het leven en werk van deze bekende Albanese schrijver.",
+          "price": "3-5 euro"
+        }
+      ],
+      "tip": "Bezoek de oude bazaar vroeg in de ochtend om het authentieke dagelijkse leven te zien."
+    },
+    {
+      "id": "ksamil-4",
+      "number": 4,
+      "name": "Ksamil",
+      "area": "Zuid-Albanië, kust",
+      "coords": [
+        39.7701379,
+        20.0037922
+      ],
+      "dayLabel": "Dag 5-6",
+      "nights": 2,
+      "image": "/images/posts/7-dagen-natuur-en-historie-in-albanie-4.webp",
+      "imageAlt": "Strand en helder water bij Ksamil",
+      "description": "Ksamil is een klein en geliefd kustdorpje aan de Ionische Zee dat vooral bekendstaat om de mooie zandstranden en het kristalheldere water. Het is een fijne plek voor rust en ontspanning, zwemmen en watersporten. In de buurt liggen kleine eilandjes die je per boot kunt bezoeken. Verse visgerechten in lokale taveernes maken het plaatje compleet. Ksamil biedt een aangename afwisseling na de culturele en historische stops en is perfect voor wie strand en natuur wil combineren.",
+      "activities": [
+        {
+          "title": "Stranddag en zwemmen",
+          "description": "Geniet van de zandstranden en het heldere water van Ksamil.",
+          "price": "gratis tot 5 euro voor strandstoelen"
+        },
+        {
+          "title": "Boottocht naar eilandjes",
+          "description": "Verken kleine eilandjes vlak bij de kust per boot.",
+          "price": "10-20 euro"
+        },
+        {
+          "title": "Bezoek Nationaal Park Butrint",
+          "description": "Ontdek archeologische ruïnes en natuurlijke schoonheid in het park.",
+          "price": "5-10 euro"
+        }
+      ],
+      "tip": "Maak een dagtocht naar het nabijgelegen Nationaal Park Butrint om natuur en archeologie te combineren."
+    },
+    {
+      "id": "theth-5",
+      "number": 5,
+      "name": "Theth",
+      "area": "Noord-Albanië, bergen",
+      "coords": [
+        42.3946562,
+        19.7750573
+      ],
+      "dayLabel": "Dag 7",
+      "nights": 1,
+      "image": "/images/posts/7-dagen-natuur-en-historie-in-albanie-5.webp",
+      "imageAlt": "Bergdorp Theth omgeven door groene natuur",
+      "description": "Theth is een charmant bergdorp in de Albanese Alpen, bekend om zijn ruige landschap en traditionele sfeer. Het dorp is omringd door groene valleien, watervallen en eeuwenoude kerken. Populaire wandelingen leiden naar de Blue Eye, een helderwaterbron, en de Grunas-waterval. De combinatie van ongerepte natuur en authentieke cultuur maakt Theth een bijzondere plek om te bezoeken. Het dorp biedt eenvoudige accommodaties en een gastvrije sfeer.",
+      "activities": [
+        {
+          "title": "Wandeling naar Blue Eye",
+          "description": "Bezoek een helderwaterbron omgeven door prachtige natuur.",
+          "price": "gratis"
+        },
+        {
+          "title": "Wandeling naar Grunas-waterval",
+          "description": "Geniet van de natuur en een indrukwekkende waterval.",
+          "price": "gratis"
+        },
+        {
+          "title": "Bezoek kerkje van Theth",
+          "description": "Ontdek traditionele Albanese architectuur en geschiedenis.",
+          "price": "gratis tot 3 euro"
+        }
+      ],
+      "tip": "Draag stevige wandelschoenen en laagjes kleding vanwege wisselend weer in het berggebied."
+    }
+  ],
+  "gallery": [
+    {
+      "src": "/images/posts/7-dagen-natuur-en-historie-in-albanie-1.webp",
+      "alt": "Straat in Tirana met kleurrijke gebouwen",
+      "caption": "Tirana — hoofdstad Albanië"
+    },
+    {
+      "src": "/images/posts/7-dagen-natuur-en-historie-in-albanie-2.webp",
+      "alt": "Uitzicht op het kasteel van Berat",
+      "caption": "Berat — Midden-Albanië"
+    },
+    {
+      "src": "/images/posts/7-dagen-natuur-en-historie-in-albanie-3.webp",
+      "alt": "Straat in Gjirokastër met stenen huizen",
+      "caption": "Gjirokastër — Zuid-Albanië"
+    },
+    {
+      "src": "/images/posts/7-dagen-natuur-en-historie-in-albanie-4.webp",
+      "alt": "Strand en helder water bij Ksamil",
+      "caption": "Ksamil — Zuid-Albanië, kust"
+    },
+    {
+      "src": "/images/posts/7-dagen-natuur-en-historie-in-albanie-5.webp",
+      "alt": "Bergdorp Theth omgeven door groene natuur",
+      "caption": "Theth — Noord-Albanië, bergen"
+    }
+  ],
+  "practical": [
+    {
+      "label": "Vervoer",
+      "value": "Binnenlandse bussen en minibusjes kosten 2-10 euro per rit. Taxi’s en autohuur zijn ook mogelijk; autohuur vanaf 25 euro per dag."
+    },
+    {
+      "label": "Verblijf",
+      "value": "Budgethotels en guesthouses vanaf 15-30 euro per nacht, middenklasse tot ongeveer 50 euro."
+    },
+    {
+      "label": "Budget",
+      "value": "Dagelijks 20-40 euro voor eten, vervoer en activiteiten is haalbaar."
+    },
+    {
+      "label": "Beste reistijd",
+      "value": "Lente tot begin herfst (april-oktober) met aangename temperaturen en minder regen."
+    },
+    {
+      "label": "Geld en internet",
+      "value": "Euro wordt veel gebruikt. Simkaarten met data kosten rond 10-15 euro voor 5-10 GB."
+    }
+  ],
+  "packing": [
+    "Stevige wandelschoenen",
+    "Lichte kleding voor overdag",
+    "Warme jas of fleece voor avond",
+    "Regenjas of poncho",
+    "Zwemkleding",
+    "Zonnebrandcrème",
+    "Hoed of pet",
+    "Rugzak voor dagtochten",
+    "Powerbank voor telefoon"
+  ],
+  "closingNote": "Deze week door Albanië laat zien hoe veelzijdig het land is, met een goede afwisseling van stad, cultuur, kust en bergen. Met een praktische aanpak is het mogelijk om in korte tijd veel te zien en te beleven. Neem de tijd bij elke stop om de sfeer te proeven en geniet van het vriendelijke karakter van Albanië en haar inwoners.",
+  "continent": "europa",
+  "author": "Redactie",
+  "generated": true,
+  "createdAt": "2026-11-26",
+  "topicKey": "albanie:reisroute:1-week",
+  "imageCredit": {
+    "name": "USA-Reiseblogger",
+    "url": "https://pixabay.com/photos/butrint-lake-butrintsee-albania-3793605/",
+    "source": "Pixabay"
+  }
+}
