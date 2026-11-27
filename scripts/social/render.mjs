@@ -298,11 +298,15 @@ function trimText(text, maxChars) {
 function stopOverlay(route, stop, index) {
   const wrapped = wrap(trimText(stop.description, 150), 42);
   const body = wrapped.slice(0, 3);
+  const price = stop.activities?.[0]?.price;
+  const priceText = price ? trimText(price, 34) : undefined;
+  const priceWidth = priceText
+    ? Math.min(940, Math.max(300, priceText.length * 22 + 60))
+    : 0;
 
   if (wrapped.length > 3) {
     body[2] = `${body[2].replace(/[.,;:]$/, "")}…`;
   }
-  const price = stop.activities?.[0]?.price;
 
   return svgBase(`
     <defs>
@@ -328,13 +332,10 @@ function stopOverlay(route, stop, index) {
       )
       .join("")}
     ${
-      price
-        ? `<rect x="64" y="${H - 330}" width="${Math.max(
-            300,
-            price.length * 22 + 60,
-          )}" height="66" rx="33" fill="${COLORS.sunset}"/>
-           <text x="${64 + (Math.max(300, price.length * 22 + 60)) / 2}" y="${H - 285}" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="30" font-weight="bold" fill="${COLORS.jungle}">${escapeXml(
-             price,
+      priceText
+        ? `<rect x="64" y="${H - 330}" width="${priceWidth}" height="66" rx="33" fill="${COLORS.sunset}"/>
+           <text x="${64 + priceWidth / 2}" y="${H - 285}" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="28" font-weight="bold" fill="${COLORS.jungle}">${escapeXml(
+             priceText,
            )}</text>`
         : ""
     }
@@ -442,11 +443,22 @@ function shorten(text, max) {
   return `${cut.slice(0, cut.lastIndexOf(" ")).trim()}…`;
 }
 
+function budgetLine(route) {
+  const candidates = [route.budget, route.budgetNote].filter(Boolean);
+
+  for (const text of candidates) {
+    const sentences = String(text).split(/(?<=[.!?])\s+/);
+    const hit = sentences.find((sentence) => /[€$]|\d/.test(sentence));
+
+    if (hit) return shorten(hit, 120);
+  }
+
+  return "";
+}
+
 export function caption(route, siteUrl) {
   const stops = shorten(route.stops.map((stop) => stop.name).join(" → "), 150);
-  const budget = /[€\d]/.test(route.budget)
-    ? route.budget
-    : shorten(route.budgetNote, 120);
+  const budget = budgetLine(route);
   const tag = route.country
     .toLowerCase()
     .normalize("NFD")
@@ -457,7 +469,7 @@ export function caption(route, siteUrl) {
     `${route.durationLabel} ${route.country}: ${route.title.split(":")[1]?.trim() ?? route.title}`,
     "",
     `Stops: ${stops}`,
-    `Budget: ${budget}`,
+    ...(budget ? [`Budget: ${budget}`] : []),
     `Beste reistijd: ${route.bestTime}`,
     "",
     `De hele route met prijzen en tips: ${siteUrl}/reizen/${route.slug}`,
