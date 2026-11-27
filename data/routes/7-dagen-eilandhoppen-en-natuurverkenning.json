@@ -1,0 +1,269 @@
+{
+  "slug": "7-dagen-eilandhoppen-en-natuurverkenning",
+  "title": "7 dagen eilandhoppen en natuurverkenning",
+  "kicker": "Ontdek de veelzijdigheid van Palau's eilanden",
+  "country": "Palau",
+  "region": "Oceanië",
+  "durationDays": 7,
+  "durationLabel": "7 dagen",
+  "travelStyle": "Avontuurlijk en natuurgericht",
+  "budget": "Middenklasse",
+  "budgetNote": "Prijzen kunnen verschillen per seizoen en beschikbaarheid",
+  "bestTime": "November tot april",
+  "startPoint": "Koror",
+  "endPoint": "Angaur",
+  "coverImage": "/images/posts/7-dagen-eilandhoppen-en-natuurverkenning-cover.webp",
+  "coverAlt": "Een week lang de veelzijdigheid van Palau ervaren: van bruisend Koror en het indrukwekkende watergebied van de Rock Islands tot de historische eilanden Peleliu, Babeldaob en Angaur. Deze route combineert natuur, cultuur en avontuur.",
+  "excerpt": "Een week lang de veelzijdigheid van Palau ervaren: van bruisend Koror en het indrukwekkende watergebied van de Rock Islands tot de historische eilanden Peleliu, Babeldaob en Angaur. Deze route combineert natuur, cultuur en avontuur.",
+  "introHeading": "Van stad naar ongerepte natuur",
+  "intro": [
+    "Palau is een archipel met een rijke geschiedenis en unieke natuur. Tijdens deze route ontdek je verschillende eilanden die elk hun eigen karakter en bezienswaardigheden hebben. De reis combineert actieve natuurbeleving met culturele en historische ervaringen.",
+    "Je reist makkelijk per boot en auto tussen de eilanden. Het verblijf varieert van eenvoudige pensions tot kleinschalige hotels, passend bij een middenklasse budget. Door de compacte afstanden is het goed te doen om in een week meerdere eilanden te bezoeken.",
+    "Deze reis nodigt uit om te genieten van helder water, tropische bossen en authentieke dorpjes, waarbij het tempo en de activiteiten goed te combineren zijn voor een gevarieerd verblijf."
+  ],
+  "highlights": [
+    "Snorkelen en kajakken tussen de kalkstenen Rock Islands.",
+    "Bezoek aan de historische slagvelden op Peleliu.",
+    "Ontdek de rust en natuur van het grootste eiland Babeldaob.",
+    "Leer over de Palause cultuur in Koror.",
+    "Geniet van rustige stranden en lokale dorpjes op Angaur."
+  ],
+  "stops": [
+    {
+      "id": "koror-1",
+      "number": 1,
+      "name": "Koror",
+      "area": "Koror",
+      "coords": [
+        7.2259863,
+        134.131234
+      ],
+      "dayLabel": "Dag 1-2",
+      "nights": 2,
+      "image": "/images/posts/7-dagen-eilandhoppen-en-natuurverkenning-1.webp",
+      "imageAlt": "Straatbeeld in Koror met lokale markt",
+      "description": "Koror is het commerciële centrum van Palau en de ideale startplek voor je avontuur. Het biedt een mix van lokale markten, eenvoudige eetgelegenheden en basisvoorzieningen. Hier kun je wennen aan het klimaat en de cultuur. Het Palau Museum geeft een goed overzicht van de geschiedenis en cultuur van het land. Daarnaast zijn er diverse stranden in de buurt waar je rustig kunt bijkomen na de reis.",
+      "activities": [
+        {
+          "title": "Palau Museum bezoeken",
+          "description": "Leer over de geschiedenis en cultuur van Palau op een toegankelijke locatie in Koror.",
+          "price": "5-10 euro"
+        },
+        {
+          "title": "Snorkelen bij nabijgelegen stranden",
+          "description": "Ontdek het kleurrijke onderwaterleven vlakbij Koror, ideaal voor een eerste snorkelervaring.",
+          "price": "10-20 euro voor snorkelhuur"
+        },
+        {
+          "title": "Lokale markt verkennen",
+          "description": "Proef tropisch fruit en bekijk handgemaakte souvenirs op de markt.",
+          "price": "Gratis toegang"
+        }
+      ],
+      "tip": "Probeer lokale specialiteiten zoals conch of verse vis bij een van de eetkraampjes op de markt."
+    },
+    {
+      "id": "rock-islands-2",
+      "number": 2,
+      "name": "Rock Islands",
+      "area": "Koror State",
+      "coords": [
+        7.249502,
+        134.4081305
+      ],
+      "dayLabel": "Dag 3",
+      "nights": 1,
+      "image": "/images/posts/7-dagen-eilandhoppen-en-natuurverkenning-2.webp",
+      "imageAlt": "Kajakken tussen de Rock Islands",
+      "description": "De Rock Islands vormen een indrukwekkend natuurgebied met kalkstenen eilanden omgeven door helder water. Hier kun je kajakken tussen de eilandjes, snorkelen bij koraalriffen en genieten van de rust in een indrukwekkende omgeving. Het is een populaire plek voor natuurliefhebbers en fotografen. Een boottocht is de beste manier om de verschillende eilandjes te verkennen, waarbij je kunt stoppen bij verborgen lagunes en unieke plekken zoals Jellyfish Lake.",
+      "activities": [
+        {
+          "title": "Kajaktocht tussen de eilanden",
+          "description": "Peddel langs de kalkstenen rotsformaties en ontdek afgelegen stranden.",
+          "price": "25-40 euro per dag"
+        },
+        {
+          "title": "Snorkelen bij Jellyfish Lake",
+          "description": "Ervaar het unieke fenomeen van medusazwemmers in deze bijzondere zoetwaterlagune.",
+          "price": "15-25 euro, inclusief toegang en gids"
+        },
+        {
+          "title": "Bootexcursie Rock Islands",
+          "description": "Ga mee met een boottocht langs verschillende highlights van het eilandengebied.",
+          "price": "30-50 euro"
+        }
+      ],
+      "tip": "Neem een waterdichte tas mee voor je spullen tijdens de boot- en kajaktochten."
+    },
+    {
+      "id": "peleliu-3",
+      "number": 3,
+      "name": "Peleliu",
+      "area": "Peleliu",
+      "coords": [
+        6.8996561,
+        134.3369935
+      ],
+      "dayLabel": "Dag 4",
+      "nights": 1,
+      "image": "/images/posts/7-dagen-eilandhoppen-en-natuurverkenning-3.webp",
+      "imageAlt": "Overblijfselen van oorlogsbunkers op Peleliu",
+      "description": "Peleliu is een klein eiland met een indrukwekkende geschiedenis uit de Tweede Wereldoorlog. Het is vooral bekend door de zware strijd die hier plaatsvond, waardoor het eiland verschillende oorlogsmonumenten, bunkers en slagvelden herbergt. Deze plekken geven een duidelijk beeld van de gebeurtenissen die er plaatsvonden en zijn goed te bezoeken met een lokale gids of op eigen gelegenheid. Naast de historische elementen heeft Peleliu rustige kustlijnen waar je kunt snorkelen en genieten van de natuur in alle rust.",
+      "activities": [
+        {
+          "title": "Rondleiding langs slagvelden en monumenten",
+          "description": "Leer meer over de geschiedenis van Peleliu met een gids of zelfstandig.",
+          "price": "10-20 euro voor toegang en gids"
+        },
+        {
+          "title": "Snorkelen aan de kust",
+          "description": "Rustige snorkelplekken met koraal en vis rondom het eiland.",
+          "price": "10-20 euro voor snorkeluitrusting"
+        },
+        {
+          "title": "Bezoek aan lokale dorpjes",
+          "description": "Ontmoet bewoners en ervaar het rustige eilandleven.",
+          "price": "Gratis"
+        }
+      ],
+      "tip": "Huur een scooter of fiets om het eiland op eigen tempo te verkennen en neem voldoende water mee tijdens de tocht."
+    },
+    {
+      "id": "babeldaob-4",
+      "number": 4,
+      "name": "Babeldaob",
+      "area": "Babeldaob",
+      "coords": [
+        7.5399629,
+        134.5673965
+      ],
+      "dayLabel": "Dag 5-6",
+      "nights": 2,
+      "image": "/images/posts/7-dagen-eilandhoppen-en-natuurverkenning-4.webp",
+      "imageAlt": "Waterval in Babeldaob",
+      "description": "Babeldaob is het grootste eiland van Palau en biedt een mooie combinatie van natuur en cultuur. Hier vind je uitgestrekte regenwouden, watervallen en traditionele dorpen. Het Ngardmau Waterfall Park is een aanrader voor een wandeltocht naar de hoogste watervallen van het land. Daarnaast zijn er verschillende kleine gemeenschappen waar je het dagelijkse leven en ambachten kunt leren kennen. Door de grootte van het eiland en de verspreide bezienswaardigheden is het aan te raden om een auto te huren.",
+      "activities": [
+        {
+          "title": "Bezoek Ngardmau watervallen",
+          "description": "Maak een wandeling naar de hoogste watervallen van Palau in het hart van het eiland.",
+          "price": "5-10 euro entree"
+        },
+        {
+          "title": "Bezoek traditionele dorpen",
+          "description": "Leer over Palause tradities en ambachten in kleine gemeenschappen.",
+          "price": "Gratis of kleine donatie"
+        },
+        {
+          "title": "Natuurwandeling Ngeremlengui",
+          "description": "Verken het tropische regenwoud en spot lokale vogels en planten.",
+          "price": "Gratis"
+        }
+      ],
+      "tip": "Plan voldoende tijd voor wandelingen en bezoek aan dorpen, het eiland is uitgestrekt en openbaar vervoer is beperkt."
+    },
+    {
+      "id": "angaur-5",
+      "number": 5,
+      "name": "Angaur",
+      "area": "Angaur",
+      "coords": [
+        6.0155988,
+        133.6326463
+      ],
+      "dayLabel": "Dag 7",
+      "nights": 1,
+      "image": "/images/posts/7-dagen-eilandhoppen-en-natuurverkenning-5.webp",
+      "imageAlt": "Strand van Angaur bij zonsondergang",
+      "description": "Angaur is een klein en rustig eiland met mooie stranden en een ontspannen sfeer. Het eiland staat bekend om zijn goede duiklocaties en heldere wateren. Dit is een fijne plek om de reis af te sluiten met snorkelen of gewoon ontspannen aan het strand. Er zijn enkele lokale eetgelegenheden waar verse vis en traditionele gerechten worden geserveerd. De eenvoud en rust van dit eiland maken het een prettige laatste stop tijdens de reis.",
+      "activities": [
+        {
+          "title": "Snorkelen en duiken bij Angaur",
+          "description": "Verken de onderwaterwereld met kleurrijk koraal en visrijke riffen.",
+          "price": "20-40 euro voor snorkel- of duikhuur"
+        },
+        {
+          "title": "Strandwandeling en ontspanning",
+          "description": "Geniet van het rustige strand en de zonsondergang.",
+          "price": "Gratis"
+        },
+        {
+          "title": "Bezoek lokale eetgelegenheden",
+          "description": "Proef verse vis en lokale gerechten in kleine restaurants.",
+          "price": "10-20 euro per maaltijd"
+        }
+      ],
+      "tip": "Boek een boottocht vanuit Babeldaob of Koror naar Angaur, de verbindingen zijn beperkt dus plan dit vooraf."
+    }
+  ],
+  "gallery": [
+    {
+      "src": "/images/posts/7-dagen-eilandhoppen-en-natuurverkenning-1.webp",
+      "alt": "Straatbeeld in Koror met lokale markt",
+      "caption": "Koror — Koror"
+    },
+    {
+      "src": "/images/posts/7-dagen-eilandhoppen-en-natuurverkenning-2.webp",
+      "alt": "Kajakken tussen de Rock Islands",
+      "caption": "Rock Islands — Koror State"
+    },
+    {
+      "src": "/images/posts/7-dagen-eilandhoppen-en-natuurverkenning-3.webp",
+      "alt": "Overblijfselen van oorlogsbunkers op Peleliu",
+      "caption": "Peleliu — Peleliu"
+    },
+    {
+      "src": "/images/posts/7-dagen-eilandhoppen-en-natuurverkenning-4.webp",
+      "alt": "Waterval in Babeldaob",
+      "caption": "Babeldaob — Babeldaob"
+    },
+    {
+      "src": "/images/posts/7-dagen-eilandhoppen-en-natuurverkenning-5.webp",
+      "alt": "Strand van Angaur bij zonsondergang",
+      "caption": "Angaur — Angaur"
+    }
+  ],
+  "practical": [
+    {
+      "label": "Vervoer",
+      "value": "Tussen de eilanden reizen kan per boot of veerboot, met prijzen van 5-30 euro afhankelijk van afstand. Op Babeldaob is autohuur een handige optie, vanaf ongeveer 40-60 euro per dag."
+    },
+    {
+      "label": "Verblijf",
+      "value": "Accommodaties variëren van eenvoudige guesthouses tot kleinschalige hotels, met prijzen tussen 40-100 euro per nacht."
+    },
+    {
+      "label": "Budget",
+      "value": "Reken op 50-80 euro per dag voor eten, vervoer en activiteiten, exclusief accommodatie."
+    },
+    {
+      "label": "Beste reistijd",
+      "value": "Van november tot april, wanneer het droger is en de zee rustig."
+    },
+    {
+      "label": "Geld en internet",
+      "value": "Contant geld in Amerikaanse dollars is gebruikelijk. Internetverbindingen zijn op eilanden soms beperkt, vooral buiten Koror."
+    }
+  ],
+  "packing": [
+    "Snorkeluitrusting of zwemkleding",
+    "Lichte, ademende kleding",
+    "Waterdichte tas voor spullen",
+    "Wandelschoenen voor natuurtochten",
+    "Zonnebrandcrème en insectenspray",
+    "Reishanddoek",
+    "Hoed of pet voor zonbescherming",
+    "Camera of smartphone voor foto’s",
+    "Kleine EHBO-kit"
+  ],
+  "closingNote": "Deze week in Palau biedt een mooie mix van natuur, cultuur en ontspanning. De afwisseling tussen eilanden zorgt voor een gevarieerde ervaring, van bruisende markten tot rustige stranden. Door de compacte afstand is reizen overzichtelijk, maar het blijft wel belangrijk om vervoer en activiteiten goed te plannen. Zo haal je het maximale uit je verblijf in deze bijzondere eilandengroep.",
+  "continent": "oceanie",
+  "author": "Redactie",
+  "generated": true,
+  "createdAt": "2026-11-27",
+  "topicKey": "palau:reisroute:1-week",
+  "imageCredit": {
+    "name": "CCPAPA",
+    "url": "https://pixabay.com/photos/palau-beach-bay-lake-pond-sea-175131/",
+    "source": "Pixabay"
+  }
+}

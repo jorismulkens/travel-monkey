@@ -1,0 +1,264 @@
+{
+  "slug": "14-dagen-eilandleven-en-maya-geschiedenis",
+  "title": "14 dagen eilandleven en Maya-geschiedenis",
+  "kicker": "Afwisseling tussen kust en cultuur",
+  "country": "Honduras",
+  "region": "Midden-Amerika",
+  "durationDays": 14,
+  "durationLabel": "14 dagen",
+  "travelStyle": "avontuurlijk en cultureel",
+  "budget": "budget tot middenklasse",
+  "budgetNote": "Prijzen zijn indicatief en kunnen verschillen afhankelijk van seizoen en beschikbaarheid.",
+  "bestTime": "november tot april",
+  "startPoint": "Roatán",
+  "endPoint": "Gracias",
+  "coverImage": "/images/posts/14-dagen-eilandleven-en-maya-geschiedenis-cover.webp",
+  "coverAlt": "Ontdek in twee weken de eilanden Roatán en Utila, de oude Maya-ruïnes van Copán en de natuurlijke schoonheid van La Ceiba en Gracias. Een gevarieerde reis langs stranden, cultuur en natuur.",
+  "excerpt": "Ontdek in twee weken de eilanden Roatán en Utila, de oude Maya-ruïnes van Copán en de natuurlijke schoonheid van La Ceiba en Gracias. Een gevarieerde reis langs stranden, cultuur en natuur.",
+  "introHeading": "Eiland, cultuur en natuurervaring",
+  "intro": [
+    "Honduras biedt een mooie mix van tropische eilanden, indrukwekkende Maya-ruïnes en ongerepte natuur. Het land combineert een rijke historie met levendige kustplaatsen en groene bergen, waardoor het voor verschillende reizigers iets te bieden heeft.",
+    "Deze route start op het eiland Roatán met zijn heldere water en goede snorkel- en duikmogelijkheden. Daarna volgt Utila, een kleinere eilandbestemming die vooral duikliefhebbers aantrekt en een relaxte sfeer heeft.",
+    "Vervolgens gaat de reis naar het vasteland, waar de Maya-cultuur centraal staat in Copán. Daarna wacht de natuur van La Ceiba en het koloniale karakter van Gracias, om zo een veelzijdige afsluiting te bieden."
+  ],
+  "highlights": [
+    "Snorkelen en duiken in de Caribische Zee bij Roatán en Utila.",
+    "Werelderfgoed Maya-ruïnes van Copán bezoeken.",
+    "Wandelen in het Pico Bonito National Park bij La Ceiba.",
+    "Lokale markt en koloniale architectuur in Gracias.",
+    "Lokale keuken en ontspannen stranden ervaren."
+  ],
+  "stops": [
+    {
+      "id": "roatan-1",
+      "number": 1,
+      "name": "Roatán",
+      "area": "Bay Islands",
+      "coords": [
+        16.3490211,
+        -86.4977513
+      ],
+      "dayLabel": "Dag 1-4",
+      "nights": 4,
+      "image": "/images/posts/14-dagen-eilandleven-en-maya-geschiedenis-1.webp",
+      "imageAlt": "Strand op Roatán met palmbomen en helderblauw water",
+      "description": "Roatán behoort tot de Bay Islands in de Caribische Zee en staat bekend om het heldere water en het uitgebreide koraalrif. Het eiland is populair voor snorkelaars en duikers, maar biedt ook rustige stranden en kleine vissersdorpen waar de lokale sfeer voelbaar is. Naast wateractiviteiten is het mogelijk om het eiland per scooter te verkennen en lokale markten te bezoeken. Roatán heeft een gevarieerd aanbod aan eetgelegenheden met verse zeevruchten en internationale gerechten.",
+      "activities": [
+        {
+          "title": "Snorkelen bij het koraalrif",
+          "description": "Verken het kleurrijke koraal en tropische vissen met een snorkeltrip.",
+          "price": "15-30 euro"
+        },
+        {
+          "title": "Duikexcursie Meso-Amerikaans rif",
+          "description": "Begeleide duiktocht langs het rif met kans op zeeleven.",
+          "price": "50-80 euro"
+        },
+        {
+          "title": "Zipline door het regenwoud",
+          "description": "Avontuurlijke zipline door de boomtoppen, inclusief vervoer.",
+          "price": "30-45 euro"
+        }
+      ],
+      "tip": "Huur een scooter om het eiland op eigen tempo te ontdekken en minder toeristische stranden te bereiken."
+    },
+    {
+      "id": "utila-2",
+      "number": 2,
+      "name": "Utila",
+      "area": "Bay Islands",
+      "coords": [
+        16.1005116,
+        -86.8949856
+      ],
+      "dayLabel": "Dag 5-7",
+      "nights": 3,
+      "image": "/images/posts/14-dagen-eilandleven-en-maya-geschiedenis-2.webp",
+      "imageAlt": "Duikers in helder water bij Utila",
+      "description": "Utila is een kleiner, rustiger eiland dan Roatán en trekt vooral duikliefhebbers vanwege de kans om walvishaaien te spotten. Het eiland heeft een ontspannen sfeer met kleine cafés en strandbars. Naast duiken en snorkelen kun je kajakken door mangroven of een wandeling maken naar uitzichtpunten. De lokale gemeenschap is informeel en gastvrij, wat het eiland geschikt maakt voor reizigers die even willen ontspannen na de drukte van grotere plekken.",
+      "activities": [
+        {
+          "title": "Walvishaai duikexcursie",
+          "description": "Ga mee op een boottocht en duik met walvishaaien (seizoensgebonden).",
+          "price": "80-120 euro"
+        },
+        {
+          "title": "Kajakken door mangroven",
+          "description": "Ontdek de rustige mangrovegebieden rondom het eiland per kajak.",
+          "price": "15-25 euro"
+        },
+        {
+          "title": "Duikopleiding PADI Open Water",
+          "description": "Volg een basis duikcursus verspreid over meerdere dagen.",
+          "price": "300-400 euro"
+        }
+      ],
+      "tip": "Bezoek een walvishaai-spotting tour in het seizoen (maart tot juni) voor een bijzondere ervaring."
+    },
+    {
+      "id": "copan-3",
+      "number": 3,
+      "name": "Copán",
+      "area": "West-Honduras",
+      "coords": [
+        14.8958685,
+        -88.9255812
+      ],
+      "dayLabel": "Dag 8-10",
+      "nights": 3,
+      "image": "/images/posts/14-dagen-eilandleven-en-maya-geschiedenis-3.webp",
+      "imageAlt": "Maya-ruïnes van Copán met oude tempels",
+      "description": "Copán staat bekend om de indrukwekkende Maya-ruïnes die op de UNESCO Werelderfgoedlijst staan. De site toont goed bewaard gebleven tempels en hiërogliefen die veel vertellen over de oude Maya-beschaving. Het stadje zelf heeft een rustige, vriendelijke sfeer met lokale markten en cafés. Het archeologisch museum biedt extra context bij de ruïnes, terwijl wandelingen in de omgeving een mooi contrast vormen met natuur en cultuur.",
+      "activities": [
+        {
+          "title": "Rondleiding bij Maya-ruïnes",
+          "description": "Bezoek de archeologische site met een gids voor uitleg over de geschiedenis.",
+          "price": "15-25 euro"
+        },
+        {
+          "title": "Copán Museum bezoek",
+          "description": "Ontdek vondsten en achtergrondinformatie over de Maya-cultuur.",
+          "price": "5-10 euro"
+        },
+        {
+          "title": "Wandeling in natuurgebied Las Sepulturas",
+          "description": "Verken het bosgebied met kleine ruïnes op een rustige wandeling.",
+          "price": "gratis of kleine bijdrage"
+        }
+      ],
+      "tip": "Huur een gids bij de ruïnes om meer te weten te komen over de geschiedenis en betekenis van de gebouwen."
+    },
+    {
+      "id": "la-ceiba-4",
+      "number": 4,
+      "name": "La Ceiba",
+      "area": "Noordkust",
+      "coords": [
+        15.7833743,
+        -86.7917749
+      ],
+      "dayLabel": "Dag 11-12",
+      "nights": 2,
+      "image": "/images/posts/14-dagen-eilandleven-en-maya-geschiedenis-4.webp",
+      "imageAlt": "Tropisch regenwoud bij La Ceiba",
+      "description": "La Ceiba is een levendige stad aan de noordkust en bekend als toegangspoort tot het Pico Bonito National Park. De stad heeft een tropische sfeer met markten, cafés en een levendig straatbeeld. Het park zelf is een goede plek voor wandelingen langs watervallen en het spotten van vogels. Ook zijn er boottochten mogelijk om de mangrovebossen te verkennen. La Ceiba vormt een mooie combinatie van stad en natuur en is een prima plek om even op adem te komen.",
+      "activities": [
+        {
+          "title": "Pico Bonito National Park wandeling",
+          "description": "Wandel langs watervallen en ontdek de natuur met een gids.",
+          "price": "20-35 euro"
+        },
+        {
+          "title": "Boottocht door mangroven",
+          "description": "Verken mangrovebossen en spot vogels vanaf het water.",
+          "price": "15-25 euro"
+        }
+      ],
+      "tip": "Ga naar de lokale markt voor tropische vruchten en ambachtelijke producten."
+    },
+    {
+      "id": "gracias-5",
+      "number": 5,
+      "name": "Gracias",
+      "area": "West-Honduras",
+      "coords": [
+        14.5889121,
+        -88.5805474
+      ],
+      "dayLabel": "Dag 13-14",
+      "nights": 2,
+      "image": "/images/posts/14-dagen-eilandleven-en-maya-geschiedenis-5.webp",
+      "imageAlt": "Koloniaal plein in Gracias met bergen op de achtergrond",
+      "description": "Gracias is een charmant en rustig stadje met een koloniale uitstraling, gelegen in bergachtig gebied. De omgeving staat bekend om warmwaterbronnen en het nabijgelegen Celaque National Park, waar de hoogste berg van Honduras ligt. Het stadje heeft een ontspannen sfeer met pleintjes, markten en kleine musea. Dankzij de mix van natuur en cultuur is Gracias een fijne plek om de reis af te sluiten en de lokale keuken te proeven.",
+      "activities": [
+        {
+          "title": "Bezoek aan Celaque National Park",
+          "description": "Wandel naar de hoogste top van Honduras met een gids.",
+          "price": "15-30 euro"
+        },
+        {
+          "title": "Ontspanning in warmwaterbronnen",
+          "description": "Geniet van natuurlijke warmwaterbaden in de omgeving.",
+          "price": "5-10 euro"
+        },
+        {
+          "title": "Lokale markt en keuken ontdekken",
+          "description": "Proef traditionele gerechten en koop handwerk op de markt.",
+          "price": "gratis entree, eten 2-8 euro"
+        }
+      ],
+      "tip": "Probeer lokale specialiteiten zoals baleadas bij een straatkraam in het centrum."
+    }
+  ],
+  "gallery": [
+    {
+      "src": "/images/posts/14-dagen-eilandleven-en-maya-geschiedenis-1.webp",
+      "alt": "Strand op Roatán met palmbomen en helderblauw water",
+      "caption": "Roatán — Bay Islands"
+    },
+    {
+      "src": "/images/posts/14-dagen-eilandleven-en-maya-geschiedenis-2.webp",
+      "alt": "Duikers in helder water bij Utila",
+      "caption": "Utila — Bay Islands"
+    },
+    {
+      "src": "/images/posts/14-dagen-eilandleven-en-maya-geschiedenis-3.webp",
+      "alt": "Maya-ruïnes van Copán met oude tempels",
+      "caption": "Copán — West-Honduras"
+    },
+    {
+      "src": "/images/posts/14-dagen-eilandleven-en-maya-geschiedenis-4.webp",
+      "alt": "Tropisch regenwoud bij La Ceiba",
+      "caption": "La Ceiba — Noordkust"
+    },
+    {
+      "src": "/images/posts/14-dagen-eilandleven-en-maya-geschiedenis-5.webp",
+      "alt": "Koloniaal plein in Gracias met bergen op de achtergrond",
+      "caption": "Gracias — West-Honduras"
+    }
+  ],
+  "practical": [
+    {
+      "label": "Vervoer",
+      "value": "Binnenlandse vluchten en veerboten tussen eilanden en vasteland; bussen en taxis voor langere afstanden; kosten variëren van enkele euro's tot 20-50 euro per traject."
+    },
+    {
+      "label": "Verblijf",
+      "value": "Guesthouses, hostels en middenklasse hotels; prijzen tussen 15-60 euro per nacht."
+    },
+    {
+      "label": "Budget",
+      "value": "Dagelijks budget tussen 25-50 euro, afhankelijk van activiteiten en verblijf."
+    },
+    {
+      "label": "Beste reistijd",
+      "value": "Droge periode van november tot april, beste tijd voor eilanden en ruïnes."
+    },
+    {
+      "label": "Geld en internet",
+      "value": "Contant geld aanbevolen in kleinere plaatsen; internet beschikbaar in steden en toeristische gebieden."
+    }
+  ],
+  "packing": [
+    "Zwemkleding en snorkeluitrusting",
+    "Lichtgewicht wandelkleding",
+    "Stevige wandelschoenen",
+    "Zonnebrandcrème en insectenspray",
+    "Regenjas of poncho",
+    "Hoed of pet voor zonbescherming",
+    "Herbruikbare waterfles",
+    "Lichte rugzak voor dagtochten",
+    "Camera of smartphone voor foto's"
+  ],
+  "closingNote": "Deze route door Honduras combineert tropische eilanden, culturele hoogtepunten en natuur. Afwisselende activiteiten en diverse landschappen zorgen voor een complete reiservaring. Met aandacht voor reistijd en voldoende rustmomenten is het een gevarieerde en prettige vakantie. Zo ontstaat een goede balans tussen actief ontdekken en ontspannen genieten.",
+  "continent": "midden-amerika",
+  "author": "Redactie",
+  "generated": true,
+  "createdAt": "2026-11-27",
+  "topicKey": "honduras:reisroute:2-weken",
+  "imageCredit": {
+    "name": "AlexanderSix16",
+    "url": "https://pixabay.com/photos/cenote-cave-yucat%C3%A1n-nature-water-10225212/",
+    "source": "Pixabay"
+  }
+}

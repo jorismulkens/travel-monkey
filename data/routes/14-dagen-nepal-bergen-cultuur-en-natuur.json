@@ -1,0 +1,269 @@
+{
+  "slug": "14-dagen-nepal-bergen-cultuur-en-natuur",
+  "title": "14 dagen Nepal: bergen, cultuur en natuur",
+  "kicker": "Ontdek de veelzijdigheid van Nepal in twee weken",
+  "country": "Nepal",
+  "region": "Azië",
+  "durationDays": 14,
+  "durationLabel": "14 dagen",
+  "travelStyle": "avontuur en cultuur",
+  "budget": "middenklasse",
+  "budgetNote": "Prijzen kunnen variëren, vooral in toeristische gebieden en tijdens hoogseizoen.",
+  "bestTime": "september tot november en februari tot april",
+  "startPoint": "Kathmandu",
+  "endPoint": "Bhaktapur",
+  "coverImage": "/images/posts/14-dagen-nepal-bergen-cultuur-en-natuur-cover.webp",
+  "coverAlt": "Deze route neemt je mee langs de hoogtepunten van Nepal: van de drukke straten van Kathmandu tot de rust van de Annapurna-bergen, met een mix van cultuur, trektochten en natuur.",
+  "excerpt": "Deze route neemt je mee langs de hoogtepunten van Nepal: van de drukke straten van Kathmandu tot de rust van de Annapurna-bergen, met een mix van cultuur, trektochten en natuur.",
+  "introHeading": "Van cultuur tot bergavontuur",
+  "intro": [
+    "Nepal biedt een unieke combinatie van diepe culturele tradities en indrukwekkende natuur. Deze reisroute laat je kennismaken met de levendige hoofdstad Kathmandu, het rustige meer van Pokhara en de indrukwekkende Annapurna-bergketen.",
+    "Naast de bergen is er ook aandacht voor het subtropische Chitwan, waar je wilde dieren kunt spotten. De route eindigt in het sfeervolle Bhaktapur, bekend om zijn traditionele architectuur en ambachten.",
+    "De reis is geschikt voor reizigers die houden van actieve dagen afgewisseld met culturele ontdekking en natuurbeleving."
+  ],
+  "highlights": [
+    "Bezoek aan de tempels van Kathmandu",
+    "Boottocht en paragliden bij Pokhara",
+    "Trekking in het Annapurna-massief",
+    "Wildlife safaritocht in Chitwan",
+    "Historisch Bhaktapur met traditionele kunst"
+  ],
+  "stops": [
+    {
+      "id": "kathmandu-1",
+      "number": 1,
+      "name": "Kathmandu",
+      "area": "Kathmanduvallei",
+      "coords": [
+        27.708317,
+        85.3205817
+      ],
+      "dayLabel": "Dag 1-3",
+      "nights": 3,
+      "image": "/images/posts/14-dagen-nepal-bergen-cultuur-en-natuur-1.webp",
+      "imageAlt": "Tempel in Kathmandu",
+      "description": "Kathmandu is het levendige hart van Nepal met een mix van oude tempels, smalle straatjes en drukke markten. Hier vind je belangrijke culturele plekken zoals Durbar Square, Swayambhunath (de apentempel) en de Pashupatinath-tempel. De stad is een perfecte introductie tot de Nepalese cultuur en geschiedenis. Het is ook een goede plek om je trekuitrusting compleet te maken en te wennen aan het tempo van het land. Wandel door Thamel voor souvenirs en probeer lokale gerechten op straatmarkten.",
+      "activities": [
+        {
+          "title": "Rondleiding Durbar Square",
+          "description": "Bezoek de oude koninklijke paleizen en tempels in het centrum van Kathmandu.",
+          "price": "ongeveer 5-10 euro"
+        },
+        {
+          "title": "Bezoek Swayambhunath",
+          "description": "Beklim de trap naar de apentempel voor een panoramisch uitzicht.",
+          "price": "ongeveer 3-5 euro"
+        },
+        {
+          "title": "Markt verkennen in Thamel",
+          "description": "Wandel door de kleurrijke straten met winkels en eetkraampjes.",
+          "price": "gratis"
+        }
+      ],
+      "tip": "Bezoek de zonsopgang bij Swayambhunath voor een mooi uitzicht over de stad en vermijd de drukte later op de dag."
+    },
+    {
+      "id": "pokhara-2",
+      "number": 2,
+      "name": "Pokhara",
+      "area": "Gandaki",
+      "coords": [
+        28.209538,
+        83.991402
+      ],
+      "dayLabel": "Dag 4-7",
+      "nights": 4,
+      "image": "/images/posts/14-dagen-nepal-bergen-cultuur-en-natuur-2.webp",
+      "imageAlt": "Uitzicht op Phewa-meer in Pokhara",
+      "description": "Pokhara is een ontspannen stad aan het rustige Phewa-meer, omringd door bergen en natuur. Het is een geliefde plek voor zowel actieve reizigers als mensen die even willen ontspannen. Naast boottochten over het meer kun je hier paragliden met uitzicht op de Annapurna, wandelen naar uitzichtpunten zoals Sarangkot, of de nabijgelegen watervallen en grotten bezoeken. Pokhara heeft een ontspannen sfeer met gezellige cafés en markten waar lokale producten worden verkocht. Het is ook een uitstekend startpunt voor trektochten in de Annapurna-regio.",
+      "activities": [
+        {
+          "title": "Boottocht op Phewa-meer",
+          "description": "Vaar rustig over het meer en bezoek het tempeltje op het water.",
+          "price": "ongeveer 5-10 euro"
+        },
+        {
+          "title": "Paragliden bij Pokhara",
+          "description": "Ervaar het landschap vanuit de lucht met een tandemvlucht.",
+          "price": "ongeveer 60-90 euro"
+        },
+        {
+          "title": "Bezoek Devi's waterval en Gupteshwor grot",
+          "description": "Ontdek deze natuurlijke bezienswaardigheden net buiten het centrum.",
+          "price": "ongeveer 2-4 euro"
+        }
+      ],
+      "tip": "Huur een fiets om het meer en de omgeving in je eigen tempo te ontdekken en bezoek ’s ochtends vroeg Sarangkot voor een prachtig uitzicht op de Himalaya."
+    },
+    {
+      "id": "annapurna-3",
+      "number": 3,
+      "name": "Annapurna",
+      "area": "Himalaya",
+      "coords": [
+        28.5958063,
+        83.8199199
+      ],
+      "dayLabel": "Dag 8-11",
+      "nights": 4,
+      "image": "/images/posts/14-dagen-nepal-bergen-cultuur-en-natuur-3.webp",
+      "imageAlt": "Bergen bij Annapurna",
+      "description": "De Annapurna-regio is een van de bekendste wandelgebieden van Nepal, met routes die variëren van enkele uren tot meerdere dagen. Tijdens een meerdaagse trekking kom je langs groene valleien, traditionele bergdorpjes en indrukwekkende uitzichten op besneeuwde toppen. Ook kortere dagtochten zijn goed te doen voor wie niet wil kamperen. De wandelingen bieden een combinatie van natuur, cultuur en avontuur, met onderweg vaak de kans om lokale bewoners te ontmoeten en hun levenswijze te leren kennen. De omgeving is bovendien bijzonder fotogeniek, zeker bij zonsopgang en zonsondergang.",
+      "activities": [
+        {
+          "title": "Meerdaagse trektocht Annapurna Circuit",
+          "description": "Loop door diverse landschappen, dorpen en geniet het uitzicht op de Himalaya.",
+          "price": "variabel, reken op 100-150 euro per dag voor gids, eten en overnachting"
+        },
+        {
+          "title": "Dagtocht naar Poon Hill",
+          "description": "Beklim een populaire plek voor een indrukwekkende zonsopgang over de bergen.",
+          "price": "ongeveer 20-30 euro inclusief gids"
+        },
+        {
+          "title": "Bezoek aan lokale bergdorpjes",
+          "description": "Maak kennis met de cultuur en tradities van de bergbewoners.",
+          "price": "meestal gratis, kleine donaties soms gewenst"
+        }
+      ],
+      "tip": "Begin vroeg met wandelen om de hitte te vermijden en neem voldoende water en snacks mee voor onderweg."
+    },
+    {
+      "id": "chitwan-4",
+      "number": 4,
+      "name": "Chitwan",
+      "area": "Terai laagland",
+      "coords": [
+        27.618086,
+        84.4536201
+      ],
+      "dayLabel": "Dag 12-13",
+      "nights": 2,
+      "image": "/images/posts/14-dagen-nepal-bergen-cultuur-en-natuur-4.webp",
+      "imageAlt": "Safari in Chitwan National Park",
+      "description": "Chitwan National Park biedt een andere kant van Nepal met zijn subtropische bossen en rijke dierenleven. Tijdens een safari kun je neushoorns, krokodillen, apen en vele vogelsoorten spotten. De jungletocht is een bijzondere ervaring, vooral met een gids die je meer vertelt over de flora en fauna. In de dorpen rond het park leer je over de Tharu-cultuur, die nauw verbonden is met het landschap. Het gebied is lager gelegen en warmer dan de bergregio's, wat zorgt voor een aangename afwisseling tijdens de reis.",
+      "activities": [
+        {
+          "title": "Jungle safari per jeep of olifant",
+          "description": "Spot wilde dieren in hun natuurlijke habitat met een ervaren gids.",
+          "price": "ongeveer 25-40 euro per tour"
+        },
+        {
+          "title": "Kanotocht op de rivier",
+          "description": "Bekijk krokodillen en vogels vanaf het water in een rustige omgeving.",
+          "price": "ongeveer 15-25 euro"
+        },
+        {
+          "title": "Bezoek Tharu dorp",
+          "description": "Leer over de tradities en cultuur van de lokale bevolking.",
+          "price": "ongeveer 5-10 euro"
+        }
+      ],
+      "tip": "Ga vroeg in de ochtend op safari voor de beste kans om dieren te zien en vergeet niet water en zonnebescherming mee te nemen."
+    },
+    {
+      "id": "bhaktapur-5",
+      "number": 5,
+      "name": "Bhaktapur",
+      "area": "Kathmanduvallei",
+      "coords": [
+        27.6711133,
+        85.4261675
+      ],
+      "dayLabel": "Dag 14",
+      "nights": 1,
+      "image": "/images/posts/14-dagen-nepal-bergen-cultuur-en-natuur-5.webp",
+      "imageAlt": "Traditioneel plein in Bhaktapur",
+      "description": "Bhaktapur is een stad die het oude Nepalese leven in stand houdt, met een goed bewaard historisch centrum. De smalle straatjes en pleinen zijn rijk aan traditionele architectuur en ambachtelijke winkels waar houtbewerkers en pottenbakkers hun kunsten tonen. Het stadje is rustiger dan Kathmandu, wat het prettig maakt om rond te dwalen en de sfeer op te snuiven. Lokale specialiteiten zoals 'juju dhau', een romige yoghurt, zijn een aanrader om te proeven. Bhaktapur is een fijne plek om de reis af te sluiten met cultuur en ambacht.",
+      "activities": [
+        {
+          "title": "Wandeling door het oude centrum",
+          "description": "Verken tempels, pleinen en smalle straatjes in een historische setting.",
+          "price": "ongeveer 5-8 euro entree"
+        },
+        {
+          "title": "Bezoek pottenbakkerijen",
+          "description": "Bekijk traditionele keramiekproductie en koop unieke souvenirs.",
+          "price": "gratis toegang, producten te koop"
+        },
+        {
+          "title": "Proef lokale gerechten op de markt",
+          "description": "Geniet van authentieke Nepalese snacks en maaltijden.",
+          "price": "5-10 euro per maaltijd"
+        }
+      ],
+      "tip": "Bezoek het plein in de late namiddag wanneer de lokale bevolking samenkomt en de sfeer het meest levendig is."
+    }
+  ],
+  "gallery": [
+    {
+      "src": "/images/posts/14-dagen-nepal-bergen-cultuur-en-natuur-1.webp",
+      "alt": "Tempel in Kathmandu",
+      "caption": "Kathmandu — Kathmanduvallei"
+    },
+    {
+      "src": "/images/posts/14-dagen-nepal-bergen-cultuur-en-natuur-2.webp",
+      "alt": "Uitzicht op Phewa-meer in Pokhara",
+      "caption": "Pokhara — Gandaki"
+    },
+    {
+      "src": "/images/posts/14-dagen-nepal-bergen-cultuur-en-natuur-3.webp",
+      "alt": "Bergen bij Annapurna",
+      "caption": "Annapurna — Himalaya"
+    },
+    {
+      "src": "/images/posts/14-dagen-nepal-bergen-cultuur-en-natuur-4.webp",
+      "alt": "Safari in Chitwan National Park",
+      "caption": "Chitwan — Terai laagland"
+    },
+    {
+      "src": "/images/posts/14-dagen-nepal-bergen-cultuur-en-natuur-5.webp",
+      "alt": "Traditioneel plein in Bhaktapur",
+      "caption": "Bhaktapur — Kathmanduvallei"
+    }
+  ],
+  "practical": [
+    {
+      "label": "Vervoer",
+      "value": "Binnenlandse bussen en taxi's kosten meestal 1-15 euro per rit, binnenlandse vluchten 50-100 euro."
+    },
+    {
+      "label": "Verblijf",
+      "value": "Guesthouses en hotels variëren tussen 15-50 euro per nacht, afhankelijk van locatie en comfort."
+    },
+    {
+      "label": "Budget",
+      "value": "Dagelijkse kosten inclusief eten, vervoer en activiteiten liggen tussen 20-40 euro."
+    },
+    {
+      "label": "Beste reistijd",
+      "value": "De maanden september-november en februari-april bieden de beste weersomstandigheden."
+    },
+    {
+      "label": "Geld en internet",
+      "value": "Geldautomaten zijn beschikbaar in steden, wifi in hotels is gebruikelijk, maar landelijke gebieden hebben minder connectiviteit."
+    }
+  ],
+  "packing": [
+    "Wandelschoenen met goede grip",
+    "Warme jas en laagjes",
+    "Regenjas of poncho",
+    "Zonnebrandcrème en hoed",
+    "Zwemkleding voor meer en rivier",
+    "Rugzak met dagrugzak",
+    "EHBO-kit en persoonlijke medicatie",
+    "Zaklamp of hoofdlamp",
+    "Paspoort en kopieën"
+  ],
+  "closingNote": "Nepal combineert indrukwekkende natuur met rijke cultuur. Deze route biedt een goede balans tussen actieve trektochten en ontspannen culturele momenten. Door de afwisseling van steden, bergen en natuurgebieden krijg je een breed beeld van wat het land te bieden heeft. Bereid je goed voor en neem de tijd om ook de kleine details onderweg te waarderen.",
+  "continent": "azie",
+  "author": "Redactie",
+  "generated": true,
+  "createdAt": "2026-11-27",
+  "topicKey": "nepal:reisroute:2-weken",
+  "imageCredit": {
+    "name": "YaoMuyu",
+    "url": "https://pixabay.com/photos/machhapuchhre-fishtail-10489623/",
+    "source": "Pixabay"
+  }
+}

@@ -1,0 +1,269 @@
+{
+  "slug": "7-dagen-ruige-natuur-en-levendige-steden",
+  "title": "7 dagen ruige natuur en levendige steden",
+  "kicker": "Ontdek contrasten van Schotland",
+  "country": "Schotland",
+  "region": "Europa",
+  "durationDays": 7,
+  "durationLabel": "7 dagen",
+  "travelStyle": "gemengd",
+  "budget": "middenklasse",
+  "budgetNote": "Prijzen kunnen wisselen per seizoen en beschikbaarheid.",
+  "bestTime": "mei tot september",
+  "startPoint": "Edinburgh",
+  "endPoint": "Glasgow",
+  "coverImage": "/images/posts/7-dagen-ruige-natuur-en-levendige-steden-cover.webp",
+  "coverAlt": "Een week door Schotland met een mix van historische steden, ruige natuur op het Isle of Skye en de Hooglanden, plus het levendige Inverness en Glasgow.",
+  "excerpt": "Een week door Schotland met een mix van historische steden, ruige natuur op het Isle of Skye en de Hooglanden, plus het levendige Inverness en Glasgow.",
+  "introHeading": "Van stad naar ruige natuur",
+  "intro": [
+    "Deze route neemt je mee langs de mooiste plekken van Schotland in een week tijd. Begin met de rijke geschiedenis en gezellige sfeer van Edinburgh, waarna het avontuur je verder brengt naar de natuurpracht van het Isle of Skye en de Hooglanden.",
+    "Inverness biedt een combinatie van cultuur en natuurschoon, met volop mogelijkheden om langs de rivier te wandelen en historische plekken te bezoeken. De reis eindigt in Glasgow, een stad met een eigenzinnige charme en veel culturele activiteiten.",
+    "Deze reis is geschikt voor wie houdt van een goede afwisseling tussen stedelijke levendigheid en rustige natuur. De route is goed te doen per auto, met voldoende mogelijkheden om onderweg te stoppen en te verkennen."
+  ],
+  "highlights": [
+    "Wandel langs de kleurrijke Royal Mile in Edinburgh.",
+    "Ontdek de dramatische landschappen van het Isle of Skye.",
+    "Bezoek het historische kasteel van Inverness.",
+    "Rijd door de adembenemende Hooglanden met vele uitzichtpunten.",
+    "Sluit af met kunst en muziek in het bruisende Glasgow."
+  ],
+  "stops": [
+    {
+      "id": "edinburgh-1",
+      "number": 1,
+      "name": "Edinburgh",
+      "area": "Lothian",
+      "coords": [
+        55.9533456,
+        -3.1883749
+      ],
+      "dayLabel": "Dag 1-2",
+      "nights": 2,
+      "image": "/images/posts/7-dagen-ruige-natuur-en-levendige-steden-1.webp",
+      "imageAlt": "Uitzicht op Edinburgh Castle met stad in achtergrond",
+      "description": "Edinburgh combineert een rijke geschiedenis met een levendige sfeer. Begin bij het imposante Edinburgh Castle en wandel over de Royal Mile, waar middeleeuwse straatjes en kleine winkeltjes samenkomen. Vergeet niet een bezoek te brengen aan de gezellige cafés en pubs, waar je lokale gerechten en dranken kunt proeven. 's Avonds biedt de stad volop mogelijkheden met theaters, muziek en festivals. Ook een klim naar Arthur's Seat is een fijne manier om de stad en omgeving te zien vanaf een hoger punt.",
+      "activities": [
+        {
+          "title": "Rondleiding Edinburgh Castle",
+          "description": "Ontdek de geschiedenis van het kasteel en geniet van het uitzicht over de stad.",
+          "price": "15-25 euro"
+        },
+        {
+          "title": "Wandeling Arthur's Seat",
+          "description": "Beklim deze oude vulkaan voor een panoramisch uitzicht over Edinburgh.",
+          "price": "gratis"
+        },
+        {
+          "title": "Bezoek National Museum of Scotland",
+          "description": "Leer meer over Schotse geschiedenis, natuur en cultuur.",
+          "price": "gratis, donaties welkom"
+        }
+      ],
+      "tip": "Koop een combiticket voor Edinburgh Castle en het National Museum of Scotland om voordeliger binnen te komen."
+    },
+    {
+      "id": "isle-of-skye-2",
+      "number": 2,
+      "name": "Isle of Skye",
+      "area": "Highlands",
+      "coords": [
+        57.3629935,
+        -6.3023224
+      ],
+      "dayLabel": "Dag 3-4",
+      "nights": 2,
+      "image": "/images/posts/7-dagen-ruige-natuur-en-levendige-steden-2.webp",
+      "imageAlt": "Rotsformatie Old Man of Storr met blauwe lucht",
+      "description": "Het Isle of Skye staat bekend om zijn ruige, dramatische natuur. Hier vind je uitgestrekte landschappen met bergen, fjorden en watervallen. Populaire plekken zijn de Old Man of Storr, de Quiraing en de Fairy Pools. Het eiland heeft ook kleine dorpjes waar je kunt genieten van verse vis en lokale producten. De natuur leent zich perfect voor wandelingen en fotografie. Neem de tijd om van het rustige tempo en de uitgestrektheid te genieten.",
+      "activities": [
+        {
+          "title": "Wandeling Old Man of Storr",
+          "description": "Een korte maar indrukwekkende hike langs unieke rotsformaties.",
+          "price": "gratis"
+        },
+        {
+          "title": "Bezoek Fairy Pools",
+          "description": "Zwemplekken met helderblauw water en mooie watervallen.",
+          "price": "gratis"
+        },
+        {
+          "title": "Boottocht rond eiland",
+          "description": "Bekijk zeeleven en de kustlijn vanaf het water.",
+          "price": "30-50 euro"
+        }
+      ],
+      "tip": "Vermijd de drukte door vroeg te vertrekken naar populaire wandelplekken, vooral in het weekend."
+    },
+    {
+      "id": "highlands-3",
+      "number": 3,
+      "name": "Highlands",
+      "area": "Highlands",
+      "coords": [
+        57.3333333,
+        -4.25
+      ],
+      "dayLabel": "Dag 5",
+      "nights": 1,
+      "image": "/images/posts/7-dagen-ruige-natuur-en-levendige-steden-3.webp",
+      "imageAlt": "Uitzicht op Loch Ness met bergen",
+      "description": "De Hooglanden zijn een uitgestrekt gebied met ruige bergen, diepe meren en uitgestrekte valleien. Rijd over schilderachtige wegen en stop bij uitzichtpunten zoals Loch Ness, waar legendes en natuur samenkomen. In deze regio zijn mogelijkheden om te wandelen, kastelen te bezoeken en lokale dorpen te ontdekken. Het rustige landschap biedt een mooi contrast met de steden aan het begin en eind van de reis.",
+      "activities": [
+        {
+          "title": "Boottocht Loch Ness",
+          "description": "Ontdek het meer en probeer het beroemde monster te spotten.",
+          "price": "20-35 euro"
+        },
+        {
+          "title": "Wandeling in Cairngorms National Park",
+          "description": "Verken de natuur rondom met gemarkeerde routes.",
+          "price": "gratis"
+        },
+        {
+          "title": "Bezoek Urquhart Castle",
+          "description": "Ruïnes met uitzicht op Loch Ness en veel geschiedenis.",
+          "price": "10-15 euro"
+        }
+      ],
+      "tip": "Plan voldoende tijd in voor stops onderweg, vooral bij Loch Ness en kleine dorpjes."
+    },
+    {
+      "id": "inverness-4",
+      "number": 4,
+      "name": "Inverness",
+      "area": "Highlands",
+      "coords": [
+        57.4790124,
+        -4.225739
+      ],
+      "dayLabel": "Dag 6",
+      "nights": 1,
+      "image": "/images/posts/7-dagen-ruige-natuur-en-levendige-steden-4.webp",
+      "imageAlt": "Inverness met rivier en brug",
+      "description": "Inverness is de hoofdstad van de Hooglanden en combineert een vriendelijke, compacte stad met een rijke historie en een mooie ligging aan de rivier de Ness. De stad biedt een prettige mix van culturele bezienswaardigheden, zoals Inverness Castle en diverse musea, en natuurelementen. Wandel langs de rivier of door het stadspark, en geniet van gezellige cafés en lokale restaurants. Inverness is ook een handig startpunt voor dagtochten naar nabijgelegen natuurgebieden of historische locaties.",
+      "activities": [
+        {
+          "title": "Bezoek Inverness Castle",
+          "description": "Ontdek de geschiedenis en geniet van een panoramisch uitzicht over de stad.",
+          "price": "15-20 euro"
+        },
+        {
+          "title": "Rivierwandeling langs de Ness",
+          "description": "Ontspan met een wandeling langs de rivier, ideaal voor fotografie en rust.",
+          "price": "gratis"
+        },
+        {
+          "title": "Lokale markt en winkels",
+          "description": "Proef verse streekproducten en koop souvenirs op de markt.",
+          "price": "gratis toegang"
+        }
+      ],
+      "tip": "Bezoek het lokale bezoekerscentrum voor tips over wandelroutes en evenementen tijdens je verblijf."
+    },
+    {
+      "id": "glasgow-5",
+      "number": 5,
+      "name": "Glasgow",
+      "area": "Strathclyde",
+      "coords": [
+        55.861155,
+        -4.2501687
+      ],
+      "dayLabel": "Dag 7",
+      "nights": 1,
+      "image": "/images/posts/7-dagen-ruige-natuur-en-levendige-steden-5.webp",
+      "imageAlt": "Straatbeeld Glasgow met kunst en mensen",
+      "description": "Glasgow sluit de reis af met een mix van kunst, muziek en levendige stadsdelen. Bezoek het Kelvingrove Art Gallery and Museum met een gevarieerde collectie, of geniet van de architectuur in het West End. De stad staat ook bekend om zijn pubs en restaurants met internationale en lokale Schotse gerechten. Voor wie tijd heeft is een bezoek aan een live muziekoptreden een aanrader.",
+      "activities": [
+        {
+          "title": "Kelvingrove Art Gallery bezoeken",
+          "description": "Museum met kunst, natuurhistorie en meer.",
+          "price": "gratis, donaties welkom"
+        },
+        {
+          "title": "Wandeling West End",
+          "description": "Ontdek boetieks, cafés en mooie wijken.",
+          "price": "gratis"
+        },
+        {
+          "title": "Live muziek bijwonen",
+          "description": "Geniet van lokale bands in een pub of zaal.",
+          "price": "10-25 euro"
+        }
+      ],
+      "tip": "Koop vooraf tickets voor populaire musea om wachttijden te vermijden."
+    }
+  ],
+  "gallery": [
+    {
+      "src": "/images/posts/7-dagen-ruige-natuur-en-levendige-steden-1.webp",
+      "alt": "Uitzicht op Edinburgh Castle met stad in achtergrond",
+      "caption": "Edinburgh — Lothian"
+    },
+    {
+      "src": "/images/posts/7-dagen-ruige-natuur-en-levendige-steden-2.webp",
+      "alt": "Rotsformatie Old Man of Storr met blauwe lucht",
+      "caption": "Isle of Skye — Highlands"
+    },
+    {
+      "src": "/images/posts/7-dagen-ruige-natuur-en-levendige-steden-3.webp",
+      "alt": "Uitzicht op Loch Ness met bergen",
+      "caption": "Highlands — Highlands"
+    },
+    {
+      "src": "/images/posts/7-dagen-ruige-natuur-en-levendige-steden-4.webp",
+      "alt": "Inverness met rivier en brug",
+      "caption": "Inverness — Highlands"
+    },
+    {
+      "src": "/images/posts/7-dagen-ruige-natuur-en-levendige-steden-5.webp",
+      "alt": "Straatbeeld Glasgow met kunst en mensen",
+      "caption": "Glasgow — Strathclyde"
+    }
+  ],
+  "practical": [
+    {
+      "label": "Vervoer",
+      "value": "Auto huren is aan te raden voor flexibiliteit. Openbaar vervoer is mogelijk tussen steden, maar beperkt op Isle of Skye en in de Hooglanden."
+    },
+    {
+      "label": "Verblijf",
+      "value": "Van B&B tot middenklasse hotels, boek op tijd vooral op Isle of Skye."
+    },
+    {
+      "label": "Budget",
+      "value": "Dagelijks budget van 60-100 euro per persoon voor eten, activiteiten en vervoer."
+    },
+    {
+      "label": "Beste reistijd",
+      "value": "Mei tot september vanwege mild weer en langere dagen."
+    },
+    {
+      "label": "Geld en internet",
+      "value": "Creditcards worden breed geaccepteerd. Mobiele internetdekking is goed in steden, beperkt in afgelegen gebieden."
+    }
+  ],
+  "packing": [
+    "waterdichte jas",
+    "stevige wandelschoenen",
+    "warme fleece",
+    "rugzak voor dagtochten",
+    "zonnebril",
+    "camera of smartphone",
+    "reisgids of kaarten",
+    "adapter UK-stekker",
+    "herbruikbare waterfles"
+  ],
+  "closingNote": "Deze combinatie van steden en natuur geeft een goed beeld van wat Schotland te bieden heeft. De reis is afwisselend en biedt ruimte om te ontspannen of juist actief bezig te zijn. Houd rekening met wisselvallig weer en plan tijdig accommodaties, vooral in het hoogseizoen. Zo wordt een week in Schotland zowel comfortabel als onvergetelijk.",
+  "continent": "europa",
+  "author": "Redactie",
+  "generated": true,
+  "createdAt": "2026-11-27",
+  "topicKey": "schotland:reisroute:1-week",
+  "imageCredit": {
+    "name": "ChiemSeherin",
+    "url": "https://pixabay.com/photos/kenroku-en-garden-japanese-garden-9492642/",
+    "source": "Pixabay"
+  }
+}

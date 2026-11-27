@@ -388,5 +388,70 @@
     "type": "route",
     "thumbnail": "/images/posts/14-dagen-woestijn-kust-en-berglucht-cover.webp",
     "excerpt": "Een reis door Saoedi-Arabië die stedelijke moderniteit combineert met indrukwekkende woestijnlandschappen, oude archeologische sites en bergachtige natuur. Deze route leidt je van de hoofdstad Riyad via AlUla en Jeddah naar het groene Taif, met onderweg bijzondere ervaringen in Abha."
+  },
+  {
+    "id": "14-dagen-eilandleven-en-maya-geschiedenis-route",
+    "name": "Roatán",
+    "country": "Honduras",
+    "coords": [
+      16.3490211,
+      -86.4977513
+    ],
+    "slug": "14-dagen-eilandleven-en-maya-geschiedenis",
+    "type": "route",
+    "thumbnail": "/images/posts/14-dagen-eilandleven-en-maya-geschiedenis-cover.webp",
+    "excerpt": "Ontdek in twee weken de eilanden Roatán en Utila, de oude Maya-ruïnes van Copán en de natuurlijke schoonheid van La Ceiba en Gracias. Een gevarieerde reis langs stranden, cultuur en natuur."
+  },
+  {
+    "id": "7-dagen-kust-en-cultuur-in-mozambique-route",
+    "name": "Maputo",
+    "country": "Mozambique",
+    "coords": [
+      -25.966213,
+      32.56745
+    ],
+    "slug": "7-dagen-kust-en-cultuur-in-mozambique",
+    "type": "route",
+    "thumbnail": "/images/posts/7-dagen-kust-en-cultuur-in-mozambique-cover.webp",
+    "excerpt": "Deze weeklange reis neemt je mee van de levendige hoofdstad Maputo naar de ongerepte stranden van Pemba. Onderweg ontdek je eilanden, natuurreservaten en authentieke dorpjes langs de kust van Mozambique."
+  },
+  {
+    "id": "7-dagen-ruige-natuur-en-levendige-steden-route",
+    "name": "Edinburgh",
+    "country": "Schotland",
+    "coords": [
+      55.9533456,
+      -3.1883749
+    ],
+    "slug": "7-dagen-ruige-natuur-en-levendige-steden",
+    "type": "route",
+    "thumbnail": "/images/posts/7-dagen-ruige-natuur-en-levendige-steden-cover.webp",
+    "excerpt": "Een week door Schotland met een mix van historische steden, ruige natuur op het Isle of Skye en de Hooglanden, plus het levendige Inverness en Glasgow."
+  },
+  {
+    "id": "7-dagen-eilandhoppen-en-natuurverkenning-route",
+    "name": "Koror",
+    "country": "Palau",
+    "coords": [
+      7.2259863,
+      134.131234
+    ],
+    "slug": "7-dagen-eilandhoppen-en-natuurverkenning",
+    "type": "route",
+    "thumbnail": "/images/posts/7-dagen-eilandhoppen-en-natuurverkenning-cover.webp",
+    "excerpt": "Een week lang de veelzijdigheid van Palau ervaren: van bruisend Koror en het indrukwekkende watergebied van de Rock Islands tot de historische eilanden Peleliu, Babeldaob en Angaur. Deze route combineert natuur, cultuur en avontuur."
+  },
+  {
+    "id": "14-dagen-nepal-bergen-cultuur-en-natuur-route",
+    "name": "Kathmandu",
+    "country": "Nepal",
+    "coords": [
+      27.708317,
+      85.3205817
+    ],
+    "slug": "14-dagen-nepal-bergen-cultuur-en-natuur",
+    "type": "route",
+    "thumbnail": "/images/posts/14-dagen-nepal-bergen-cultuur-en-natuur-cover.webp",
+    "excerpt": "Deze route neemt je mee langs de hoogtepunten van Nepal: van de drukke straten van Kathmandu tot de rust van de Annapurna-bergen, met een mix van cultuur, trektochten en natuur."
   }
 ]

@@ -1,0 +1,269 @@
+{
+  "slug": "7-dagen-kust-en-cultuur-in-mozambique",
+  "title": "7 dagen kust en cultuur in Mozambique",
+  "kicker": "Een afwisselende route langs stad, strand en eilanden",
+  "country": "Mozambique",
+  "region": "Afrika",
+  "durationDays": 7,
+  "durationLabel": "7 dagen",
+  "travelStyle": "Avontuurlijk en ontspannen",
+  "budget": "€50-€90 per dag",
+  "budgetNote": "Prijzen voor accommodaties en activiteiten kunnen variëren afhankelijk van seizoen en locatie.",
+  "bestTime": "Mei tot oktober, tijdens het droge seizoen met aangename temperaturen.",
+  "startPoint": "Maputo",
+  "endPoint": "Pemba",
+  "coverImage": "/images/posts/7-dagen-kust-en-cultuur-in-mozambique-cover.webp",
+  "coverAlt": "Deze weeklange reis neemt je mee van de levendige hoofdstad Maputo naar de ongerepte stranden van Pemba. Onderweg ontdek je eilanden, natuurreservaten en authentieke dorpjes langs de kust van Mozambique.",
+  "excerpt": "Deze weeklange reis neemt je mee van de levendige hoofdstad Maputo naar de ongerepte stranden van Pemba. Onderweg ontdek je eilanden, natuurreservaten en authentieke dorpjes langs de kust van Mozambique.",
+  "introHeading": "Van stad naar zee",
+  "intro": [
+    "Ontdek de veelzijdigheid van Mozambique in slechts zeven dagen. Van bruisende steden tot rustige stranden, deze route laat de belangrijkste kanten van het land zien. Er is ruimte voor cultuur, natuur en ontspanning, waardoor het een gebalanceerde reis wordt.",
+    "Begin in Maputo, waar koloniale geschiedenis en lokale tradities samenkomen. Vervolgens reis je naar de kustplaatsen Vilankulo en Tofo, bekend om hun levendige vissersgemeenschappen en prachtige stranden. De reis eindigt in het noorden, in Pemba, een plek waar natuur en cultuur elkaar ontmoeten.",
+    "Deze route is ideaal voor wie in korte tijd een goede indruk wil krijgen van Mozambique, met een mix van stadsleven, eilandbezoeken en kustplezier. Neem tijd om de sfeer op te snuiven en geniet van de gastvrijheid van het land."
+  ],
+  "highlights": [
+    "Wandel door de kleurrijke straten van Maputo.",
+    "Ontdek de onderwaterwereld rondom de Bazaruto-archipel.",
+    "Bezoek traditionele vissersdorpjes bij Tofo.",
+    "Geniet van de rustige stranden van Vilankulo.",
+    "Verken de natuur en lokale markten in Pemba."
+  ],
+  "stops": [
+    {
+      "id": "maputo-1",
+      "number": 1,
+      "name": "Maputo",
+      "area": "Maputo",
+      "coords": [
+        -25.966213,
+        32.56745
+      ],
+      "dayLabel": "Dag 1-2",
+      "nights": 2,
+      "image": "/images/posts/7-dagen-kust-en-cultuur-in-mozambique-1.webp",
+      "imageAlt": "Straatbeeld van Maputo met kleurrijke gebouwen en markten",
+      "description": "Maputo is de hoofdstad en het culturele hart van Mozambique. De stad biedt een mix van koloniale architectuur, levendige markten en een ontspannen sfeer aan de kust. Op straat zijn er veel cafés en restaurantjes waar je lokale gerechten kunt proeven. Het is een ideale plek om kennis te maken met de Mozambikaanse cultuur en geschiedenis. Daarnaast kun je hier musea bezoeken en genieten van het stadsleven aan het strand.",
+      "activities": [
+        {
+          "title": "Stadswandeling door Maputo",
+          "description": "Ontdek de belangrijkste bezienswaardigheden zoals de kathedraal, het fort en het nationale museum.",
+          "price": "gratis tot 10 euro"
+        },
+        {
+          "title": "Bezoek aan de Centrale Markt",
+          "description": "Verken de markt vol verse producten en handwerk, ideaal voor souvenirs.",
+          "price": "gratis entree"
+        },
+        {
+          "title": "Diner met lokale specialiteiten",
+          "description": "Proef gerechten zoals Piri-Piri kip of verse zeevruchten in een lokaal restaurant.",
+          "price": "15-25 euro"
+        }
+      ],
+      "tip": "Bezoek de Centrale Markt voor lokale producten en handwerk, en proef streetfood zoals 'piri-piri' garnalen."
+    },
+    {
+      "id": "vilankulo-2",
+      "number": 2,
+      "name": "Vilankulo",
+      "area": "Inhambane",
+      "coords": [
+        -22.2986932,
+        35.0366556
+      ],
+      "dayLabel": "Dag 3",
+      "nights": 1,
+      "image": "/images/posts/7-dagen-kust-en-cultuur-in-mozambique-2.webp",
+      "imageAlt": "Strand en jachthaven in Vilankulo",
+      "description": "Vilankulo staat bekend als de toegangspoort tot de Bazaruto-archipel en is een ontspannen kustplaats met mooie stranden en een kleine jachthaven. Het stadje heeft een vriendelijke sfeer en is een trefpunt voor zowel reizigers als lokale vissers. Naast het genieten van de zee, biedt Vilankulo ook mogelijkheden om de lokale cultuur te ervaren, bijvoorbeeld via markten en kleine galerieën. Verse zeevruchten zijn hier een aanrader en de omgeving is uitermate geschikt voor watersporten.",
+      "activities": [
+        {
+          "title": "Boottocht naar Bazaruto",
+          "description": "Bezoek het natuurreservaat en geniet van snorkelen bij koraalriffen.",
+          "price": "30-50 euro"
+        },
+        {
+          "title": "Kajakken langs de kust",
+          "description": "Verken de rustige wateren en observeer zeeleven.",
+          "price": "20-35 euro"
+        },
+        {
+          "title": "Lokale vismarkt bezoeken",
+          "description": "Ontdek de vangst van de dag en praat met vissers.",
+          "price": "gratis"
+        }
+      ],
+      "tip": "Plan een excursie naar de Bazaruto-eilanden en combineer dit met snorkelen of duiken."
+    },
+    {
+      "id": "bazaruto-3",
+      "number": 3,
+      "name": "Bazaruto",
+      "area": "Bazaruto-archipel",
+      "coords": [
+        -21.649252,
+        35.469766
+      ],
+      "dayLabel": "Dag 4",
+      "nights": 1,
+      "image": "/images/posts/7-dagen-kust-en-cultuur-in-mozambique-3.webp",
+      "imageAlt": "Witte stranden en helder blauw water op Bazaruto eiland",
+      "description": "De Bazaruto-archipel is een uitgestrekt natuurgebied met prachtige stranden, duikplekken en ongerepte natuur. Het eiland staat bekend om zijn heldere water en rijke onderwaterleven, ideaal voor snorkelaars en duikers. Naast wateractiviteiten kun je hier ook wandelen en genieten van de rust en het natuurschoon. Er zijn enkele kleinschalige accommodaties waar je kunt overnachten en zo optimaal van het eiland kunt genieten.",
+      "activities": [
+        {
+          "title": "Snorkelen bij het koraalrif",
+          "description": "Verken het onderwaterleven met kleurrijke vissen en koraal.",
+          "price": "15-30 euro"
+        },
+        {
+          "title": "Wandeling door het eiland",
+          "description": "Ontdek de flora en fauna en geniet van uitzichten over de oceaan.",
+          "price": "gratis tot 10 euro"
+        },
+        {
+          "title": "Dolphin spotting tour",
+          "description": "Ga op zoek naar dolfijnen rond het eiland met een boottocht.",
+          "price": "25-45 euro"
+        }
+      ],
+      "tip": "Huur een gids voor een snorkeltocht langs het koraalrif om de beste plekken te ontdekken."
+    },
+    {
+      "id": "tofo-4",
+      "number": 4,
+      "name": "Tofo",
+      "area": "Inhambane",
+      "coords": [
+        -23.8536062,
+        35.5471714
+      ],
+      "dayLabel": "Dag 5",
+      "nights": 1,
+      "image": "/images/posts/7-dagen-kust-en-cultuur-in-mozambique-4.webp",
+      "imageAlt": "Strand en surfende mensen in Tofo",
+      "description": "Tofo is een klein kustplaatsje dat populair is bij duikers, surfers en natuurliefhebbers. Het brede strand en de relaxte sfeer maken het een fijne plek om even te ontspannen. Naast de kans om walvishaaien en manta’s te spotten tijdens duik- of snorkelexcursies, kun je er ook lokale vissersdorpjes bezoeken en kennismaken met de traditionele levensstijl. Tofo heeft verschillende cafés en eetgelegenheden waar verse zeevruchten en lokale gerechten worden geserveerd, wat het tot een aangename plek maakt om de dag door te brengen.",
+      "activities": [
+        {
+          "title": "Duiken met walvishaaien",
+          "description": "Een unieke kans om deze reuzen van dichtbij te zien.",
+          "price": "60-100 euro"
+        },
+        {
+          "title": "Surflessen volgen",
+          "description": "Leer surfen of verbeter je techniek op de golven.",
+          "price": "20-40 euro"
+        },
+        {
+          "title": "Bezoek lokale cafés",
+          "description": "Proef verse zeevruchten en geniet van de ontspannen sfeer.",
+          "price": "10-20 euro"
+        }
+      ],
+      "tip": "Plan een duiktrip voor de kans om walvishaaien te zien, maar reserveer tijdig."
+    },
+    {
+      "id": "pemba-5",
+      "number": 5,
+      "name": "Pemba",
+      "area": "Cabo Delgado",
+      "coords": [
+        -12.9735551,
+        40.5215098
+      ],
+      "dayLabel": "Dag 6-7",
+      "nights": 2,
+      "image": "/images/posts/7-dagen-kust-en-cultuur-in-mozambique-5.webp",
+      "imageAlt": "Markt en strand in Pemba",
+      "description": "Pemba ligt in het noorden van Mozambique en staat bekend om zijn mooie stranden en levendige markten. Deze stad heeft een tropisch klimaat en is een toegangspoort tot de Quirimbas-archipel. Naast het verkennen van de lokale cultuur en markten, kun je hier ook ontspannen aan het strand of een boottocht maken. Het is een prima plek om de reis rustig af te sluiten met een mix van natuur en cultuur.",
+      "activities": [
+        {
+          "title": "Bezoek aan de lokale markt",
+          "description": "Ontdek verse vis, kruiden en handwerk.",
+          "price": "gratis"
+        },
+        {
+          "title": "Boottocht naar nabijgelegen eilanden",
+          "description": "Geniet van snorkelen en ongerepte stranden.",
+          "price": "25-45 euro"
+        },
+        {
+          "title": "Strandwandeling en ontspanning",
+          "description": "Verken het rustige strand en geniet van de zonsondergang.",
+          "price": "gratis"
+        }
+      ],
+      "tip": "Bezoek de vismarkt vroeg in de ochtend voor een authentieke ervaring."
+    }
+  ],
+  "gallery": [
+    {
+      "src": "/images/posts/7-dagen-kust-en-cultuur-in-mozambique-1.webp",
+      "alt": "Straatbeeld van Maputo met kleurrijke gebouwen en markten",
+      "caption": "Maputo — Maputo"
+    },
+    {
+      "src": "/images/posts/7-dagen-kust-en-cultuur-in-mozambique-2.webp",
+      "alt": "Strand en jachthaven in Vilankulo",
+      "caption": "Vilankulo — Inhambane"
+    },
+    {
+      "src": "/images/posts/7-dagen-kust-en-cultuur-in-mozambique-3.webp",
+      "alt": "Witte stranden en helder blauw water op Bazaruto eiland",
+      "caption": "Bazaruto — Bazaruto-archipel"
+    },
+    {
+      "src": "/images/posts/7-dagen-kust-en-cultuur-in-mozambique-4.webp",
+      "alt": "Strand en surfende mensen in Tofo",
+      "caption": "Tofo — Inhambane"
+    },
+    {
+      "src": "/images/posts/7-dagen-kust-en-cultuur-in-mozambique-5.webp",
+      "alt": "Markt en strand in Pemba",
+      "caption": "Pemba — Cabo Delgado"
+    }
+  ],
+  "practical": [
+    {
+      "label": "Vervoer",
+      "value": "Binnenlandse vluchten tussen Maputo en Vilankulo, Vilankulo en Pemba. Lokale taxi’s en boottochten zijn gebruikelijk."
+    },
+    {
+      "label": "Verblijf",
+      "value": "Van budget guesthouses tot middenklasse lodges, prijzen variëren van 20 tot 70 euro per nacht."
+    },
+    {
+      "label": "Budget",
+      "value": "Dagelijkse kosten tussen 50 en 90 euro, inclusief accommodatie, maaltijden en activiteiten."
+    },
+    {
+      "label": "Beste reistijd",
+      "value": "Droog seizoen van mei tot oktober is het meest geschikt vanwege aangename temperaturen en weinig regen."
+    },
+    {
+      "label": "Geld en internet",
+      "value": "Contant geld in metical is aan te raden; internet is in steden vaak beschikbaar, maar op eilanden beperkt."
+    }
+  ],
+  "packing": [
+    "Zwemkleding",
+    "Zonnebrandcrème",
+    "Lichtgewicht kleding",
+    "Wandelschoenen of sandalen",
+    "Snorkeluitrusting of duikbril",
+    "Hoed of pet",
+    "Insectenwerend middel",
+    "Waterfles",
+    "Reisdocumenten en contant geld"
+  ],
+  "closingNote": "Deze route biedt een goede combinatie van stad, eiland en kustplezier aan de oostkust van Afrika. De afwisseling tussen culturele hoogtepunten en natuuractiviteiten zorgt voor een veelzijdige ervaring. Door de korte afstanden en variatie in vervoer is het een aantrekkelijke reis voor wie binnen een week het beste van Mozambique wil ontdekken. Vergeet niet om voldoende cash mee te nemen en te genieten van de gastvrijheid die het land te bieden heeft.",
+  "continent": "afrika",
+  "author": "Redactie",
+  "generated": true,
+  "createdAt": "2026-11-27",
+  "topicKey": "mozambique:reisroute:1-week",
+  "imageCredit": {
+    "name": "MartyNZ",
+    "url": "https://pixabay.com/photos/rocks-beach-sea-ocean-sun-sunset-1239727/",
+    "source": "Pixabay"
+  }
+}
