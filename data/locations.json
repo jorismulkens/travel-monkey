@@ -453,5 +453,70 @@
     "type": "route",
     "thumbnail": "/images/posts/14-dagen-nepal-bergen-cultuur-en-natuur-cover.webp",
     "excerpt": "Deze route neemt je mee langs de hoogtepunten van Nepal: van de drukke straten van Kathmandu tot de rust van de Annapurna-bergen, met een mix van cultuur, trektochten en natuur."
+  },
+  {
+    "id": "14-dagen-kust-en-natuur-in-kroatie-route",
+    "name": "Dubrovnik",
+    "country": "Kroatië",
+    "coords": [
+      42.6491029,
+      18.0939501
+    ],
+    "slug": "14-dagen-kust-en-natuur-in-kroatie",
+    "type": "route",
+    "thumbnail": "/images/posts/14-dagen-kust-en-natuur-in-kroatie-cover.webp",
+    "excerpt": "Deze reisroute door Kroatië combineert historische steden met prachtige natuur en relaxte eilanden. Van de oude stadsmuren van Dubrovnik naar de watervallen van Plitvice, en over het eiland Hvar naar de kuststad Zadar. Een afwisselende reis door het hart van de Adriatische kust."
+  },
+  {
+    "id": "7-dagen-sri-lanka-natuur-cultuur-en-strand-route",
+    "name": "Colombo",
+    "country": "Sri Lanka",
+    "coords": [
+      6.9388614,
+      79.8542005
+    ],
+    "slug": "7-dagen-sri-lanka-natuur-cultuur-en-strand",
+    "type": "route",
+    "thumbnail": "/images/posts/7-dagen-sri-lanka-natuur-cultuur-en-strand-cover.webp",
+    "excerpt": "Deze 7-daagse reisroute door Sri Lanka combineert culturele hoogtepunten met indrukwekkende natuur en ontspanning aan het strand. Van bruisende steden tot rustige bergdorpjes en tropische kustplaatsen."
+  },
+  {
+    "id": "21-dagen-yucatan-cultuur-natuur-en-lagunes-route",
+    "name": "Cancún",
+    "country": "Mexico",
+    "coords": [
+      21.1527467,
+      -86.8425761
+    ],
+    "slug": "21-dagen-yucatan-cultuur-natuur-en-lagunes",
+    "type": "route",
+    "thumbnail": "/images/posts/21-dagen-yucatan-cultuur-natuur-en-lagunes-cover.webp",
+    "excerpt": "Een evenwichtige reis door Yucatán met een mix van stranden, eeuwenoude Maya-steden, koloniale steden en tropische lagunes."
+  },
+  {
+    "id": "7-dagen-cultuur-bergen-en-mystiek-route",
+    "name": "Lima",
+    "country": "Peru",
+    "coords": [
+      -12.0459808,
+      -77.0305912
+    ],
+    "slug": "7-dagen-cultuur-bergen-en-mystiek",
+    "type": "route",
+    "thumbnail": "/images/posts/7-dagen-cultuur-bergen-en-mystiek-cover.webp",
+    "excerpt": "Een reis door Peru die begint in de levendige hoofdstad Lima, voert naar het historische Cusco, de indrukwekkende Machu Picchu, het koloniale Arequipa en eindigt aan het prachtige Titicacameer in Puno. Deze route combineert cultuur, natuur en geschiedenis in zeven dagen."
+  },
+  {
+    "id": "21-dagen-door-marokko-woestijn-en-stad-route",
+    "name": "Marrakech",
+    "country": "Marokko",
+    "coords": [
+      31.6258257,
+      -7.9891608
+    ],
+    "slug": "21-dagen-door-marokko-woestijn-en-stad",
+    "type": "route",
+    "thumbnail": "/images/posts/21-dagen-door-marokko-woestijn-en-stad-cover.webp",
+    "excerpt": "Ontdek in 3 weken de afwisselende landschappen van Marokko, van het bruisende Marrakech tot de rust van de Rifbergen. Bezoek historische steden, het indrukwekkende Atlasgebergte, de Sahara en de blauwe stad Chefchaouen."
   }
 ]

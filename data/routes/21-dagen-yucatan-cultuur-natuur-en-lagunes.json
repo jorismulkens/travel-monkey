@@ -1,0 +1,269 @@
+{
+  "slug": "21-dagen-yucatan-cultuur-natuur-en-lagunes",
+  "title": "21 dagen Yucatán: cultuur, natuur en lagunes",
+  "kicker": "Ontdek het echte Yucatán in drie weken",
+  "country": "Mexico",
+  "region": "Midden-Amerika",
+  "durationDays": 21,
+  "durationLabel": "21 dagen",
+  "travelStyle": "Cultureel en natuurliefhebbers",
+  "budget": "Middenklasse",
+  "budgetNote": "Kosten voor accommodatie, eten en activiteiten liggen doorgaans tussen 30 en 60 euro per dag, afhankelijk van je keuzes.",
+  "bestTime": "November tot april",
+  "startPoint": "Cancún",
+  "endPoint": "Bacalar",
+  "coverImage": "/images/posts/21-dagen-yucatan-cultuur-natuur-en-lagunes-cover.webp",
+  "coverAlt": "Een evenwichtige reis door Yucatán met een mix van stranden, eeuwenoude Maya-steden, koloniale steden en tropische lagunes.",
+  "excerpt": "Een evenwichtige reis door Yucatán met een mix van stranden, eeuwenoude Maya-steden, koloniale steden en tropische lagunes.",
+  "introHeading": "Van strand tot koloniale stad",
+  "intro": [
+    "Deze route neemt je mee langs de mooiste plekken in de Yucatán-regio, van bruisende badplaatsen tot rustige koloniale steden en natuurlijke wonderen.",
+    "Je reist door een gebied vol geschiedenis, met indrukwekkende Maya-ruïnes en charmante straatjes.",
+    "Tussen de culturele hoogtepunten door is er volop gelegenheid om te zwemmen, snorkelen of relaxen bij helderblauwe lagunes."
+  ],
+  "highlights": [
+    "Bezoek aan de beroemde ruïnes van Tulum en Chichén Itzá",
+    "Ontspannen in de lagunes van Bacalar",
+    "Ontdek de levendige markt en koloniale sfeer in Valladolid",
+    "Snorkelen of duiken bij het rif bij Cancún",
+    "Wandelen door de kleurrijke straten van Mérida"
+  ],
+  "stops": [
+    {
+      "id": "cancun-1",
+      "number": 1,
+      "name": "Cancún",
+      "area": "Kustgebied",
+      "coords": [
+        21.1527467,
+        -86.8425761
+      ],
+      "dayLabel": "Dag 1-4",
+      "nights": 4,
+      "image": "/images/posts/21-dagen-yucatan-cultuur-natuur-en-lagunes-1.webp",
+      "imageAlt": "Strand van Cancún met helderblauwe zee",
+      "description": "Cancún is vaak de startplaats voor een reis door Yucatán. Deze stad biedt naast mooie stranden ook levendige markten en bruisend nachtleven. Het is een goede plek om rustig te wennen aan de lokale cultuur en de tropische warmte. Naast relaxen aan het strand zijn er goede mogelijkheden om te zwemmen en te snorkelen bij het koraalrif. Door de ligging is het ook een handige uitvalsbasis voor dagtochten naar nabijgelegen bezienswaardigheden.",
+      "activities": [
+        {
+          "title": "Snorkelen bij het rif",
+          "description": "Verken de kleurrijke onderwaterwereld bij het koraalrif voor de kust van Cancún.",
+          "price": "20-40 euro"
+        },
+        {
+          "title": "Bezoek aan Isla Mujeres",
+          "description": "Maak een dagtocht per boot naar het eilandje Isla Mujeres, bekend om de rustige stranden.",
+          "price": "25-50 euro"
+        },
+        {
+          "title": "Lokale markt bezoeken",
+          "description": "Bezoek de markt Mercado 28 om handwerk en lokale gerechten te ontdekken.",
+          "price": "Gratis tot 10 euro voor souvenirs"
+        }
+      ],
+      "tip": "Kies een accommodatie iets verder van de drukke hotelzone voor een rustiger verblijf en meer contact met de lokale bevolking."
+    },
+    {
+      "id": "tulum-2",
+      "number": 2,
+      "name": "Tulum",
+      "area": "Kustgebied",
+      "coords": [
+        20.429647,
+        -87.6529306
+      ],
+      "dayLabel": "Dag 5-8",
+      "nights": 4,
+      "image": "/images/posts/21-dagen-yucatan-cultuur-natuur-en-lagunes-2.webp",
+      "imageAlt": "Maya-ruïnes van Tulum aan de kust",
+      "description": "Tulum staat bekend om de combinatie van Maya-ruïnes en prachtige stranden. De ruïnes liggen vlakbij de zee en bieden een uniek uitzicht. Naast het archeologische park zijn er in de omgeving mooie stranden en natuurgebieden, zoals de cenotes. De sfeer in Tulum is ontspannen, met veel kleine cafés en winkels. Perfect om cultuur en natuur te combineren terwijl je geniet van de kust.",
+      "activities": [
+        {
+          "title": "Bezoek aan de ruïnes van Tulum",
+          "description": "Verken het archeologische park met indrukwekkende Maya-gebouwen aan zee.",
+          "price": "5-10 euro"
+        },
+        {
+          "title": "Zwemmen in een cenote",
+          "description": "Ontdek één van de vele cenotes rond Tulum om te zwemmen in helder water.",
+          "price": "10-20 euro"
+        },
+        {
+          "title": "Stranddag bij Playa Paraiso",
+          "description": "Breng een ontspannen dag door op één van de mooiste stranden in de omgeving.",
+          "price": "Gratis"
+        }
+      ],
+      "tip": "Huur een fiets om makkelijk en duurzaam tussen de ruïnes, het strand en het dorp te reizen."
+    },
+    {
+      "id": "valladolid-3",
+      "number": 3,
+      "name": "Valladolid",
+      "area": "Binnenland Yucatán",
+      "coords": [
+        20.6902505,
+        -88.2016999
+      ],
+      "dayLabel": "Dag 9-13",
+      "nights": 5,
+      "image": "/images/posts/21-dagen-yucatan-cultuur-natuur-en-lagunes-3.webp",
+      "imageAlt": "Kleurrijke gebouwen en straat in Valladolid",
+      "description": "Valladolid is een charmante koloniale stad die bekend staat om zijn kleurrijke gevels en rustige sfeer. Het is een fijne plek om cultuur te proeven en achteraf te genieten van lokale lekkernijen. Wandel door het historische centrum, bezoek het centrale plein en de kathedraal, en maak een stop bij de sfeervolle cafés en ambachtelijke winkeltjes. De ligging is ideaal om nabijgelegen natuurverschijnselen zoals cenotes te bezoeken en Maya-ruïnes te ontdekken. Het is een rustige plek om even te vertragen en te genieten van authentiek Yucatán.",
+      "activities": [
+        {
+          "title": "Bezoek aan Ekʼ Balam",
+          "description": "Ontdek de indrukwekkende en minder drukke Maya-ruïnes net buiten Valladolid.",
+          "price": "5-10 euro"
+        },
+        {
+          "title": "Cenote Suytun zwemmen",
+          "description": "Neem een verfrissende duik in een fotogenieke cenote, bekend om het mooie lichtspel.",
+          "price": "5-10 euro"
+        },
+        {
+          "title": "Wandelen door het historische centrum",
+          "description": "Verken de koloniale architectuur, bezoek de kathedraal en ontdek lokale markten te voet.",
+          "price": "Gratis"
+        }
+      ],
+      "tip": "Probeer de lokale specialiteit 'longaniza' in een traditioneel restaurant en bezoek ’s avonds het verlichte plein."
+    },
+    {
+      "id": "merida-4",
+      "number": 4,
+      "name": "Mérida",
+      "area": "Binnenland Yucatán",
+      "coords": [
+        20.9670759,
+        -89.6237402
+      ],
+      "dayLabel": "Dag 14-18",
+      "nights": 5,
+      "image": "/images/posts/21-dagen-yucatan-cultuur-natuur-en-lagunes-4.webp",
+      "imageAlt": "Koloniaal plein met palmbomen in Mérida",
+      "description": "Mérida is de culturele hoofdstad van Yucatán, met een mix van koloniale architectuur en een bruisend stadsleven. De stad heeft een rijke geschiedenis en biedt diverse musea, pleinen en markten. Wandel over de Paseo de Montejo met zijn statige herenhuizen en geniet van de levendige sfeer in cafés en restaurants. Mérida is ook een goede uitvalsbasis voor dagtochten naar Maya-ruïnes en natuurlijke attracties. Het is een plek om het lokale leven echt te ervaren, weg van de toeristische drukte.",
+      "activities": [
+        {
+          "title": "Stadswandeling met gids",
+          "description": "Leer over de geschiedenis en cultuur van Mérida tijdens een begeleide tour.",
+          "price": "15-25 euro"
+        },
+        {
+          "title": "Dagtocht naar Uxmal",
+          "description": "Bezoek de indrukwekkende Maya-ruïnes van Uxmal, gelegen op korte afstand van Mérida.",
+          "price": "20-40 euro"
+        },
+        {
+          "title": "Bezoek aan de markt Lucas de Gálvez",
+          "description": "Ontdek lokale producten, handwerk en lekkernijen op deze levendige markt.",
+          "price": "Gratis tot 10 euro"
+        }
+      ],
+      "tip": "Bezoek in het weekend de avondmarkt of een culturele voorstelling in het centrum."
+    },
+    {
+      "id": "bacalar-5",
+      "number": 5,
+      "name": "Bacalar",
+      "area": "Kustgebied",
+      "coords": [
+        18.9407916,
+        -88.6164282
+      ],
+      "dayLabel": "Dag 19-21",
+      "nights": 3,
+      "image": "/images/posts/21-dagen-yucatan-cultuur-natuur-en-lagunes-5.webp",
+      "imageAlt": "Lagune van Bacalar met helder blauw water",
+      "description": "Bacalar is een rustige plek aan de prachtige lagune die bekendstaat als het 'Meer van de Zeven Kleuren'. Hier geniet je van helderblauw water in verschillende tinten, ideaal om te zwemmen, kajakken of gewoon te ontspannen. Het kleine dorp heeft een gemoedelijke sfeer met enkele gezellige eetgelegenheden en ambachtswinkels. Het fort van San Felipe vertelt het verhaal van de geschiedenis van het gebied. Bacalar is de perfecte plek om de reis rustig af te sluiten en te genieten van de natuur.",
+      "activities": [
+        {
+          "title": "Kajakken op de lagune",
+          "description": "Verken de verschillende tinten blauw van het water per kajak.",
+          "price": "10-20 euro per uur"
+        },
+        {
+          "title": "Bezoek aan Fort San Felipe",
+          "description": "Leer over de geschiedenis van Bacalar in dit oude fort met uitzicht op de lagune.",
+          "price": "3-7 euro"
+        },
+        {
+          "title": "Boottocht bij zonsondergang",
+          "description": "Geniet van het landschap tijdens een ontspannen tocht over de lagune.",
+          "price": "15-30 euro"
+        }
+      ],
+      "tip": "Maak een boottocht over de lagune bij zonsondergang voor een bijzondere ervaring."
+    }
+  ],
+  "gallery": [
+    {
+      "src": "/images/posts/21-dagen-yucatan-cultuur-natuur-en-lagunes-1.webp",
+      "alt": "Strand van Cancún met helderblauwe zee",
+      "caption": "Cancún — Kustgebied"
+    },
+    {
+      "src": "/images/posts/21-dagen-yucatan-cultuur-natuur-en-lagunes-2.webp",
+      "alt": "Maya-ruïnes van Tulum aan de kust",
+      "caption": "Tulum — Kustgebied"
+    },
+    {
+      "src": "/images/posts/21-dagen-yucatan-cultuur-natuur-en-lagunes-3.webp",
+      "alt": "Kleurrijke gebouwen en straat in Valladolid",
+      "caption": "Valladolid — Binnenland Yucatán"
+    },
+    {
+      "src": "/images/posts/21-dagen-yucatan-cultuur-natuur-en-lagunes-4.webp",
+      "alt": "Koloniaal plein met palmbomen in Mérida",
+      "caption": "Mérida — Binnenland Yucatán"
+    },
+    {
+      "src": "/images/posts/21-dagen-yucatan-cultuur-natuur-en-lagunes-5.webp",
+      "alt": "Lagune van Bacalar met helder blauw water",
+      "caption": "Bacalar — Kustgebied"
+    }
+  ],
+  "practical": [
+    {
+      "label": "Vervoer",
+      "value": "Binnen Yucatán is reizen per bus of huurauto gebruikelijk. Bussen kosten meestal 5-20 euro per traject. Huurauto's kosten ongeveer 25-40 euro per dag."
+    },
+    {
+      "label": "Verblijf",
+      "value": "Verblijf varieert van budgethostels tot middenklasse hotels en boutique accommodaties. Prijzen liggen tussen 15 en 60 euro per nacht."
+    },
+    {
+      "label": "Budget",
+      "value": "Reken op gemiddeld 30-60 euro per dag voor eten, vervoer en activiteiten, afhankelijk van je reisstijl."
+    },
+    {
+      "label": "Beste reistijd",
+      "value": "Van november tot april is het droger en aangenamer voor reizen in Yucatán."
+    },
+    {
+      "label": "Geld en internet",
+      "value": "Contant geld is handig voor kleine aankopen, pinautomaten zijn op veel plekken aanwezig. Wifi is beschikbaar in de meeste hotels en cafés."
+    }
+  ],
+  "packing": [
+    "Zwemkleding en strandlaken",
+    "Comfortabele wandelschoenen",
+    "Lichte kleding voor warm weer",
+    "Hoed of pet tegen de zon",
+    "Zonnebrandcrème met hoge factor",
+    "Insectenspray",
+    "Waterfles om bij te vullen",
+    "Camera of smartphone voor foto’s",
+    "Rugzak voor dagtochten"
+  ],
+  "closingNote": "Deze reisroute door Yucatán vormt een mooie combinatie van cultuur, natuur en ontspanning. De afwisseling tussen stranden, koloniale steden en natuurlijke wateren zorgt voor een gevarieerde ervaring. Met voldoende tijd per plek kun je het gebied rustig ontdekken en genieten van wat het zuidoosten van Mexico te bieden heeft. Vergeet niet om ook momenten van rust in te plannen om alles goed te laten bezinken.",
+  "continent": "midden-amerika",
+  "author": "Redactie",
+  "generated": true,
+  "createdAt": "2026-11-28",
+  "topicKey": "mexico:reisroute:3-weken",
+  "imageCredit": {
+    "name": "KinEnriquez",
+    "url": "https://pixabay.com/photos/cancun-cenote-adventure-mexico-4425125/",
+    "source": "Pixabay"
+  }
+}

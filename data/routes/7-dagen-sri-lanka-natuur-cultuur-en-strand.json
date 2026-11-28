@@ -1,0 +1,268 @@
+{
+  "slug": "7-dagen-sri-lanka-natuur-cultuur-en-strand",
+  "title": "7 dagen Sri Lanka: natuur, cultuur en strand",
+  "kicker": "Ontdek het veelzijdige eiland",
+  "country": "Sri Lanka",
+  "region": "Azië",
+  "durationDays": 7,
+  "durationLabel": "7 dagen",
+  "travelStyle": "Avontuur en cultuur",
+  "budget": "€€",
+  "budgetNote": "De prijsindicaties zijn per persoon en kunnen variëren afhankelijk van seizoen en beschikbaarheid.",
+  "bestTime": "December tot maart voor de west- en zuidkust, maar het hele jaar door te bezoeken met wisselende regenseizoenen.",
+  "startPoint": "Colombo",
+  "endPoint": "Mirissa",
+  "coverImage": "/images/posts/7-dagen-sri-lanka-natuur-cultuur-en-strand-cover.webp",
+  "coverAlt": "Deze 7-daagse reisroute door Sri Lanka combineert culturele hoogtepunten met indrukwekkende natuur en ontspanning aan het strand. Van bruisende steden tot rustige bergdorpjes en tropische kustplaatsen.",
+  "excerpt": "Deze 7-daagse reisroute door Sri Lanka combineert culturele hoogtepunten met indrukwekkende natuur en ontspanning aan het strand. Van bruisende steden tot rustige bergdorpjes en tropische kustplaatsen.",
+  "introHeading": "Van stad naar zee",
+  "intro": [
+    "Sri Lanka biedt een rijke afwisseling van cultuur, natuur en strand binnen relatief korte afstanden. Deze route neemt je mee langs historische steden, groene heuvels en tropische stranden waar je kunt ontspannen en actief bezig kunt zijn.",
+    "In zeven dagen ontdek je het veelzijdige karakter van het eiland. Van de levendige stad Colombo en het spirituele Kandy tot de rust van Ella in de bergen en het indrukwekkende Sigiriya. Afsluiten doe je aan de zuidkust in Mirissa, waar strand en zee centraal staan."
+  ],
+  "highlights": [
+    "Bezoek het historische fort van Sigiriya.",
+    "Wandel door de theetuinen bij Ella.",
+    "Ontdek Kandy’s culturele erfgoed.",
+    "Ontspan aan het strand van Mirissa.",
+    "Verken de levendige hoofdstad Colombo."
+  ],
+  "stops": [
+    {
+      "id": "colombo-1",
+      "number": 1,
+      "name": "Colombo",
+      "area": "Westkust",
+      "coords": [
+        6.9388614,
+        79.8542005
+      ],
+      "dayLabel": "Dag 1",
+      "nights": 1,
+      "image": "/images/posts/7-dagen-sri-lanka-natuur-cultuur-en-strand-1.webp",
+      "imageAlt": "Straatbeeld van Colombo met koloniale gebouwen en tuk-tuk",
+      "description": "Colombo is de drukke economische hoofdstad van Sri Lanka waar moderne gebouwen naast koloniale architectuur staan. Het is een goede plek om de reis te starten en de Sri Lankaanse sfeer op te snuiven. Wandel langs de kustpromenade en bezoek de levendige markten waar je lokale producten en streetfood kunt proberen. Het nationale museum en de Gangaramaya-tempel geven een kijkje in de cultuur en geschiedenis van het land.",
+      "activities": [
+        {
+          "title": "Bezoek Gangaramaya-tempel",
+          "description": "Ontdek een van de bekendste boeddhistische tempels in Colombo met interessante kunst en architectuur.",
+          "price": "0-2 euro"
+        },
+        {
+          "title": "Wandeling Galle Face Green",
+          "description": "Maak een ontspannen wandeling langs de zee en geniet van lokale snacks bij kraampjes.",
+          "price": "0-5 euro"
+        },
+        {
+          "title": "Nationaal Museum Colombo",
+          "description": "Verken de collectie over de geschiedenis en cultuur van Sri Lanka.",
+          "price": "5-10 euro"
+        }
+      ],
+      "tip": "Verken Colombo te voet of met een tuk-tuk om snel en makkelijk op verschillende plekken uit te komen."
+    },
+    {
+      "id": "kandy-2",
+      "number": 2,
+      "name": "Kandy",
+      "area": "Centraal Hoogland",
+      "coords": [
+        7.2931208,
+        80.6350358
+      ],
+      "dayLabel": "Dag 2-3",
+      "nights": 2,
+      "image": "/images/posts/7-dagen-sri-lanka-natuur-cultuur-en-strand-2.webp",
+      "imageAlt": "Tempel van de Tand in Kandy",
+      "description": "Kandy ligt midden in de groene heuvels en staat bekend om zijn culturele en spirituele betekenis. Het is de thuisbasis van de Tempel van de Tand, waar een relikwie van Boeddha wordt bewaard. Je kunt rondwandelen in de botanische tuinen van Peradeniya en genieten van een traditionele culturele show met dans en muziek. Het stadje zelf is levendig met markten en kleine cafés waar het lokale leven voelbaar is.",
+      "activities": [
+        {
+          "title": "Tempel van de Tand",
+          "description": "Bezoek deze heilige boeddhistische plek met dagelijkse rituelen.",
+          "price": "5-10 euro"
+        },
+        {
+          "title": "Botanische Tuinen Peradeniya",
+          "description": "Wandel door een van de mooiste tuinen van Zuid-Azië met diverse plantensoorten.",
+          "price": "5-8 euro"
+        },
+        {
+          "title": "Culturele dansshow",
+          "description": "Geniet van traditionele dans en muziek in een authentieke setting.",
+          "price": "10-15 euro"
+        }
+      ],
+      "tip": "Plan een bezoek aan de Tempel van de Tand tegen zonsondergang voor een bijzondere ervaring."
+    },
+    {
+      "id": "ella-3",
+      "number": 3,
+      "name": "Ella",
+      "area": "Uva Province",
+      "coords": [
+        6.8736058,
+        81.0489927
+      ],
+      "dayLabel": "Dag 4",
+      "nights": 1,
+      "image": "/images/posts/7-dagen-sri-lanka-natuur-cultuur-en-strand-3.webp",
+      "imageAlt": "Uitzicht vanaf Little Adam’s Peak in Ella",
+      "description": "Ella ligt hoog in de bergen en biedt frisse lucht en prachtige uitzichten over de groene theeplantages. Dit kleine dorpje is populair bij wandelaars en natuurliefhebbers. Een trektocht naar Ella Rock of Little Adam’s Peak is goed te doen in een dag en geeft schitterende vergezichten. Ook kun je een bezoek brengen aan een lokale theeplantage om het productieproces te leren kennen.",
+      "activities": [
+        {
+          "title": "Wandeling naar Little Adam's Peak",
+          "description": "Maak een relatief makkelijke wandeling met panoramisch uitzicht over de bergen.",
+          "price": "Gratis"
+        },
+        {
+          "title": "Bezoek aan theeplantage",
+          "description": "Leer over het plukken en verwerken van thee tijdens een rondleiding.",
+          "price": "5-10 euro"
+        },
+        {
+          "title": "Ella Rock hike",
+          "description": "Voor ervaren wandelaars, een uitdagende tocht met mooie landschappen.",
+          "price": "Gratis"
+        }
+      ],
+      "tip": "Start je wandeling vroeg in de ochtend om het meeste uit de dag te halen en de hitte te vermijden."
+    },
+    {
+      "id": "sigiriya-4",
+      "number": 4,
+      "name": "Sigiriya",
+      "area": "Noordoostelijk Centr. Provincie",
+      "coords": [
+        7.9566634,
+        80.7599301
+      ],
+      "dayLabel": "Dag 5",
+      "nights": 1,
+      "image": "/images/posts/7-dagen-sri-lanka-natuur-cultuur-en-strand-4.webp",
+      "imageAlt": "Sigiriya rotsvesting met uitzicht",
+      "description": "Sigiriya staat bekend om de indrukwekkende rotsvesting die uit de jungle oprijst. Deze oude citadel biedt niet alleen historische betekenis, maar ook een flinke klim met beloning in de vorm van bijzondere fresco’s en uitzicht op de omliggende bossen. In de buurt liggen ook de Pidurangala-rots waarvandaan je een alternatieve blik op Sigiriya hebt. Het omliggende platteland geeft een goed beeld van het landelijke Sri Lanka.",
+      "activities": [
+        {
+          "title": "Bezoek aan de Sigiriya-rots",
+          "description": "Beklim de rots met oude fresco’s en geniet van een prachtig panoramisch uitzicht.",
+          "price": "20-25 euro"
+        },
+        {
+          "title": "Pidurangala-rots beklimmen",
+          "description": "Alternatief uitzichtpunt nabij Sigiriya met een rustige klim.",
+          "price": "2-5 euro"
+        },
+        {
+          "title": "Bezoek dorp Sigiriya",
+          "description": "Ervaar het lokale leven en kleine markten in de omgeving.",
+          "price": "Gratis"
+        }
+      ],
+      "tip": "Draag goede wandelschoenen en neem water mee voor de klim naar de rots."
+    },
+    {
+      "id": "mirissa-5",
+      "number": 5,
+      "name": "Mirissa",
+      "area": "Zuidkust",
+      "coords": [
+        5.9493634,
+        80.4558128
+      ],
+      "dayLabel": "Dag 6-7",
+      "nights": 2,
+      "image": "/images/posts/7-dagen-sri-lanka-natuur-cultuur-en-strand-5.webp",
+      "imageAlt": "Strand van Mirissa met palmbomen en blauwe zee",
+      "description": "Mirissa is een ontspannen kustplaats met een mooi zandstrand en heldere zee. Het is een prima plek om de reis af te sluiten met rust en zon. Je kunt er zwemmen, snorkelen of een boottocht maken om walvissen te spotten. Het dorp heeft gezellige strandtenten waar verse vis en lokale gerechten worden geserveerd. De sfeer is laid-back en het is makkelijk om even helemaal te ontspannen na de actieve dagen daarvoor.",
+      "activities": [
+        {
+          "title": "Walvissafari",
+          "description": "Boottocht om walvissen en dolfijnen te spotten op zee.",
+          "price": "25-40 euro"
+        },
+        {
+          "title": "Snorkelen bij het strand",
+          "description": "Verken het onderwaterleven in de heldere zee bij Mirissa.",
+          "price": "10-15 euro"
+        },
+        {
+          "title": "Stranddag met lokale keuken",
+          "description": "Geniet van verse visgerechten in een van de strandrestaurants.",
+          "price": "15-25 euro"
+        }
+      ],
+      "tip": "Probeer vroeg in de ochtend een walvissafari te maken, want de kans om dieren te zien is dan het grootst."
+    }
+  ],
+  "gallery": [
+    {
+      "src": "/images/posts/7-dagen-sri-lanka-natuur-cultuur-en-strand-1.webp",
+      "alt": "Straatbeeld van Colombo met koloniale gebouwen en tuk-tuk",
+      "caption": "Colombo — Westkust"
+    },
+    {
+      "src": "/images/posts/7-dagen-sri-lanka-natuur-cultuur-en-strand-2.webp",
+      "alt": "Tempel van de Tand in Kandy",
+      "caption": "Kandy — Centraal Hoogland"
+    },
+    {
+      "src": "/images/posts/7-dagen-sri-lanka-natuur-cultuur-en-strand-3.webp",
+      "alt": "Uitzicht vanaf Little Adam’s Peak in Ella",
+      "caption": "Ella — Uva Province"
+    },
+    {
+      "src": "/images/posts/7-dagen-sri-lanka-natuur-cultuur-en-strand-4.webp",
+      "alt": "Sigiriya rotsvesting met uitzicht",
+      "caption": "Sigiriya — Noordoostelijk Centr. Provincie"
+    },
+    {
+      "src": "/images/posts/7-dagen-sri-lanka-natuur-cultuur-en-strand-5.webp",
+      "alt": "Strand van Mirissa met palmbomen en blauwe zee",
+      "caption": "Mirissa — Zuidkust"
+    }
+  ],
+  "practical": [
+    {
+      "label": "Vervoer",
+      "value": "Trein, bus en tuk-tuk zijn goede opties; trein van Colombo naar Kandy en treinen in het binnenland bieden ook mooie uitzichten. Tuk-tuks zijn handig voor korte afstanden."
+    },
+    {
+      "label": "Verblijf",
+      "value": "Guesthouses en middenklasse hotels zijn overal beschikbaar, meestal tussen de 25-50 euro per nacht."
+    },
+    {
+      "label": "Budget",
+      "value": "Dagelijkse kosten voor eten, vervoer en activiteiten liggen voorlopig ongeveer tussen 30-50 euro per dag."
+    },
+    {
+      "label": "Beste reistijd",
+      "value": "December tot maart is het droogseizoen aan de west- en zuidkust; juli tot september is beter voor het binnenland en oostkust."
+    },
+    {
+      "label": "Geld en internet",
+      "value": "ATM’s zijn beschikbaar in de stadjes. Simkaarten met data zijn goedkoop en makkelijk te verkrijgen."
+    }
+  ],
+  "packing": [
+    "Lichte kleding voor warm weer",
+    "Waterdichte jas of poncho",
+    "Goede wandelschoenen",
+    "Zwemkleding",
+    "Zonnehoed en zonnebril",
+    "Zonnebrandcrème",
+    "Insectenwerend middel",
+    "Rugzak voor dagtochten",
+    "Camera of smartphone voor foto’s"
+  ],
+  "closingNote": "Deze route door Sri Lanka geeft een goede mix van cultuur, natuur en ontspanning. Door de afwisseling van drukke steden, rustige bergdorpjes en tropische stranden is het een gevarieerde week. De reis is goed te doen met lokale vervoersmiddelen en biedt volop gelegenheid om het eiland op eigen tempo te ontdekken. Vergeet zeker niet te genieten van de lokale keuken en gastvrijheid.",
+  "continent": "azie",
+  "author": "Redactie",
+  "generated": true,
+  "createdAt": "2026-11-28",
+  "topicKey": "sri-lanka:reisroute:1-week",
+  "imageCredit": {
+    "name": "kalyanayahaluwo",
+    "url": "https://pixabay.com/photos/meditate-meditation-woman-mountains-5375835/",
+    "source": "Pixabay"
+  }
+}

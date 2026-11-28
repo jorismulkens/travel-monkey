@@ -1,0 +1,269 @@
+{
+  "slug": "14-dagen-kust-en-natuur-in-kroatie",
+  "title": "14 dagen kust en natuur in Kroatië",
+  "kicker": "Ontdek cultuur en natuur aan de Adriatische kust",
+  "country": "Kroatië",
+  "region": "Europa",
+  "durationDays": 14,
+  "durationLabel": "14 dagen",
+  "travelStyle": "combinatie van natuur en stedentrips",
+  "budget": "middelmatig",
+  "budgetNote": "Prijzen zijn indicatief en kunnen variëren afhankelijk van seizoen en accommodatie",
+  "bestTime": "Mei tot september voor aangenaam weer en veel zon",
+  "startPoint": "Dubrovnik",
+  "endPoint": "Zadar",
+  "coverImage": "/images/posts/14-dagen-kust-en-natuur-in-kroatie-cover.webp",
+  "coverAlt": "Deze reisroute door Kroatië combineert historische steden met prachtige natuur en relaxte eilanden. Van de oude stadsmuren van Dubrovnik naar de watervallen van Plitvice, en over het eiland Hvar naar de kuststad Zadar. Een afwisselende reis door het hart van de Adriatische kust.",
+  "excerpt": "Deze reisroute door Kroatië combineert historische steden met prachtige natuur en relaxte eilanden. Van de oude stadsmuren van Dubrovnik naar de watervallen van Plitvice, en over het eiland Hvar naar de kuststad Zadar. Een afwisselende reis door het hart van de Adriatische kust.",
+  "introHeading": "Van stad naar natuur en eiland",
+  "intro": [
+    "Kroatië biedt een mooie mix van geschiedenis, natuur en ontspanning. Deze 14-daagse route begint in het middeleeuwse Dubrovnik, gaat via Split en het eiland Hvar naar het nationale park Plitvice en eindigt in de kuststad Zadar.",
+    "Tijdens deze reis wisselen drukke stadservaringen af met rust en natuur. Prachtige stranden, indrukwekkende watervallen en historische centra zorgen voor een veelzijdig programma.",
+    "De route is geschikt voor reizigers die willen wandelen, cultuur willen opsnuiven en ook willen genieten van de Adriatische zee en eilanden."
+  ],
+  "highlights": [
+    "Oude stadsmuren van Dubrovnik",
+    "Historisch centrum van Split",
+    "Relaxen op Hvar",
+    "Wandelen bij Plitvice watervallen",
+    "Zonsondergang in Zadar"
+  ],
+  "stops": [
+    {
+      "id": "dubrovnik-1",
+      "number": 1,
+      "name": "Dubrovnik",
+      "area": "Dalmatië",
+      "coords": [
+        42.6491029,
+        18.0939501
+      ],
+      "dayLabel": "Dag 1-3",
+      "nights": 3,
+      "image": "/images/posts/14-dagen-kust-en-natuur-in-kroatie-1.webp",
+      "imageAlt": "Uitzicht over Dubrovnik met stadsmuren en zee",
+      "description": "Dubrovnik is bekend om zijn goed bewaarde middeleeuwse stadsmuren en de oude binnenstad die op de werelderfgoedlijst van UNESCO staat. Wandel over de stadsmuren voor een indrukwekkend uitzicht over de rode daken en de Adriatische zee. De stad biedt daarnaast smalle straatjes vol met historische gebouwen, kleine pleintjes, en gezellige cafés. Naast cultuur zijn er ook stranden dichtbij waar je bij kunt komen van het wandelen.",
+      "activities": [
+        {
+          "title": "Stadsmuur wandelen",
+          "description": "Wandel over de stadsmuren van Dubrovnik en geniet van het uitzicht over de oude stad en zee.",
+          "price": "8-12 euro"
+        },
+        {
+          "title": "Bezoek aan Fort Lovrijenac",
+          "description": "Dit fort buiten de stadsmuren biedt een mooi uitzicht en interessante geschiedenis.",
+          "price": "5-8 euro"
+        },
+        {
+          "title": "Stranddag bij Banje Beach",
+          "description": "Ontspan op het strand net buiten de stadsmuren met uitzicht op Dubrovnik.",
+          "price": "Gratis, ligbedden 10-15 euro"
+        }
+      ],
+      "tip": "Koop een kaartje voor de stadsmuur vroeg in de ochtend om de drukte te vermijden."
+    },
+    {
+      "id": "split-2",
+      "number": 2,
+      "name": "Split",
+      "area": "Dalmatië",
+      "coords": [
+        43.5116383,
+        16.4399659
+      ],
+      "dayLabel": "Dag 4-6",
+      "nights": 3,
+      "image": "/images/posts/14-dagen-kust-en-natuur-in-kroatie-2.webp",
+      "imageAlt": "Oude gebouwen in Split bij zonsondergang",
+      "description": "Split is de tweede stad van Kroatië en heeft een bruisend centrum rondom het oude paleis van keizer Diocletianus. Het is een levendige stad met veel restaurants, markten en een mooie boulevard langs zee. Je kunt hier cultuur snuiven door het paleis en de smalle straatjes, maar ook genieten van het strand en het goede eten. Split is een goed uitgangspunt om dagtochten te maken naar nabijgelegen eilanden of het binnenland.",
+      "activities": [
+        {
+          "title": "Rondleiding door Diocletianus Paleis",
+          "description": "Verken het Romeinse paleis dat nog steeds een levendig stadscentrum is.",
+          "price": "10-15 euro"
+        },
+        {
+          "title": "Stranddag op Bačvice Beach",
+          "description": "Populair stadsstrand met fijne zandstranden en helder water.",
+          "price": "Gratis, ligbedden 8-12 euro"
+        },
+        {
+          "title": "Marktbezoek aan Pazar",
+          "description": "Ontdek lokale producten en verse vis op deze kleurrijke markt.",
+          "price": "Gratis"
+        }
+      ],
+      "tip": "Bezoek het paleis vroeg in de ochtend om de drukte voor te zijn, en neem tijd voor een koffie op een van de pleintjes."
+    },
+    {
+      "id": "hvar-3",
+      "number": 3,
+      "name": "Hvar",
+      "area": "Dalmatië",
+      "coords": [
+        43.1739411,
+        16.5565161
+      ],
+      "dayLabel": "Dag 7-9",
+      "nights": 3,
+      "image": "/images/posts/14-dagen-kust-en-natuur-in-kroatie-3.webp",
+      "imageAlt": "Haven en oude stad Hvar met boten",
+      "description": "Hvar is een eiland met een mix van natuurlijke schoonheid en een gezellig stadje. Het heeft een zonnig klimaat, mooie stranden en een historische haven. De stad Hvar heeft smalle straatjes, een centrale pleintje en een vesting op een heuvel die een mooi uitzicht geeft over het eiland en zee. Naast relaxen op het strand kun je hier ook wandelen of een boottocht maken naar nabijgelegen eilanden en baaien.",
+      "activities": [
+        {
+          "title": "Bezoek aan Fortica vesting",
+          "description": "Wandel naar de vesting voor een panoramisch uitzicht over Hvar.",
+          "price": "3-5 euro"
+        },
+        {
+          "title": "Boottocht naar Pakleni eilanden",
+          "description": "Dagtocht langs de nabijgelegen eilanden met mooie stranden en baaien.",
+          "price": "20-35 euro"
+        },
+        {
+          "title": "Stranddag op Dubovica Beach",
+          "description": "Rustig strand met helder water en een kleine baai.",
+          "price": "Gratis"
+        }
+      ],
+      "tip": "Huur een scooter om het eiland op eigen tempo te verkennen en verborgen stranden te bereiken."
+    },
+    {
+      "id": "plitvice-4",
+      "number": 4,
+      "name": "Plitvice",
+      "area": "Midden-Kroatië",
+      "coords": [
+        44.8446069,
+        15.4806998
+      ],
+      "dayLabel": "Dag 10-11",
+      "nights": 2,
+      "image": "/images/posts/14-dagen-kust-en-natuur-in-kroatie-4.webp",
+      "imageAlt": "Watervallen en meren in nationaal park Plitvice",
+      "description": "Het nationaal park Plitvice staat bekend om zijn indrukwekkende watervallen, heldere meren en groene bossen. Wandel over houten bruggetjes en paden langs de blauwe en groene meren en geniet van de rust die de natuur biedt. Het park is een van de grootste en meest bekende natuurgebieden van Kroatië en staat op de werelderfgoedlijst van UNESCO. Het is een mooie pauze na de stadservaringen van eerder in de reis.",
+      "activities": [
+        {
+          "title": "Wandeling door nationaal park",
+          "description": "Volg de wandelpaden langs watervallen en meren in het park.",
+          "price": "15-25 euro"
+        },
+        {
+          "title": "Boottocht over het Kozjakmeer",
+          "description": "Rustige boottocht over het grootste meer in het park.",
+          "price": "Inclusief in entree"
+        },
+        {
+          "title": "Fietsverhuur nabij het park",
+          "description": "Verken de omgeving op de fiets voor extra bewegingsvrijheid.",
+          "price": "10-15 euro per dag"
+        }
+      ],
+      "tip": "Draag stevige schoenen en neem water en snacks mee voor tijdens het wandelen."
+    },
+    {
+      "id": "zadar-5",
+      "number": 5,
+      "name": "Zadar",
+      "area": "Dalmatië",
+      "coords": [
+        44.1168594,
+        15.2353257
+      ],
+      "dayLabel": "Dag 12-14",
+      "nights": 3,
+      "image": "/images/posts/14-dagen-kust-en-natuur-in-kroatie-5.webp",
+      "imageAlt": "Zeeorgel en kustlijn bij zonsondergang in Zadar",
+      "description": "Zadar combineert een oud stadshart met moderne elementen aan de kust. Bezoek de Romeinse ruïnes en kerkjes in de oude stad en luister naar de unieke zeeorgel dat geluid maakt met de golven. De stad heeft gezellige pleinen en een lange boulevard waar locals en toeristen samenkomen bij zonsondergang. Zadar is een fijne plek om de reis af te sluiten met cultuur, lekker eten en ontspannen aan zee.",
+      "activities": [
+        {
+          "title": "Bezoek aan het zeeorgel",
+          "description": "Luister naar de muziek die de golven maken langs de kust.",
+          "price": "Gratis"
+        },
+        {
+          "title": "Wandeling door de oude stad",
+          "description": "Ontdek Romeinse en middeleeuwse overblijfselen in Zadar.",
+          "price": "Gratis"
+        },
+        {
+          "title": "Bezoek aan de kerk van Sint Donatus",
+          "description": "Unieke kerk uit de 9e eeuw met bijzondere architectuur.",
+          "price": "3-6 euro"
+        }
+      ],
+      "tip": "Blijf tot zonsondergang en geniet van het lichtspel en het geluid van het zeeorgel."
+    }
+  ],
+  "gallery": [
+    {
+      "src": "/images/posts/14-dagen-kust-en-natuur-in-kroatie-1.webp",
+      "alt": "Uitzicht over Dubrovnik met stadsmuren en zee",
+      "caption": "Dubrovnik — Dalmatië"
+    },
+    {
+      "src": "/images/posts/14-dagen-kust-en-natuur-in-kroatie-2.webp",
+      "alt": "Oude gebouwen in Split bij zonsondergang",
+      "caption": "Split — Dalmatië"
+    },
+    {
+      "src": "/images/posts/14-dagen-kust-en-natuur-in-kroatie-3.webp",
+      "alt": "Haven en oude stad Hvar met boten",
+      "caption": "Hvar — Dalmatië"
+    },
+    {
+      "src": "/images/posts/14-dagen-kust-en-natuur-in-kroatie-4.webp",
+      "alt": "Watervallen en meren in nationaal park Plitvice",
+      "caption": "Plitvice — Midden-Kroatië"
+    },
+    {
+      "src": "/images/posts/14-dagen-kust-en-natuur-in-kroatie-5.webp",
+      "alt": "Zeeorgel en kustlijn bij zonsondergang in Zadar",
+      "caption": "Zadar — Dalmatië"
+    }
+  ],
+  "practical": [
+    {
+      "label": "Vervoer",
+      "value": "Binnen Kroatië is reizen per bus en veerboot gebruikelijk. Taxi’s en huurauto’s zijn ook beschikbaar, vooral op eilanden als Hvar."
+    },
+    {
+      "label": "Verblijf",
+      "value": "Accommodaties variëren van betaalbare pensions tot middenklasse hotels en vakantiehuizen, kosten gemiddeld 50-100 euro per nacht."
+    },
+    {
+      "label": "Budget",
+      "value": "Dagelijkse kosten liggen tussen 40-70 euro per persoon, afhankelijk van activiteiten en maaltijden."
+    },
+    {
+      "label": "Beste reistijd",
+      "value": "Voor aangenaam weer en minder drukte zijn de maanden mei tot en met september geschikt."
+    },
+    {
+      "label": "Geld en internet",
+      "value": "Betaal met euro’s is meestal niet mogelijk, neem Kuna mee of gebruik pinpassen. WiFi is in de meeste hotels en cafés beschikbaar."
+    }
+  ],
+  "packing": [
+    "Stevige wandelschoenen",
+    "Zwemkleding",
+    "Zonnebrandcrème",
+    "Lichtgewicht kleding",
+    "Reisstekker",
+    "Zonnebril",
+    "Camera",
+    "Hoed of pet",
+    "Waterfles"
+  ],
+  "closingNote": "Deze 14-daagse reisroute door Kroatië biedt een mooie combinatie van cultuur, natuur en ontspanning. Van de historische stenen van Dubrovnik en Split, via het relaxte eilandleven van Hvar, naar de indrukwekkende natuur van Plitvice en het gezellige Zadar aan zee. Een afwisselende reis die laat zien wat Kroatië naast de populaire stranden ook te bieden heeft.",
+  "continent": "europa",
+  "author": "Redactie",
+  "generated": true,
+  "createdAt": "2026-11-28",
+  "topicKey": "kroatie:reisroute:2-weken",
+  "imageCredit": {
+    "name": "EclipseChasers",
+    "url": "https://pixabay.com/photos/croatia-golden-horn-beach-sea-8253094/",
+    "source": "Pixabay"
+  }
+}

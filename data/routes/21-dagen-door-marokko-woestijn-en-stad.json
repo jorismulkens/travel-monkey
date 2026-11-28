@@ -1,0 +1,269 @@
+{
+  "slug": "21-dagen-door-marokko-woestijn-en-stad",
+  "title": "21 dagen door Marokko: woestijn en stad",
+  "kicker": "Ontdek het veelzijdige Marokko",
+  "country": "Marokko",
+  "region": "Afrika",
+  "durationDays": 21,
+  "durationLabel": "21 dagen",
+  "travelStyle": "cultureel en avontuurlijk",
+  "budget": "€50-€80 per dag",
+  "budgetNote": "Prijsindicaties zijn exclusief internationale vlucht en kunnen variëren per seizoen en locatie.",
+  "bestTime": "lente (maart-mei) en herfst (september-november)",
+  "startPoint": "Marrakech",
+  "endPoint": "Chefchaouen",
+  "coverImage": "/images/posts/21-dagen-door-marokko-woestijn-en-stad-cover.webp",
+  "coverAlt": "Ontdek in 3 weken de afwisselende landschappen van Marokko, van het bruisende Marrakech tot de rust van de Rifbergen. Bezoek historische steden, het indrukwekkende Atlasgebergte, de Sahara en de blauwe stad Chefchaouen.",
+  "excerpt": "Ontdek in 3 weken de afwisselende landschappen van Marokko, van het bruisende Marrakech tot de rust van de Rifbergen. Bezoek historische steden, het indrukwekkende Atlasgebergte, de Sahara en de blauwe stad Chefchaouen.",
+  "introHeading": "Van stad naar woestijn en bergen",
+  "intro": [
+    "Marokko biedt een unieke mix van cultuur, natuur en avontuur. Deze reisroute neemt je mee langs oude medina's, uitgestrekte woestijnen en kleurrijke bergdorpjes.",
+    "Begin in Marrakech met zijn levendige souks en paleizen, reis vervolgens via het Atlasgebergte naar de uitgestrekte Sahara. Daarna bezoek je de historische stad Fes en sluit je af in het blauwe stadje Chefchaouen.",
+    "Deze route combineert stadsbezoek, natuurwandelingen en woestijnervaringen. De afwisseling tussen drukke markten en rustige berggebieden maakt het een complete ervaring."
+  ],
+  "highlights": [
+    "De medina van Marrakech met zijn souks en pleinen",
+    "Kamperen onder de sterren in de Sahara",
+    "De architectuur en leerlooierijen in Fes",
+    "Het relaxte kustplaatsje Essaouira",
+    "De blauwe huizen en bergen van Chefchaouen"
+  ],
+  "stops": [
+    {
+      "id": "marrakech-1",
+      "number": 1,
+      "name": "Marrakech",
+      "area": "Marrakech-Safi",
+      "coords": [
+        31.6258257,
+        -7.9891608
+      ],
+      "dayLabel": "Dag 1-5",
+      "nights": 5,
+      "image": "/images/posts/21-dagen-door-marokko-woestijn-en-stad-1.webp",
+      "imageAlt": "Levendige markt in Marrakech",
+      "description": "Marrakech is een levendige stad vol geschiedenis en cultuur. De medina met zijn kronkelende straatjes, kleurrijke markten en imposante paleizen biedt volop te ontdekken. Vanuit hier kun je ook dagtochten maken naar het Atlasgebergte of naar de tuinen van Majorelle. Het Djemaa el Fna plein komt 's avonds tot leven met straatartiesten en eetstalletjes. De stad is een perfecte start om te wennen aan de Marokkaanse sfeer en cultuur.",
+      "activities": [
+        {
+          "title": "Bezoek Djemaa el Fna plein",
+          "description": "Verken het centrale plein en geniet van de sfeer met eetkraampjes en entertainers.",
+          "price": "gratis"
+        },
+        {
+          "title": "Rondleiding door de medina",
+          "description": "Leer over de geschiedenis en ambachten met een gids door de oude stad.",
+          "price": "€15-€25"
+        },
+        {
+          "title": "Dagtrip Atlasgebergte",
+          "description": "Bezoek Berberdorpjes en watervallen op een dagexcursie vanaf Marrakech.",
+          "price": "€30-€50"
+        }
+      ],
+      "tip": "Plan een bezoek aan een traditionele hamam voor ontspanning na een dag wandelen door de stad."
+    },
+    {
+      "id": "sahara-2",
+      "number": 2,
+      "name": "Sahara",
+      "area": "Zuid-Marokko",
+      "coords": [
+        35.2444584,
+        -5.80489
+      ],
+      "dayLabel": "Dag 6-9",
+      "nights": 4,
+      "image": "/images/posts/21-dagen-door-marokko-woestijn-en-stad-2.webp",
+      "imageAlt": "Zonsondergang boven de duinen van de Sahara",
+      "description": "De Sahara is eenmaal in het leven een ervaring. Vanuit plaatsen als Merzouga of Zagora kun je de uitgestrekte duinen van de Erg Chebbi ontdekken. Kamperen in een tentenkamp en overnachten onder de sterren is een hoogtepunt. Je kunt ook kameelrijden en genieten van het rustige landschap. Houd er rekening mee dat het in de nacht flink kan afkoelen en dat het overdag erg warm is.",
+      "activities": [
+        {
+          "title": "Kameeltocht door de duinen",
+          "description": "Maak een meeruur durende tocht op kamelen door de zandduinen.",
+          "price": "€20-€40"
+        },
+        {
+          "title": "Overnachting in woestijnkamp",
+          "description": "Beleef een nacht in een traditionele tent met lokaal diner en kampvuur.",
+          "price": "€40-€70"
+        },
+        {
+          "title": "Zonsopgang bekijken",
+          "description": "Sta vroeg op voor een indrukwekkende zonsopgang in de woestijn.",
+          "price": "gratis"
+        }
+      ],
+      "tip": "Draag goede schoenen en bescherm jezelf tegen de zon tijdens woestijnactiviteiten."
+    },
+    {
+      "id": "essaouira-3",
+      "number": 3,
+      "name": "Essaouira",
+      "area": "Marrakech-Safi",
+      "coords": [
+        31.5118281,
+        -9.7620903
+      ],
+      "dayLabel": "Dag 10-13",
+      "nights": 4,
+      "image": "/images/posts/21-dagen-door-marokko-woestijn-en-stad-3.webp",
+      "imageAlt": "Haven van Essaouira met kleurrijke boten",
+      "description": "Essaouira is een ontspannen kustplaats met een mix van cultuur en zee. De oude vestingmuren en vissershaven geven het stadje een bijzondere sfeer. Verse vis bij een van de vele kraampjes of restaurants is een aanrader. Daarnaast is het een plek waar je kunt ontspannen op het strand of watersporten kunt beoefenen. De zachte zeewind en minder drukte maken het een fijn contrast met Marrakech.",
+      "activities": [
+        {
+          "title": "Bezoek de oude medina",
+          "description": "Wandel door de smalle straatjes en ontdek ambachtswinkels en cafeetjes.",
+          "price": "gratis"
+        },
+        {
+          "title": "Windsurfen of kitesurfen",
+          "description": "Maak kennis met watersporten dankzij de constante wind.",
+          "price": "€20-€50 voor les of verhuur"
+        },
+        {
+          "title": "Proef verse vis aan de haven",
+          "description": "Geniet van lokaal gevangen vis bij een van de viskraampjes.",
+          "price": "€10-€20"
+        }
+      ],
+      "tip": "Breng een bezoek aan de lokale markt voor verse producten en handwerk."
+    },
+    {
+      "id": "fes-4",
+      "number": 4,
+      "name": "Fes",
+      "area": "Fès-Meknès",
+      "coords": [
+        34.0346534,
+        -5.0161926
+      ],
+      "dayLabel": "Dag 14-18",
+      "nights": 5,
+      "image": "/images/posts/21-dagen-door-marokko-woestijn-en-stad-4.webp",
+      "imageAlt": "Leerlooierij in Fes medina",
+      "description": "Fes is een van de oudste en meest authentieke steden van Marokko. De medina is een doolhof van smalle straatjes waar ambachtslieden nog steeds volgens traditie werken. Naast de beroemde leerlooierijen zijn er prachtige madrassa's en moskeeën te bewonderen. Bezoek het Bou Inania Madrasa en de Karaouine Universiteit, een van de oudste universiteiten ter wereld. De rijke geschiedenis en cultuur maken Fes tot een fascinerende plek om te ontdekken. Daarnaast biedt de stad rustige riads waar je kunt ontsnappen aan de drukte.",
+      "activities": [
+        {
+          "title": "Rondleiding door de medina",
+          "description": "Ontdek de historische plekken en ambachtelijke werkplaatsen met een gids.",
+          "price": "€15-€25"
+        },
+        {
+          "title": "Bezoek leerlooierij Chouara",
+          "description": "Bekijk het traditionele leerverwerkingsproces en fotografeer het kleurrijke geheel.",
+          "price": "gratis, fooi wordt gewaardeerd"
+        },
+        {
+          "title": "Traditionele Marokkaanse kookworkshop",
+          "description": "Leer zelf lokale gerechten bereiden bij een gastvrije kok.",
+          "price": "€30-€50"
+        }
+      ],
+      "tip": "Neem een lokale gids mee om de medina makkelijk te navigeren en het beste uit je bezoek te halen."
+    },
+    {
+      "id": "chefchaouen-5",
+      "number": 5,
+      "name": "Chefchaouen",
+      "area": "Tanger-Tetouan-Al Hoceima",
+      "coords": [
+        35.1687748,
+        -5.2683454
+      ],
+      "dayLabel": "Dag 19-21",
+      "nights": 3,
+      "image": "/images/posts/21-dagen-door-marokko-woestijn-en-stad-5.webp",
+      "imageAlt": "Blauwe straatjes in Chefchaouen",
+      "description": "Chefchaouen, de blauwe stad, ligt in de Rifbergen en staat bekend om zijn blauw geverfde huizen. Het is een plek waar rust en natuur samenkomen. Wandel door de smalle steegjes en geniet van het uitzicht vanaf de kasbah. De omgeving biedt ook mogelijkheden voor wandelingen in de bergen. Het stadje is ideaal om de reis ontspannen af te sluiten en te genieten van een andere sfeer dan de grotere steden.",
+      "activities": [
+        {
+          "title": "Wandeling door de medina",
+          "description": "Verken de karakteristieke blauwe straatjes en pleintjes.",
+          "price": "gratis"
+        },
+        {
+          "title": "Bezoek de kasbah",
+          "description": "Ontdek het museum en de prachtige tuin binnen de stadsmuren.",
+          "price": "€2-€5"
+        },
+        {
+          "title": "Wandeling in de Rifbergen",
+          "description": "Maak een korte hike in de natuur rondom Chefchaouen.",
+          "price": "gratis"
+        }
+      ],
+      "tip": "Breng tijd door op een terras met uitzicht en probeer lokale specialiteiten zoals muntthee."
+    }
+  ],
+  "gallery": [
+    {
+      "src": "/images/posts/21-dagen-door-marokko-woestijn-en-stad-1.webp",
+      "alt": "Levendige markt in Marrakech",
+      "caption": "Marrakech — Marrakech-Safi"
+    },
+    {
+      "src": "/images/posts/21-dagen-door-marokko-woestijn-en-stad-2.webp",
+      "alt": "Zonsondergang boven de duinen van de Sahara",
+      "caption": "Sahara — Zuid-Marokko"
+    },
+    {
+      "src": "/images/posts/21-dagen-door-marokko-woestijn-en-stad-3.webp",
+      "alt": "Haven van Essaouira met kleurrijke boten",
+      "caption": "Essaouira — Marrakech-Safi"
+    },
+    {
+      "src": "/images/posts/21-dagen-door-marokko-woestijn-en-stad-4.webp",
+      "alt": "Leerlooierij in Fes medina",
+      "caption": "Fes — Fès-Meknès"
+    },
+    {
+      "src": "/images/posts/21-dagen-door-marokko-woestijn-en-stad-5.webp",
+      "alt": "Blauwe straatjes in Chefchaouen",
+      "caption": "Chefchaouen — Tanger-Tetouan-Al Hoceima"
+    }
+  ],
+  "practical": [
+    {
+      "label": "Vervoer",
+      "value": "Binnenlandse bussen en grand taxis verbinden de steden. Voor woestijntrips zijn georganiseerde tours aan te raden. Autohuur is mogelijk maar wegen kunnen uitdagend zijn."
+    },
+    {
+      "label": "Verblijf",
+      "value": "Riad, guesthouse en eenvoudige hotels zijn overal beschikbaar. Prijzen variëren van €20-€60 per nacht afhankelijk van comfort."
+    },
+    {
+      "label": "Budget",
+      "value": "Dagbudget tussen €50-€80 is haalbaar voor accommodatie, eten en activiteiten."
+    },
+    {
+      "label": "Beste reistijd",
+      "value": "Lente en herfst bieden aangename temperaturen, zomer kan heet zijn, winter koel in bergen en woestijn."
+    },
+    {
+      "label": "Geld en internet",
+      "value": "Contant betalen is gebruikelijk, pinnen mogelijk in grote steden. Simkaarten zijn voordelig en bieden goede dekking in steden en toeristische gebieden."
+    }
+  ],
+  "packing": [
+    "Zonnehoed of pet",
+    "Zonnebrandcrème",
+    "Comfortabele wandelschoenen",
+    "Lichte, ademende kleding",
+    "Warme trui of jas voor avonden",
+    "Sjaal of doek tegen stof",
+    "Waterfles om bij te vullen",
+    "Camera of smartphone voor foto's",
+    "Reisadapter (type C en F)"
+  ],
+  "closingNote": "Deze route biedt een evenwichtige mix van cultuur, natuur en avontuur. De afwisseling tussen steden, kust, bergen en woestijn zorgt voor een gevarieerde ervaring. Met voldoende tijd op elke plek is er ruimte om te ontspannen en de sfeer echt te proeven. Marokko nodigt uit tot ontdekken en genieten, zowel van de drukte als de rust.",
+  "continent": "afrika",
+  "author": "Redactie",
+  "generated": true,
+  "createdAt": "2026-11-28",
+  "topicKey": "marokko:reisroute:3-weken",
+  "imageCredit": {
+    "name": "Jabra",
+    "url": "https://pixabay.com/photos/sailboat-selje-city-norway-sea-483638/",
+    "source": "Pixabay"
+  }
+}

@@ -1,0 +1,269 @@
+{
+  "slug": "7-dagen-cultuur-bergen-en-mystiek",
+  "title": "7 dagen cultuur, bergen en mystiek",
+  "kicker": "Ontdek Peru's hoogtepunten in een week",
+  "country": "Peru",
+  "region": "Zuid-Amerika",
+  "durationDays": 7,
+  "durationLabel": "7 dagen",
+  "travelStyle": "Cultureel en actief",
+  "budget": "Middenklasse",
+  "budgetNote": "Budgetindicaties zijn globaal en kunnen verschillen per seizoen en beschikbaarheid.",
+  "bestTime": "April tot oktober, tijdens het droge seizoen",
+  "startPoint": "Lima",
+  "endPoint": "Puno",
+  "coverImage": "/images/posts/7-dagen-cultuur-bergen-en-mystiek-cover.webp",
+  "coverAlt": "Een reis door Peru die begint in de levendige hoofdstad Lima, voert naar het historische Cusco, de indrukwekkende Machu Picchu, het koloniale Arequipa en eindigt aan het prachtige Titicacameer in Puno. Deze route combineert cultuur, natuur en geschiedenis in zeven dagen.",
+  "excerpt": "Een reis door Peru die begint in de levendige hoofdstad Lima, voert naar het historische Cusco, de indrukwekkende Machu Picchu, het koloniale Arequipa en eindigt aan het prachtige Titicacameer in Puno. Deze route combineert cultuur, natuur en geschiedenis in zeven dagen.",
+  "introHeading": "Stad, bergen en mystiek",
+  "intro": [
+    "Deze 7-daagse reis toont de veelzijdigheid van Peru met een combinatie van steden, natuur en cultuur. Je begint in Lima, waar het koloniale verleden samenkomt met moderne stadsleven en gastronomie. De kustlijn en sfeervolle wijken maken het een fijne plek om te starten.",
+    "Daarna leidt de route naar Cusco, de historische Inca-hoofdstad, waar je rustig kunt acclimatiseren en de rijke geschiedenis kunt opsnuiven. Het hoogtepunt is een bezoek aan Machu Picchu, een archeologische plek die je niet snel vergeet.",
+    "De reis eindigt met een verblijf in Arequipa, bekend om haar witte gebouwen en vulkanen, en Puno, aan het Titicacameer. Hier ervaar je nog meer van de natuur en lokale tradities voordat de reis ten einde komt."
+  ],
+  "highlights": [
+    "Wandel door de kleurrijke wijk Barranco in Lima.",
+    "Verken het historische centrum van Cusco.",
+    "Ontdek de ruïnes van Machu Picchu.",
+    "Bewonder het witte koloniaal erfgoed van Arequipa.",
+    "Maak een boottocht over het Titicacameer bij Puno."
+  ],
+  "stops": [
+    {
+      "id": "lima-1",
+      "number": 1,
+      "name": "Lima",
+      "area": "Regio Lima",
+      "coords": [
+        -12.0459808,
+        -77.0305912
+      ],
+      "dayLabel": "Dag 1-2",
+      "nights": 2,
+      "image": "/images/posts/7-dagen-cultuur-bergen-en-mystiek-1.webp",
+      "imageAlt": "Straatbeeld van Barranco in Lima",
+      "description": "Lima, de hoofdstad van Peru, combineert geschiedenis en moderne flair. Verken de wijken Miraflores en Barranco met hun levendige sfeer, straatkunst en kustlijnen. In het centrum vind je koloniale kerken en pleinen die herinneren aan het Spaanse verleden. De stad biedt een breed scala aan culinaire opties met verse vis en traditionele gerechten. Wandelen langs de kliffen van de Costa Verde geeft uitzicht op de Stille Oceaan. Lima is een goede startplaats om te acclimatiseren en kennis te maken met de Peruaanse cultuur.",
+      "activities": [
+        {
+          "title": "Wandeling door Barranco",
+          "description": "Verken de kleurrijke straatkunst, boetieks en gezellige cafés in deze kunstzinnige wijk.",
+          "price": "gratis tot 5 euro voor koffie"
+        },
+        {
+          "title": "Bezoek aan het historische centrum",
+          "description": "Bekijk de Plaza Mayor, de kathedraal en het klooster van San Francisco.",
+          "price": "5-10 euro entree voor musea en kerken"
+        },
+        {
+          "title": "Proeverij Peruaanse keuken",
+          "description": "Geniet van gerechten zoals ceviche en lomo saltado in lokale restaurants.",
+          "price": "10-20 euro per maaltijd"
+        }
+      ],
+      "tip": "Probeer ceviche in een lokaal restaurant en bezoek het Larcomar winkelcentrum langs de kust voor een mooi overzicht van de stad."
+    },
+    {
+      "id": "cusco-2",
+      "number": 2,
+      "name": "Cusco",
+      "area": "Regio Cusco",
+      "coords": [
+        -13.5170887,
+        -71.9785356
+      ],
+      "dayLabel": "Dag 3-4",
+      "nights": 2,
+      "image": "/images/posts/7-dagen-cultuur-bergen-en-mystiek-2.webp",
+      "imageAlt": "Centrum van Cusco met Plaza de Armas",
+      "description": "Cusco was de hoofdstad van het Incarijk en ademt geschiedenis. De mix van Inca-architectuur en koloniale bouwstijlen is overal zichtbaar. Wandel door smalle straatjes en bewonder stenen muren die eeuwenoud zijn. Het stadsplein is een ontmoetingsplek met terrasjes en marktkraampjes. Cusco is ook het startpunt naar Machu Picchu. Het is verstandig om rustig aan te doen om te wennen aan de hoogte van ongeveer 3400 meter. Lokale markten bieden ambachten en snacks, ideaal om de cultuur te ervaren.",
+      "activities": [
+        {
+          "title": "Rondleiding door Cusco",
+          "description": "Leer over de geschiedenis van Inca en koloniale tijden met een stadsgids.",
+          "price": "15-25 euro per persoon"
+        },
+        {
+          "title": "Bezoek aan Sacsayhuamán",
+          "description": "Ontdek deze indrukwekkende Inca-fortificatie net buiten het centrum.",
+          "price": "10-15 euro entree"
+        },
+        {
+          "title": "Markt van San Pedro",
+          "description": "Proef lokale lekkernijen en koop handgemaakte souvenirs.",
+          "price": "gratis entree, prijs afhankelijk van aankopen"
+        }
+      ],
+      "tip": "Acclimatiseer hier voordat je Machu Picchu bezoekt en drink veel water."
+    },
+    {
+      "id": "machu-picchu-3",
+      "number": 3,
+      "name": "Machu Picchu",
+      "area": "Regio Cusco",
+      "coords": [
+        -13.164341,
+        -72.5450094
+      ],
+      "dayLabel": "Dag 5",
+      "nights": 1,
+      "image": "/images/posts/7-dagen-cultuur-bergen-en-mystiek-3.webp",
+      "imageAlt": "Zonsopkomst bij Machu Picchu",
+      "description": "Machu Picchu is een van de belangrijkste archeologische plekken van Zuid-Amerika. Deze oude Incastad ligt hoog in de bergen en biedt een indrukwekkend uitzicht over de vallei. Een bezoek is een combinatie van natuur en geschiedenis. De tocht ernaartoe kan per trein en bus, of via wandelroutes voor wie meer avontuur zoekt. De ruïnes zijn goed behouden en nodigen uit tot het verkennen van tempels, terrassen en heilige plaatsen. Een gids kan veel achtergrondinformatie geven over de betekenis van de verschillende gebouwen.",
+      "activities": [
+        {
+          "title": "Bezoek Machu Picchu",
+          "description": "Verken het Inca-complex met een audiotour of gids voor extra informatie.",
+          "price": "40-60 euro inclusief entree en gids"
+        },
+        {
+          "title": "Wandeling naar de Huayna Picchu",
+          "description": "Beklim de berg voor een panoramisch uitzicht over de ruïnes.",
+          "price": "extra 20-30 euro, beperkt aantal bezoekers"
+        },
+        {
+          "title": "Treinrit van Cusco naar Machu Picchu",
+          "description": "Reis per trein door het Andeslandschap naar Aguas Calientes, het startpunt voor Machu Picchu.",
+          "price": "50-100 euro enkele reis"
+        }
+      ],
+      "tip": "Boek je toegangskaart en treinreis ruim van tevoren, want het is een populaire bestemming."
+    },
+    {
+      "id": "arequipa-4",
+      "number": 4,
+      "name": "Arequipa",
+      "area": "Regio Arequipa",
+      "coords": [
+        -16.3988667,
+        -71.5369607
+      ],
+      "dayLabel": "Dag 6",
+      "nights": 1,
+      "image": "/images/posts/7-dagen-cultuur-bergen-en-mystiek-4.webp",
+      "imageAlt": "Zicht op het Santa Catalina-klooster in Arequipa",
+      "description": "Arequipa staat bekend als de 'witte stad' vanwege haar gebouwen van vulkanisch gesteente. Het historische centrum heeft een rustige sfeer met pleinen, kerken en kloosters om te verkennen. De stad ligt aan de voet van de vulkaan Misti en biedt een mooie mix van natuurschoon en koloniale architectuur. Lokale markten bieden verse producten en typische gerechten. Arequipa is ook een goede plek om te relaxen na de intensieve trektochten.",
+      "activities": [
+        {
+          "title": "Rondleiding door Santa Catalina-klooster",
+          "description": "Ontdek dit uitgestrekte kloostercomplex met kleurrijke gebouwen en patio's.",
+          "price": "10-15 euro entree"
+        },
+        {
+          "title": "Wandeling door de historische wijk",
+          "description": "Bezoek de Plaza de Armas en nabijgelegen kerken en musea.",
+          "price": "gratis tot 5 euro entree"
+        },
+        {
+          "title": "Proeverij Arequipeense gerechten",
+          "description": "Probeer lokale specialiteiten zoals rocoto relleno en queso helado.",
+          "price": "8-15 euro per maaltijd"
+        }
+      ],
+      "tip": "Bezoek het Santa Catalina-klooster voor een inkijkje in de koloniale geschiedenis."
+    },
+    {
+      "id": "puno-5",
+      "number": 5,
+      "name": "Puno",
+      "area": "Regio Puno",
+      "coords": [
+        -15,
+        -70
+      ],
+      "dayLabel": "Dag 7",
+      "nights": 1,
+      "image": "/images/posts/7-dagen-cultuur-bergen-en-mystiek-5.webp",
+      "imageAlt": "Boottocht op het Titicacameer bij Puno",
+      "description": "Puno ligt aan de oevers van het Titicacameer, het hoogst bevaarbare meer ter wereld. De stad is een toegangspoort tot traditionele gemeenschappen en drijvende rieteilanden. Een boottocht geeft een unieke blik op het leven van lokale bewoners en de omgeving. Puno heeft ook een levendige markt waar lokale ambachten en textiel te vinden zijn. De hooggelegen locatie zorgt voor frisse lucht en heldere uitzichten over het water.",
+      "activities": [
+        {
+          "title": "Boottocht naar drijvende rieteilanden",
+          "description": "Bezoek traditionele Uros-eilanden en leer over het leven op het meer.",
+          "price": "15-30 euro per persoon"
+        },
+        {
+          "title": "Marktbezoek Puno",
+          "description": "Ontdek kleurrijke handwerken en verse producten op de markt.",
+          "price": "gratis entree"
+        },
+        {
+          "title": "Wandeling langs het Titicacameer",
+          "description": "Geniet van het uitzicht en de frisse berglucht langs het water.",
+          "price": "gratis"
+        }
+      ],
+      "tip": "Een vroege boottocht biedt vaak de mooiste lichtomstandigheden voor fotografie."
+    }
+  ],
+  "gallery": [
+    {
+      "src": "/images/posts/7-dagen-cultuur-bergen-en-mystiek-1.webp",
+      "alt": "Straatbeeld van Barranco in Lima",
+      "caption": "Lima — Regio Lima"
+    },
+    {
+      "src": "/images/posts/7-dagen-cultuur-bergen-en-mystiek-2.webp",
+      "alt": "Centrum van Cusco met Plaza de Armas",
+      "caption": "Cusco — Regio Cusco"
+    },
+    {
+      "src": "/images/posts/7-dagen-cultuur-bergen-en-mystiek-3.webp",
+      "alt": "Zonsopkomst bij Machu Picchu",
+      "caption": "Machu Picchu — Regio Cusco"
+    },
+    {
+      "src": "/images/posts/7-dagen-cultuur-bergen-en-mystiek-4.webp",
+      "alt": "Zicht op het Santa Catalina-klooster in Arequipa",
+      "caption": "Arequipa — Regio Arequipa"
+    },
+    {
+      "src": "/images/posts/7-dagen-cultuur-bergen-en-mystiek-5.webp",
+      "alt": "Boottocht op het Titicacameer bij Puno",
+      "caption": "Puno — Regio Puno"
+    }
+  ],
+  "practical": [
+    {
+      "label": "Vervoer",
+      "value": "Binnenlandse vluchten kosten meestal tussen 50-150 euro; bussen variëren van 10-30 euro per traject."
+    },
+    {
+      "label": "Verblijf",
+      "value": "Hostels en middenklasse hotels van 20-60 euro per nacht."
+    },
+    {
+      "label": "Budget",
+      "value": "Dagelijks 30-50 euro voor eten, vervoer en activiteiten."
+    },
+    {
+      "label": "Beste reistijd",
+      "value": "April tot oktober vanwege het droge en milde weer."
+    },
+    {
+      "label": "Geld en internet",
+      "value": "Contant geld is handig in kleinere plaatsen; wifi beschikbaar in de meeste hotels en cafés."
+    }
+  ],
+  "packing": [
+    "Warme jas voor de avonden",
+    "Comfortabele wandelschoenen",
+    "Zonnehoed en zonnebrand",
+    "Laagjes kleding voor temperatuurwisselingen",
+    "Waterfles om te vullen",
+    "Camera of smartphone voor foto's",
+    "Reisstekker voor stopcontacten",
+    "Persoonlijke medicijnen",
+    "Rugzak voor dagtochten"
+  ],
+  "closingNote": "Deze route maakt het mogelijk om in één week het beste van Peru te ervaren. Van de bruisende hoofdstad tot indrukwekkende natuurwonderen en culturele hoogtepunten. Houd rekening met hoogteverschillen en plan voldoende rustmomenten in. Zo blijft het een prettige en afwisselende reis.",
+  "continent": "zuid-amerika",
+  "author": "Redactie",
+  "generated": true,
+  "createdAt": "2026-11-28",
+  "topicKey": "peru:reisroute:1-week",
+  "imageCredit": {
+    "name": "antonlukin",
+    "url": "https://pixabay.com/photos/mountain-peak-sky-clouds-8162918/",
+    "source": "Pixabay"
+  }
+}
